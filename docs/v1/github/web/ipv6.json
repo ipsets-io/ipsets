@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "provider": "github",
+  "provider_name": "GitHub",
+  "set": "web",
+  "set_name": "Web",
+  "family": "ipv6",
+  "source": {
+    "url": "https://api.github.com/meta",
+    "homepage": "https://docs.github.com/en/rest/meta/meta"
+  },
+  "count": 2,
+  "prefixes": [
+    {
+      "prefix": "2606:50c0::/32",
+      "tags": {
+        "usage": "web"
+      }
+    },
+    {
+      "prefix": "2a0a:a440::/29",
+      "tags": {
+        "usage": "web"
+      }
+    }
+  ]
+}

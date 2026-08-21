@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "provider": "github",
+  "provider_name": "GitHub",
+  "set": "hooks",
+  "set_name": "Webhooks",
+  "family": "ipv4",
+  "source": {
+    "url": "https://api.github.com/meta",
+    "homepage": "https://docs.github.com/en/rest/meta/meta"
+  },
+  "count": 4,
+  "prefixes": [
+    {
+      "prefix": "140.82.112.0/20",
+      "tags": {
+        "usage": "hooks"
+      }
+    },
+    {
+      "prefix": "143.55.64.0/20",
+      "tags": {
+        "usage": "hooks"
+      }
+    },
+    {
+      "prefix": "185.199.108.0/22",
+      "tags": {
+        "usage": "hooks"
+      }
+    },
+    {
+      "prefix": "192.30.252.0/22",
+      "tags": {
+        "usage": "hooks"
+      }
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en" class="uk-theme-zinc">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ipsets.io — IP ranges for known providers</title>
+<meta name="description" content="Daily-refreshed IP range lists for CDNs, clouds and crawlers, as JSON and plain text.">
+
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/geist-sans@5/index.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/geist-mono@5/index.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/franken-ui@2.1.2/dist/css/core.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/franken-ui@2.1.2/dist/css/utilities.min.css">
+
+<style>
+  :root { --font-sans: "Geist Sans", ui-sans-serif, system-ui, sans-serif;
+          --font-mono: "Geist Mono", ui-monospace, SFMono-Regular, Menlo, monospace; }
+  body { font-family: var(--font-sans); }
+  .mono { font-family: var(--font-mono); font-variant-numeric: tabular-nums; }
+  .row:last-child { border-bottom: 0; }
+  a.plain { text-decoration: none; }
+  a.plain:hover { text-decoration: underline; }
+  .nowrap { white-space: nowrap; }
+</style>
+
+<script>
+  if (localStorage.getItem('theme') === 'dark' ||
+      (!localStorage.getItem('theme') && matchMedia('(prefers-color-scheme: dark)').matches)) {
+    document.documentElement.classList.add('dark');
+  }
+</script>
+</head>
+<body class="bg-background text-foreground">
+
+<div class="uk-container mt-8 mb-8">
+
+  <header class="flex items-start justify-between gap-4 mb-8">
+    <div>
+      <h1 class="uk-h1">ipsets.io</h1>
+      <p class="uk-text-lead mt-2 max-w-2xl">
+        Daily-refreshed IP ranges for CDNs, clouds and crawlers. One schema for every provider,
+        separate files per address family, as JSON or bare CIDRs.
+      </p>
+      <p class="uk-text-meta mt-4">
+        <span class="font-semibold">{{ .Counts.Providers }}</span> providers ·
+        <span class="font-semibold">{{ .Counts.Sets }}</span> sets
+        {{ if .Built }}· built {{ .Built }}{{ end }}
+      </p>
+    </div>
+    <button id="theme" class="uk-btn uk-btn-default uk-btn-sm shrink-0" title="Toggle theme">◐</button>
+  </header>
+
+  <div class="flex flex-wrap gap-2 mb-8">
+    <input id="q" class="uk-input max-w-xs" type="search" placeholder="Filter providers and sets…"
+           autocomplete="off" spellcheck="false">
+    <button class="uk-btn uk-btn-primary uk-btn-sm pill" data-cat="" aria-pressed="true">All</button>
+    {{ range .Categories }}
+    <button class="uk-btn uk-btn-default uk-btn-sm pill" data-cat="{{ .ID }}" aria-pressed="false">{{ .ID }}</button>
+    {{ end }}
+  </div>
+
+  <h2 class="uk-h4 mb-4">Categories</h2>
+  <div class="uk-card group" data-name="categories cross-provider unions">
+    {{ range .Categories }}
+    <div class="row flex items-center gap-2 px-4 py-2 border-b"
+         data-name="categories {{ .ID }}" data-cat="{{ .ID }}" data-path="{{ .Path }}">
+      <span class="mono text-sm">{{ .ID }}</span>
+      <span class="uk-text-meta mono ml-auto nowrap">{{ .Counts }}</span>
+      <span class="flex gap-1 shrink-0">
+        <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv4">v4</button>
+        <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv6">v6</button>
+      </span>
+    </div>
+    {{ end }}
+  </div>
+
+  <h2 class="uk-h4 mt-8 mb-4">Providers</h2>
+  <div class="grid gap-4 md:grid-cols-2">
+    {{ range .Providers }}
+    <div class="uk-card group" data-name="{{ .ID }} {{ .Name }}">
+      <div class="uk-card-header flex items-baseline justify-between gap-2">
+        <h3 class="uk-card-title">{{ .Name }}</h3>
+        {{ if .Homepage }}
+        <a class="uk-text-meta plain nowrap" href="{{ .Homepage }}" rel="noopener">docs ↗</a>
+        {{ end }}
+      </div>
+      {{ range .Sets }}
+      <div class="row flex items-center gap-2 px-4 py-2 border-b"
+           data-name="{{ .ID }} {{ .Name }}" data-cat="{{ .Category }}" data-path="{{ .Path }}">
+        <span class="mono text-sm">{{ .ID }}</span>
+        {{ if .Category }}<span class="uk-badge uk-badge-secondary">{{ .Category }}</span>{{ end }}
+        <span class="uk-text-meta mono ml-auto nowrap">{{ .Counts }}</span>
+        <span class="flex gap-1 shrink-0">
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv4">v4</button>
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv6">v6</button>
+        </span>
+      </div>
+      {{ end }}
+    </div>
+    {{ end }}
+  </div>
+
+  <footer class="mt-8 uk-text-meta">
+    <p>Every path is <span class="mono">/v1/{provider}/{set}/{family}.{json,txt}</span> —
+    templatable, with no per-provider special cases. The <span class="mono">.txt</span> files are
+    bare CIDRs, one per line, ready for <span class="mono">ipset restore</span>.</p>
+    <p class="mt-2">Full index at <a class="plain" href="/v1/index.json">/v1/index.json</a> ·
+    Source on <a class="plain" href="https://github.com/ipsets-io/ipsets" rel="noopener">GitHub</a></p>
+  </footer>
+
+</div>
+
+<script>
+document.getElementById('theme').addEventListener('click', () => {
+  const dark = document.documentElement.classList.toggle('dark');
+  localStorage.setItem('theme', dark ? 'dark' : 'light');
+});
+
+document.addEventListener('click', e => {
+  const btn = e.target.closest('.copy');
+  if (btn) {
+    const row = btn.closest('.row');
+    const url = location.origin + row.dataset.path + '/' + btn.dataset.fam + '.txt';
+    navigator.clipboard.writeText(url).then(() => {
+      const was = btn.textContent;
+      btn.textContent = '✓';
+      setTimeout(() => { btn.textContent = was; }, 900);
+    });
+    return;
+  }
+  const pill = e.target.closest('.pill');
+  if (pill) {
+    document.querySelectorAll('.pill').forEach(p => {
+      const on = p === pill;
+      p.setAttribute('aria-pressed', String(on));
+      p.classList.toggle('uk-btn-primary', on);
+      p.classList.toggle('uk-btn-default', !on);
+    });
+    apply();
+  }
+});
+
+document.getElementById('q').addEventListener('input', apply);
+
+function apply() {
+  const q = document.getElementById('q').value.trim().toLowerCase();
+  const cat = document.querySelector('.pill[aria-pressed=true]').dataset.cat;
+
+  document.querySelectorAll('.group').forEach(card => {
+    let shown = 0;
+    card.querySelectorAll('.row').forEach(row => {
+      const okCat = !cat || row.dataset.cat === cat;
+      const hay = ((card.dataset.name || '') + ' ' + row.dataset.name).toLowerCase();
+      const show = okCat && (!q || hay.includes(q));
+      row.classList.toggle('hidden', !show);
+      if (show) shown++;
+    });
+    card.classList.toggle('hidden', shown === 0);
+  });
+}
+</script>
+</body>
+</html>

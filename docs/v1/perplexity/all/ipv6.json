@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "provider": "perplexity",
+  "provider_name": "PerplexityBot",
+  "set": "all",
+  "set_name": "PerplexityBot",
+  "category": "crawler",
+  "family": "ipv6",
+  "source": {
+    "url": "https://www.perplexity.com/perplexitybot.json",
+    "homepage": "https://docs.perplexity.ai/guides/bots"
+  },
+  "count": 0,
+  "prefixes": []
+}

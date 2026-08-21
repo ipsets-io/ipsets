@@ -1,0 +1,128 @@
+{
+  "schema_version": 1,
+  "provider": "aws",
+  "provider_name": "Amazon Web Services",
+  "set": "route53",
+  "set_name": "Route 53",
+  "category": "cloud",
+  "family": "ipv6",
+  "source": {
+    "url": "https://ip-ranges.amazonaws.com/ip-ranges.json",
+    "homepage": "https://docs.aws.amazon.com/vpc/latest/userguide/aws-ip-ranges.html"
+  },
+  "count": 14,
+  "prefixes": [
+    {
+      "prefix": "2001:3fc6:8::/47",
+      "tags": {
+        "network_border_group": "eusc-de-east-1",
+        "region": "eusc-de-east-1",
+        "service": "ROUTE53"
+      }
+    },
+    {
+      "prefix": "2001:3fc6:a::/47",
+      "tags": {
+        "network_border_group": "eusc-de-east-1",
+        "region": "eusc-de-east-1",
+        "service": "ROUTE53"
+      }
+    },
+    {
+      "prefix": "2001:3fc6:c::/47",
+      "tags": {
+        "network_border_group": "eusc-de-east-1",
+        "region": "eusc-de-east-1",
+        "service": "ROUTE53"
+      }
+    },
+    {
+      "prefix": "2001:3fc6:e::/47",
+      "tags": {
+        "network_border_group": "eusc-de-east-1",
+        "region": "eusc-de-east-1",
+        "service": "ROUTE53"
+      }
+    },
+    {
+      "prefix": "2600:9000:de0::/43",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "region": "GLOBAL",
+        "service": "ROUTE53"
+      }
+    },
+    {
+      "prefix": "2600:9000:fc0::/43",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "region": "GLOBAL",
+        "service": "ROUTE53"
+      }
+    },
+    {
+      "prefix": "2600:9000:ff8::/46",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "region": "GLOBAL",
+        "service": "ROUTE53"
+      }
+    },
+    {
+      "prefix": "2600:9000:5300::/45",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "region": "GLOBAL",
+        "service": "ROUTE53"
+      }
+    },
+    {
+      "prefix": "2600:9000:7000::/36",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "region": "GLOBAL",
+        "service": "ROUTE53"
+      }
+    },
+    {
+      "prefix": "2600:9000:f530::/46",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "region": "GLOBAL",
+        "service": "ROUTE53"
+      }
+    },
+    {
+      "prefix": "2600:f0f0:400::/44",
+      "tags": {
+        "network_border_group": "us-gov-east-1",
+        "region": "us-gov-east-1",
+        "service": "ROUTE53"
+      }
+    },
+    {
+      "prefix": "2600:f0f2:7000::/44",
+      "tags": {
+        "network_border_group": "us-gov-east-1",
+        "region": "us-gov-east-1",
+        "service": "ROUTE53"
+      }
+    },
+    {
+      "prefix": "2600:f0f3:f000::/44",
+      "tags": {
+        "network_border_group": "us-gov-west-1",
+        "region": "us-gov-west-1",
+        "service": "ROUTE53"
+      }
+    },
+    {
+      "prefix": "2600:f0fb:f000::/44",
+      "tags": {
+        "network_border_group": "us-gov-west-1",
+        "region": "us-gov-west-1",
+        "service": "ROUTE53"
+      }
+    }
+  ]
+}

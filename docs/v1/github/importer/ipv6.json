@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "provider": "github",
+  "provider_name": "GitHub",
+  "set": "importer",
+  "set_name": "Importer",
+  "family": "ipv6",
+  "source": {
+    "url": "https://api.github.com/meta",
+    "homepage": "https://docs.github.com/en/rest/meta/meta"
+  },
+  "count": 0,
+  "prefixes": []
+}

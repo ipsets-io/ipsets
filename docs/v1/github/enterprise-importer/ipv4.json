@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "provider": "github",
+  "provider_name": "GitHub",
+  "set": "enterprise-importer",
+  "set_name": "Enterprise Importer",
+  "family": "ipv4",
+  "source": {
+    "url": "https://api.github.com/meta",
+    "homepage": "https://docs.github.com/en/rest/meta/meta"
+  },
+  "count": 6,
+  "prefixes": [
+    {
+      "prefix": "20.99.172.64/28",
+      "tags": {
+        "usage": "enterprise-importer"
+      }
+    },
+    {
+      "prefix": "135.234.59.224/28",
+      "tags": {
+        "usage": "enterprise-importer"
+      }
+    },
+    {
+      "prefix": "140.82.112.0/20",
+      "tags": {
+        "usage": "enterprise-importer"
+      }
+    },
+    {
+      "prefix": "143.55.64.0/20",
+      "tags": {
+        "usage": "enterprise-importer"
+      }
+    },
+    {
+      "prefix": "185.199.108.0/22",
+      "tags": {
+        "usage": "enterprise-importer"
+      }
+    },
+    {
+      "prefix": "192.30.252.0/22",
+      "tags": {
+        "usage": "enterprise-importer"
+      }
+    }
+  ]
+}

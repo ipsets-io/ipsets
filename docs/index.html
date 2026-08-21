@@ -1,0 +1,794 @@
+<!doctype html>
+<html lang="en" class="uk-theme-zinc">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ipsets.io — IP ranges for known providers</title>
+<meta name="description" content="Daily-refreshed IP range lists for CDNs, clouds and crawlers, as JSON and plain text.">
+
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/geist-sans@5/index.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/geist-mono@5/index.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/franken-ui@2.1.2/dist/css/core.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/franken-ui@2.1.2/dist/css/utilities.min.css">
+
+<style>
+  :root { --font-sans: "Geist Sans", ui-sans-serif, system-ui, sans-serif;
+          --font-mono: "Geist Mono", ui-monospace, SFMono-Regular, Menlo, monospace; }
+  body { font-family: var(--font-sans); }
+  .mono { font-family: var(--font-mono); font-variant-numeric: tabular-nums; }
+  .row:last-child { border-bottom: 0; }
+  a.plain { text-decoration: none; }
+  a.plain:hover { text-decoration: underline; }
+  .nowrap { white-space: nowrap; }
+</style>
+
+<script>
+  if (localStorage.getItem('theme') === 'dark' ||
+      (!localStorage.getItem('theme') && matchMedia('(prefers-color-scheme: dark)').matches)) {
+    document.documentElement.classList.add('dark');
+  }
+</script>
+</head>
+<body class="bg-background text-foreground">
+
+<div class="uk-container mt-8 mb-8">
+
+  <header class="flex items-start justify-between gap-4 mb-8">
+    <div>
+      <h1 class="uk-h1">ipsets.io</h1>
+      <p class="uk-text-lead mt-2 max-w-2xl">
+        Daily-refreshed IP ranges for CDNs, clouds and crawlers. One schema for every provider,
+        separate files per address family, as JSON or bare CIDRs.
+      </p>
+      <p class="uk-text-meta mt-4">
+        <span class="font-semibold">11</span> providers ·
+        <span class="font-semibold">44</span> sets
+        · built 21 August 2026
+      </p>
+    </div>
+    <button id="theme" class="uk-btn uk-btn-default uk-btn-sm shrink-0" title="Toggle theme">◐</button>
+  </header>
+
+  <div class="flex flex-wrap gap-2 mb-8">
+    <input id="q" class="uk-input max-w-xs" type="search" placeholder="Filter providers and sets…"
+           autocomplete="off" spellcheck="false">
+    <button class="uk-btn uk-btn-primary uk-btn-sm pill" data-cat="" aria-pressed="true">All</button>
+    
+    <button class="uk-btn uk-btn-default uk-btn-sm pill" data-cat="cdn" aria-pressed="false">cdn</button>
+    
+    <button class="uk-btn uk-btn-default uk-btn-sm pill" data-cat="ci" aria-pressed="false">ci</button>
+    
+    <button class="uk-btn uk-btn-default uk-btn-sm pill" data-cat="cloud" aria-pressed="false">cloud</button>
+    
+    <button class="uk-btn uk-btn-default uk-btn-sm pill" data-cat="crawler" aria-pressed="false">crawler</button>
+    
+    <button class="uk-btn uk-btn-default uk-btn-sm pill" data-cat="monitoring" aria-pressed="false">monitoring</button>
+    
+    <button class="uk-btn uk-btn-default uk-btn-sm pill" data-cat="vcs" aria-pressed="false">vcs</button>
+    
+  </div>
+
+  <h2 class="uk-h4 mb-4">Categories</h2>
+  <div class="uk-card group" data-name="categories cross-provider unions">
+    
+    <div class="row flex items-center gap-2 px-4 py-2 border-b"
+         data-name="categories cdn" data-cat="cdn" data-path="/v1/categories/cdn">
+      <span class="mono text-sm">cdn</span>
+      <span class="uk-text-meta mono ml-auto nowrap">245 v4 · 41 v6</span>
+      <span class="flex gap-1 shrink-0">
+        <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv4">v4</button>
+        <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv6">v6</button>
+      </span>
+    </div>
+    
+    <div class="row flex items-center gap-2 px-4 py-2 border-b"
+         data-name="categories ci" data-cat="ci" data-path="/v1/categories/ci">
+      <span class="mono text-sm">ci</span>
+      <span class="uk-text-meta mono ml-auto nowrap">5,796 v4 · 1,635 v6</span>
+      <span class="flex gap-1 shrink-0">
+        <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv4">v4</button>
+        <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv6">v6</button>
+      </span>
+    </div>
+    
+    <div class="row flex items-center gap-2 px-4 py-2 border-b"
+         data-name="categories cloud" data-cat="cloud" data-path="/v1/categories/cloud">
+      <span class="mono text-sm">cloud</span>
+      <span class="uk-text-meta mono ml-auto nowrap">5,459 v4 · 2,703 v6</span>
+      <span class="flex gap-1 shrink-0">
+        <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv4">v4</button>
+        <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv6">v6</button>
+      </span>
+    </div>
+    
+    <div class="row flex items-center gap-2 px-4 py-2 border-b"
+         data-name="categories crawler" data-cat="crawler" data-path="/v1/categories/crawler">
+      <span class="mono text-sm">crawler</span>
+      <span class="uk-text-meta mono ml-auto nowrap">1,909 v4 · 1,056 v6</span>
+      <span class="flex gap-1 shrink-0">
+        <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv4">v4</button>
+        <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv6">v6</button>
+      </span>
+    </div>
+    
+    <div class="row flex items-center gap-2 px-4 py-2 border-b"
+         data-name="categories monitoring" data-cat="monitoring" data-path="/v1/categories/monitoring">
+      <span class="mono text-sm">monitoring</span>
+      <span class="uk-text-meta mono ml-auto nowrap">31 v4 · 26 v6</span>
+      <span class="flex gap-1 shrink-0">
+        <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv4">v4</button>
+        <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv6">v6</button>
+      </span>
+    </div>
+    
+    <div class="row flex items-center gap-2 px-4 py-2 border-b"
+         data-name="categories vcs" data-cat="vcs" data-path="/v1/categories/vcs">
+      <span class="mono text-sm">vcs</span>
+      <span class="uk-text-meta mono ml-auto nowrap">5,802 v4 · 1,637 v6</span>
+      <span class="flex gap-1 shrink-0">
+        <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv4">v4</button>
+        <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv6">v6</button>
+      </span>
+    </div>
+    
+  </div>
+
+  <h2 class="uk-h4 mt-8 mb-4">Providers</h2>
+  <div class="grid gap-4 md:grid-cols-2">
+    
+    <div class="uk-card group" data-name="anthropic Anthropic (ClaudeBot, Claude-User, Claude-SearchBot)">
+      <div class="uk-card-header flex items-baseline justify-between gap-2">
+        <h3 class="uk-card-title">Anthropic (ClaudeBot, Claude-User, Claude-SearchBot)</h3>
+        
+      </div>
+      
+      <div class="row flex items-center gap-2 px-4 py-2 border-b"
+           data-name="all Anthropic (ClaudeBot, Claude-User, Claude-SearchBot)" data-cat="crawler" data-path="/v1/anthropic/all">
+        <span class="mono text-sm">all</span>
+        <span class="uk-badge uk-badge-secondary">crawler</span>
+        <span class="uk-text-meta mono ml-auto nowrap">26 v4</span>
+        <span class="flex gap-1 shrink-0">
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv4">v4</button>
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv6">v6</button>
+        </span>
+      </div>
+      
+    </div>
+    
+    <div class="uk-card group" data-name="apple Applebot">
+      <div class="uk-card-header flex items-baseline justify-between gap-2">
+        <h3 class="uk-card-title">Applebot</h3>
+        
+        <a class="uk-text-meta plain nowrap" href="https://support.apple.com/en-us/119829" rel="noopener">docs ↗</a>
+        
+      </div>
+      
+      <div class="row flex items-center gap-2 px-4 py-2 border-b"
+           data-name="all Applebot" data-cat="crawler" data-path="/v1/apple/all">
+        <span class="mono text-sm">all</span>
+        <span class="uk-badge uk-badge-secondary">crawler</span>
+        <span class="uk-text-meta mono ml-auto nowrap">33 v4</span>
+        <span class="flex gap-1 shrink-0">
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv4">v4</button>
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv6">v6</button>
+        </span>
+      </div>
+      
+    </div>
+    
+    <div class="uk-card group" data-name="aws Amazon Web Services">
+      <div class="uk-card-header flex items-baseline justify-between gap-2">
+        <h3 class="uk-card-title">Amazon Web Services</h3>
+        
+        <a class="uk-text-meta plain nowrap" href="https://docs.aws.amazon.com/vpc/latest/userguide/aws-ip-ranges.html" rel="noopener">docs ↗</a>
+        
+      </div>
+      
+      <div class="row flex items-center gap-2 px-4 py-2 border-b"
+           data-name="all Amazon Web Services" data-cat="cloud" data-path="/v1/aws/all">
+        <span class="mono text-sm">all</span>
+        <span class="uk-badge uk-badge-secondary">cloud</span>
+        <span class="uk-text-meta mono ml-auto nowrap">5,360 v4 · 2,688 v6</span>
+        <span class="flex gap-1 shrink-0">
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv4">v4</button>
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv6">v6</button>
+        </span>
+      </div>
+      
+      <div class="row flex items-center gap-2 px-4 py-2 border-b"
+           data-name="cloudfront CloudFront" data-cat="cdn" data-path="/v1/aws/cloudfront">
+        <span class="mono text-sm">cloudfront</span>
+        <span class="uk-badge uk-badge-secondary">cdn</span>
+        <span class="uk-text-meta mono ml-auto nowrap">211 v4 · 32 v6</span>
+        <span class="flex gap-1 shrink-0">
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv4">v4</button>
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv6">v6</button>
+        </span>
+      </div>
+      
+      <div class="row flex items-center gap-2 px-4 py-2 border-b"
+           data-name="cloudfront-origin-facing CloudFront (origin-facing)" data-cat="cdn" data-path="/v1/aws/cloudfront-origin-facing">
+        <span class="mono text-sm">cloudfront-origin-facing</span>
+        <span class="uk-badge uk-badge-secondary">cdn</span>
+        <span class="uk-text-meta mono ml-auto nowrap">46 v4 · 3 v6</span>
+        <span class="flex gap-1 shrink-0">
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv4">v4</button>
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv6">v6</button>
+        </span>
+      </div>
+      
+      <div class="row flex items-center gap-2 px-4 py-2 border-b"
+           data-name="ec2 EC2" data-cat="cloud" data-path="/v1/aws/ec2">
+        <span class="mono text-sm">ec2</span>
+        <span class="uk-badge uk-badge-secondary">cloud</span>
+        <span class="uk-text-meta mono ml-auto nowrap">1,923 v4 · 2,230 v6</span>
+        <span class="flex gap-1 shrink-0">
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv4">v4</button>
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv6">v6</button>
+        </span>
+      </div>
+      
+      <div class="row flex items-center gap-2 px-4 py-2 border-b"
+           data-name="s3 S3" data-cat="cloud" data-path="/v1/aws/s3">
+        <span class="mono text-sm">s3</span>
+        <span class="uk-badge uk-badge-secondary">cloud</span>
+        <span class="uk-text-meta mono ml-auto nowrap">441 v4 · 513 v6</span>
+        <span class="flex gap-1 shrink-0">
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv4">v4</button>
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv6">v6</button>
+        </span>
+      </div>
+      
+      <div class="row flex items-center gap-2 px-4 py-2 border-b"
+           data-name="api-gateway API Gateway" data-cat="cloud" data-path="/v1/aws/api-gateway">
+        <span class="mono text-sm">api-gateway</span>
+        <span class="uk-badge uk-badge-secondary">cloud</span>
+        <span class="uk-text-meta mono ml-auto nowrap">214 v4</span>
+        <span class="flex gap-1 shrink-0">
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv4">v4</button>
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv6">v6</button>
+        </span>
+      </div>
+      
+      <div class="row flex items-center gap-2 px-4 py-2 border-b"
+           data-name="dynamodb DynamoDB" data-cat="cloud" data-path="/v1/aws/dynamodb">
+        <span class="mono text-sm">dynamodb</span>
+        <span class="uk-badge uk-badge-secondary">cloud</span>
+        <span class="uk-text-meta mono ml-auto nowrap">94 v4</span>
+        <span class="flex gap-1 shrink-0">
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv4">v4</button>
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv6">v6</button>
+        </span>
+      </div>
+      
+      <div class="row flex items-center gap-2 px-4 py-2 border-b"
+           data-name="global-accelerator Global Accelerator" data-cat="cloud" data-path="/v1/aws/global-accelerator">
+        <span class="mono text-sm">global-accelerator</span>
+        <span class="uk-badge uk-badge-secondary">cloud</span>
+        <span class="uk-text-meta mono ml-auto nowrap">131 v4 · 45 v6</span>
+        <span class="flex gap-1 shrink-0">
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv4">v4</button>
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv6">v6</button>
+        </span>
+      </div>
+      
+      <div class="row flex items-center gap-2 px-4 py-2 border-b"
+           data-name="route53 Route 53" data-cat="cloud" data-path="/v1/aws/route53">
+        <span class="mono text-sm">route53</span>
+        <span class="uk-badge uk-badge-secondary">cloud</span>
+        <span class="uk-text-meta mono ml-auto nowrap">26 v4 · 14 v6</span>
+        <span class="flex gap-1 shrink-0">
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv4">v4</button>
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv6">v6</button>
+        </span>
+      </div>
+      
+      <div class="row flex items-center gap-2 px-4 py-2 border-b"
+           data-name="route53-healthchecks Route 53 health checks" data-cat="monitoring" data-path="/v1/aws/route53-healthchecks">
+        <span class="mono text-sm">route53-healthchecks</span>
+        <span class="uk-badge uk-badge-secondary">monitoring</span>
+        <span class="uk-text-meta mono ml-auto nowrap">31 v4 · 26 v6</span>
+        <span class="flex gap-1 shrink-0">
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv4">v4</button>
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv6">v6</button>
+        </span>
+      </div>
+      
+      <div class="row flex items-center gap-2 px-4 py-2 border-b"
+           data-name="route53-resolver Route 53 Resolver" data-cat="cloud" data-path="/v1/aws/route53-resolver">
+        <span class="mono text-sm">route53-resolver</span>
+        <span class="uk-badge uk-badge-secondary">cloud</span>
+        <span class="uk-text-meta mono ml-auto nowrap">638 v4</span>
+        <span class="flex gap-1 shrink-0">
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv4">v4</button>
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv6">v6</button>
+        </span>
+      </div>
+      
+      <div class="row flex items-center gap-2 px-4 py-2 border-b"
+           data-name="codebuild CodeBuild" data-cat="ci" data-path="/v1/aws/codebuild">
+        <span class="mono text-sm">codebuild</span>
+        <span class="uk-badge uk-badge-secondary">ci</span>
+        <span class="uk-text-meta mono ml-auto nowrap">61 v4</span>
+        <span class="flex gap-1 shrink-0">
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv4">v4</button>
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv6">v6</button>
+        </span>
+      </div>
+      
+      <div class="row flex items-center gap-2 px-4 py-2 border-b"
+           data-name="workspaces-gateways WorkSpaces gateways" data-cat="cloud" data-path="/v1/aws/workspaces-gateways">
+        <span class="mono text-sm">workspaces-gateways</span>
+        <span class="uk-badge uk-badge-secondary">cloud</span>
+        <span class="uk-text-meta mono ml-auto nowrap">73 v4 · 43 v6</span>
+        <span class="flex gap-1 shrink-0">
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv4">v4</button>
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv6">v6</button>
+        </span>
+      </div>
+      
+    </div>
+    
+    <div class="uk-card group" data-name="bing Bingbot">
+      <div class="uk-card-header flex items-baseline justify-between gap-2">
+        <h3 class="uk-card-title">Bingbot</h3>
+        
+        <a class="uk-text-meta plain nowrap" href="https://www.bing.com/webmasters/help/how-to-verify-bingbot-3905dc26" rel="noopener">docs ↗</a>
+        
+      </div>
+      
+      <div class="row flex items-center gap-2 px-4 py-2 border-b"
+           data-name="all Bingbot" data-cat="crawler" data-path="/v1/bing/all">
+        <span class="mono text-sm">all</span>
+        <span class="uk-badge uk-badge-secondary">crawler</span>
+        <span class="uk-text-meta mono ml-auto nowrap">28 v4</span>
+        <span class="flex gap-1 shrink-0">
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv4">v4</button>
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv6">v6</button>
+        </span>
+      </div>
+      
+    </div>
+    
+    <div class="uk-card group" data-name="cloudflare Cloudflare">
+      <div class="uk-card-header flex items-baseline justify-between gap-2">
+        <h3 class="uk-card-title">Cloudflare</h3>
+        
+        <a class="uk-text-meta plain nowrap" href="https://www.cloudflare.com/ips/" rel="noopener">docs ↗</a>
+        
+      </div>
+      
+      <div class="row flex items-center gap-2 px-4 py-2 border-b"
+           data-name="all Cloudflare" data-cat="cdn" data-path="/v1/cloudflare/all">
+        <span class="mono text-sm">all</span>
+        <span class="uk-badge uk-badge-secondary">cdn</span>
+        <span class="uk-text-meta mono ml-auto nowrap">15 v4 · 7 v6</span>
+        <span class="flex gap-1 shrink-0">
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv4">v4</button>
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv6">v6</button>
+        </span>
+      </div>
+      
+    </div>
+    
+    <div class="uk-card group" data-name="duckduckgo DuckDuckBot">
+      <div class="uk-card-header flex items-baseline justify-between gap-2">
+        <h3 class="uk-card-title">DuckDuckBot</h3>
+        
+        <a class="uk-text-meta plain nowrap" href="https://duckduckgo.com/duckduckgo-help-pages/results/duckduckbot/" rel="noopener">docs ↗</a>
+        
+      </div>
+      
+      <div class="row flex items-center gap-2 px-4 py-2 border-b"
+           data-name="all DuckDuckBot" data-cat="crawler" data-path="/v1/duckduckgo/all">
+        <span class="mono text-sm">all</span>
+        <span class="uk-badge uk-badge-secondary">crawler</span>
+        <span class="uk-text-meta mono ml-auto nowrap">481 v4</span>
+        <span class="flex gap-1 shrink-0">
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv4">v4</button>
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv6">v6</button>
+        </span>
+      </div>
+      
+    </div>
+    
+    <div class="uk-card group" data-name="fastly Fastly">
+      <div class="uk-card-header flex items-baseline justify-between gap-2">
+        <h3 class="uk-card-title">Fastly</h3>
+        
+        <a class="uk-text-meta plain nowrap" href="https://developer.fastly.com/reference/api/utils/public-ip-list/" rel="noopener">docs ↗</a>
+        
+      </div>
+      
+      <div class="row flex items-center gap-2 px-4 py-2 border-b"
+           data-name="all Fastly" data-cat="cdn" data-path="/v1/fastly/all">
+        <span class="mono text-sm">all</span>
+        <span class="uk-badge uk-badge-secondary">cdn</span>
+        <span class="uk-text-meta mono ml-auto nowrap">19 v4 · 2 v6</span>
+        <span class="flex gap-1 shrink-0">
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv4">v4</button>
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv6">v6</button>
+        </span>
+      </div>
+      
+    </div>
+    
+    <div class="uk-card group" data-name="github GitHub">
+      <div class="uk-card-header flex items-baseline justify-between gap-2">
+        <h3 class="uk-card-title">GitHub</h3>
+        
+        <a class="uk-text-meta plain nowrap" href="https://docs.github.com/en/rest/meta/meta" rel="noopener">docs ↗</a>
+        
+      </div>
+      
+      <div class="row flex items-center gap-2 px-4 py-2 border-b"
+           data-name="all GitHub" data-cat="vcs" data-path="/v1/github/all">
+        <span class="mono text-sm">all</span>
+        <span class="uk-badge uk-badge-secondary">vcs</span>
+        <span class="uk-text-meta mono ml-auto nowrap">5,802 v4 · 1,637 v6</span>
+        <span class="flex gap-1 shrink-0">
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv4">v4</button>
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv6">v6</button>
+        </span>
+      </div>
+      
+      <div class="row flex items-center gap-2 px-4 py-2 border-b"
+           data-name="actions Actions" data-cat="ci" data-path="/v1/github/actions">
+        <span class="mono text-sm">actions</span>
+        <span class="uk-badge uk-badge-secondary">ci</span>
+        <span class="uk-text-meta mono ml-auto nowrap">5,645 v4 · 1,635 v6</span>
+        <span class="flex gap-1 shrink-0">
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv4">v4</button>
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv6">v6</button>
+        </span>
+      </div>
+      
+      <div class="row flex items-center gap-2 px-4 py-2 border-b"
+           data-name="actions-macos Actions (macOS)" data-cat="ci" data-path="/v1/github/actions-macos">
+        <span class="mono text-sm">actions-macos</span>
+        <span class="uk-badge uk-badge-secondary">ci</span>
+        <span class="uk-text-meta mono ml-auto nowrap">8 v4</span>
+        <span class="flex gap-1 shrink-0">
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv4">v4</button>
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv6">v6</button>
+        </span>
+      </div>
+      
+      <div class="row flex items-center gap-2 px-4 py-2 border-b"
+           data-name="codespaces Codespaces" data-cat="ci" data-path="/v1/github/codespaces">
+        <span class="mono text-sm">codespaces</span>
+        <span class="uk-badge uk-badge-secondary">ci</span>
+        <span class="uk-text-meta mono ml-auto nowrap">191 v4</span>
+        <span class="flex gap-1 shrink-0">
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv4">v4</button>
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv6">v6</button>
+        </span>
+      </div>
+      
+      <div class="row flex items-center gap-2 px-4 py-2 border-b"
+           data-name="hooks Webhooks" data-cat="" data-path="/v1/github/hooks">
+        <span class="mono text-sm">hooks</span>
+        
+        <span class="uk-text-meta mono ml-auto nowrap">4 v4 · 2 v6</span>
+        <span class="flex gap-1 shrink-0">
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv4">v4</button>
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv6">v6</button>
+        </span>
+      </div>
+      
+      <div class="row flex items-center gap-2 px-4 py-2 border-b"
+           data-name="web Web" data-cat="" data-path="/v1/github/web">
+        <span class="mono text-sm">web</span>
+        
+        <span class="uk-text-meta mono ml-auto nowrap">24 v4 · 2 v6</span>
+        <span class="flex gap-1 shrink-0">
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv4">v4</button>
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv6">v6</button>
+        </span>
+      </div>
+      
+      <div class="row flex items-center gap-2 px-4 py-2 border-b"
+           data-name="api API" data-cat="" data-path="/v1/github/api">
+        <span class="mono text-sm">api</span>
+        
+        <span class="uk-text-meta mono ml-auto nowrap">24 v4 · 2 v6</span>
+        <span class="flex gap-1 shrink-0">
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv4">v4</button>
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv6">v6</button>
+        </span>
+      </div>
+      
+      <div class="row flex items-center gap-2 px-4 py-2 border-b"
+           data-name="git Git" data-cat="" data-path="/v1/github/git">
+        <span class="mono text-sm">git</span>
+        
+        <span class="uk-text-meta mono ml-auto nowrap">44 v4 · 2 v6</span>
+        <span class="flex gap-1 shrink-0">
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv4">v4</button>
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv6">v6</button>
+        </span>
+      </div>
+      
+      <div class="row flex items-center gap-2 px-4 py-2 border-b"
+           data-name="packages Packages" data-cat="" data-path="/v1/github/packages">
+        <span class="mono text-sm">packages</span>
+        
+        <span class="uk-text-meta mono ml-auto nowrap">29 v4</span>
+        <span class="flex gap-1 shrink-0">
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv4">v4</button>
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv6">v6</button>
+        </span>
+      </div>
+      
+      <div class="row flex items-center gap-2 px-4 py-2 border-b"
+           data-name="pages Pages" data-cat="" data-path="/v1/github/pages">
+        <span class="mono text-sm">pages</span>
+        
+        <span class="uk-text-meta mono ml-auto nowrap">6 v4 · 4 v6</span>
+        <span class="flex gap-1 shrink-0">
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv4">v4</button>
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv6">v6</button>
+        </span>
+      </div>
+      
+      <div class="row flex items-center gap-2 px-4 py-2 border-b"
+           data-name="importer Importer" data-cat="" data-path="/v1/github/importer">
+        <span class="mono text-sm">importer</span>
+        
+        <span class="uk-text-meta mono ml-auto nowrap">5 v4</span>
+        <span class="flex gap-1 shrink-0">
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv4">v4</button>
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv6">v6</button>
+        </span>
+      </div>
+      
+      <div class="row flex items-center gap-2 px-4 py-2 border-b"
+           data-name="enterprise-importer Enterprise Importer" data-cat="" data-path="/v1/github/enterprise-importer">
+        <span class="mono text-sm">enterprise-importer</span>
+        
+        <span class="uk-text-meta mono ml-auto nowrap">6 v4 · 2 v6</span>
+        <span class="flex gap-1 shrink-0">
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv4">v4</button>
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv6">v6</button>
+        </span>
+      </div>
+      
+      <div class="row flex items-center gap-2 px-4 py-2 border-b"
+           data-name="copilot Copilot" data-cat="" data-path="/v1/github/copilot">
+        <span class="mono text-sm">copilot</span>
+        
+        <span class="uk-text-meta mono ml-auto nowrap">15 v4 · 2 v6</span>
+        <span class="flex gap-1 shrink-0">
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv4">v4</button>
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv6">v6</button>
+        </span>
+      </div>
+      
+    </div>
+    
+    <div class="uk-card group" data-name="google Google">
+      <div class="uk-card-header flex items-baseline justify-between gap-2">
+        <h3 class="uk-card-title">Google</h3>
+        
+        <a class="uk-text-meta plain nowrap" href="https://developers.google.com/search/docs/crawling-indexing/verifying-googlebot" rel="noopener">docs ↗</a>
+        
+      </div>
+      
+      <div class="row flex items-center gap-2 px-4 py-2 border-b"
+           data-name="all Google" data-cat="cloud" data-path="/v1/google/all">
+        <span class="mono text-sm">all</span>
+        <span class="uk-badge uk-badge-secondary">cloud</span>
+        <span class="uk-text-meta mono ml-auto nowrap">99 v4 · 15 v6</span>
+        <span class="flex gap-1 shrink-0">
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv4">v4</button>
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv6">v6</button>
+        </span>
+      </div>
+      
+      <div class="row flex items-center gap-2 px-4 py-2 border-b"
+           data-name="goog Google (all ranges)" data-cat="cloud" data-path="/v1/google/goog">
+        <span class="mono text-sm">goog</span>
+        <span class="uk-badge uk-badge-secondary">cloud</span>
+        <span class="uk-text-meta mono ml-auto nowrap">99 v4 · 15 v6</span>
+        <span class="flex gap-1 shrink-0">
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv4">v4</button>
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv6">v6</button>
+        </span>
+      </div>
+      
+      <div class="row flex items-center gap-2 px-4 py-2 border-b"
+           data-name="cloud Google Cloud" data-cat="cloud" data-path="/v1/google/cloud">
+        <span class="mono text-sm">cloud</span>
+        <span class="uk-badge uk-badge-secondary">cloud</span>
+        <span class="uk-text-meta mono ml-auto nowrap">997 v4 · 95 v6</span>
+        <span class="flex gap-1 shrink-0">
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv4">v4</button>
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv6">v6</button>
+        </span>
+      </div>
+      
+      <div class="row flex items-center gap-2 px-4 py-2 border-b"
+           data-name="googlebot Googlebot" data-cat="crawler" data-path="/v1/google/googlebot">
+        <span class="mono text-sm">googlebot</span>
+        <span class="uk-badge uk-badge-secondary">crawler</span>
+        <span class="uk-text-meta mono ml-auto nowrap">169 v4 · 146 v6</span>
+        <span class="flex gap-1 shrink-0">
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv4">v4</button>
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv6">v6</button>
+        </span>
+      </div>
+      
+      <div class="row flex items-center gap-2 px-4 py-2 border-b"
+           data-name="special-crawlers Google special crawlers" data-cat="crawler" data-path="/v1/google/special-crawlers">
+        <span class="mono text-sm">special-crawlers</span>
+        <span class="uk-badge uk-badge-secondary">crawler</span>
+        <span class="uk-text-meta mono ml-auto nowrap">135 v4 · 135 v6</span>
+        <span class="flex gap-1 shrink-0">
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv4">v4</button>
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv6">v6</button>
+        </span>
+      </div>
+      
+      <div class="row flex items-center gap-2 px-4 py-2 border-b"
+           data-name="user-triggered-fetchers Google user-triggered fetchers" data-cat="crawler" data-path="/v1/google/user-triggered-fetchers">
+        <span class="mono text-sm">user-triggered-fetchers</span>
+        <span class="uk-badge uk-badge-secondary">crawler</span>
+        <span class="uk-text-meta mono ml-auto nowrap">528 v4 · 528 v6</span>
+        <span class="flex gap-1 shrink-0">
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv4">v4</button>
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv6">v6</button>
+        </span>
+      </div>
+      
+      <div class="row flex items-center gap-2 px-4 py-2 border-b"
+           data-name="user-triggered-fetchers-google Google user-triggered fetchers (Google IPs)" data-cat="crawler" data-path="/v1/google/user-triggered-fetchers-google">
+        <span class="mono text-sm">user-triggered-fetchers-google</span>
+        <span class="uk-badge uk-badge-secondary">crawler</span>
+        <span class="uk-text-meta mono ml-auto nowrap">247 v4 · 247 v6</span>
+        <span class="flex gap-1 shrink-0">
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv4">v4</button>
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv6">v6</button>
+        </span>
+      </div>
+      
+    </div>
+    
+    <div class="uk-card group" data-name="openai OpenAI">
+      <div class="uk-card-header flex items-baseline justify-between gap-2">
+        <h3 class="uk-card-title">OpenAI</h3>
+        
+        <a class="uk-text-meta plain nowrap" href="https://platform.openai.com/docs/bots" rel="noopener">docs ↗</a>
+        
+      </div>
+      
+      <div class="row flex items-center gap-2 px-4 py-2 border-b"
+           data-name="all OpenAI" data-cat="crawler" data-path="/v1/openai/all">
+        <span class="mono text-sm">all</span>
+        <span class="uk-badge uk-badge-secondary">crawler</span>
+        <span class="uk-text-meta mono ml-auto nowrap">254 v4</span>
+        <span class="flex gap-1 shrink-0">
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv4">v4</button>
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv6">v6</button>
+        </span>
+      </div>
+      
+      <div class="row flex items-center gap-2 px-4 py-2 border-b"
+           data-name="gptbot GPTBot (model training)" data-cat="crawler" data-path="/v1/openai/gptbot">
+        <span class="mono text-sm">gptbot</span>
+        <span class="uk-badge uk-badge-secondary">crawler</span>
+        <span class="uk-text-meta mono ml-auto nowrap">21 v4</span>
+        <span class="flex gap-1 shrink-0">
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv4">v4</button>
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv6">v6</button>
+        </span>
+      </div>
+      
+      <div class="row flex items-center gap-2 px-4 py-2 border-b"
+           data-name="chatgpt-user ChatGPT-User (user-triggered fetches)" data-cat="crawler" data-path="/v1/openai/chatgpt-user">
+        <span class="mono text-sm">chatgpt-user</span>
+        <span class="uk-badge uk-badge-secondary">crawler</span>
+        <span class="uk-text-meta mono ml-auto nowrap">204 v4</span>
+        <span class="flex gap-1 shrink-0">
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv4">v4</button>
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv6">v6</button>
+        </span>
+      </div>
+      
+      <div class="row flex items-center gap-2 px-4 py-2 border-b"
+           data-name="searchbot OAI-SearchBot" data-cat="crawler" data-path="/v1/openai/searchbot">
+        <span class="mono text-sm">searchbot</span>
+        <span class="uk-badge uk-badge-secondary">crawler</span>
+        <span class="uk-text-meta mono ml-auto nowrap">35 v4</span>
+        <span class="flex gap-1 shrink-0">
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv4">v4</button>
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv6">v6</button>
+        </span>
+      </div>
+      
+    </div>
+    
+    <div class="uk-card group" data-name="perplexity PerplexityBot">
+      <div class="uk-card-header flex items-baseline justify-between gap-2">
+        <h3 class="uk-card-title">PerplexityBot</h3>
+        
+        <a class="uk-text-meta plain nowrap" href="https://docs.perplexity.ai/guides/bots" rel="noopener">docs ↗</a>
+        
+      </div>
+      
+      <div class="row flex items-center gap-2 px-4 py-2 border-b"
+           data-name="all PerplexityBot" data-cat="crawler" data-path="/v1/perplexity/all">
+        <span class="mono text-sm">all</span>
+        <span class="uk-badge uk-badge-secondary">crawler</span>
+        <span class="uk-text-meta mono ml-auto nowrap">8 v4</span>
+        <span class="flex gap-1 shrink-0">
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv4">v4</button>
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv6">v6</button>
+        </span>
+      </div>
+      
+    </div>
+    
+  </div>
+
+  <footer class="mt-8 uk-text-meta">
+    <p>Every path is <span class="mono">/v1/{provider}/{set}/{family}.{json,txt}</span> —
+    templatable, with no per-provider special cases. The <span class="mono">.txt</span> files are
+    bare CIDRs, one per line, ready for <span class="mono">ipset restore</span>.</p>
+    <p class="mt-2">Full index at <a class="plain" href="/v1/index.json">/v1/index.json</a> ·
+    Source on <a class="plain" href="https://github.com/ipsets-io/ipsets" rel="noopener">GitHub</a></p>
+  </footer>
+
+</div>
+
+<script>
+document.getElementById('theme').addEventListener('click', () => {
+  const dark = document.documentElement.classList.toggle('dark');
+  localStorage.setItem('theme', dark ? 'dark' : 'light');
+});
+
+document.addEventListener('click', e => {
+  const btn = e.target.closest('.copy');
+  if (btn) {
+    const row = btn.closest('.row');
+    const url = location.origin + row.dataset.path + '/' + btn.dataset.fam + '.txt';
+    navigator.clipboard.writeText(url).then(() => {
+      const was = btn.textContent;
+      btn.textContent = '✓';
+      setTimeout(() => { btn.textContent = was; }, 900);
+    });
+    return;
+  }
+  const pill = e.target.closest('.pill');
+  if (pill) {
+    document.querySelectorAll('.pill').forEach(p => {
+      const on = p === pill;
+      p.setAttribute('aria-pressed', String(on));
+      p.classList.toggle('uk-btn-primary', on);
+      p.classList.toggle('uk-btn-default', !on);
+    });
+    apply();
+  }
+});
+
+document.getElementById('q').addEventListener('input', apply);
+
+function apply() {
+  const q = document.getElementById('q').value.trim().toLowerCase();
+  const cat = document.querySelector('.pill[aria-pressed=true]').dataset.cat;
+
+  document.querySelectorAll('.group').forEach(card => {
+    let shown = 0;
+    card.querySelectorAll('.row').forEach(row => {
+      const okCat = !cat || row.dataset.cat === cat;
+      const hay = ((card.dataset.name || '') + ' ' + row.dataset.name).toLowerCase();
+      const show = okCat && (!q || hay.includes(q));
+      row.classList.toggle('hidden', !show);
+      if (show) shown++;
+    });
+    card.classList.toggle('hidden', shown === 0);
+  });
+}
+</script>
+</body>
+</html>

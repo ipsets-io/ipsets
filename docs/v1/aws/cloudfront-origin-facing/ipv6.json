@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "provider": "aws",
+  "provider_name": "Amazon Web Services",
+  "set": "cloudfront-origin-facing",
+  "set_name": "CloudFront (origin-facing)",
+  "category": "cdn",
+  "family": "ipv6",
+  "source": {
+    "url": "https://ip-ranges.amazonaws.com/ip-ranges.json",
+    "homepage": "https://docs.aws.amazon.com/vpc/latest/userguide/aws-ip-ranges.html"
+  },
+  "count": 3,
+  "prefixes": [
+    {
+      "prefix": "2600:9000:1000::/36",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "region": "GLOBAL",
+        "service": "CLOUDFRONT_ORIGIN_FACING"
+      }
+    },
+    {
+      "prefix": "2600:9000:5200::/40",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "region": "GLOBAL",
+        "service": "CLOUDFRONT_ORIGIN_FACING"
+      }
+    },
+    {
+      "prefix": "2600:9000:6000::/36",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "region": "GLOBAL",
+        "service": "CLOUDFRONT_ORIGIN_FACING"
+      }
+    }
+  ]
+}

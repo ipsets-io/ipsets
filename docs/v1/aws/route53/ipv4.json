@@ -1,0 +1,224 @@
+{
+  "schema_version": 1,
+  "provider": "aws",
+  "provider_name": "Amazon Web Services",
+  "set": "route53",
+  "set_name": "Route 53",
+  "category": "cloud",
+  "family": "ipv4",
+  "source": {
+    "url": "https://ip-ranges.amazonaws.com/ip-ranges.json",
+    "homepage": "https://docs.aws.amazon.com/vpc/latest/userguide/aws-ip-ranges.html"
+  },
+  "count": 26,
+  "prefixes": [
+    {
+      "prefix": "1.179.52.0/22",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "region": "GLOBAL",
+        "service": "ROUTE53"
+      }
+    },
+    {
+      "prefix": "1.179.56.0/22",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "region": "GLOBAL",
+        "service": "ROUTE53"
+      }
+    },
+    {
+      "prefix": "3.4.24.0/23",
+      "tags": {
+        "network_border_group": "us-gov-east-1",
+        "region": "us-gov-east-1",
+        "service": "ROUTE53"
+      }
+    },
+    {
+      "prefix": "3.4.26.0/23",
+      "tags": {
+        "network_border_group": "us-gov-east-1",
+        "region": "us-gov-east-1",
+        "service": "ROUTE53"
+      }
+    },
+    {
+      "prefix": "3.4.32.0/20",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "region": "GLOBAL",
+        "service": "ROUTE53"
+      }
+    },
+    {
+      "prefix": "18.196.222.0/24",
+      "tags": {
+        "network_border_group": "eu-central-1",
+        "region": "eu-central-1",
+        "service": "ROUTE53"
+      }
+    },
+    {
+      "prefix": "18.196.223.0/24",
+      "tags": {
+        "network_border_group": "eu-central-1",
+        "region": "eu-central-1",
+        "service": "ROUTE53"
+      }
+    },
+    {
+      "prefix": "34.217.142.0/24",
+      "tags": {
+        "network_border_group": "us-west-2",
+        "region": "us-west-2",
+        "service": "ROUTE53"
+      }
+    },
+    {
+      "prefix": "34.217.143.0/24",
+      "tags": {
+        "network_border_group": "us-west-2",
+        "region": "us-west-2",
+        "service": "ROUTE53"
+      }
+    },
+    {
+      "prefix": "51.0.136.0/23",
+      "tags": {
+        "network_border_group": "eusc-de-east-1",
+        "region": "eusc-de-east-1",
+        "service": "ROUTE53"
+      }
+    },
+    {
+      "prefix": "51.0.138.0/23",
+      "tags": {
+        "network_border_group": "eusc-de-east-1",
+        "region": "eusc-de-east-1",
+        "service": "ROUTE53"
+      }
+    },
+    {
+      "prefix": "51.0.140.0/23",
+      "tags": {
+        "network_border_group": "eusc-de-east-1",
+        "region": "eusc-de-east-1",
+        "service": "ROUTE53"
+      }
+    },
+    {
+      "prefix": "51.0.142.0/23",
+      "tags": {
+        "network_border_group": "eusc-de-east-1",
+        "region": "eusc-de-east-1",
+        "service": "ROUTE53"
+      }
+    },
+    {
+      "prefix": "52.46.180.0/22",
+      "tags": {
+        "network_border_group": "us-west-2",
+        "region": "us-west-2",
+        "service": "ROUTE53"
+      }
+    },
+    {
+      "prefix": "52.46.184.0/22",
+      "tags": {
+        "network_border_group": "eu-central-1",
+        "region": "eu-central-1",
+        "service": "ROUTE53"
+      }
+    },
+    {
+      "prefix": "52.61.226.0/23",
+      "tags": {
+        "network_border_group": "us-gov-west-1",
+        "region": "us-gov-west-1",
+        "service": "ROUTE53"
+      }
+    },
+    {
+      "prefix": "52.82.176.0/22",
+      "tags": {
+        "network_border_group": "cn-northwest-1",
+        "region": "cn-northwest-1",
+        "service": "ROUTE53"
+      }
+    },
+    {
+      "prefix": "52.82.180.0/22",
+      "tags": {
+        "network_border_group": "cn-northwest-1",
+        "region": "cn-northwest-1",
+        "service": "ROUTE53"
+      }
+    },
+    {
+      "prefix": "52.95.110.0/24",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "region": "GLOBAL",
+        "service": "ROUTE53"
+      }
+    },
+    {
+      "prefix": "54.222.32.0/22",
+      "tags": {
+        "network_border_group": "cn-north-1",
+        "region": "cn-north-1",
+        "service": "ROUTE53"
+      }
+    },
+    {
+      "prefix": "54.222.36.0/22",
+      "tags": {
+        "network_border_group": "cn-north-1",
+        "region": "cn-north-1",
+        "service": "ROUTE53"
+      }
+    },
+    {
+      "prefix": "63.246.114.0/23",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "region": "GLOBAL",
+        "service": "ROUTE53"
+      }
+    },
+    {
+      "prefix": "64.91.192.0/19",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "region": "GLOBAL",
+        "service": "ROUTE53"
+      }
+    },
+    {
+      "prefix": "96.127.116.0/23",
+      "tags": {
+        "network_border_group": "us-gov-west-1",
+        "region": "us-gov-west-1",
+        "service": "ROUTE53"
+      }
+    },
+    {
+      "prefix": "205.251.192.0/21",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "region": "GLOBAL",
+        "service": "ROUTE53"
+      }
+    },
+    {
+      "prefix": "205.251.200.0/23",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "region": "GLOBAL",
+        "service": "ROUTE53"
+      }
+    }
+  ]
+}

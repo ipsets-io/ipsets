@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "provider": "openai",
+  "provider_name": "OpenAI",
+  "set": "chatgpt-user",
+  "set_name": "ChatGPT-User (user-triggered fetches)",
+  "category": "crawler",
+  "family": "ipv6",
+  "source": {
+    "url": "https://openai.com/chatgpt-user.json",
+    "homepage": "https://platform.openai.com/docs/bots"
+  },
+  "count": 0,
+  "prefixes": []
+}

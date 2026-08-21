@@ -1,0 +1,159 @@
+{
+  "schema_version": 1,
+  "provider": "github",
+  "provider_name": "GitHub",
+  "set": "api",
+  "set_name": "API",
+  "family": "ipv4",
+  "source": {
+    "url": "https://api.github.com/meta",
+    "homepage": "https://docs.github.com/en/rest/meta/meta"
+  },
+  "count": 24,
+  "prefixes": [
+    {
+      "prefix": "4.208.26.200/32",
+      "tags": {
+        "usage": "api"
+      }
+    },
+    {
+      "prefix": "4.225.11.201/32",
+      "tags": {
+        "usage": "api"
+      }
+    },
+    {
+      "prefix": "4.228.31.149/32",
+      "tags": {
+        "usage": "api"
+      }
+    },
+    {
+      "prefix": "4.237.22.34/32",
+      "tags": {
+        "usage": "api"
+      }
+    },
+    {
+      "prefix": "4.249.131.166/32",
+      "tags": {
+        "usage": "api"
+      }
+    },
+    {
+      "prefix": "20.26.156.210/32",
+      "tags": {
+        "usage": "api"
+      }
+    },
+    {
+      "prefix": "20.27.177.116/32",
+      "tags": {
+        "usage": "api"
+      }
+    },
+    {
+      "prefix": "20.29.134.17/32",
+      "tags": {
+        "usage": "api"
+      }
+    },
+    {
+      "prefix": "20.87.245.6/32",
+      "tags": {
+        "usage": "api"
+      }
+    },
+    {
+      "prefix": "20.175.192.149/32",
+      "tags": {
+        "usage": "api"
+      }
+    },
+    {
+      "prefix": "20.199.39.228/32",
+      "tags": {
+        "usage": "api"
+      }
+    },
+    {
+      "prefix": "20.200.245.245/32",
+      "tags": {
+        "usage": "api"
+      }
+    },
+    {
+      "prefix": "20.201.28.148/32",
+      "tags": {
+        "usage": "api"
+      }
+    },
+    {
+      "prefix": "20.205.243.168/32",
+      "tags": {
+        "usage": "api"
+      }
+    },
+    {
+      "prefix": "20.207.73.85/32",
+      "tags": {
+        "usage": "api"
+      }
+    },
+    {
+      "prefix": "20.217.135.0/32",
+      "tags": {
+        "usage": "api"
+      }
+    },
+    {
+      "prefix": "20.233.83.146/32",
+      "tags": {
+        "usage": "api"
+      }
+    },
+    {
+      "prefix": "48.202.248.39/32",
+      "tags": {
+        "usage": "api"
+      }
+    },
+    {
+      "prefix": "48.204.201.2/32",
+      "tags": {
+        "usage": "api"
+      }
+    },
+    {
+      "prefix": "140.82.112.0/20",
+      "tags": {
+        "usage": "api"
+      }
+    },
+    {
+      "prefix": "143.55.64.0/20",
+      "tags": {
+        "usage": "api"
+      }
+    },
+    {
+      "prefix": "172.182.252.137/32",
+      "tags": {
+        "usage": "api"
+      }
+    },
+    {
+      "prefix": "185.199.108.0/22",
+      "tags": {
+        "usage": "api"
+      }
+    },
+    {
+      "prefix": "192.30.252.0/22",
+      "tags": {
+        "usage": "api"
+      }
+    }
+  ]
+}

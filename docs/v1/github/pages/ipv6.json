@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "provider": "github",
+  "provider_name": "GitHub",
+  "set": "pages",
+  "set_name": "Pages",
+  "family": "ipv6",
+  "source": {
+    "url": "https://api.github.com/meta",
+    "homepage": "https://docs.github.com/en/rest/meta/meta"
+  },
+  "count": 4,
+  "prefixes": [
+    {
+      "prefix": "2606:50c0:8000::153/128",
+      "tags": {
+        "usage": "pages"
+      }
+    },
+    {
+      "prefix": "2606:50c0:8001::153/128",
+      "tags": {
+        "usage": "pages"
+      }
+    },
+    {
+      "prefix": "2606:50c0:8002::153/128",
+      "tags": {
+        "usage": "pages"
+      }
+    },
+    {
+      "prefix": "2606:50c0:8003::153/128",
+      "tags": {
+        "usage": "pages"
+      }
+    }
+  ]
+}

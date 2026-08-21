@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "provider": "github",
+  "provider_name": "GitHub",
+  "set": "copilot",
+  "set_name": "Copilot",
+  "family": "ipv4",
+  "source": {
+    "url": "https://api.github.com/meta",
+    "homepage": "https://docs.github.com/en/rest/meta/meta"
+  },
+  "count": 15,
+  "prefixes": [
+    {
+      "prefix": "4.225.11.192/32",
+      "tags": {
+        "usage": "copilot"
+      }
+    },
+    {
+      "prefix": "4.228.31.153/32",
+      "tags": {
+        "usage": "copilot"
+      }
+    },
+    {
+      "prefix": "4.237.22.41/32",
+      "tags": {
+        "usage": "copilot"
+      }
+    },
+    {
+      "prefix": "4.249.131.160/32",
+      "tags": {
+        "usage": "copilot"
+      }
+    },
+    {
+      "prefix": "13.107.5.93/32",
+      "tags": {
+        "usage": "copilot"
+      }
+    },
+    {
+      "prefix": "20.85.130.105/32",
+      "tags": {
+        "usage": "copilot"
+      }
+    },
+    {
+      "prefix": "20.199.39.224/32",
+      "tags": {
+        "usage": "copilot"
+      }
+    },
+    {
+      "prefix": "20.250.119.64/32",
+      "tags": {
+        "usage": "copilot"
+      }
+    },
+    {
+      "prefix": "52.140.63.241/32",
+      "tags": {
+        "usage": "copilot"
+      }
+    },
+    {
+      "prefix": "52.175.140.176/32",
+      "tags": {
+        "usage": "copilot"
+      }
+    },
+    {
+      "prefix": "138.91.182.224/32",
+      "tags": {
+        "usage": "copilot"
+      }
+    },
+    {
+      "prefix": "140.82.112.0/20",
+      "tags": {
+        "usage": "copilot"
+      }
+    },
+    {
+      "prefix": "143.55.64.0/20",
+      "tags": {
+        "usage": "copilot"
+      }
+    },
+    {
+      "prefix": "185.199.108.0/22",
+      "tags": {
+        "usage": "copilot"
+      }
+    },
+    {
+      "prefix": "192.30.252.0/22",
+      "tags": {
+        "usage": "copilot"
+      }
+    }
+  ]
+}

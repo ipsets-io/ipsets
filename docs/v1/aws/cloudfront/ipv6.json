@@ -1,0 +1,272 @@
+{
+  "schema_version": 1,
+  "provider": "aws",
+  "provider_name": "Amazon Web Services",
+  "set": "cloudfront",
+  "set_name": "CloudFront",
+  "category": "cdn",
+  "family": "ipv6",
+  "source": {
+    "url": "https://ip-ranges.amazonaws.com/ip-ranges.json",
+    "homepage": "https://docs.aws.amazon.com/vpc/latest/userguide/aws-ip-ranges.html"
+  },
+  "count": 32,
+  "prefixes": [
+    {
+      "prefix": "2001:3fc6:20::/43",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "region": "GLOBAL",
+        "service": "CLOUDFRONT"
+      }
+    },
+    {
+      "prefix": "2400:7fc0:500::/40",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "region": "GLOBAL",
+        "service": "CLOUDFRONT"
+      }
+    },
+    {
+      "prefix": "2404:c2c0:500::/40",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "region": "GLOBAL",
+        "service": "CLOUDFRONT"
+      }
+    },
+    {
+      "prefix": "2409:8c00:2421:300::/56",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "region": "GLOBAL",
+        "service": "CLOUDFRONT"
+      }
+    },
+    {
+      "prefix": "2409:8c00:2421:400::/56",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "region": "GLOBAL",
+        "service": "CLOUDFRONT"
+      }
+    },
+    {
+      "prefix": "2600:9000:ddd::/48",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "region": "GLOBAL",
+        "service": "CLOUDFRONT"
+      }
+    },
+    {
+      "prefix": "2600:9000:eee::/48",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "region": "GLOBAL",
+        "service": "CLOUDFRONT"
+      }
+    },
+    {
+      "prefix": "2600:9000:fff::/48",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "region": "GLOBAL",
+        "service": "CLOUDFRONT"
+      }
+    },
+    {
+      "prefix": "2600:9000:1000::/36",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "region": "GLOBAL",
+        "service": "CLOUDFRONT"
+      }
+    },
+    {
+      "prefix": "2600:9000:2000::/36",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "region": "GLOBAL",
+        "service": "CLOUDFRONT"
+      }
+    },
+    {
+      "prefix": "2600:9000:3000::/36",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "region": "GLOBAL",
+        "service": "CLOUDFRONT"
+      }
+    },
+    {
+      "prefix": "2600:9000:4000::/36",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "region": "GLOBAL",
+        "service": "CLOUDFRONT"
+      }
+    },
+    {
+      "prefix": "2600:9000:5200::/40",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "region": "GLOBAL",
+        "service": "CLOUDFRONT"
+      }
+    },
+    {
+      "prefix": "2600:9000:5308::/45",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "region": "GLOBAL",
+        "service": "CLOUDFRONT"
+      }
+    },
+    {
+      "prefix": "2600:9000:5310::/44",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "region": "GLOBAL",
+        "service": "CLOUDFRONT"
+      }
+    },
+    {
+      "prefix": "2600:9000:5320::/43",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "region": "GLOBAL",
+        "service": "CLOUDFRONT"
+      }
+    },
+    {
+      "prefix": "2600:9000:5340::/42",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "region": "GLOBAL",
+        "service": "CLOUDFRONT"
+      }
+    },
+    {
+      "prefix": "2600:9000:5380::/41",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "region": "GLOBAL",
+        "service": "CLOUDFRONT"
+      }
+    },
+    {
+      "prefix": "2600:9000:6000::/36",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "region": "GLOBAL",
+        "service": "CLOUDFRONT"
+      }
+    },
+    {
+      "prefix": "2600:9000:f000::/38",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "region": "GLOBAL",
+        "service": "CLOUDFRONT"
+      }
+    },
+    {
+      "prefix": "2600:9000:f400::/40",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "region": "GLOBAL",
+        "service": "CLOUDFRONT"
+      }
+    },
+    {
+      "prefix": "2600:9000:f500::/43",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "region": "GLOBAL",
+        "service": "CLOUDFRONT"
+      }
+    },
+    {
+      "prefix": "2600:9000:f520::/44",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "region": "GLOBAL",
+        "service": "CLOUDFRONT"
+      }
+    },
+    {
+      "prefix": "2600:9000:f534::/46",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "region": "GLOBAL",
+        "service": "CLOUDFRONT"
+      }
+    },
+    {
+      "prefix": "2600:9000:f538::/45",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "region": "GLOBAL",
+        "service": "CLOUDFRONT"
+      }
+    },
+    {
+      "prefix": "2600:9000:f540::/42",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "region": "GLOBAL",
+        "service": "CLOUDFRONT"
+      }
+    },
+    {
+      "prefix": "2600:9000:f580::/41",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "region": "GLOBAL",
+        "service": "CLOUDFRONT"
+      }
+    },
+    {
+      "prefix": "2600:9000:f600::/39",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "region": "GLOBAL",
+        "service": "CLOUDFRONT"
+      }
+    },
+    {
+      "prefix": "2600:9000:f800::/37",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "region": "GLOBAL",
+        "service": "CLOUDFRONT"
+      }
+    },
+    {
+      "prefix": "2600:f0f0:601::/48",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "region": "GLOBAL",
+        "service": "CLOUDFRONT"
+      }
+    },
+    {
+      "prefix": "2600:f0f0:602::/47",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "region": "GLOBAL",
+        "service": "CLOUDFRONT"
+      }
+    },
+    {
+      "prefix": "2600:f0f0:5504::/46",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "region": "GLOBAL",
+        "service": "CLOUDFRONT"
+      }
+    }
+  ]
+}

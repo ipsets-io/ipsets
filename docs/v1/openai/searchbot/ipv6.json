@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "provider": "openai",
+  "provider_name": "OpenAI",
+  "set": "searchbot",
+  "set_name": "OAI-SearchBot",
+  "category": "crawler",
+  "family": "ipv6",
+  "source": {
+    "url": "https://openai.com/searchbot.json",
+    "homepage": "https://platform.openai.com/docs/bots"
+  },
+  "count": 0,
+  "prefixes": []
+}

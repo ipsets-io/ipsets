@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "provider": "anthropic",
+  "provider_name": "Anthropic (ClaudeBot, Claude-User, Claude-SearchBot)",
+  "set": "all",
+  "set_name": "Anthropic (ClaudeBot, Claude-User, Claude-SearchBot)",
+  "category": "crawler",
+  "family": "ipv6",
+  "source": {
+    "url": "https://claude.com/crawling/bots.json"
+  },
+  "count": 0,
+  "prefixes": []
+}

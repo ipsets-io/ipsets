@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "provider": "github",
+  "provider_name": "GitHub",
+  "set": "actions-macos",
+  "set_name": "Actions (macOS)",
+  "category": "ci",
+  "family": "ipv4",
+  "source": {
+    "url": "https://api.github.com/meta",
+    "homepage": "https://docs.github.com/en/rest/meta/meta"
+  },
+  "count": 8,
+  "prefixes": [
+    {
+      "prefix": "13.105.49.0/24",
+      "tags": {
+        "usage": "actions-macos"
+      }
+    },
+    {
+      "prefix": "13.105.117.0/24",
+      "tags": {
+        "usage": "actions-macos"
+      }
+    },
+    {
+      "prefix": "13.105.220.0/25",
+      "tags": {
+        "usage": "actions-macos"
+      }
+    },
+    {
+      "prefix": "13.105.220.128/27",
+      "tags": {
+        "usage": "actions-macos"
+      }
+    },
+    {
+      "prefix": "13.105.220.160/28",
+      "tags": {
+        "usage": "actions-macos"
+      }
+    },
+    {
+      "prefix": "13.105.220.176/29",
+      "tags": {
+        "usage": "actions-macos"
+      }
+    },
+    {
+      "prefix": "13.105.220.184/30",
+      "tags": {
+        "usage": "actions-macos"
+      }
+    },
+    {
+      "prefix": "13.105.220.188/31",
+      "tags": {
+        "usage": "actions-macos"
+      }
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "provider": "github",
+  "provider_name": "GitHub",
+  "set": "importer",
+  "set_name": "Importer",
+  "family": "ipv4",
+  "source": {
+    "url": "https://api.github.com/meta",
+    "homepage": "https://docs.github.com/en/rest/meta/meta"
+  },
+  "count": 5,
+  "prefixes": [
+    {
+      "prefix": "20.51.87.64/28",
+      "tags": {
+        "usage": "importer"
+      }
+    },
+    {
+      "prefix": "52.0.228.224/32",
+      "tags": {
+        "usage": "importer"
+      }
+    },
+    {
+      "prefix": "52.22.155.48/32",
+      "tags": {
+        "usage": "importer"
+      }
+    },
+    {
+      "prefix": "52.23.85.212/32",
+      "tags": {
+        "usage": "importer"
+      }
+    },
+    {
+      "prefix": "172.184.222.112/28",
+      "tags": {
+        "usage": "importer"
+      }
+    }
+  ]
+}

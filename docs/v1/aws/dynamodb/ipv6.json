@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "provider": "aws",
+  "provider_name": "Amazon Web Services",
+  "set": "dynamodb",
+  "set_name": "DynamoDB",
+  "category": "cloud",
+  "family": "ipv6",
+  "source": {
+    "url": "https://ip-ranges.amazonaws.com/ip-ranges.json",
+    "homepage": "https://docs.aws.amazon.com/vpc/latest/userguide/aws-ip-ranges.html"
+  },
+  "count": 0,
+  "prefixes": []
+}

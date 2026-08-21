@@ -1,0 +1,360 @@
+{
+  "schema_version": 1,
+  "provider": "aws",
+  "provider_name": "Amazon Web Services",
+  "set": "workspaces-gateways",
+  "set_name": "WorkSpaces gateways",
+  "category": "cloud",
+  "family": "ipv6",
+  "source": {
+    "url": "https://ip-ranges.amazonaws.com/ip-ranges.json",
+    "homepage": "https://docs.aws.amazon.com/vpc/latest/userguide/aws-ip-ranges.html"
+  },
+  "count": 43,
+  "prefixes": [
+    {
+      "prefix": "2404:c2c0:c400::/40",
+      "tags": {
+        "network_border_group": "cn-northwest-1",
+        "region": "cn-northwest-1",
+        "service": "WORKSPACES_GATEWAYS"
+      }
+    },
+    {
+      "prefix": "2406:da20:8018::/48",
+      "tags": {
+        "network_border_group": "ap-southeast-5",
+        "region": "ap-southeast-5",
+        "service": "WORKSPACES_GATEWAYS"
+      }
+    },
+    {
+      "prefix": "2406:da21:c::/48",
+      "tags": {
+        "network_border_group": "af-south-1",
+        "region": "af-south-1",
+        "service": "WORKSPACES_GATEWAYS"
+      }
+    },
+    {
+      "prefix": "2406:da22:4::/48",
+      "tags": {
+        "network_border_group": "ap-northeast-2",
+        "region": "ap-northeast-2",
+        "service": "WORKSPACES_GATEWAYS"
+      }
+    },
+    {
+      "prefix": "2406:da24:28::/48",
+      "tags": {
+        "network_border_group": "ap-northeast-1",
+        "region": "ap-northeast-1",
+        "service": "WORKSPACES_GATEWAYS"
+      }
+    },
+    {
+      "prefix": "2406:da26:1c::/48",
+      "tags": {
+        "network_border_group": "ap-northeast-3",
+        "region": "ap-northeast-3",
+        "service": "WORKSPACES_GATEWAYS"
+      }
+    },
+    {
+      "prefix": "2406:da27:4::/48",
+      "tags": {
+        "network_border_group": "me-central-1",
+        "region": "me-central-1",
+        "service": "WORKSPACES_GATEWAYS"
+      }
+    },
+    {
+      "prefix": "2406:da28:28::/48",
+      "tags": {
+        "network_border_group": "ap-southeast-1",
+        "region": "ap-southeast-1",
+        "service": "WORKSPACES_GATEWAYS"
+      }
+    },
+    {
+      "prefix": "2406:da2a:14::/48",
+      "tags": {
+        "network_border_group": "ap-south-1",
+        "region": "ap-south-1",
+        "service": "WORKSPACES_GATEWAYS"
+      }
+    },
+    {
+      "prefix": "2406:da2c:24::/48",
+      "tags": {
+        "network_border_group": "ap-southeast-2",
+        "region": "ap-southeast-2",
+        "service": "WORKSPACES_GATEWAYS"
+      }
+    },
+    {
+      "prefix": "2406:da32:1000::/40",
+      "tags": {
+        "network_border_group": "af-south-1",
+        "region": "af-south-1",
+        "service": "WORKSPACES_GATEWAYS"
+      }
+    },
+    {
+      "prefix": "2406:da32:2000::/40",
+      "tags": {
+        "network_border_group": "ap-northeast-2",
+        "region": "ap-northeast-2",
+        "service": "WORKSPACES_GATEWAYS"
+      }
+    },
+    {
+      "prefix": "2406:da32:4000::/40",
+      "tags": {
+        "network_border_group": "ap-northeast-1",
+        "region": "ap-northeast-1",
+        "service": "WORKSPACES_GATEWAYS"
+      }
+    },
+    {
+      "prefix": "2406:da32:8000::/40",
+      "tags": {
+        "network_border_group": "ap-southeast-1",
+        "region": "ap-southeast-1",
+        "service": "WORKSPACES_GATEWAYS"
+      }
+    },
+    {
+      "prefix": "2406:da32:a000::/40",
+      "tags": {
+        "network_border_group": "ap-south-1",
+        "region": "ap-south-1",
+        "service": "WORKSPACES_GATEWAYS"
+      }
+    },
+    {
+      "prefix": "2406:da32:c000::/40",
+      "tags": {
+        "network_border_group": "ap-southeast-2",
+        "region": "ap-southeast-2",
+        "service": "WORKSPACES_GATEWAYS"
+      }
+    },
+    {
+      "prefix": "2600:1f21:8::/48",
+      "tags": {
+        "network_border_group": "ca-central-1",
+        "region": "ca-central-1",
+        "service": "WORKSPACES_GATEWAYS"
+      }
+    },
+    {
+      "prefix": "2600:1f22:28::/48",
+      "tags": {
+        "network_border_group": "us-gov-west-1",
+        "region": "us-gov-west-1",
+        "service": "WORKSPACES_GATEWAYS"
+      }
+    },
+    {
+      "prefix": "2600:1f24:34::/48",
+      "tags": {
+        "network_border_group": "us-west-2",
+        "region": "us-west-2",
+        "service": "WORKSPACES_GATEWAYS"
+      }
+    },
+    {
+      "prefix": "2600:1f25:14::/48",
+      "tags": {
+        "network_border_group": "us-gov-east-1",
+        "region": "us-gov-east-1",
+        "service": "WORKSPACES_GATEWAYS"
+      }
+    },
+    {
+      "prefix": "2600:1f26:28::/48",
+      "tags": {
+        "network_border_group": "us-east-2",
+        "region": "us-east-2",
+        "service": "WORKSPACES_GATEWAYS"
+      }
+    },
+    {
+      "prefix": "2600:1f28:34c::/48",
+      "tags": {
+        "network_border_group": "us-east-1",
+        "region": "us-east-1",
+        "service": "WORKSPACES_GATEWAYS"
+      }
+    },
+    {
+      "prefix": "2600:1f2a:401c::/48",
+      "tags": {
+        "network_border_group": "ca-west-1",
+        "region": "ca-west-1",
+        "service": "WORKSPACES_GATEWAYS"
+      }
+    },
+    {
+      "prefix": "2600:1f2e:14::/48",
+      "tags": {
+        "network_border_group": "sa-east-1",
+        "region": "sa-east-1",
+        "service": "WORKSPACES_GATEWAYS"
+      }
+    },
+    {
+      "prefix": "2600:1f32:1000::/40",
+      "tags": {
+        "network_border_group": "ca-central-1",
+        "region": "ca-central-1",
+        "service": "WORKSPACES_GATEWAYS"
+      }
+    },
+    {
+      "prefix": "2600:1f32:2000::/40",
+      "tags": {
+        "network_border_group": "us-gov-west-1",
+        "region": "us-gov-west-1",
+        "service": "WORKSPACES_GATEWAYS"
+      }
+    },
+    {
+      "prefix": "2600:1f32:4000::/39",
+      "tags": {
+        "network_border_group": "us-west-2",
+        "region": "us-west-2",
+        "service": "WORKSPACES_GATEWAYS"
+      }
+    },
+    {
+      "prefix": "2600:1f32:5000::/40",
+      "tags": {
+        "network_border_group": "us-gov-east-1",
+        "region": "us-gov-east-1",
+        "service": "WORKSPACES_GATEWAYS"
+      }
+    },
+    {
+      "prefix": "2600:1f32:8000::/39",
+      "tags": {
+        "network_border_group": "us-east-1",
+        "region": "us-east-1",
+        "service": "WORKSPACES_GATEWAYS"
+      }
+    },
+    {
+      "prefix": "2600:1f32:e000::/40",
+      "tags": {
+        "network_border_group": "sa-east-1",
+        "region": "sa-east-1",
+        "service": "WORKSPACES_GATEWAYS"
+      }
+    },
+    {
+      "prefix": "2a05:d021:c::/48",
+      "tags": {
+        "network_border_group": "eu-south-2",
+        "region": "eu-south-2",
+        "service": "WORKSPACES_GATEWAYS"
+      }
+    },
+    {
+      "prefix": "2a05:d022:1c::/48",
+      "tags": {
+        "network_border_group": "eu-west-3",
+        "region": "eu-west-3",
+        "service": "WORKSPACES_GATEWAYS"
+      }
+    },
+    {
+      "prefix": "2a05:d024:18::/48",
+      "tags": {
+        "network_border_group": "eu-central-1",
+        "region": "eu-central-1",
+        "service": "WORKSPACES_GATEWAYS"
+      }
+    },
+    {
+      "prefix": "2a05:d025:1000::/48",
+      "tags": {
+        "network_border_group": "il-central-1",
+        "region": "il-central-1",
+        "service": "WORKSPACES_GATEWAYS"
+      }
+    },
+    {
+      "prefix": "2a05:d028:40::/48",
+      "tags": {
+        "network_border_group": "eu-west-1",
+        "region": "eu-west-1",
+        "service": "WORKSPACES_GATEWAYS"
+      }
+    },
+    {
+      "prefix": "2a05:d029:4::/48",
+      "tags": {
+        "network_border_group": "eu-central-2",
+        "region": "eu-central-2",
+        "service": "WORKSPACES_GATEWAYS"
+      }
+    },
+    {
+      "prefix": "2a05:d02a:4::/48",
+      "tags": {
+        "network_border_group": "eu-south-1",
+        "region": "eu-south-1",
+        "service": "WORKSPACES_GATEWAYS"
+      }
+    },
+    {
+      "prefix": "2a05:d02c:8::/48",
+      "tags": {
+        "network_border_group": "eu-west-2",
+        "region": "eu-west-2",
+        "service": "WORKSPACES_GATEWAYS"
+      }
+    },
+    {
+      "prefix": "2a05:d032:2000::/40",
+      "tags": {
+        "network_border_group": "eu-west-3",
+        "region": "eu-west-3",
+        "service": "WORKSPACES_GATEWAYS"
+      }
+    },
+    {
+      "prefix": "2a05:d032:4000::/40",
+      "tags": {
+        "network_border_group": "eu-central-1",
+        "region": "eu-central-1",
+        "service": "WORKSPACES_GATEWAYS"
+      }
+    },
+    {
+      "prefix": "2a05:d032:5000::/40",
+      "tags": {
+        "network_border_group": "il-central-1",
+        "region": "il-central-1",
+        "service": "WORKSPACES_GATEWAYS"
+      }
+    },
+    {
+      "prefix": "2a05:d032:8000::/40",
+      "tags": {
+        "network_border_group": "eu-west-1",
+        "region": "eu-west-1",
+        "service": "WORKSPACES_GATEWAYS"
+      }
+    },
+    {
+      "prefix": "2a05:d032:c000::/40",
+      "tags": {
+        "network_border_group": "eu-west-2",
+        "region": "eu-west-2",
+        "service": "WORKSPACES_GATEWAYS"
+      }
+    }
+  ]
+}

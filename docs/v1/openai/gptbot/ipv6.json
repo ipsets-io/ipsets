@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "provider": "openai",
+  "provider_name": "OpenAI",
+  "set": "gptbot",
+  "set_name": "GPTBot (model training)",
+  "category": "crawler",
+  "family": "ipv6",
+  "source": {
+    "url": "https://openai.com/gptbot.json",
+    "homepage": "https://platform.openai.com/docs/bots"
+  },
+  "count": 0,
+  "prefixes": []
+}
