@@ -210,13 +210,6 @@
       }
     },
     {
-      "prefix": "1.178.86.0/24",
-      "tags": {
-        "network_border_group": "ap-southeast-3",
-        "region": "ap-southeast-3"
-      }
-    },
-    {
       "prefix": "1.178.88.0/24",
       "tags": {
         "network_border_group": "ap-south-1",
@@ -13331,6 +13324,13 @@
       "tags": {
         "network_border_group": "us-south-1",
         "region": "us-south-1"
+      }
+    },
+    {
+      "prefix": "23.254.40.0/23",
+      "tags": {
+        "network_border_group": "ca-central-1",
+        "region": "ca-central-1"
       }
     },
     {
