@@ -19,6 +19,8 @@ type SiteSet struct {
 	Category string
 	Path     string
 	Counts   string
+	V4       int
+	V6       int
 }
 
 type SiteGroup struct {
@@ -50,6 +52,8 @@ func (i Index) Site() SiteData {
 				Category: s.Category,
 				Path:     "/" + path.Join("v1", p.ID, s.ID),
 				Counts:   countLabel(s),
+				V4:       s.IPv4.Count,
+				V6:       s.IPv6.Count,
 			})
 		}
 		d.Counts.Sets += len(g.Sets)
@@ -62,6 +66,8 @@ func (i Index) Site() SiteData {
 			Path: "/" + path.Join("v1", "categories", c.ID)}
 		if len(c.Sets) > 0 {
 			set.Counts = countLabel(c.Sets[0])
+			set.V4 = c.Sets[0].IPv4.Count
+			set.V6 = c.Sets[0].IPv6.Count
 		}
 		d.Categories = append(d.Categories, set)
 	}

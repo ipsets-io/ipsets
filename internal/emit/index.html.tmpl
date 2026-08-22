@@ -3,14 +3,16 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>ipsets.io — IP ranges for known providers</title>
-<meta name="description" content="Daily-refreshed IP range lists for CDNs, clouds and crawlers, as JSON and plain text.">
+<title>ipsets.io · IP ranges for known providers</title>
+<meta name="description" content="IP ranges curated from vendors such as CDNs, crawlers and clouds. Refreshed daily, as JSON and plain text.">
 
 <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/geist-sans@5/index.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/geist-mono@5/index.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/franken-ui@2.1.2/dist/css/core.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/franken-ui@2.1.2/dist/css/utilities.min.css">
+<script type="module" src="https://cdn.jsdelivr.net/npm/franken-ui@2.1.2/dist/js/core.iife.js"></script>
+<script type="module" src="https://cdn.jsdelivr.net/npm/franken-ui@2.1.2/dist/js/icon.iife.js"></script>
 
 <style>
   :root { --font-sans: "Geist Sans", ui-sans-serif, system-ui, sans-serif;
@@ -21,6 +23,33 @@
   a.plain { text-decoration: none; }
   a.plain:hover { text-decoration: underline; }
   .nowrap { white-space: nowrap; }
+
+  /* Franken UI ships `pre { border: 1px solid #999 }`; override with theme
+     tokens so it follows light/dark. bg-muted has no utility class, so the
+     variable is referenced directly. */
+  .snippet {
+    background: hsl(var(--muted));
+    border: 1px solid hsl(var(--border));
+    border-radius: .375rem;
+    padding: .85rem 1rem;
+    margin: 0;
+    overflow-x: auto;
+    font-family: var(--font-mono);
+    font-size: .8125rem;
+    line-height: 1.75;
+  }
+  .snippet .c { color: hsl(var(--muted-foreground)); }
+  .pick { min-width: 12rem; }
+  .pick-narrow { min-width: 6.5rem; }
+  .snippet-wrap { position: relative; }
+  .snippet-wrap .snippet { padding-right: 3.25rem; }
+
+  /* Cards vary from 1 to 27 rows; a grid stretches every card in a row to the
+     tallest, so use multi-column flow to pack them by height instead. Two
+     columns start at 1024px. */
+  .cards { column-gap: 1rem; column-count: 1; }
+  @media (min-width: 1024px) { .cards { column-count: 2; } }
+  .cards > .uk-card { break-inside: avoid; margin-bottom: 1rem; }
 </style>
 
 <script>
@@ -38,8 +67,9 @@
     <div>
       <h1 class="uk-h1">ipsets.io</h1>
       <p class="uk-text-lead mt-2 max-w-2xl">
-        Daily-refreshed IP ranges for CDNs, clouds and crawlers. One schema for every provider,
-        separate files per address family, as JSON or bare CIDRs.
+        IP ranges curated from vendors such as CDNs, crawlers and clouds, refreshed
+        daily. One schema for every provider, separate files per address family,
+        as JSON or bare CIDRs.
       </p>
       <p class="uk-text-meta mt-4">
         <span class="font-semibold">{{ .Counts.Providers }}</span> providers ·
@@ -47,35 +77,90 @@
         {{ if .Built }}· built {{ .Built }}{{ end }}
       </p>
     </div>
-    <button id="theme" class="uk-btn uk-btn-default uk-btn-sm shrink-0" title="Toggle theme">◐</button>
+    <div class="flex gap-1 shrink-0">
+      <a class="uk-btn uk-btn-ghost uk-btn-sm" href="https://github.com/ipsets-io/ipsets"
+         rel="noopener" title="Source on GitHub" aria-label="Source on GitHub"><uk-icon icon="github" cls-custom="size-5"></uk-icon></a>
+      <button id="theme" class="uk-btn uk-btn-ghost uk-btn-sm" title="Toggle theme" aria-label="Toggle theme"><uk-icon icon="sun-moon" cls-custom="size-5"></uk-icon></button>
+    </div>
   </header>
 
-  <div class="flex flex-wrap gap-2 mb-8">
-    <input id="q" class="uk-input max-w-xs" type="search" placeholder="Filter providers and sets…"
-           autocomplete="off" spellcheck="false">
+
+  <div class="uk-card mb-8">
+    <div class="uk-card-header">
+      <h3 class="uk-card-title">Build a request</h3>
+    </div>
+    <div class="uk-card-body">
+      <div class="flex flex-wrap gap-4 mb-4" id="pickers">
+        <div>
+          <label class="uk-form-label block mb-2">Provider</label>
+          <uk-select icon reactive id="uk-pick-provider" cls-custom="button: uk-input-fake pick justify-between; dropdown: w-full" aria-label="Provider">
+            <select id="pick-provider" hidden></select>
+          </uk-select>
+        </div>
+        <div>
+          <label class="uk-form-label block mb-2">Set</label>
+          <uk-select icon reactive id="uk-pick-set" cls-custom="button: uk-input-fake pick justify-between; dropdown: w-full" aria-label="Set">
+            <select id="pick-set" hidden></select>
+          </uk-select>
+        </div>
+        <div>
+          <label class="uk-form-label block mb-2">Family</label>
+          <uk-select icon reactive id="uk-pick-family" cls-custom="button: uk-input-fake pick-narrow justify-between; dropdown: w-full" aria-label="Family">
+            <select id="pick-family" hidden></select>
+          </uk-select>
+        </div>
+        <div>
+          <label class="uk-form-label block mb-2">Format</label>
+          <uk-select icon reactive id="uk-pick-format" cls-custom="button: uk-input-fake pick-narrow justify-between; dropdown: w-full" aria-label="Format">
+            <select id="pick-format" hidden></select>
+          </uk-select>
+        </div>
+      </div>
+
+      <div class="snippet-wrap">
+        <pre class="snippet" id="snippet">curl</pre>
+        <button id="copy-cmd" class="uk-btn uk-btn-ghost uk-btn-sm absolute top-2 right-2"
+                aria-label="Copy command"><uk-icon icon="copy"></uk-icon></button>
+      </div>
+      <p class="text-sm text-muted-foreground mt-3">
+        Every path is <span class="mono">/v1/{provider}/{set}/{family}.{json,txt}</span>, so URLs
+        can be templated with no per-provider special cases. The <span class="mono">.txt</span>
+        files are bare CIDRs, one per line.
+      </p>
+    </div>
+  </div>
+
+  <hr class="uk-hr mb-8">
+
+  <div class="flex flex-wrap gap-2 mb-3">
     <button class="uk-btn uk-btn-primary uk-btn-sm pill" data-cat="" aria-pressed="true">All</button>
     {{ range .Categories }}
     <button class="uk-btn uk-btn-default uk-btn-sm pill" data-cat="{{ .ID }}" aria-pressed="false">{{ .ID }}</button>
     {{ end }}
   </div>
 
+  <div class="mb-8">
+    <input id="q" class="uk-input max-w-xs" type="search" placeholder="Filter providers and sets…"
+           autocomplete="off" spellcheck="false">
+  </div>
+
   <h2 class="uk-h4 mb-4">Categories</h2>
   <div class="uk-card group" data-name="categories cross-provider unions">
     {{ range .Categories }}
-    <div class="row flex items-center gap-2 px-4 py-2 border-b"
+    <div class="row flex items-center gap-2 px-4 py-2 border-b border-border"
          data-name="categories {{ .ID }}" data-cat="{{ .ID }}" data-path="{{ .Path }}">
       <span class="mono text-sm">{{ .ID }}</span>
       <span class="uk-text-meta mono ml-auto nowrap">{{ .Counts }}</span>
       <span class="flex gap-1 shrink-0">
-        <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv4">v4</button>
-        <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv6">v6</button>
+        {{ if .V4 }}<button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv4">v4</button>{{ end }}
+        {{ if .V6 }}<button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv6">v6</button>{{ end }}
       </span>
     </div>
     {{ end }}
   </div>
 
   <h2 class="uk-h4 mt-8 mb-4">Providers</h2>
-  <div class="grid gap-4 md:grid-cols-2">
+  <div class="cards">
     {{ range .Providers }}
     <div class="uk-card group" data-name="{{ .ID }} {{ .Name }}">
       <div class="uk-card-header flex items-baseline justify-between gap-2">
@@ -85,14 +170,14 @@
         {{ end }}
       </div>
       {{ range .Sets }}
-      <div class="row flex items-center gap-2 px-4 py-2 border-b"
+      <div class="row flex items-center gap-2 px-4 py-2 border-b border-border"
            data-name="{{ .ID }} {{ .Name }}" data-cat="{{ .Category }}" data-path="{{ .Path }}">
         <span class="mono text-sm">{{ .ID }}</span>
         {{ if .Category }}<span class="uk-badge uk-badge-secondary">{{ .Category }}</span>{{ end }}
         <span class="uk-text-meta mono ml-auto nowrap">{{ .Counts }}</span>
         <span class="flex gap-1 shrink-0">
-          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv4">v4</button>
-          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv6">v6</button>
+          {{ if .V4 }}<button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv4">v4</button>{{ end }}
+          {{ if .V6 }}<button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv6">v6</button>{{ end }}
         </span>
       </div>
       {{ end }}
@@ -101,16 +186,102 @@
   </div>
 
   <footer class="mt-8 uk-text-meta">
-    <p>Every path is <span class="mono">/v1/{provider}/{set}/{family}.{json,txt}</span> —
-    templatable, with no per-provider special cases. The <span class="mono">.txt</span> files are
-    bare CIDRs, one per line, ready for <span class="mono">ipset restore</span>.</p>
-    <p class="mt-2">Full index at <a class="plain" href="/v1/index.json">/v1/index.json</a> ·
+    <p>Full index at <a class="plain" href="/v1/index.json">/v1/index.json</a> ·
     Source on <a class="plain" href="https://github.com/ipsets-io/ipsets" rel="noopener">GitHub</a></p>
   </footer>
 
 </div>
 
 <script>
+// The dropdowns are built from the rows already on the page, so they stay in
+// sync with the data without embedding a second copy of it.
+(function () {
+  const tree = new Map();
+  document.querySelectorAll('.row[data-path]').forEach(r => {
+    const [, , provider, set] = r.dataset.path.split('/');
+    const fams = [...r.querySelectorAll('.copy')].map(b => b.dataset.fam);
+    if (!tree.has(provider)) tree.set(provider, new Map());
+    tree.get(provider).set(set, fams);
+  });
+
+  const out = document.getElementById('snippet');
+  const state = { provider: 'categories', set: 'crawler', family: 'ipv4', format: 'txt' };
+
+  const render = () => {
+    out.textContent = `curl ${location.origin}/v1/${state.provider}/${state.set}/${state.family}.${state.format}`;
+  };
+
+  // uk-select rebuilds its option list when the inner <select> changes, but it
+  // never recomputes which option is selected, so the trigger keeps showing a
+  // stale label. Replacing the element sidesteps that; a delegated listener on
+  // the container means the new node needs no rebinding.
+  const build = (key, values) => {
+    const old = document.getElementById('uk-pick-' + key);
+    const host = document.createElement('uk-select');
+    host.id = old.id;
+    for (const a of ['icon', 'reactive', 'cls-custom', 'aria-label']) {
+      if (old.hasAttribute(a)) host.setAttribute(a, old.getAttribute(a));
+    }
+    const sel = document.createElement('select');
+    sel.hidden = true;
+    values.forEach(v => {
+      const o = document.createElement('option');
+      o.value = o.textContent = v;
+      if (v === state[key]) {
+        o.selected = true;
+        o.setAttribute('selected', '');
+      }
+      sel.append(o);
+    });
+    host.append(sel);
+    old.replaceWith(host);
+  };
+
+  const syncFormats = () => {
+    build('format', ['txt', 'json']);
+    render();
+  };
+
+  // Only the families a set actually publishes; aws/iot-core is v6-only.
+  const syncFamilies = () => {
+    const fams = tree.get(state.provider)?.get(state.set) || [];
+    if (!fams.includes(state.family)) state.family = fams[0];
+    build('family', fams);
+    syncFormats();
+  };
+
+  const syncSets = () => {
+    const sets = [...tree.get(state.provider).keys()];
+    if (!sets.includes(state.set)) state.set = sets[0];
+    build('set', sets);
+    syncFamilies();
+  };
+
+  build('provider', [...tree.keys()]);
+  syncSets();
+
+  document.getElementById('pickers').addEventListener('uk-select:input', e => {
+    const key = e.target.id.replace('uk-pick-', '');
+    state[key] = e.detail.value;
+    if (key === 'provider') {
+      state.set = state.family = null; // changing provider starts the choice over
+      syncSets();
+    } else if (key === 'set') {
+      syncFamilies();
+    } else {
+      render();
+    }
+  });
+})();
+
+document.getElementById('copy-cmd').addEventListener('click', e => {
+  const btn = e.currentTarget;
+  navigator.clipboard.writeText(document.getElementById('snippet').textContent).then(() => {
+    btn.innerHTML = '<uk-icon icon="check"></uk-icon>';
+    setTimeout(() => { btn.innerHTML = '<uk-icon icon="copy"></uk-icon>'; }, 1200);
+  });
+});
+
 document.getElementById('theme').addEventListener('click', () => {
   const dark = document.documentElement.classList.toggle('dark');
   localStorage.setItem('theme', dark ? 'dark' : 'light');
