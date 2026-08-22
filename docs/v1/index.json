@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-22T15:23:17Z",
+  "generated_at": "2026-08-22T15:31:53Z",
   "providers": [
     {
       "id": "anthropic",
@@ -624,6 +624,29 @@
             "path": "/v1/bing/bingbot/ipv6.json",
             "count": 0,
             "sha256": "cb42ea8aa1e7303007d46556d75f2d7a25a9fc3e6396e73d10801d96d37cf628"
+          }
+        }
+      ]
+    },
+    {
+      "id": "bunny",
+      "name": "bunny.net",
+      "homepage": "https://bunny.net/",
+      "source": "https://bunnycdn.com/api/system/edgeserverlist",
+      "sets": [
+        {
+          "id": "cdn",
+          "name": "bunny.net edge servers",
+          "category": "cdn",
+          "ipv4": {
+            "path": "/v1/bunny/cdn/ipv4.json",
+            "count": 590,
+            "sha256": "54a5d196f95fad0a253fe2b3aa5a00492f297db1787ae81f3fcf99b5d381167d"
+          },
+          "ipv6": {
+            "path": "/v1/bunny/cdn/ipv6.json",
+            "count": 323,
+            "sha256": "c76b136d2dee530c916429712bee0964fddba1d68b3df5d8b6e5d5c998500406"
           }
         }
       ]
@@ -1301,13 +1324,13 @@
           "category": "cdn",
           "ipv4": {
             "path": "/v1/categories/cdn/ipv4.json",
-            "count": 646,
-            "sha256": "775c05665070d87add26d3965f28d85c0e4c090c07d2c7e8537dfe24b01a7701"
+            "count": 1236,
+            "sha256": "91e575705f2e0560b0e0bab324c28b779f5816847bd9814ecfa480ac2d5ac332"
           },
           "ipv6": {
             "path": "/v1/categories/cdn/ipv6.json",
-            "count": 281,
-            "sha256": "d8f5e11b707661e4d5736c6f807853dc0e0eaa87cbfdd70ead9e81074ffb9a36"
+            "count": 604,
+            "sha256": "43dccc507416fcf94e515aae9f1811d6fd0d800911b5013771878d8e8f405f8f"
           }
         }
       ]
