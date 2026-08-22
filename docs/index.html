@@ -42,8 +42,8 @@
         separate files per address family, as JSON or bare CIDRs.
       </p>
       <p class="uk-text-meta mt-4">
-        <span class="font-semibold">11</span> providers ·
-        <span class="font-semibold">54</span> sets
+        <span class="font-semibold">12</span> providers ·
+        <span class="font-semibold">55</span> sets
         · built 22 August 2026
       </p>
     </div>
@@ -54,6 +54,8 @@
     <input id="q" class="uk-input max-w-xs" type="search" placeholder="Filter providers and sets…"
            autocomplete="off" spellcheck="false">
     <button class="uk-btn uk-btn-primary uk-btn-sm pill" data-cat="" aria-pressed="true">All</button>
+    
+    <button class="uk-btn uk-btn-default uk-btn-sm pill" data-cat="anonymizer" aria-pressed="false">anonymizer</button>
     
     <button class="uk-btn uk-btn-default uk-btn-sm pill" data-cat="cdn" aria-pressed="false">cdn</button>
     
@@ -67,6 +69,16 @@
 
   <h2 class="uk-h4 mb-4">Categories</h2>
   <div class="uk-card group" data-name="categories cross-provider unions">
+    
+    <div class="row flex items-center gap-2 px-4 py-2 border-b"
+         data-name="categories anonymizer" data-cat="anonymizer" data-path="/v1/categories/anonymizer">
+      <span class="mono text-sm">anonymizer</span>
+      <span class="uk-text-meta mono ml-auto nowrap">1,369 v4</span>
+      <span class="flex gap-1 shrink-0">
+        <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv4">v4</button>
+        <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv6">v6</button>
+      </span>
+    </div>
     
     <div class="row flex items-center gap-2 px-4 py-2 border-b"
          data-name="categories cdn" data-cat="cdn" data-path="/v1/categories/cdn">
@@ -807,6 +819,27 @@
         <span class="mono text-sm">perplexitybot</span>
         <span class="uk-badge uk-badge-secondary">crawler</span>
         <span class="uk-text-meta mono ml-auto nowrap">8 v4</span>
+        <span class="flex gap-1 shrink-0">
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv4">v4</button>
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv6">v6</button>
+        </span>
+      </div>
+      
+    </div>
+    
+    <div class="uk-card group" data-name="tor Tor Project">
+      <div class="uk-card-header flex items-baseline justify-between gap-2">
+        <h3 class="uk-card-title">Tor Project</h3>
+        
+        <a class="uk-text-meta plain nowrap" href="https://support.torproject.org/abuse/i-want-to-ban-tor/" rel="noopener">docs ↗</a>
+        
+      </div>
+      
+      <div class="row flex items-center gap-2 px-4 py-2 border-b"
+           data-name="exits Tor exit nodes" data-cat="anonymizer" data-path="/v1/tor/exits">
+        <span class="mono text-sm">exits</span>
+        <span class="uk-badge uk-badge-secondary">anonymizer</span>
+        <span class="uk-text-meta mono ml-auto nowrap">1,369 v4</span>
         <span class="flex gap-1 shrink-0">
           <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv4">v4</button>
           <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv6">v6</button>

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "provider": "categories",
+  "provider_name": "Categories",
+  "set": "anonymizer",
+  "set_name": "anonymizer",
+  "category": "anonymizer",
+  "family": "ipv6",
+  "source": {
+    "url": ""
+  },
+  "count": 0,
+  "prefixes": []
+}

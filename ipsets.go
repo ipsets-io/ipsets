@@ -13,6 +13,7 @@ import (
 	"github.com/ipsets-io/ipsets/provider/google"
 	"github.com/ipsets-io/ipsets/provider/openai"
 	"github.com/ipsets-io/ipsets/provider/perplexity"
+	"github.com/ipsets-io/ipsets/provider/tor"
 )
 
 func Providers() []provider.Provider {
@@ -28,5 +29,6 @@ func Providers() []provider.Provider {
 		google.New(),
 		openai.New(),
 		perplexity.New(),
+		tor.New(),
 	}
 }

@@ -143,3 +143,17 @@ func TestCollapseKeepsDisjointPrefixes(t *testing.T) {
 		t.Fatalf("adjacent siblings must not be merged: got %v, want %v", got, want)
 	}
 }
+
+func TestBareAddressesBecomeHostPrefixes(t *testing.T) {
+	got, err := provider.Parse([]string{"171.25.193.25", "2001:db8::1", "10.0.0.0/8"}, nil)
+	if err != nil {
+		t.Fatalf("parse: %v", err)
+	}
+	want := []string{"171.25.193.25/32", "2001:db8::1/128", "10.0.0.0/8"}
+	if !equal(strs(got), want) {
+		t.Errorf("got %v, want %v", strs(got), want)
+	}
+	if _, err := provider.Parse([]string{"not-an-ip"}, nil); err == nil {
+		t.Error("garbage should still fail to parse")
+	}
+}

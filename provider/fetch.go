@@ -125,9 +125,14 @@ func (p prefixListProvider) Fetch(ctx context.Context, c *http.Client) ([]Prefix
 func Parse(cidrs []string, tags map[string]string) ([]Prefix, error) {
 	out := make([]Prefix, 0, len(cidrs))
 	for _, s := range cidrs {
-		p, err := netip.ParsePrefix(strings.TrimSpace(s))
+		s = strings.TrimSpace(s)
+		p, err := netip.ParsePrefix(s)
 		if err != nil {
-			return nil, fmt.Errorf("parse %q: %w", s, err)
+			addr, addrErr := netip.ParseAddr(s)
+			if addrErr != nil {
+				return nil, fmt.Errorf("parse %q: %w", s, err)
+			}
+			p = netip.PrefixFrom(addr, addr.BitLen())
 		}
 		out = append(out, Prefix{Prefix: p, Tags: tags})
 	}

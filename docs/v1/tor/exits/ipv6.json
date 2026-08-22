@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "provider": "tor",
+  "provider_name": "Tor Project",
+  "set": "exits",
+  "set_name": "Tor exit nodes",
+  "category": "anonymizer",
+  "family": "ipv6",
+  "source": {
+    "url": "https://check.torproject.org/torbulkexitlist",
+    "homepage": "https://support.torproject.org/abuse/i-want-to-ban-tor/"
+  },
+  "count": 0,
+  "prefixes": []
+}

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-22T11:16:51Z",
+  "generated_at": "2026-08-22T11:23:43Z",
   "providers": [
     {
       "id": "anthropic",
@@ -867,9 +867,52 @@
           }
         }
       ]
+    },
+    {
+      "id": "tor",
+      "name": "Tor Project",
+      "homepage": "https://support.torproject.org/abuse/i-want-to-ban-tor/",
+      "source": "https://check.torproject.org/torbulkexitlist",
+      "sets": [
+        {
+          "id": "exits",
+          "name": "Tor exit nodes",
+          "category": "anonymizer",
+          "ipv4": {
+            "path": "/v1/tor/exits/ipv4.json",
+            "count": 1369,
+            "sha256": "e74f09d4af73ef4c80040bdbfae3688e57b21eefe5cafef361037fd1c3a0b28f"
+          },
+          "ipv6": {
+            "path": "/v1/tor/exits/ipv6.json",
+            "count": 0,
+            "sha256": "94889ee57edeaa10a4d06763931e421bf158706becdf5f54a50fade43ba616e6"
+          }
+        }
+      ]
     }
   ],
   "categories": [
+    {
+      "id": "anonymizer",
+      "sets": [
+        {
+          "id": "anonymizer",
+          "name": "anonymizer",
+          "category": "anonymizer",
+          "ipv4": {
+            "path": "/v1/categories/anonymizer/ipv4.json",
+            "count": 1369,
+            "sha256": "9e75aef9853ee77177be21e1294d992cb4d2d46cdfd6c8d1d2997f6b4f1a04e2"
+          },
+          "ipv6": {
+            "path": "/v1/categories/anonymizer/ipv6.json",
+            "count": 0,
+            "sha256": "f82215baaff6a1bb15da32637183588be7241ab2581ba307e0ca067d4a5e734b"
+          }
+        }
+      ]
+    },
     {
       "id": "cdn",
       "sets": [
