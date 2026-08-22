@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-22T15:31:53Z",
+  "generated_at": "2026-08-22T15:39:37Z",
   "providers": [
     {
       "id": "anthropic",
@@ -1271,6 +1271,29 @@
       ]
     },
     {
+      "id": "pingdom",
+      "name": "Pingdom",
+      "homepage": "https://www.pingdom.com/rss/probe_servers.xml",
+      "source": "https://my.pingdom.com/probes/ipv4",
+      "sets": [
+        {
+          "id": "probes",
+          "name": "Pingdom probe servers",
+          "category": "monitoring",
+          "ipv4": {
+            "path": "/v1/pingdom/probes/ipv4.json",
+            "count": 99,
+            "sha256": "45613762689fe08dc017fb46c577c4389ea373130759b169356f9ec852b28b0e"
+          },
+          "ipv6": {
+            "path": "/v1/pingdom/probes/ipv6.json",
+            "count": 57,
+            "sha256": "ade7136ac441180c9efb8ae5083d46d575e7f248c525f03ca33e5bbc5914814a"
+          }
+        }
+      ]
+    },
+    {
       "id": "tor",
       "name": "Tor Project",
       "homepage": "https://support.torproject.org/abuse/i-want-to-ban-tor/",
@@ -1384,13 +1407,13 @@
           "category": "monitoring",
           "ipv4": {
             "path": "/v1/categories/monitoring/ipv4.json",
-            "count": 385,
-            "sha256": "89c4a1a370235b9fe81a1b264f47368b2b11333fcfd7a92475bc49ad0f1bed7a"
+            "count": 484,
+            "sha256": "62fdbe9aa2f5f35247250ec75c21dc6d96cfac56595bef39856c5b7309a549de"
           },
           "ipv6": {
             "path": "/v1/categories/monitoring/ipv6.json",
-            "count": 185,
-            "sha256": "4f521b4e7f36f3267238ab1348d5f6dc5f8e51a6e1203163b69a6aeacafb880a"
+            "count": 242,
+            "sha256": "03399ba19d8b0a0a9630b2045559def28797adac7b6360ac06f2be4e47c76159"
           }
         }
       ]
