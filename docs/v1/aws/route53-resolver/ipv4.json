@@ -4,7 +4,6 @@
   "provider_name": "Amazon Web Services",
   "set": "route53-resolver",
   "set_name": "Route 53 Resolver",
-  "category": "cloud",
   "family": "ipv4",
   "source": {
     "url": "https://ip-ranges.amazonaws.com/ip-ranges.json",

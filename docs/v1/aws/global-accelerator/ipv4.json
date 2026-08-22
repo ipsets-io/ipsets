@@ -4,7 +4,7 @@
   "provider_name": "Amazon Web Services",
   "set": "global-accelerator",
   "set_name": "Global Accelerator",
-  "category": "cloud",
+  "category": "cdn",
   "family": "ipv4",
   "source": {
     "url": "https://ip-ranges.amazonaws.com/ip-ranges.json",

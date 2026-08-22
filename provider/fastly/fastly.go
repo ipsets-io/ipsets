@@ -19,7 +19,9 @@ func (p *Provider) Meta() provider.Meta {
 		Name:      "Fastly",
 		Homepage:  "https://developer.fastly.com/reference/api/utils/public-ip-list/",
 		SourceURL: URL,
-		Category:  "cdn",
+		Sets: []provider.Set{
+			{ID: "cdn", Name: "Fastly CDN", Category: "cdn"},
+		},
 	}
 }
 

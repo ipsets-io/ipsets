@@ -1,48 +1,48 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-22T06:37:37Z",
+  "generated_at": "2026-08-22T11:16:03Z",
   "providers": [
     {
       "id": "anthropic",
-      "name": "Anthropic (ClaudeBot, Claude-User, Claude-SearchBot)",
+      "name": "Anthropic",
       "source": "https://claude.com/crawling/bots.json",
       "sets": [
         {
-          "id": "all",
-          "name": "Anthropic (ClaudeBot, Claude-User, Claude-SearchBot)",
+          "id": "bots",
+          "name": "ClaudeBot, Claude-User, Claude-SearchBot",
           "category": "crawler",
           "ipv4": {
-            "path": "/v1/anthropic/all/ipv4.json",
+            "path": "/v1/anthropic/bots/ipv4.json",
             "count": 26,
-            "sha256": "877558e36f5e36ee06d2eba8d1d79ad5dccb3a9b21991b03d597756a6425dd46"
+            "sha256": "3b38c135c08de302078fd6bf0e256ce8d05911ad8f9300f0684f0fd5918a90a8"
           },
           "ipv6": {
-            "path": "/v1/anthropic/all/ipv6.json",
+            "path": "/v1/anthropic/bots/ipv6.json",
             "count": 0,
-            "sha256": "38e153e83cba56d1c6d0f71a5e43829a7a56869c8b5863e13ad4176cd013632e"
+            "sha256": "34415e1f7ff2ae73896397f2ce5a07ffcfd43441760fa421456d315bb9411258"
           }
         }
       ]
     },
     {
       "id": "apple",
-      "name": "Applebot",
+      "name": "Apple",
       "homepage": "https://support.apple.com/en-us/119829",
       "source": "https://search.developer.apple.com/applebot.json",
       "sets": [
         {
-          "id": "all",
+          "id": "applebot",
           "name": "Applebot",
           "category": "crawler",
           "ipv4": {
-            "path": "/v1/apple/all/ipv4.json",
+            "path": "/v1/apple/applebot/ipv4.json",
             "count": 33,
-            "sha256": "73ea85dd65842447fbba24f795f935207d78784d5f7f7c32dc8820533e5dee07"
+            "sha256": "c1065c4ce5f213517ce098f316a89ccbba31ce43f76a434eafb464d28f191a7d"
           },
           "ipv6": {
-            "path": "/v1/apple/all/ipv6.json",
+            "path": "/v1/apple/applebot/ipv6.json",
             "count": 0,
-            "sha256": "c4265a2b936693cbb37741bc0e52a3e7433c04b7d1e3de6037c8e2cb3c38767e"
+            "sha256": "d0c447734462f1948fcbf354a842fa65cf1fb5af24825e574f35a62b3ee06ca1"
           }
         }
       ]
@@ -53,21 +53,6 @@
       "homepage": "https://docs.aws.amazon.com/vpc/latest/userguide/aws-ip-ranges.html",
       "source": "https://ip-ranges.amazonaws.com/ip-ranges.json",
       "sets": [
-        {
-          "id": "all",
-          "name": "Amazon Web Services",
-          "category": "cloud",
-          "ipv4": {
-            "path": "/v1/aws/all/ipv4.json",
-            "count": 5360,
-            "sha256": "1f14b048340d1e5afb3d90dc2d79c27b4dce6920ccae00321454eccfb335b730"
-          },
-          "ipv6": {
-            "path": "/v1/aws/all/ipv6.json",
-            "count": 2688,
-            "sha256": "b7aaf08ed3c9adaadc6c8d19ed735dae754aadf88e332c661c3eade70380a746"
-          }
-        },
         {
           "id": "cloudfront",
           "name": "CloudFront",
@@ -99,93 +84,18 @@
           }
         },
         {
-          "id": "ec2",
-          "name": "EC2",
-          "category": "cloud",
-          "ipv4": {
-            "path": "/v1/aws/ec2/ipv4.json",
-            "count": 1923,
-            "sha256": "04c787f84835a8046f933ff9db96e71f1787155ca87f418ab76e7e7b83d7abd5"
-          },
-          "ipv6": {
-            "path": "/v1/aws/ec2/ipv6.json",
-            "count": 2230,
-            "sha256": "e9147e169866aefb818133c5dee1cd543e2296a012603992d110a6db7fb293da"
-          }
-        },
-        {
-          "id": "s3",
-          "name": "S3",
-          "category": "cloud",
-          "ipv4": {
-            "path": "/v1/aws/s3/ipv4.json",
-            "count": 441,
-            "sha256": "2b564f939e783cad4288a241f84e37ab8a4cd9ad8b85a22508ffa20028a58c6a"
-          },
-          "ipv6": {
-            "path": "/v1/aws/s3/ipv6.json",
-            "count": 513,
-            "sha256": "46e506130b8bfa728009aad9cbc3b3ee6ac2baa2084f6bd6549684ca026537ed"
-          }
-        },
-        {
-          "id": "api-gateway",
-          "name": "API Gateway",
-          "category": "cloud",
-          "ipv4": {
-            "path": "/v1/aws/api-gateway/ipv4.json",
-            "count": 214,
-            "sha256": "a5b49db9bf48902bb1b40b2a328a2affb6f6ef03998bbedb6944ed670ebbcaa6"
-          },
-          "ipv6": {
-            "path": "/v1/aws/api-gateway/ipv6.json",
-            "count": 0,
-            "sha256": "e55f1246101a9fe94e1039d99a5601e35e0880e2a2a85a6bd3dd736f75e5c5d4"
-          }
-        },
-        {
-          "id": "dynamodb",
-          "name": "DynamoDB",
-          "category": "cloud",
-          "ipv4": {
-            "path": "/v1/aws/dynamodb/ipv4.json",
-            "count": 94,
-            "sha256": "df74c941abfd1e5f8de5033d631b1165b1ddf2730548b75d639023ebed99cf01"
-          },
-          "ipv6": {
-            "path": "/v1/aws/dynamodb/ipv6.json",
-            "count": 0,
-            "sha256": "23a99c87924a6c0bad6dc5a3f71270f657da6fe9ae51ffb211ffba9b21becb5b"
-          }
-        },
-        {
           "id": "global-accelerator",
           "name": "Global Accelerator",
-          "category": "cloud",
+          "category": "cdn",
           "ipv4": {
             "path": "/v1/aws/global-accelerator/ipv4.json",
             "count": 131,
-            "sha256": "96a76ae6ae5b1989388cfbeaa066c017970dae2c0e87ae98c55bd3e0bc66f4c7"
+            "sha256": "4a8f8f559c8a285301ee6ff235aecc17689616fd374b2441ee17dc2826152624"
           },
           "ipv6": {
             "path": "/v1/aws/global-accelerator/ipv6.json",
             "count": 45,
-            "sha256": "634267a1cbecf1c5a8a9aac2cc7280cdf76c2c35deafaebee67666acdcd7062d"
-          }
-        },
-        {
-          "id": "route53",
-          "name": "Route 53",
-          "category": "cloud",
-          "ipv4": {
-            "path": "/v1/aws/route53/ipv4.json",
-            "count": 26,
-            "sha256": "bdaad526927a0bd5b55979240898ebf409a8ffddd9db5ed5fe7af8f98c8e58d9"
-          },
-          "ipv6": {
-            "path": "/v1/aws/route53/ipv6.json",
-            "count": 14,
-            "sha256": "72f0e99ed38d7962f754aa4145e0b0c6ffd49a350acefa1f370750c4cd788958"
+            "sha256": "e10848fed6155f3648fded0cd6267dc14aea0115a31081896935fc66baaff052"
           }
         },
         {
@@ -204,18 +114,18 @@
           }
         },
         {
-          "id": "route53-resolver",
-          "name": "Route 53 Resolver",
-          "category": "cloud",
+          "id": "route53-healthchecks-publishing",
+          "name": "Route 53 health check publishing",
+          "category": "monitoring",
           "ipv4": {
-            "path": "/v1/aws/route53-resolver/ipv4.json",
-            "count": 638,
-            "sha256": "bebf74a95dee2a0767d59f96d79696dc7a2df1019221f85c804b041ccaef32a8"
+            "path": "/v1/aws/route53-healthchecks-publishing/ipv4.json",
+            "count": 39,
+            "sha256": "0ce868b561603c3a51afe5914e0fe7d703b6a3b0866f51e04aa54df02f9544ee"
           },
           "ipv6": {
-            "path": "/v1/aws/route53-resolver/ipv6.json",
+            "path": "/v1/aws/route53-healthchecks-publishing/ipv6.json",
             "count": 0,
-            "sha256": "b04b0db485832d94ed7370d6eeee0a077c710fd9abf022b53252312dd22031a9"
+            "sha256": "4c90475b0c5dc2d5b58b31d88a91d0b114d5288ad44ad46e232a7fec386eb454"
           }
         },
         {
@@ -234,41 +144,320 @@
           }
         },
         {
+          "id": "ec2",
+          "name": "EC2",
+          "ipv4": {
+            "path": "/v1/aws/ec2/ipv4.json",
+            "count": 1923,
+            "sha256": "8e5912b65e09c6eada9d18faf47b68c7edce8588efe67d03d850ab2b3836fa7e"
+          },
+          "ipv6": {
+            "path": "/v1/aws/ec2/ipv6.json",
+            "count": 2230,
+            "sha256": "54c16b01c81f69a9faedb328bc257597102a1f13fd305a38273abbf3c90de2dd"
+          }
+        },
+        {
+          "id": "s3",
+          "name": "S3",
+          "ipv4": {
+            "path": "/v1/aws/s3/ipv4.json",
+            "count": 441,
+            "sha256": "f71b0af6c6d4e28385982d84612cbed7e418e14a2e65e6904e02280ea59fbb0b"
+          },
+          "ipv6": {
+            "path": "/v1/aws/s3/ipv6.json",
+            "count": 513,
+            "sha256": "431a445a0358933be3a6f11fd7509bb72c611d989fa7de8412c7873c87f10eb0"
+          }
+        },
+        {
+          "id": "ebs",
+          "name": "EBS",
+          "ipv4": {
+            "path": "/v1/aws/ebs/ipv4.json",
+            "count": 105,
+            "sha256": "7fdce29047f483f7416304177541dde1b6f094e841384af5b6b5eea3a9d5920e"
+          },
+          "ipv6": {
+            "path": "/v1/aws/ebs/ipv6.json",
+            "count": 0,
+            "sha256": "276d813937d4f2ef1915bccc2273f7608940b0b2bbf22e9a51538ee451fadb41"
+          }
+        },
+        {
+          "id": "efs",
+          "name": "EFS",
+          "ipv4": {
+            "path": "/v1/aws/efs/ipv4.json",
+            "count": 93,
+            "sha256": "c148e72aff2e08c665c0e877ea314962234fb679822fcf76ee5b9ca44f36c8c8"
+          },
+          "ipv6": {
+            "path": "/v1/aws/efs/ipv6.json",
+            "count": 89,
+            "sha256": "1b76ce83e3cd820fbaf463b00f15323528e8cddf4cedc8d3bf4ad672f8d52190"
+          }
+        },
+        {
+          "id": "dynamodb",
+          "name": "DynamoDB",
+          "ipv4": {
+            "path": "/v1/aws/dynamodb/ipv4.json",
+            "count": 94,
+            "sha256": "da0aac4071845719274d84ac35b9d6c3383eef8d6a9dca5dc9a3ea0c862bc24f"
+          },
+          "ipv6": {
+            "path": "/v1/aws/dynamodb/ipv6.json",
+            "count": 0,
+            "sha256": "5e64af1a5e675a4d726132b9338b40ec027d09b7c9f627a925d478b08f5570ac"
+          }
+        },
+        {
+          "id": "aurora-dsql",
+          "name": "Aurora DSQL",
+          "ipv4": {
+            "path": "/v1/aws/aurora-dsql/ipv4.json",
+            "count": 20,
+            "sha256": "f0fae0f25ab2aca0a65ce61c44d2632de19cd95bb803769ad92c8184efaa4d17"
+          },
+          "ipv6": {
+            "path": "/v1/aws/aurora-dsql/ipv6.json",
+            "count": 20,
+            "sha256": "2c051e39f1d77c85c30dbe90c604822900ac531c21ea2d2b613a21d688f8afe0"
+          }
+        },
+        {
+          "id": "api-gateway",
+          "name": "API Gateway",
+          "ipv4": {
+            "path": "/v1/aws/api-gateway/ipv4.json",
+            "count": 214,
+            "sha256": "59824077a9e7cb364977c98edaf70e8aff32699464fd31ad38871a2b265a4656"
+          },
+          "ipv6": {
+            "path": "/v1/aws/api-gateway/ipv6.json",
+            "count": 0,
+            "sha256": "47d2b3a1bb6fc523c37e76e34c58e8d95957b47db6a0bc57421b74e8c5120f46"
+          }
+        },
+        {
+          "id": "route53",
+          "name": "Route 53",
+          "ipv4": {
+            "path": "/v1/aws/route53/ipv4.json",
+            "count": 26,
+            "sha256": "4f7a8900aafe29d94e08b1e24962cbcdd2183c78e02bb4dbb8a4871035497aa6"
+          },
+          "ipv6": {
+            "path": "/v1/aws/route53/ipv6.json",
+            "count": 14,
+            "sha256": "68155f6e73a584cc35b224b49be893f413dfd77907471921eb7810c5e0ca69d5"
+          }
+        },
+        {
+          "id": "route53-resolver",
+          "name": "Route 53 Resolver",
+          "ipv4": {
+            "path": "/v1/aws/route53-resolver/ipv4.json",
+            "count": 638,
+            "sha256": "c493b0a10da47e6b610b18d6c381a6cdf50552693eb6a7fdcea8b2cab5af10ec"
+          },
+          "ipv6": {
+            "path": "/v1/aws/route53-resolver/ipv6.json",
+            "count": 0,
+            "sha256": "834772c972634c199de7536de81ee9248819e106024b29a33fa8a319fe601dae"
+          }
+        },
+        {
+          "id": "iot-core",
+          "name": "IoT Core",
+          "ipv4": {
+            "path": "/v1/aws/iot-core/ipv4.json",
+            "count": 0,
+            "sha256": "e1538cd079119d26cef449450fc5ee0cb56cd4ccd7b7248ec3dcd6a1b63c8f60"
+          },
+          "ipv6": {
+            "path": "/v1/aws/iot-core/ipv6.json",
+            "count": 41,
+            "sha256": "f303fec05059aa7b12996f3d54a9e317c38a74d7d9ed893683235114d7d3b902"
+          }
+        },
+        {
+          "id": "appflow",
+          "name": "AppFlow",
+          "ipv4": {
+            "path": "/v1/aws/appflow/ipv4.json",
+            "count": 48,
+            "sha256": "bc86f1965e5fa29c0155082eae4dbab5ea538022278650f193c86f33ef9638ce"
+          },
+          "ipv6": {
+            "path": "/v1/aws/appflow/ipv6.json",
+            "count": 0,
+            "sha256": "6cb23b8c4d9060fc513644cf519f4dd54f97a14d5bac537088898018543dc334"
+          }
+        },
+        {
+          "id": "cloud9",
+          "name": "Cloud9",
+          "ipv4": {
+            "path": "/v1/aws/cloud9/ipv4.json",
+            "count": 44,
+            "sha256": "d518296119f2aa24380f2f2ad592e664e39b7e007bf5cf6b0abba75423d73c2e"
+          },
+          "ipv6": {
+            "path": "/v1/aws/cloud9/ipv6.json",
+            "count": 0,
+            "sha256": "57e3d44a37c8c563a988cf998c639d8ba45db070e8aa8743729d78e34f9695d6"
+          }
+        },
+        {
+          "id": "ec2-instance-connect",
+          "name": "EC2 Instance Connect",
+          "ipv4": {
+            "path": "/v1/aws/ec2-instance-connect/ipv4.json",
+            "count": 37,
+            "sha256": "3c2ed03f8eed9ceb0a3ac2f85685245d1a265c0f705dc6cfed4fcffb598b6d50"
+          },
+          "ipv6": {
+            "path": "/v1/aws/ec2-instance-connect/ipv6.json",
+            "count": 37,
+            "sha256": "4840a011b7c1cbc72d1d6cd5eff68f309f654486817dd5bda58bf00c590e6015"
+          }
+        },
+        {
           "id": "workspaces-gateways",
           "name": "WorkSpaces gateways",
-          "category": "cloud",
           "ipv4": {
             "path": "/v1/aws/workspaces-gateways/ipv4.json",
             "count": 73,
-            "sha256": "ac26d34ab1dc515b7a3254c8563f72bf1ef363d0cbbbc81f3da619d61a27c4c2"
+            "sha256": "6e8fd9ae80d251bb17affddfe39c49d54bf046edcb1520242d071794976dfd45"
           },
           "ipv6": {
             "path": "/v1/aws/workspaces-gateways/ipv6.json",
             "count": 43,
-            "sha256": "62404c582dc1cad9245172eb3c37ad9152cdd800973ecdb1122806a2d1fae928"
+            "sha256": "c36ec5755ed8ff1dbf77f33c415f18ebdf6796f2f22ae9d54a5c7a9e1502f77e"
+          }
+        },
+        {
+          "id": "connect",
+          "name": "Amazon Connect",
+          "ipv4": {
+            "path": "/v1/aws/connect/ipv4.json",
+            "count": 9,
+            "sha256": "519cb316e7af66763f1c2240502778d0e451ad2726738ad195e61a5224450dc6"
+          },
+          "ipv6": {
+            "path": "/v1/aws/connect/ipv6.json",
+            "count": 1,
+            "sha256": "e71c6dc263c8c9ac47f7834329bcffc864a23d5d37f46b3afc7e2099da209172"
+          }
+        },
+        {
+          "id": "chime-voiceconnector",
+          "name": "Chime Voice Connector",
+          "ipv4": {
+            "path": "/v1/aws/chime-voiceconnector/ipv4.json",
+            "count": 24,
+            "sha256": "5c6a01d913fded39841473c55ee7b6d65110ad584010a094a72cd179e8b679aa"
+          },
+          "ipv6": {
+            "path": "/v1/aws/chime-voiceconnector/ipv6.json",
+            "count": 0,
+            "sha256": "d998d15c9f39f0c8c608a7a455d6efa0a8fffbf647498a6714bd2ed120217235"
+          }
+        },
+        {
+          "id": "chime-meetings",
+          "name": "Chime Meetings",
+          "ipv4": {
+            "path": "/v1/aws/chime-meetings/ipv4.json",
+            "count": 1,
+            "sha256": "9f8f77a3d7426ad14d98ce42e7feab78bed70753d179684eb7b3b90f8ab60c54"
+          },
+          "ipv6": {
+            "path": "/v1/aws/chime-meetings/ipv6.json",
+            "count": 1,
+            "sha256": "dd1f3408a785e0cbfada7902e817a771348a1d4df312169369eec415225fd080"
+          }
+        },
+        {
+          "id": "kinesis-video-streams",
+          "name": "Kinesis Video Streams",
+          "ipv4": {
+            "path": "/v1/aws/kinesis-video-streams/ipv4.json",
+            "count": 105,
+            "sha256": "045d521c5e714b4c4f192a59a86a6cc3c2470825f1cc9ed3758a67425c37d090"
+          },
+          "ipv6": {
+            "path": "/v1/aws/kinesis-video-streams/ipv6.json",
+            "count": 0,
+            "sha256": "0ce7f22642a89d6e005511dc52c7d6ae28032d58d9212d2689b62468f0ef632a"
+          }
+        },
+        {
+          "id": "media-package-v2",
+          "name": "MediaPackage v2",
+          "ipv4": {
+            "path": "/v1/aws/media-package-v2/ipv4.json",
+            "count": 52,
+            "sha256": "39d117939bd911b3ff06be9ce4d90b20a22446bf52a91cad5f0787082b7e6de4"
+          },
+          "ipv6": {
+            "path": "/v1/aws/media-package-v2/ipv6.json",
+            "count": 0,
+            "sha256": "a60ac684de26910e10ff6008011d203922710982f236943eedf10050a988462b"
+          }
+        },
+        {
+          "id": "ivs-realtime",
+          "name": "IVS Real-Time",
+          "ipv4": {
+            "path": "/v1/aws/ivs-realtime/ipv4.json",
+            "count": 104,
+            "sha256": "ada0776d5fe035f9190b9f3249529979fc725d91d4ac561be510274a1f11011b"
+          },
+          "ipv6": {
+            "path": "/v1/aws/ivs-realtime/ipv6.json",
+            "count": 149,
+            "sha256": "6ab0665c391a2c54a9ed76b7059860c73aa37be17c9a9f9799191f2228b8f927"
+          }
+        },
+        {
+          "id": "ivs-low-latency",
+          "name": "IVS Low-Latency",
+          "ipv4": {
+            "path": "/v1/aws/ivs-low-latency/ipv4.json",
+            "count": 1,
+            "sha256": "2d313bb63e5571f2d4b01d138194087bd7e62af4a740de9075314c88113fb9ad"
+          },
+          "ipv6": {
+            "path": "/v1/aws/ivs-low-latency/ipv6.json",
+            "count": 1,
+            "sha256": "192315b8c4c40a238a2688f3524d6b68bf30ae878eca9bd3017a2227e2bc42b5"
           }
         }
       ]
     },
     {
       "id": "bing",
-      "name": "Bingbot",
+      "name": "Bing",
       "homepage": "https://www.bing.com/webmasters/help/how-to-verify-bingbot-3905dc26",
       "source": "https://www.bing.com/toolbox/bingbot.json",
       "sets": [
         {
-          "id": "all",
+          "id": "bingbot",
           "name": "Bingbot",
           "category": "crawler",
           "ipv4": {
-            "path": "/v1/bing/all/ipv4.json",
+            "path": "/v1/bing/bingbot/ipv4.json",
             "count": 28,
-            "sha256": "89063f21d36539956391b104f9ed526946017194f2fb4e190f7008c3ccfe0965"
+            "sha256": "0571b963432a01f357f403339db03677815f8060fe945bc3826c37074910178d"
           },
           "ipv6": {
-            "path": "/v1/bing/all/ipv6.json",
+            "path": "/v1/bing/bingbot/ipv6.json",
             "count": 0,
-            "sha256": "0cbcabe7921a3832bbe2aa413eaeb32212e69d35795b038b200fca79cbc175fa"
+            "sha256": "cb42ea8aa1e7303007d46556d75f2d7a25a9fc3e6396e73d10801d96d37cf628"
           }
         }
       ]
@@ -280,41 +469,41 @@
       "source": "https://www.cloudflare.com/ips-v4/",
       "sets": [
         {
-          "id": "all",
-          "name": "Cloudflare",
+          "id": "cdn",
+          "name": "Cloudflare CDN",
           "category": "cdn",
           "ipv4": {
-            "path": "/v1/cloudflare/all/ipv4.json",
+            "path": "/v1/cloudflare/cdn/ipv4.json",
             "count": 15,
-            "sha256": "0c29b5cf8fbe63728becada127712c5cc4a9fce8d41a5a340c81ec9809757200"
+            "sha256": "42c128c63af5994083fd662d0f0f82c42d36c636bb59dec96d6b960c43eea33a"
           },
           "ipv6": {
-            "path": "/v1/cloudflare/all/ipv6.json",
+            "path": "/v1/cloudflare/cdn/ipv6.json",
             "count": 7,
-            "sha256": "dfe2b87b7da256be26e4b2e1e677497f057f398ef83d144db2bbbe4bda6cd6d8"
+            "sha256": "540a31eb43666b224a75c5a926ed11d46b8e710a15f68c4978a6a08b92898f1a"
           }
         }
       ]
     },
     {
       "id": "duckduckgo",
-      "name": "DuckDuckBot",
+      "name": "DuckDuckGo",
       "homepage": "https://duckduckgo.com/duckduckgo-help-pages/results/duckduckbot/",
       "source": "https://duckduckgo.com/duckduckbot.json",
       "sets": [
         {
-          "id": "all",
+          "id": "duckduckbot",
           "name": "DuckDuckBot",
           "category": "crawler",
           "ipv4": {
-            "path": "/v1/duckduckgo/all/ipv4.json",
+            "path": "/v1/duckduckgo/duckduckbot/ipv4.json",
             "count": 481,
-            "sha256": "f9b42123fbb5965f6f727335468e89ebfe5e168b3f70ba3632b72bd42b75f8b6"
+            "sha256": "d692b34803e7c871a9c26d06d59437696f7cb0ec6362a516f1cc3d6d0f29fae1"
           },
           "ipv6": {
-            "path": "/v1/duckduckgo/all/ipv6.json",
+            "path": "/v1/duckduckgo/duckduckbot/ipv6.json",
             "count": 0,
-            "sha256": "647c82aab6a135652d00f43d84db2a8a536c7167f1c75687e308fb940ebef670"
+            "sha256": "364d36ce7b05c1067d1d3a0dc4db9f2e9b5aa061939af5b94a0497174e3b3684"
           }
         }
       ]
@@ -326,18 +515,18 @@
       "source": "https://api.fastly.com/public-ip-list",
       "sets": [
         {
-          "id": "all",
-          "name": "Fastly",
+          "id": "cdn",
+          "name": "Fastly CDN",
           "category": "cdn",
           "ipv4": {
-            "path": "/v1/fastly/all/ipv4.json",
+            "path": "/v1/fastly/cdn/ipv4.json",
             "count": 19,
-            "sha256": "83564e832552e7c01e487662f2286118d0979aaeefd16d354993f837e639c856"
+            "sha256": "96372296eca04b5c158abc6285e66565a3767d2637fde70edc550b3946bffc95"
           },
           "ipv6": {
-            "path": "/v1/fastly/all/ipv6.json",
+            "path": "/v1/fastly/cdn/ipv6.json",
             "count": 2,
-            "sha256": "8304f173324679fe01b8e4610ac58f30b2239c5a4b32c1f88e5da03254a79e39"
+            "sha256": "1f882289a19a1e1e1e24583c24910ee41c0a17c230b54ae4add273e1b623ec61"
           }
         }
       ]
@@ -348,21 +537,6 @@
       "homepage": "https://docs.github.com/en/rest/meta/meta",
       "source": "https://api.github.com/meta",
       "sets": [
-        {
-          "id": "all",
-          "name": "GitHub",
-          "category": "vcs",
-          "ipv4": {
-            "path": "/v1/github/all/ipv4.json",
-            "count": 5802,
-            "sha256": "01e9de762e5927322ae7113a48c9b1db931547c379d5d263c88fc95a198850cb"
-          },
-          "ipv6": {
-            "path": "/v1/github/all/ipv6.json",
-            "count": 1637,
-            "sha256": "eed6c37225197ddcd9665b1a6030e06e442a4197ad7e8978e1d1d82a8fd7462c"
-          }
-        },
         {
           "id": "actions",
           "name": "Actions",
@@ -540,51 +714,20 @@
       "id": "google",
       "name": "Google",
       "homepage": "https://developers.google.com/search/docs/crawling-indexing/verifying-googlebot",
-      "source": "https://www.gstatic.com/ipranges/goog.json",
+      "source": "https://www.gstatic.com/ipranges/cloud.json",
       "sets": [
-        {
-          "id": "all",
-          "name": "Google",
-          "category": "cloud",
-          "ipv4": {
-            "path": "/v1/google/all/ipv4.json",
-            "count": 99,
-            "sha256": "bf79fea613e52c258d56304ae15ba81db960082c8ed423493ae5c14e6c2af6d0"
-          },
-          "ipv6": {
-            "path": "/v1/google/all/ipv6.json",
-            "count": 15,
-            "sha256": "cdcd959ddf2a1defe1bec4d70fcf5d8213b2955a2de48b34029dba5c5f5ee0c1"
-          }
-        },
-        {
-          "id": "goog",
-          "name": "Google (all ranges)",
-          "category": "cloud",
-          "ipv4": {
-            "path": "/v1/google/goog/ipv4.json",
-            "count": 99,
-            "sha256": "938f57490a975b42b39787708a8a38b201fbbcb4648d1997474de5ed5b611f09"
-          },
-          "ipv6": {
-            "path": "/v1/google/goog/ipv6.json",
-            "count": 15,
-            "sha256": "01e592dfeae7924963c67a76473a53c9219075a1a74246e6983597aa4edc99b1"
-          }
-        },
         {
           "id": "cloud",
           "name": "Google Cloud",
-          "category": "cloud",
           "ipv4": {
             "path": "/v1/google/cloud/ipv4.json",
             "count": 997,
-            "sha256": "7d0ef0d48bd315b98adaada41e76390df8587be1a15fb39d9a02d684d4cc1959"
+            "sha256": "ee63c83f084bc10524d006e214ddecaee4eeae261ddc93ccaab7d7e036841ee4"
           },
           "ipv6": {
             "path": "/v1/google/cloud/ipv6.json",
             "count": 95,
-            "sha256": "57c4403ff17a2261e06670caa54ca7b050761aac299c31d5770dfac9925ceb57"
+            "sha256": "64400a7fec2a010bf3ab7a15589527473b50cb7d447032cac445b5b65ac0d83a"
           }
         },
         {
@@ -656,21 +799,6 @@
       "source": "https://openai.com/gptbot.json",
       "sets": [
         {
-          "id": "all",
-          "name": "OpenAI",
-          "category": "crawler",
-          "ipv4": {
-            "path": "/v1/openai/all/ipv4.json",
-            "count": 254,
-            "sha256": "a79181b8e03781a8bf3a3400a62edcc9ba2c9bb23d9536819252883cd23e03ec"
-          },
-          "ipv6": {
-            "path": "/v1/openai/all/ipv6.json",
-            "count": 0,
-            "sha256": "4a854d0e7e2e41c0b7087ff36b178cf942995f6d95a1cec296f50edbdecffce2"
-          }
-        },
-        {
           "id": "gptbot",
           "name": "GPTBot (model training)",
           "category": "crawler",
@@ -719,23 +847,23 @@
     },
     {
       "id": "perplexity",
-      "name": "PerplexityBot",
+      "name": "Perplexity",
       "homepage": "https://docs.perplexity.ai/guides/bots",
       "source": "https://www.perplexity.com/perplexitybot.json",
       "sets": [
         {
-          "id": "all",
+          "id": "perplexitybot",
           "name": "PerplexityBot",
           "category": "crawler",
           "ipv4": {
-            "path": "/v1/perplexity/all/ipv4.json",
+            "path": "/v1/perplexity/perplexitybot/ipv4.json",
             "count": 8,
-            "sha256": "b981deeb5ca4817f1cbc223a0f261859de21aebcc1245406cb1468f1610cd11d"
+            "sha256": "1a6d92f29f38557b257fc1bdb481887ece78164fd38cb6e1f238e4399df66c06"
           },
           "ipv6": {
-            "path": "/v1/perplexity/all/ipv6.json",
+            "path": "/v1/perplexity/perplexitybot/ipv6.json",
             "count": 0,
-            "sha256": "b2997252aa8ccd9795293e479b05e5b6d5f9a8effecf2e41f4ae42343337b444"
+            "sha256": "a827c04aad4a164d9bef1c189fa500f0ce2d919d1ea0bd6755a80feaf5abfbbe"
           }
         }
       ]
@@ -751,13 +879,13 @@
           "category": "cdn",
           "ipv4": {
             "path": "/v1/categories/cdn/ipv4.json",
-            "count": 245,
-            "sha256": "88620c37a2b0b1f64eed68edbfc7d53578702508d9127291054d405c50ef033b"
+            "count": 376,
+            "sha256": "804d1a77592f42d28b5d39a2c76197436add47384552d50cc71e785181382358"
           },
           "ipv6": {
             "path": "/v1/categories/cdn/ipv6.json",
-            "count": 41,
-            "sha256": "dd358f453a1cf0d10fae1cfef5184e39d40556a6c15b00f2e428e70dc0383b7b"
+            "count": 86,
+            "sha256": "13d534b27e367fab9e7c5f96eeb0a50a1f68f41a7bc91a839a6b4a6b62cc49f0"
           }
         }
       ]
@@ -778,26 +906,6 @@
             "path": "/v1/categories/ci/ipv6.json",
             "count": 1635,
             "sha256": "fad02774cc67628a0402f7a09169f71a1d40c623dbba6c431d7a67761ec6734c"
-          }
-        }
-      ]
-    },
-    {
-      "id": "cloud",
-      "sets": [
-        {
-          "id": "cloud",
-          "name": "cloud",
-          "category": "cloud",
-          "ipv4": {
-            "path": "/v1/categories/cloud/ipv4.json",
-            "count": 5459,
-            "sha256": "a8fcbebf62c3275a78707cb94da34f107d6236f8eba40d3505376fd499650415"
-          },
-          "ipv6": {
-            "path": "/v1/categories/cloud/ipv6.json",
-            "count": 2703,
-            "sha256": "87cbfc530f537cb30534917d331ceb5e73ea61732f2c8c9359ee97ff524abf3f"
           }
         }
       ]
@@ -831,33 +939,13 @@
           "category": "monitoring",
           "ipv4": {
             "path": "/v1/categories/monitoring/ipv4.json",
-            "count": 31,
-            "sha256": "b164e8415fe42389cd38967b9c0cc84b093837b5daa7b77a52e65ae217ab4eb4"
+            "count": 70,
+            "sha256": "9e2c202702645e12c28ca4ea77ec6e8d1e14d77e634d4df2add108ce24ddceed"
           },
           "ipv6": {
             "path": "/v1/categories/monitoring/ipv6.json",
             "count": 26,
             "sha256": "3490539773772ac9933e6f85448c2174e5a7781ad83582a7fab1a124237357b1"
-          }
-        }
-      ]
-    },
-    {
-      "id": "vcs",
-      "sets": [
-        {
-          "id": "vcs",
-          "name": "vcs",
-          "category": "vcs",
-          "ipv4": {
-            "path": "/v1/categories/vcs/ipv4.json",
-            "count": 5802,
-            "sha256": "69afb00fa51d7208f0f19a6fa0b55be12222a0e0a05cbe7bcbc7f273fc6f88d3"
-          },
-          "ipv6": {
-            "path": "/v1/categories/vcs/ipv6.json",
-            "count": 1637,
-            "sha256": "af2be947bbc33560d08f5c1a021d49db81db63b952f024ebdc9fdb920bc3d41a"
           }
         }
       ]

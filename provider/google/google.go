@@ -8,14 +8,12 @@ import (
 )
 
 const (
-	URLGoog     = "https://www.gstatic.com/ipranges/goog.json"
 	URLCloud    = "https://www.gstatic.com/ipranges/cloud.json"
 	crawlerBase = "https://developers.google.com/static/search/apis/ipranges/"
 )
 
 var sets = []provider.Set{
-	{ID: "goog", Name: "Google (all ranges)", Category: "cloud", Source: URLGoog},
-	{ID: "cloud", Name: "Google Cloud", Category: "cloud", Source: URLCloud},
+	{ID: "cloud", Name: "Google Cloud", Source: URLCloud},
 	{ID: "googlebot", Name: "Googlebot", Category: "crawler", Source: crawlerBase + "googlebot.json"},
 	{ID: "special-crawlers", Name: "Google special crawlers", Category: "crawler", Source: crawlerBase + "special-crawlers.json"},
 	{ID: "user-triggered-fetchers", Name: "Google user-triggered fetchers", Category: "crawler", Source: crawlerBase + "user-triggered-fetchers.json"},
@@ -31,8 +29,7 @@ func (p *Provider) Meta() provider.Meta {
 		ID:        "google",
 		Name:      "Google",
 		Homepage:  "https://developers.google.com/search/docs/crawling-indexing/verifying-googlebot",
-		SourceURL: URLGoog,
-		Category:  "cloud",
+		SourceURL: URLCloud,
 		Sets:      listSets(),
 	}
 }

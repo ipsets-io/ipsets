@@ -4,7 +4,6 @@
   "provider_name": "Amazon Web Services",
   "set": "ec2",
   "set_name": "EC2",
-  "category": "cloud",
   "family": "ipv6",
   "source": {
     "url": "https://ip-ranges.amazonaws.com/ip-ranges.json",

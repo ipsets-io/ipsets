@@ -1,0 +1,175 @@
+{
+  "schema_version": 1,
+  "provider": "aws",
+  "provider_name": "Amazon Web Services",
+  "set": "aurora-dsql",
+  "set_name": "Aurora DSQL",
+  "family": "ipv4",
+  "source": {
+    "url": "https://ip-ranges.amazonaws.com/ip-ranges.json",
+    "homepage": "https://docs.aws.amazon.com/vpc/latest/userguide/aws-ip-ranges.html"
+  },
+  "count": 20,
+  "prefixes": [
+    {
+      "prefix": "3.44.5.128/25",
+      "tags": {
+        "network_border_group": "ap-southeast-1",
+        "region": "ap-southeast-1",
+        "service": "AURORA_DSQL"
+      }
+    },
+    {
+      "prefix": "3.44.64.128/25",
+      "tags": {
+        "network_border_group": "ap-southeast-2",
+        "region": "ap-southeast-2",
+        "service": "AURORA_DSQL"
+      }
+    },
+    {
+      "prefix": "3.44.193.128/25",
+      "tags": {
+        "network_border_group": "sa-east-1",
+        "region": "sa-east-1",
+        "service": "AURORA_DSQL"
+      }
+    },
+    {
+      "prefix": "18.96.17.0/25",
+      "tags": {
+        "network_border_group": "ap-northeast-3",
+        "region": "ap-northeast-3",
+        "service": "AURORA_DSQL"
+      }
+    },
+    {
+      "prefix": "18.96.39.128/25",
+      "tags": {
+        "network_border_group": "eu-central-1",
+        "region": "eu-central-1",
+        "service": "AURORA_DSQL"
+      }
+    },
+    {
+      "prefix": "18.96.194.0/25",
+      "tags": {
+        "network_border_group": "eu-south-2",
+        "region": "eu-south-2",
+        "service": "AURORA_DSQL"
+      }
+    },
+    {
+      "prefix": "18.96.231.0/25",
+      "tags": {
+        "network_border_group": "ap-south-1",
+        "region": "ap-south-1",
+        "service": "AURORA_DSQL"
+      }
+    },
+    {
+      "prefix": "18.97.33.128/25",
+      "tags": {
+        "network_border_group": "us-east-1",
+        "region": "us-east-1",
+        "service": "AURORA_DSQL"
+      }
+    },
+    {
+      "prefix": "18.97.139.128/25",
+      "tags": {
+        "network_border_group": "us-east-2",
+        "region": "us-east-2",
+        "service": "AURORA_DSQL"
+      }
+    },
+    {
+      "prefix": "18.97.198.128/25",
+      "tags": {
+        "network_border_group": "eu-west-1",
+        "region": "eu-west-1",
+        "service": "AURORA_DSQL"
+      }
+    },
+    {
+      "prefix": "18.98.20.128/25",
+      "tags": {
+        "network_border_group": "us-west-2",
+        "region": "us-west-2",
+        "service": "AURORA_DSQL"
+      }
+    },
+    {
+      "prefix": "18.98.66.128/25",
+      "tags": {
+        "network_border_group": "eu-west-3",
+        "region": "eu-west-3",
+        "service": "AURORA_DSQL"
+      }
+    },
+    {
+      "prefix": "18.98.132.128/25",
+      "tags": {
+        "network_border_group": "ap-northeast-2",
+        "region": "ap-northeast-2",
+        "service": "AURORA_DSQL"
+      }
+    },
+    {
+      "prefix": "18.98.164.0/25",
+      "tags": {
+        "network_border_group": "eu-west-2",
+        "region": "eu-west-2",
+        "service": "AURORA_DSQL"
+      }
+    },
+    {
+      "prefix": "18.99.4.128/25",
+      "tags": {
+        "network_border_group": "ca-central-1",
+        "region": "ca-central-1",
+        "service": "AURORA_DSQL"
+      }
+    },
+    {
+      "prefix": "18.99.75.128/25",
+      "tags": {
+        "network_border_group": "ap-northeast-1",
+        "region": "ap-northeast-1",
+        "service": "AURORA_DSQL"
+      }
+    },
+    {
+      "prefix": "18.99.100.128/25",
+      "tags": {
+        "network_border_group": "eu-north-1",
+        "region": "eu-north-1",
+        "service": "AURORA_DSQL"
+      }
+    },
+    {
+      "prefix": "18.99.129.0/25",
+      "tags": {
+        "network_border_group": "ca-west-1",
+        "region": "ca-west-1",
+        "service": "AURORA_DSQL"
+      }
+    },
+    {
+      "prefix": "18.99.177.0/25",
+      "tags": {
+        "network_border_group": "ap-east-1",
+        "region": "ap-east-1",
+        "service": "AURORA_DSQL"
+      }
+    },
+    {
+      "prefix": "18.99.193.0/25",
+      "tags": {
+        "network_border_group": "ap-southeast-4",
+        "region": "ap-southeast-4",
+        "service": "AURORA_DSQL"
+      }
+    }
+  ]
+}

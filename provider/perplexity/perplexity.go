@@ -7,9 +7,11 @@ const URL = "https://www.perplexity.com/perplexitybot.json"
 func New() provider.Provider {
 	return provider.PrefixList(provider.Meta{
 		ID:        "perplexity",
-		Name:      "PerplexityBot",
+		Name:      "Perplexity",
 		Homepage:  "https://docs.perplexity.ai/guides/bots",
 		SourceURL: URL,
-		Category:  "crawler",
+		Sets: []provider.Set{
+			{ID: "perplexitybot", Name: "PerplexityBot", Category: "crawler"},
+		},
 	})
 }

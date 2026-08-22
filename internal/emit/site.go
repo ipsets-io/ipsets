@@ -113,8 +113,6 @@ func (i Index) WriteSite(dir string) error {
 	if err := writeFile(filepath.Join(dir, "index.html"), b.Bytes()); err != nil {
 		return err
 	}
-	if err := writeFile(filepath.Join(dir, "CNAME"), []byte(Domain+"\n")); err != nil {
-		return err
-	}
-	return writeFile(filepath.Join(dir, ".nojekyll"), nil)
+
+	return writeFile(filepath.Join(dir, "CNAME"), []byte(Domain+"\n"))
 }

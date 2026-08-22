@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "provider": "aws",
+  "provider_name": "Amazon Web Services",
+  "set": "connect",
+  "set_name": "Amazon Connect",
+  "family": "ipv6",
+  "source": {
+    "url": "https://ip-ranges.amazonaws.com/ip-ranges.json",
+    "homepage": "https://docs.aws.amazon.com/vpc/latest/userguide/aws-ip-ranges.html"
+  },
+  "count": 1,
+  "prefixes": [
+    {
+      "prefix": "2600:f0f2:7100::/40",
+      "tags": {
+        "service": "AMAZON_CONNECT"
+      }
+    }
+  ]
+}

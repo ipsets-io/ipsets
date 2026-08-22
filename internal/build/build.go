@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"maps"
 	"net/http"
+	"os"
 	"path"
 	"path/filepath"
 	"slices"
@@ -54,6 +55,10 @@ func Run(ctx context.Context, providers []provider.Provider, opts Options) (emit
 	}
 
 	root := filepath.Join(opts.Dir, APIVersion)
+	if err := os.RemoveAll(root); err != nil {
+		return emit.Index{}, err
+	}
+
 	index := emit.Index{GeneratedAt: opts.Now}
 	categories := map[string][]provider.Prefix{}
 
@@ -65,7 +70,7 @@ func Run(ctx context.Context, providers []provider.Provider, opts Options) (emit
 			Source:   f.meta.SourceURL,
 		}
 
-		for _, set := range f.meta.AllSets() {
+		for _, set := range f.meta.Sets {
 			selected := selectPrefixes(f.prefixes, set)
 			if len(selected) == 0 {
 				return emit.Index{}, fmt.Errorf("%s/%s: matched no prefixes", f.meta.ID, set.ID)

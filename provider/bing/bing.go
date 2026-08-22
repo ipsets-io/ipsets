@@ -7,9 +7,11 @@ const URL = "https://www.bing.com/toolbox/bingbot.json"
 func New() provider.Provider {
 	return provider.PrefixList(provider.Meta{
 		ID:        "bing",
-		Name:      "Bingbot",
+		Name:      "Bing",
 		Homepage:  "https://www.bing.com/webmasters/help/how-to-verify-bingbot-3905dc26",
 		SourceURL: URL,
-		Category:  "crawler",
+		Sets: []provider.Set{
+			{ID: "bingbot", Name: "Bingbot", Category: "crawler"},
+		},
 	})
 }

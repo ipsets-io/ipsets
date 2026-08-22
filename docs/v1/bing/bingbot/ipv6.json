@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "provider": "bing",
+  "provider_name": "Bing",
+  "set": "bingbot",
+  "set_name": "Bingbot",
+  "category": "crawler",
+  "family": "ipv6",
+  "source": {
+    "url": "https://www.bing.com/toolbox/bingbot.json",
+    "homepage": "https://www.bing.com/webmasters/help/how-to-verify-bingbot-3905dc26"
+  },
+  "count": 0,
+  "prefixes": []
+}

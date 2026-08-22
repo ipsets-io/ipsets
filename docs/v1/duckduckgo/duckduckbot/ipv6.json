@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "provider": "duckduckgo",
+  "provider_name": "DuckDuckGo",
+  "set": "duckduckbot",
+  "set_name": "DuckDuckBot",
+  "category": "crawler",
+  "family": "ipv6",
+  "source": {
+    "url": "https://duckduckgo.com/duckduckbot.json",
+    "homepage": "https://duckduckgo.com/duckduckgo-help-pages/results/duckduckbot/"
+  },
+  "count": 0,
+  "prefixes": []
+}

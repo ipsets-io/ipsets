@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "provider": "fastly",
+  "provider_name": "Fastly",
+  "set": "cdn",
+  "set_name": "Fastly CDN",
+  "category": "cdn",
+  "family": "ipv6",
+  "source": {
+    "url": "https://api.fastly.com/public-ip-list",
+    "homepage": "https://developer.fastly.com/reference/api/utils/public-ip-list/"
+  },
+  "count": 2,
+  "prefixes": [
+    {
+      "prefix": "2a04:4e40::/32"
+    },
+    {
+      "prefix": "2a04:4e42::/32"
+    }
+  ]
+}

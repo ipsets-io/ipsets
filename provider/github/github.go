@@ -28,7 +28,6 @@ func (p *Provider) Meta() provider.Meta {
 		Name:      "GitHub",
 		Homepage:  "https://docs.github.com/en/rest/meta/meta",
 		SourceURL: URL,
-		Category:  "vcs",
 		Sets: []provider.Set{
 			usage("actions", "Actions", "ci"),
 			usage("actions-macos", "Actions (macOS)", "ci"),

@@ -4,7 +4,6 @@
   "provider_name": "Amazon Web Services",
   "set": "dynamodb",
   "set_name": "DynamoDB",
-  "category": "cloud",
   "family": "ipv6",
   "source": {
     "url": "https://ip-ranges.amazonaws.com/ip-ranges.json",

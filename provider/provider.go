@@ -6,8 +6,6 @@ import (
 	"net/netip"
 )
 
-const AllSetID = "all"
-
 type Prefix struct {
 	Prefix netip.Prefix      `json:"prefix"`
 	Tags   map[string]string `json:"tags,omitempty"`
@@ -26,7 +24,6 @@ type Meta struct {
 	Name      string
 	Homepage  string
 	SourceURL string
-	Category  string
 	Sets      []Set
 }
 
@@ -42,10 +39,4 @@ func (s Set) Matches(p Prefix) bool {
 		}
 	}
 	return true
-}
-
-func (m Meta) AllSets() []Set {
-	sets := make([]Set, 0, len(m.Sets)+1)
-	sets = append(sets, Set{ID: AllSetID, Name: m.Name, Category: m.Category})
-	return append(sets, m.Sets...)
 }

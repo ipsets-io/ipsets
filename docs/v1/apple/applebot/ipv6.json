@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "provider": "apple",
+  "provider_name": "Apple",
+  "set": "applebot",
+  "set_name": "Applebot",
+  "category": "crawler",
+  "family": "ipv6",
+  "source": {
+    "url": "https://search.developer.apple.com/applebot.json",
+    "homepage": "https://support.apple.com/en-us/119829"
+  },
+  "count": 0,
+  "prefixes": []
+}

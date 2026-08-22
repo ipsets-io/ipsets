@@ -7,9 +7,11 @@ const URL = "https://search.developer.apple.com/applebot.json"
 func New() provider.Provider {
 	return provider.PrefixList(provider.Meta{
 		ID:        "apple",
-		Name:      "Applebot",
+		Name:      "Apple",
 		Homepage:  "https://support.apple.com/en-us/119829",
 		SourceURL: URL,
-		Category:  "crawler",
+		Sets: []provider.Set{
+			{ID: "applebot", Name: "Applebot", Category: "crawler"},
+		},
 	})
 }

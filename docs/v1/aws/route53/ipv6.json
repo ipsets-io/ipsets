@@ -4,7 +4,6 @@
   "provider_name": "Amazon Web Services",
   "set": "route53",
   "set_name": "Route 53",
-  "category": "cloud",
   "family": "ipv6",
   "source": {
     "url": "https://ip-ranges.amazonaws.com/ip-ranges.json",

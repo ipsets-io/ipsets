@@ -30,7 +30,6 @@ func (p *Provider) Meta() provider.Meta {
 		Name:      "OpenAI",
 		Homepage:  "https://platform.openai.com/docs/bots",
 		SourceURL: URLGPTBot,
-		Category:  "crawler",
 		Sets:      out,
 	}
 }

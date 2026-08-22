@@ -22,7 +22,9 @@ func (p *Provider) Meta() provider.Meta {
 		Name:      "Cloudflare",
 		Homepage:  "https://www.cloudflare.com/ips/",
 		SourceURL: URLv4,
-		Category:  "cdn",
+		Sets: []provider.Set{
+			{ID: "cdn", Name: "Cloudflare CDN", Category: "cdn"},
+		},
 	}
 }
 

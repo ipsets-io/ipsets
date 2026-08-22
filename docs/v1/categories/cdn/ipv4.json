@@ -9,8 +9,206 @@
   "source": {
     "url": ""
   },
-  "count": 245,
+  "count": 376,
   "prefixes": [
+    {
+      "prefix": "1.178.172.0/23",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "provider": "aws",
+        "region": "GLOBAL",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
+      "prefix": "1.179.14.0/23",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "provider": "aws",
+        "region": "GLOBAL",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
+      "prefix": "1.179.60.0/23",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "provider": "aws",
+        "region": "GLOBAL",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
+      "prefix": "3.2.4.0/23",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "provider": "aws",
+        "region": "GLOBAL",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
+      "prefix": "3.2.8.0/21",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "provider": "aws",
+        "region": "GLOBAL",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
+      "prefix": "3.2.48.0/24",
+      "tags": {
+        "network_border_group": "eu-west-2",
+        "provider": "aws",
+        "region": "eu-west-2",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
+      "prefix": "3.2.49.0/24",
+      "tags": {
+        "network_border_group": "sa-east-1",
+        "provider": "aws",
+        "region": "sa-east-1",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
+      "prefix": "3.2.50.0/24",
+      "tags": {
+        "network_border_group": "us-east-1",
+        "provider": "aws",
+        "region": "us-east-1",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
+      "prefix": "3.2.51.0/24",
+      "tags": {
+        "network_border_group": "us-east-1",
+        "provider": "aws",
+        "region": "us-east-1",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
+      "prefix": "3.2.52.0/24",
+      "tags": {
+        "network_border_group": "us-east-1",
+        "provider": "aws",
+        "region": "us-east-1",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
+      "prefix": "3.2.53.0/24",
+      "tags": {
+        "network_border_group": "eu-central-1",
+        "provider": "aws",
+        "region": "eu-central-1",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
+      "prefix": "3.2.54.0/24",
+      "tags": {
+        "network_border_group": "us-west-1",
+        "provider": "aws",
+        "region": "us-west-1",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
+      "prefix": "3.2.55.0/24",
+      "tags": {
+        "network_border_group": "us-west-2",
+        "provider": "aws",
+        "region": "us-west-2",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
+      "prefix": "3.2.56.0/24",
+      "tags": {
+        "network_border_group": "me-south-1",
+        "provider": "aws",
+        "region": "me-south-1",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
+      "prefix": "3.2.57.0/24",
+      "tags": {
+        "network_border_group": "eu-west-1",
+        "provider": "aws",
+        "region": "eu-west-1",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
+      "prefix": "3.2.58.0/24",
+      "tags": {
+        "network_border_group": "us-east-1",
+        "provider": "aws",
+        "region": "us-east-1",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
+      "prefix": "3.2.59.0/24",
+      "tags": {
+        "network_border_group": "eu-west-1",
+        "provider": "aws",
+        "region": "eu-west-1",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
+      "prefix": "3.2.60.0/24",
+      "tags": {
+        "network_border_group": "ap-southeast-2",
+        "provider": "aws",
+        "region": "ap-southeast-2",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
+      "prefix": "3.2.61.0/24",
+      "tags": {
+        "network_border_group": "ap-northeast-1",
+        "provider": "aws",
+        "region": "ap-northeast-1",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
+      "prefix": "3.3.0.0/23",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "provider": "aws",
+        "region": "GLOBAL",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
+      "prefix": "3.3.6.0/23",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "provider": "aws",
+        "region": "GLOBAL",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
+      "prefix": "3.3.8.0/21",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "provider": "aws",
+        "region": "GLOBAL",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
     {
       "prefix": "3.10.17.128/25",
       "tags": {
@@ -62,6 +260,15 @@
         "network_border_group": "me-central-1",
         "provider": "aws",
         "region": "me-central-1"
+      }
+    },
+    {
+      "prefix": "3.33.128.0/17",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "provider": "aws",
+        "region": "GLOBAL",
+        "service": "GLOBALACCELERATOR"
       }
     },
     {
@@ -431,6 +638,294 @@
       }
     },
     {
+      "prefix": "13.248.96.0/24",
+      "tags": {
+        "network_border_group": "eu-west-1",
+        "provider": "aws",
+        "region": "eu-west-1",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
+      "prefix": "13.248.97.0/24",
+      "tags": {
+        "network_border_group": "eu-central-1",
+        "provider": "aws",
+        "region": "eu-central-1",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
+      "prefix": "13.248.98.0/24",
+      "tags": {
+        "network_border_group": "ap-northeast-1",
+        "provider": "aws",
+        "region": "ap-northeast-1",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
+      "prefix": "13.248.99.0/24",
+      "tags": {
+        "network_border_group": "us-west-1",
+        "provider": "aws",
+        "region": "us-west-1",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
+      "prefix": "13.248.100.0/24",
+      "tags": {
+        "network_border_group": "eu-north-1",
+        "provider": "aws",
+        "region": "eu-north-1",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
+      "prefix": "13.248.101.0/24",
+      "tags": {
+        "network_border_group": "eu-west-2",
+        "provider": "aws",
+        "region": "eu-west-2",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
+      "prefix": "13.248.102.0/24",
+      "tags": {
+        "network_border_group": "ap-southeast-2",
+        "provider": "aws",
+        "region": "ap-southeast-2",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
+      "prefix": "13.248.103.0/24",
+      "tags": {
+        "network_border_group": "us-east-1",
+        "provider": "aws",
+        "region": "us-east-1",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
+      "prefix": "13.248.104.0/24",
+      "tags": {
+        "network_border_group": "sa-east-1",
+        "provider": "aws",
+        "region": "sa-east-1",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
+      "prefix": "13.248.105.0/24",
+      "tags": {
+        "network_border_group": "ap-south-1",
+        "provider": "aws",
+        "region": "ap-south-1",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
+      "prefix": "13.248.107.0/24",
+      "tags": {
+        "network_border_group": "ap-southeast-1",
+        "provider": "aws",
+        "region": "ap-southeast-1",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
+      "prefix": "13.248.108.0/24",
+      "tags": {
+        "network_border_group": "us-east-1",
+        "provider": "aws",
+        "region": "us-east-1",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
+      "prefix": "13.248.109.0/24",
+      "tags": {
+        "network_border_group": "ap-southeast-2",
+        "provider": "aws",
+        "region": "ap-southeast-2",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
+      "prefix": "13.248.110.0/24",
+      "tags": {
+        "network_border_group": "ap-southeast-3",
+        "provider": "aws",
+        "region": "ap-southeast-3",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
+      "prefix": "13.248.111.0/24",
+      "tags": {
+        "network_border_group": "us-east-2",
+        "provider": "aws",
+        "region": "us-east-2",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
+      "prefix": "13.248.112.0/24",
+      "tags": {
+        "network_border_group": "us-west-2",
+        "provider": "aws",
+        "region": "us-west-2",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
+      "prefix": "13.248.113.0/24",
+      "tags": {
+        "network_border_group": "eu-west-1",
+        "provider": "aws",
+        "region": "eu-west-1",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
+      "prefix": "13.248.114.0/24",
+      "tags": {
+        "network_border_group": "sa-east-1",
+        "provider": "aws",
+        "region": "sa-east-1",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
+      "prefix": "13.248.115.0/24",
+      "tags": {
+        "network_border_group": "ap-northeast-1",
+        "provider": "aws",
+        "region": "ap-northeast-1",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
+      "prefix": "13.248.116.0/24",
+      "tags": {
+        "network_border_group": "us-east-1",
+        "provider": "aws",
+        "region": "us-east-1",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
+      "prefix": "13.248.117.0/24",
+      "tags": {
+        "network_border_group": "ap-south-1",
+        "provider": "aws",
+        "region": "ap-south-1",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
+      "prefix": "13.248.118.0/24",
+      "tags": {
+        "network_border_group": "eu-west-1",
+        "provider": "aws",
+        "region": "eu-west-1",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
+      "prefix": "13.248.119.0/24",
+      "tags": {
+        "network_border_group": "eu-west-1",
+        "provider": "aws",
+        "region": "eu-west-1",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
+      "prefix": "13.248.120.0/24",
+      "tags": {
+        "network_border_group": "eu-west-2",
+        "provider": "aws",
+        "region": "eu-west-2",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
+      "prefix": "13.248.121.0/24",
+      "tags": {
+        "network_border_group": "eu-west-1",
+        "provider": "aws",
+        "region": "eu-west-1",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
+      "prefix": "13.248.122.0/24",
+      "tags": {
+        "network_border_group": "eu-north-1",
+        "provider": "aws",
+        "region": "eu-north-1",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
+      "prefix": "13.248.123.0/24",
+      "tags": {
+        "network_border_group": "eu-central-1",
+        "provider": "aws",
+        "region": "eu-central-1",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
+      "prefix": "13.248.124.0/24",
+      "tags": {
+        "network_border_group": "us-east-1",
+        "provider": "aws",
+        "region": "us-east-1",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
+      "prefix": "13.248.125.0/24",
+      "tags": {
+        "network_border_group": "ap-southeast-1",
+        "provider": "aws",
+        "region": "ap-southeast-1",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
+      "prefix": "13.248.126.0/24",
+      "tags": {
+        "network_border_group": "ca-central-1",
+        "provider": "aws",
+        "region": "ca-central-1",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
+      "prefix": "13.248.127.0/24",
+      "tags": {
+        "network_border_group": "ap-southeast-1",
+        "provider": "aws",
+        "region": "ap-southeast-1",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
+      "prefix": "13.248.128.0/17",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "provider": "aws",
+        "region": "GLOBAL",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
       "prefix": "13.249.0.0/16",
       "tags": {
         "network_border_group": "GLOBAL",
@@ -454,6 +949,159 @@
         "provider": "aws",
         "region": "eu-west-3",
         "service": "CLOUDFRONT"
+      }
+    },
+    {
+      "prefix": "15.197.0.0/23",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "provider": "aws",
+        "region": "GLOBAL",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
+      "prefix": "15.197.2.0/24",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "provider": "aws",
+        "region": "GLOBAL",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
+      "prefix": "15.197.3.0/24",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "provider": "aws",
+        "region": "GLOBAL",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
+      "prefix": "15.197.4.0/22",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "provider": "aws",
+        "region": "GLOBAL",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
+      "prefix": "15.197.8.0/22",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "provider": "aws",
+        "region": "GLOBAL",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
+      "prefix": "15.197.12.0/22",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "provider": "aws",
+        "region": "GLOBAL",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
+      "prefix": "15.197.16.0/23",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "provider": "aws",
+        "region": "GLOBAL",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
+      "prefix": "15.197.18.0/23",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "provider": "aws",
+        "region": "GLOBAL",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
+      "prefix": "15.197.20.0/22",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "provider": "aws",
+        "region": "GLOBAL",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
+      "prefix": "15.197.24.0/22",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "provider": "aws",
+        "region": "GLOBAL",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
+      "prefix": "15.197.28.0/23",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "provider": "aws",
+        "region": "GLOBAL",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
+      "prefix": "15.197.30.0/23",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "provider": "aws",
+        "region": "GLOBAL",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
+      "prefix": "15.197.32.0/23",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "provider": "aws",
+        "region": "GLOBAL",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
+      "prefix": "15.197.34.0/23",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "provider": "aws",
+        "region": "GLOBAL",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
+      "prefix": "15.197.36.0/22",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "provider": "aws",
+        "region": "GLOBAL",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
+      "prefix": "15.197.64.0/19",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "provider": "aws",
+        "region": "GLOBAL",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
+      "prefix": "15.197.128.0/17",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "provider": "aws",
+        "region": "GLOBAL",
+        "service": "GLOBALACCELERATOR"
       }
     },
     {
@@ -804,6 +1452,24 @@
       }
     },
     {
+      "prefix": "23.238.128.0/17",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "provider": "aws",
+        "region": "GLOBAL",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
+      "prefix": "24.110.0.0/21",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "provider": "aws",
+        "region": "GLOBAL",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
       "prefix": "24.110.32.0/19",
       "tags": {
         "network_border_group": "GLOBAL",
@@ -863,6 +1529,105 @@
         "provider": "aws",
         "region": "us-east-1",
         "service": "CLOUDFRONT"
+      }
+    },
+    {
+      "prefix": "35.34.96.0/24",
+      "tags": {
+        "network_border_group": "eu-west-2",
+        "provider": "aws",
+        "region": "eu-west-2",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
+      "prefix": "35.34.97.0/24",
+      "tags": {
+        "network_border_group": "us-west-2",
+        "provider": "aws",
+        "region": "us-west-2",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
+      "prefix": "35.34.98.0/24",
+      "tags": {
+        "network_border_group": "ap-south-1",
+        "provider": "aws",
+        "region": "ap-south-1",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
+      "prefix": "35.34.99.0/24",
+      "tags": {
+        "network_border_group": "us-east-1",
+        "provider": "aws",
+        "region": "us-east-1",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
+      "prefix": "35.34.100.0/24",
+      "tags": {
+        "network_border_group": "us-east-1",
+        "provider": "aws",
+        "region": "us-east-1",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
+      "prefix": "35.34.101.0/24",
+      "tags": {
+        "network_border_group": "us-west-1",
+        "provider": "aws",
+        "region": "us-west-1",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
+      "prefix": "35.34.102.0/24",
+      "tags": {
+        "network_border_group": "ap-east-1",
+        "provider": "aws",
+        "region": "ap-east-1",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
+      "prefix": "35.34.103.0/24",
+      "tags": {
+        "network_border_group": "ap-northeast-2",
+        "provider": "aws",
+        "region": "ap-northeast-2",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
+      "prefix": "35.34.104.0/24",
+      "tags": {
+        "network_border_group": "ap-southeast-4",
+        "provider": "aws",
+        "region": "ap-southeast-4",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
+      "prefix": "35.34.105.0/24",
+      "tags": {
+        "network_border_group": "eu-west-3",
+        "provider": "aws",
+        "region": "eu-west-3",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
+      "prefix": "35.71.128.0/17",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "provider": "aws",
+        "region": "GLOBAL",
+        "service": "GLOBALACCELERATOR"
       }
     },
     {
@@ -1257,6 +2022,15 @@
       }
     },
     {
+      "prefix": "52.223.0.0/17",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "provider": "aws",
+        "region": "GLOBAL",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
       "prefix": "54.182.0.0/16",
       "tags": {
         "network_border_group": "GLOBAL",
@@ -1289,6 +2063,15 @@
         "provider": "aws",
         "region": "GLOBAL",
         "service": "CLOUDFRONT"
+      }
+    },
+    {
+      "prefix": "54.230.192.0/21",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "provider": "aws",
+        "region": "GLOBAL",
+        "service": "GLOBALACCELERATOR"
       }
     },
     {
@@ -1416,6 +2199,15 @@
       }
     },
     {
+      "prefix": "63.246.120.0/21",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "provider": "aws",
+        "region": "GLOBAL",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
       "prefix": "64.252.64.0/18",
       "tags": {
         "network_border_group": "GLOBAL",
@@ -1459,6 +2251,15 @@
       }
     },
     {
+      "prefix": "66.182.96.0/20",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "provider": "aws",
+        "region": "GLOBAL",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
       "prefix": "70.132.0.0/18",
       "tags": {
         "network_border_group": "GLOBAL",
@@ -1476,12 +2277,363 @@
       }
     },
     {
+      "prefix": "75.2.0.0/17",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "provider": "aws",
+        "region": "GLOBAL",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
+      "prefix": "76.223.0.0/17",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "provider": "aws",
+        "region": "GLOBAL",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
+      "prefix": "76.223.169.0/24",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "provider": "aws",
+        "region": "GLOBAL",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
+      "prefix": "93.77.128.0/19",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "provider": "aws",
+        "region": "GLOBAL",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
+      "prefix": "99.77.188.0/24",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "provider": "aws",
+        "region": "GLOBAL",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
+      "prefix": "99.77.189.0/24",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "provider": "aws",
+        "region": "GLOBAL",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
+      "prefix": "99.77.190.0/24",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "provider": "aws",
+        "region": "GLOBAL",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
       "prefix": "99.79.169.0/24",
       "tags": {
         "network_border_group": "ca-central-1",
         "provider": "aws",
         "region": "ca-central-1",
         "service": "CLOUDFRONT"
+      }
+    },
+    {
+      "prefix": "99.82.156.0/22",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "provider": "aws",
+        "region": "GLOBAL",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
+      "prefix": "99.82.160.0/24",
+      "tags": {
+        "network_border_group": "ap-south-1",
+        "provider": "aws",
+        "region": "ap-south-1",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
+      "prefix": "99.82.161.0/24",
+      "tags": {
+        "network_border_group": "eu-west-3",
+        "provider": "aws",
+        "region": "eu-west-3",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
+      "prefix": "99.82.162.0/24",
+      "tags": {
+        "network_border_group": "eu-west-1",
+        "provider": "aws",
+        "region": "eu-west-1",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
+      "prefix": "99.82.163.0/24",
+      "tags": {
+        "network_border_group": "eu-central-1",
+        "provider": "aws",
+        "region": "eu-central-1",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
+      "prefix": "99.82.164.0/24",
+      "tags": {
+        "network_border_group": "sa-east-1",
+        "provider": "aws",
+        "region": "sa-east-1",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
+      "prefix": "99.82.165.0/24",
+      "tags": {
+        "network_border_group": "us-east-1",
+        "provider": "aws",
+        "region": "us-east-1",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
+      "prefix": "99.82.166.0/24",
+      "tags": {
+        "network_border_group": "us-east-1",
+        "provider": "aws",
+        "region": "us-east-1",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
+      "prefix": "99.82.167.0/24",
+      "tags": {
+        "network_border_group": "us-east-1",
+        "provider": "aws",
+        "region": "us-east-1",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
+      "prefix": "99.82.168.0/24",
+      "tags": {
+        "network_border_group": "ap-northeast-2",
+        "provider": "aws",
+        "region": "ap-northeast-2",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
+      "prefix": "99.82.169.0/24",
+      "tags": {
+        "network_border_group": "eu-west-2",
+        "provider": "aws",
+        "region": "eu-west-2",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
+      "prefix": "99.82.170.0/24",
+      "tags": {
+        "network_border_group": "ap-northeast-1",
+        "provider": "aws",
+        "region": "ap-northeast-1",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
+      "prefix": "99.82.171.0/24",
+      "tags": {
+        "network_border_group": "us-east-1",
+        "provider": "aws",
+        "region": "us-east-1",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
+      "prefix": "99.82.172.0/24",
+      "tags": {
+        "network_border_group": "us-west-1",
+        "provider": "aws",
+        "region": "us-west-1",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
+      "prefix": "99.82.173.0/24",
+      "tags": {
+        "network_border_group": "ap-southeast-1",
+        "provider": "aws",
+        "region": "ap-southeast-1",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
+      "prefix": "99.82.174.0/24",
+      "tags": {
+        "network_border_group": "ca-central-1",
+        "provider": "aws",
+        "region": "ca-central-1",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
+      "prefix": "99.82.175.0/24",
+      "tags": {
+        "network_border_group": "us-east-1",
+        "provider": "aws",
+        "region": "us-east-1",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
+      "prefix": "99.83.96.0/24",
+      "tags": {
+        "network_border_group": "ap-east-1",
+        "provider": "aws",
+        "region": "ap-east-1",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
+      "prefix": "99.83.97.0/24",
+      "tags": {
+        "network_border_group": "us-west-1",
+        "provider": "aws",
+        "region": "us-west-1",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
+      "prefix": "99.83.98.0/24",
+      "tags": {
+        "network_border_group": "us-west-1",
+        "provider": "aws",
+        "region": "us-west-1",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
+      "prefix": "99.83.99.0/24",
+      "tags": {
+        "network_border_group": "eu-central-1",
+        "provider": "aws",
+        "region": "eu-central-1",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
+      "prefix": "99.83.100.0/24",
+      "tags": {
+        "network_border_group": "ap-northeast-3",
+        "provider": "aws",
+        "region": "ap-northeast-3",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
+      "prefix": "99.83.101.0/24",
+      "tags": {
+        "network_border_group": "us-east-1",
+        "provider": "aws",
+        "region": "us-east-1",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
+      "prefix": "99.83.102.0/24",
+      "tags": {
+        "network_border_group": "ap-southeast-1",
+        "provider": "aws",
+        "region": "ap-southeast-1",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
+      "prefix": "99.83.103.0/24",
+      "tags": {
+        "network_border_group": "eu-central-1",
+        "provider": "aws",
+        "region": "eu-central-1",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
+      "prefix": "99.83.104.0/24",
+      "tags": {
+        "network_border_group": "ap-southeast-1",
+        "provider": "aws",
+        "region": "ap-southeast-1",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
+      "prefix": "99.83.105.0/24",
+      "tags": {
+        "network_border_group": "eu-west-1",
+        "provider": "aws",
+        "region": "eu-west-1",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
+      "prefix": "99.83.106.0/24",
+      "tags": {
+        "network_border_group": "us-east-1",
+        "provider": "aws",
+        "region": "us-east-1",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
+      "prefix": "99.83.107.0/24",
+      "tags": {
+        "network_border_group": "eu-south-1",
+        "provider": "aws",
+        "region": "eu-south-1",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
+      "prefix": "99.83.108.0/24",
+      "tags": {
+        "network_border_group": "eu-south-1",
+        "provider": "aws",
+        "region": "eu-south-1",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
+      "prefix": "99.83.109.0/24",
+      "tags": {
+        "network_border_group": "eu-south-1",
+        "provider": "aws",
+        "region": "eu-south-1",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
+      "prefix": "99.83.128.0/17",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "provider": "aws",
+        "region": "GLOBAL",
+        "service": "GLOBALACCELERATOR"
       }
     },
     {
@@ -1854,9 +3006,27 @@
       }
     },
     {
+      "prefix": "159.248.133.0/24",
+      "tags": {
+        "network_border_group": "ap-east-1",
+        "provider": "aws",
+        "region": "ap-east-1",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
       "prefix": "162.158.0.0/15",
       "tags": {
         "provider": "cloudflare"
+      }
+    },
+    {
+      "prefix": "166.117.0.0/16",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "provider": "aws",
+        "region": "GLOBAL",
+        "service": "GLOBALACCELERATOR"
       }
     },
     {
@@ -1935,6 +3105,15 @@
       "prefix": "190.93.240.0/20",
       "tags": {
         "provider": "cloudflare"
+      }
+    },
+    {
+      "prefix": "192.157.72.0/23",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "provider": "aws",
+        "region": "GLOBAL",
+        "service": "GLOBALACCELERATOR"
       }
     },
     {
