@@ -3,8 +3,7 @@
   "provider": "aws",
   "provider_name": "Amazon Web Services",
   "set": "route53-healthchecks-publishing",
-  "set_name": "Route 53 health check publishing",
-  "category": "monitoring",
+  "set_name": "Route 53 health check publishing (internal)",
   "family": "ipv6",
   "source": {
     "url": "https://ip-ranges.amazonaws.com/ip-ranges.json",

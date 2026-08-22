@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "provider": "datadog",
+  "provider_name": "Datadog",
+  "set": "orchestrator",
+  "set_name": "Orchestrator",
+  "family": "ipv4",
+  "source": {
+    "url": "https://ip-ranges.datadoghq.com/",
+    "homepage": "https://docs.datadoghq.com/api/latest/ip-ranges/"
+  },
+  "count": 1,
+  "prefixes": [
+    {
+      "prefix": "3.233.144.0/20",
+      "tags": {
+        "service": "orchestrator"
+      }
+    }
+  ]
+}

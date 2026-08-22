@@ -42,8 +42,8 @@
         separate files per address family, as JSON or bare CIDRs.
       </p>
       <p class="uk-text-meta mt-4">
-        <span class="font-semibold">14</span> providers ·
-        <span class="font-semibold">69</span> sets
+        <span class="font-semibold">15</span> providers ·
+        <span class="font-semibold">80</span> sets
         · built 22 August 2026
       </p>
     </div>
@@ -113,7 +113,7 @@
     <div class="row flex items-center gap-2 px-4 py-2 border-b"
          data-name="categories monitoring" data-cat="monitoring" data-path="/v1/categories/monitoring">
       <span class="mono text-sm">monitoring</span>
-      <span class="uk-text-meta mono ml-auto nowrap">311 v4 · 185 v6</span>
+      <span class="uk-text-meta mono ml-auto nowrap">385 v4 · 185 v6</span>
       <span class="flex gap-1 shrink-0">
         <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv4">v4</button>
         <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv6">v6</button>
@@ -218,9 +218,9 @@
       </div>
       
       <div class="row flex items-center gap-2 px-4 py-2 border-b"
-           data-name="route53-healthchecks-publishing Route 53 health check publishing" data-cat="monitoring" data-path="/v1/aws/route53-healthchecks-publishing">
+           data-name="route53-healthchecks-publishing Route 53 health check publishing (internal)" data-cat="" data-path="/v1/aws/route53-healthchecks-publishing">
         <span class="mono text-sm">route53-healthchecks-publishing</span>
-        <span class="uk-badge uk-badge-secondary">monitoring</span>
+        
         <span class="uk-text-meta mono ml-auto nowrap">39 v4</span>
         <span class="flex gap-1 shrink-0">
           <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv4">v4</button>
@@ -637,6 +637,137 @@
         <span class="mono text-sm">cdn</span>
         <span class="uk-badge uk-badge-secondary">cdn</span>
         <span class="uk-text-meta mono ml-auto nowrap">15 v4 · 7 v6</span>
+        <span class="flex gap-1 shrink-0">
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv4">v4</button>
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv6">v6</button>
+        </span>
+      </div>
+      
+    </div>
+    
+    <div class="uk-card group" data-name="datadog Datadog">
+      <div class="uk-card-header flex items-baseline justify-between gap-2">
+        <h3 class="uk-card-title">Datadog</h3>
+        
+        <a class="uk-text-meta plain nowrap" href="https://docs.datadoghq.com/api/latest/ip-ranges/" rel="noopener">docs ↗</a>
+        
+      </div>
+      
+      <div class="row flex items-center gap-2 px-4 py-2 border-b"
+           data-name="synthetics Synthetics probes" data-cat="monitoring" data-path="/v1/datadog/synthetics">
+        <span class="mono text-sm">synthetics</span>
+        <span class="uk-badge uk-badge-secondary">monitoring</span>
+        <span class="uk-text-meta mono ml-auto nowrap">113 v4</span>
+        <span class="flex gap-1 shrink-0">
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv4">v4</button>
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv6">v6</button>
+        </span>
+      </div>
+      
+      <div class="row flex items-center gap-2 px-4 py-2 border-b"
+           data-name="webhooks Webhook senders" data-cat="" data-path="/v1/datadog/webhooks">
+        <span class="mono text-sm">webhooks</span>
+        
+        <span class="uk-text-meta mono ml-auto nowrap">35 v4</span>
+        <span class="flex gap-1 shrink-0">
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv4">v4</button>
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv6">v6</button>
+        </span>
+      </div>
+      
+      <div class="row flex items-center gap-2 px-4 py-2 border-b"
+           data-name="agents Agents" data-cat="" data-path="/v1/datadog/agents">
+        <span class="mono text-sm">agents</span>
+        
+        <span class="uk-text-meta mono ml-auto nowrap">1 v4 · 1 v6</span>
+        <span class="flex gap-1 shrink-0">
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv4">v4</button>
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv6">v6</button>
+        </span>
+      </div>
+      
+      <div class="row flex items-center gap-2 px-4 py-2 border-b"
+           data-name="api API" data-cat="" data-path="/v1/datadog/api">
+        <span class="mono text-sm">api</span>
+        
+        <span class="uk-text-meta mono ml-auto nowrap">1 v4 · 1 v6</span>
+        <span class="flex gap-1 shrink-0">
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv4">v4</button>
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv6">v6</button>
+        </span>
+      </div>
+      
+      <div class="row flex items-center gap-2 px-4 py-2 border-b"
+           data-name="apm APM" data-cat="" data-path="/v1/datadog/apm">
+        <span class="mono text-sm">apm</span>
+        
+        <span class="uk-text-meta mono ml-auto nowrap">1 v4 · 1 v6</span>
+        <span class="flex gap-1 shrink-0">
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv4">v4</button>
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv6">v6</button>
+        </span>
+      </div>
+      
+      <div class="row flex items-center gap-2 px-4 py-2 border-b"
+           data-name="logs Logs" data-cat="" data-path="/v1/datadog/logs">
+        <span class="mono text-sm">logs</span>
+        
+        <span class="uk-text-meta mono ml-auto nowrap">1 v4 · 1 v6</span>
+        <span class="flex gap-1 shrink-0">
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv4">v4</button>
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv6">v6</button>
+        </span>
+      </div>
+      
+      <div class="row flex items-center gap-2 px-4 py-2 border-b"
+           data-name="process Process" data-cat="" data-path="/v1/datadog/process">
+        <span class="mono text-sm">process</span>
+        
+        <span class="uk-text-meta mono ml-auto nowrap">1 v4 · 1 v6</span>
+        <span class="flex gap-1 shrink-0">
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv4">v4</button>
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv6">v6</button>
+        </span>
+      </div>
+      
+      <div class="row flex items-center gap-2 px-4 py-2 border-b"
+           data-name="orchestrator Orchestrator" data-cat="" data-path="/v1/datadog/orchestrator">
+        <span class="mono text-sm">orchestrator</span>
+        
+        <span class="uk-text-meta mono ml-auto nowrap">1 v4 · 1 v6</span>
+        <span class="flex gap-1 shrink-0">
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv4">v4</button>
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv6">v6</button>
+        </span>
+      </div>
+      
+      <div class="row flex items-center gap-2 px-4 py-2 border-b"
+           data-name="remote-configuration Remote configuration" data-cat="" data-path="/v1/datadog/remote-configuration">
+        <span class="mono text-sm">remote-configuration</span>
+        
+        <span class="uk-text-meta mono ml-auto nowrap">1 v4 · 1 v6</span>
+        <span class="flex gap-1 shrink-0">
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv4">v4</button>
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv6">v6</button>
+        </span>
+      </div>
+      
+      <div class="row flex items-center gap-2 px-4 py-2 border-b"
+           data-name="synthetics-private-locations Synthetics private locations" data-cat="" data-path="/v1/datadog/synthetics-private-locations">
+        <span class="mono text-sm">synthetics-private-locations</span>
+        
+        <span class="uk-text-meta mono ml-auto nowrap">1 v4 · 1 v6</span>
+        <span class="flex gap-1 shrink-0">
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv4">v4</button>
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv6">v6</button>
+        </span>
+      </div>
+      
+      <div class="row flex items-center gap-2 px-4 py-2 border-b"
+           data-name="global Global" data-cat="" data-path="/v1/datadog/global">
+        <span class="mono text-sm">global</span>
+        
+        <span class="uk-text-meta mono ml-auto nowrap">1 v4 · 1 v6</span>
         <span class="flex gap-1 shrink-0">
           <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv4">v4</button>
           <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv6">v6</button>

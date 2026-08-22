@@ -8,6 +8,7 @@ import (
 	"github.com/ipsets-io/ipsets/provider/azure"
 	"github.com/ipsets-io/ipsets/provider/bing"
 	"github.com/ipsets-io/ipsets/provider/cloudflare"
+	"github.com/ipsets-io/ipsets/provider/datadog"
 	"github.com/ipsets-io/ipsets/provider/duckduckgo"
 	"github.com/ipsets-io/ipsets/provider/fastly"
 	"github.com/ipsets-io/ipsets/provider/github"
@@ -26,6 +27,7 @@ func Providers() []provider.Provider {
 		azure.New(),
 		bing.New(),
 		cloudflare.New(),
+		datadog.New(),
 		duckduckgo.New(),
 		fastly.New(),
 		github.New(),

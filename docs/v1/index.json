@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-22T15:01:53Z",
+  "generated_at": "2026-08-22T15:23:17Z",
   "providers": [
     {
       "id": "anthropic",
@@ -115,17 +115,16 @@
         },
         {
           "id": "route53-healthchecks-publishing",
-          "name": "Route 53 health check publishing",
-          "category": "monitoring",
+          "name": "Route 53 health check publishing (internal)",
           "ipv4": {
             "path": "/v1/aws/route53-healthchecks-publishing/ipv4.json",
             "count": 39,
-            "sha256": "0ce868b561603c3a51afe5914e0fe7d703b6a3b0866f51e04aa54df02f9544ee"
+            "sha256": "34b7a4edd3967a2ff710ddfa3d58725bea173044dd8e41ab02b2dcf7ba43fe99"
           },
           "ipv6": {
             "path": "/v1/aws/route53-healthchecks-publishing/ipv6.json",
             "count": 0,
-            "sha256": "4c90475b0c5dc2d5b58b31d88a91d0b114d5288ad44ad46e232a7fec386eb454"
+            "sha256": "6f7d11474d5505452a1bb26ce6e6ae83b86fbdbdbdb6b86ce5263150e5240374"
           }
         },
         {
@@ -648,6 +647,169 @@
             "path": "/v1/cloudflare/cdn/ipv6.json",
             "count": 7,
             "sha256": "540a31eb43666b224a75c5a926ed11d46b8e710a15f68c4978a6a08b92898f1a"
+          }
+        }
+      ]
+    },
+    {
+      "id": "datadog",
+      "name": "Datadog",
+      "homepage": "https://docs.datadoghq.com/api/latest/ip-ranges/",
+      "source": "https://ip-ranges.datadoghq.com/",
+      "sets": [
+        {
+          "id": "synthetics",
+          "name": "Synthetics probes",
+          "category": "monitoring",
+          "ipv4": {
+            "path": "/v1/datadog/synthetics/ipv4.json",
+            "count": 113,
+            "sha256": "81ba01b5bbfa49c2cb8b22ef592972e50b64f9546ceff82f48a6e09b6b58437e"
+          },
+          "ipv6": {
+            "path": "/v1/datadog/synthetics/ipv6.json",
+            "count": 0,
+            "sha256": "0f33d1e9a9b82b16e2fd9b31b9328ec2fd84524bf58e42f7152503afbdcfbd5e"
+          }
+        },
+        {
+          "id": "webhooks",
+          "name": "Webhook senders",
+          "ipv4": {
+            "path": "/v1/datadog/webhooks/ipv4.json",
+            "count": 35,
+            "sha256": "c1ffd668f3a185f4ea6390d1461c9d7485e10f3114b7189854f8eeaf7e174eb3"
+          },
+          "ipv6": {
+            "path": "/v1/datadog/webhooks/ipv6.json",
+            "count": 0,
+            "sha256": "a2f775363a5e56feefbeeabef15a384f57b62fd14affeb2c1d3fd78b2aa087c5"
+          }
+        },
+        {
+          "id": "agents",
+          "name": "Agents",
+          "ipv4": {
+            "path": "/v1/datadog/agents/ipv4.json",
+            "count": 1,
+            "sha256": "acb8bc591bba1518c921c03abd5c966800b6394f370839d82d62b72004371f2d"
+          },
+          "ipv6": {
+            "path": "/v1/datadog/agents/ipv6.json",
+            "count": 1,
+            "sha256": "27c307e5008059f0950ac0f3690000beea2b9f96f4f090a4e689ee8b382d4b68"
+          }
+        },
+        {
+          "id": "api",
+          "name": "API",
+          "ipv4": {
+            "path": "/v1/datadog/api/ipv4.json",
+            "count": 1,
+            "sha256": "1af34da5a532f218300b6fbcb5504c8bf9a450ac2191bb1073c8aac464a135ab"
+          },
+          "ipv6": {
+            "path": "/v1/datadog/api/ipv6.json",
+            "count": 1,
+            "sha256": "4ecfb4716764e74c0741d32fd9756bc924d96d9ac9a9e7e93d5379b24004b02d"
+          }
+        },
+        {
+          "id": "apm",
+          "name": "APM",
+          "ipv4": {
+            "path": "/v1/datadog/apm/ipv4.json",
+            "count": 1,
+            "sha256": "5e5cbf88228781f3540418ee32102eb925035ecdc7a1f58e2b8612958312274f"
+          },
+          "ipv6": {
+            "path": "/v1/datadog/apm/ipv6.json",
+            "count": 1,
+            "sha256": "1aff5b5f7ddd19ab0d3058a2b1c8279195ca44795a12dde1d2dc334f1b1c3903"
+          }
+        },
+        {
+          "id": "logs",
+          "name": "Logs",
+          "ipv4": {
+            "path": "/v1/datadog/logs/ipv4.json",
+            "count": 1,
+            "sha256": "e00540e70a25cfd5c9c51d0da4bbf674d3637cd00b6e71f8f0b751eedd3c0cf9"
+          },
+          "ipv6": {
+            "path": "/v1/datadog/logs/ipv6.json",
+            "count": 1,
+            "sha256": "e8b8a499064155382cc15c9e022aa80277da46efe6160ac9fdb329e37900d9d9"
+          }
+        },
+        {
+          "id": "process",
+          "name": "Process",
+          "ipv4": {
+            "path": "/v1/datadog/process/ipv4.json",
+            "count": 1,
+            "sha256": "7ab069815901ba42a0ad71c02c0e93ca6da044b1d389547c35c7653981ac09f2"
+          },
+          "ipv6": {
+            "path": "/v1/datadog/process/ipv6.json",
+            "count": 1,
+            "sha256": "e9d1fcb7bb2c8cc8b8c6c891d4520ef8750535a304516fb884e0de0d27822980"
+          }
+        },
+        {
+          "id": "orchestrator",
+          "name": "Orchestrator",
+          "ipv4": {
+            "path": "/v1/datadog/orchestrator/ipv4.json",
+            "count": 1,
+            "sha256": "428fe942d7713c89b8179502b3e119a33bcbb9b5794244f75c315052bf3b2e29"
+          },
+          "ipv6": {
+            "path": "/v1/datadog/orchestrator/ipv6.json",
+            "count": 1,
+            "sha256": "f2dbbc20a52ea7841413accbf0577b64b37387e7c4131ceb3f64607e75b80325"
+          }
+        },
+        {
+          "id": "remote-configuration",
+          "name": "Remote configuration",
+          "ipv4": {
+            "path": "/v1/datadog/remote-configuration/ipv4.json",
+            "count": 1,
+            "sha256": "376385bb03350f35d0a18d13293fc32ddccdabc32fa6cd50e58f7d044a34e07a"
+          },
+          "ipv6": {
+            "path": "/v1/datadog/remote-configuration/ipv6.json",
+            "count": 1,
+            "sha256": "8ce176b45a50cdf45550795084dfe717800cc53b4ead23f2b1a3338f0d2d5ac6"
+          }
+        },
+        {
+          "id": "synthetics-private-locations",
+          "name": "Synthetics private locations",
+          "ipv4": {
+            "path": "/v1/datadog/synthetics-private-locations/ipv4.json",
+            "count": 1,
+            "sha256": "6eee611f6dd5951600bd785d282bd62ab1535456cec6b05dbcf0d8ec348efe88"
+          },
+          "ipv6": {
+            "path": "/v1/datadog/synthetics-private-locations/ipv6.json",
+            "count": 1,
+            "sha256": "9e9fa67475b8486cec9199172f5f9b14a8af9bf02778493c5c13694608d7ec41"
+          }
+        },
+        {
+          "id": "global",
+          "name": "Global",
+          "ipv4": {
+            "path": "/v1/datadog/global/ipv4.json",
+            "count": 1,
+            "sha256": "045beed35c5f848b5ce07751cb39f5d8e4ca6ac3dfb18e690e37aea1604fa404"
+          },
+          "ipv6": {
+            "path": "/v1/datadog/global/ipv6.json",
+            "count": 1,
+            "sha256": "e506b9e8706a53b9d6bfc0d37e66a62316ba530ac51c98b98df27b90e41878fd"
           }
         }
       ]
@@ -1199,8 +1361,8 @@
           "category": "monitoring",
           "ipv4": {
             "path": "/v1/categories/monitoring/ipv4.json",
-            "count": 311,
-            "sha256": "9d6388eae136782eea54bcc1e894541eef08751662670bdc277d46e438eed568"
+            "count": 385,
+            "sha256": "89c4a1a370235b9fe81a1b264f47368b2b11333fcfd7a92475bc49ad0f1bed7a"
           },
           "ipv6": {
             "path": "/v1/categories/monitoring/ipv6.json",

@@ -33,7 +33,7 @@ func (p *Provider) Meta() provider.Meta {
 			service("cloudfront-origin-facing", "CloudFront (origin-facing)", "cdn", "CLOUDFRONT_ORIGIN_FACING"),
 			service("global-accelerator", "Global Accelerator", "cdn", "GLOBALACCELERATOR"),
 			service("route53-healthchecks", "Route 53 health checks", "monitoring", "ROUTE53_HEALTHCHECKS"),
-			service("route53-healthchecks-publishing", "Route 53 health check publishing", "monitoring", "ROUTE53_HEALTHCHECKS_PUBLISHING"),
+			service("route53-healthchecks-publishing", "Route 53 health check publishing (internal)", "", "ROUTE53_HEALTHCHECKS_PUBLISHING"),
 			service("codebuild", "CodeBuild", "ci", "CODEBUILD"),
 			service("ec2", "EC2", "", "EC2"),
 			service("s3", "S3", "", "S3"),

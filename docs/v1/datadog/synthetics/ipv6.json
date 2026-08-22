@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "provider": "datadog",
+  "provider_name": "Datadog",
+  "set": "synthetics",
+  "set_name": "Synthetics probes",
+  "category": "monitoring",
+  "family": "ipv6",
+  "source": {
+    "url": "https://ip-ranges.datadoghq.com/",
+    "homepage": "https://docs.datadoghq.com/api/latest/ip-ranges/"
+  },
+  "count": 0,
+  "prefixes": []
+}

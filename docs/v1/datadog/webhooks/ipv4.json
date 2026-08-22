@@ -1,0 +1,225 @@
+{
+  "schema_version": 1,
+  "provider": "datadog",
+  "provider_name": "Datadog",
+  "set": "webhooks",
+  "set_name": "Webhook senders",
+  "family": "ipv4",
+  "source": {
+    "url": "https://ip-ranges.datadoghq.com/",
+    "homepage": "https://docs.datadoghq.com/api/latest/ip-ranges/"
+  },
+  "count": 35,
+  "prefixes": [
+    {
+      "prefix": "3.90.129.171/32",
+      "tags": {
+        "service": "webhooks"
+      }
+    },
+    {
+      "prefix": "3.208.6.150/32",
+      "tags": {
+        "service": "webhooks"
+      }
+    },
+    {
+      "prefix": "3.210.147.169/32",
+      "tags": {
+        "service": "webhooks"
+      }
+    },
+    {
+      "prefix": "3.220.254.141/32",
+      "tags": {
+        "service": "webhooks"
+      }
+    },
+    {
+      "prefix": "3.227.186.226/32",
+      "tags": {
+        "service": "webhooks"
+      }
+    },
+    {
+      "prefix": "3.229.242.89/32",
+      "tags": {
+        "service": "webhooks"
+      }
+    },
+    {
+      "prefix": "18.215.84.107/32",
+      "tags": {
+        "service": "webhooks"
+      }
+    },
+    {
+      "prefix": "23.20.66.169/32",
+      "tags": {
+        "service": "webhooks"
+      }
+    },
+    {
+      "prefix": "23.20.198.65/32",
+      "tags": {
+        "service": "webhooks"
+      }
+    },
+    {
+      "prefix": "23.23.216.60/32",
+      "tags": {
+        "service": "webhooks"
+      }
+    },
+    {
+      "prefix": "34.196.179.210/32",
+      "tags": {
+        "service": "webhooks"
+      }
+    },
+    {
+      "prefix": "34.202.253.27/32",
+      "tags": {
+        "service": "webhooks"
+      }
+    },
+    {
+      "prefix": "34.203.1.9/32",
+      "tags": {
+        "service": "webhooks"
+      }
+    },
+    {
+      "prefix": "34.204.83.4/32",
+      "tags": {
+        "service": "webhooks"
+      }
+    },
+    {
+      "prefix": "34.206.254.214/32",
+      "tags": {
+        "service": "webhooks"
+      }
+    },
+    {
+      "prefix": "34.233.140.66/32",
+      "tags": {
+        "service": "webhooks"
+      }
+    },
+    {
+      "prefix": "34.234.13.225/32",
+      "tags": {
+        "service": "webhooks"
+      }
+    },
+    {
+      "prefix": "34.237.4.239/32",
+      "tags": {
+        "service": "webhooks"
+      }
+    },
+    {
+      "prefix": "35.172.85.248/32",
+      "tags": {
+        "service": "webhooks"
+      }
+    },
+    {
+      "prefix": "35.172.176.208/32",
+      "tags": {
+        "service": "webhooks"
+      }
+    },
+    {
+      "prefix": "44.192.28.0/25",
+      "tags": {
+        "service": "webhooks"
+      }
+    },
+    {
+      "prefix": "44.208.124.66/32",
+      "tags": {
+        "service": "webhooks"
+      }
+    },
+    {
+      "prefix": "52.1.33.14/32",
+      "tags": {
+        "service": "webhooks"
+      }
+    },
+    {
+      "prefix": "52.1.61.69/32",
+      "tags": {
+        "service": "webhooks"
+      }
+    },
+    {
+      "prefix": "52.44.179.207/32",
+      "tags": {
+        "service": "webhooks"
+      }
+    },
+    {
+      "prefix": "54.87.25.183/32",
+      "tags": {
+        "service": "webhooks"
+      }
+    },
+    {
+      "prefix": "54.92.248.81/32",
+      "tags": {
+        "service": "webhooks"
+      }
+    },
+    {
+      "prefix": "54.152.215.16/32",
+      "tags": {
+        "service": "webhooks"
+      }
+    },
+    {
+      "prefix": "54.157.36.5/32",
+      "tags": {
+        "service": "webhooks"
+      }
+    },
+    {
+      "prefix": "54.158.196.235/32",
+      "tags": {
+        "service": "webhooks"
+      }
+    },
+    {
+      "prefix": "54.204.118.171/32",
+      "tags": {
+        "service": "webhooks"
+      }
+    },
+    {
+      "prefix": "54.226.163.166/32",
+      "tags": {
+        "service": "webhooks"
+      }
+    },
+    {
+      "prefix": "54.243.237.18/32",
+      "tags": {
+        "service": "webhooks"
+      }
+    },
+    {
+      "prefix": "100.28.212.0/22",
+      "tags": {
+        "service": "webhooks"
+      }
+    },
+    {
+      "prefix": "174.129.34.172/32",
+      "tags": {
+        "service": "webhooks"
+      }
+    }
+  ]
+}

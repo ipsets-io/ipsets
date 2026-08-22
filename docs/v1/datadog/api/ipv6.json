@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "provider": "datadog",
+  "provider_name": "Datadog",
+  "set": "api",
+  "set_name": "API",
+  "family": "ipv6",
+  "source": {
+    "url": "https://ip-ranges.datadoghq.com/",
+    "homepage": "https://docs.datadoghq.com/api/latest/ip-ranges/"
+  },
+  "count": 1,
+  "prefixes": [
+    {
+      "prefix": "2600:1f18:24e6:b900::/56",
+      "tags": {
+        "service": "api"
+      }
+    }
+  ]
+}

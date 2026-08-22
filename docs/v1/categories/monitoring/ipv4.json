@@ -9,8 +9,134 @@
   "source": {
     "url": ""
   },
-  "count": 311,
+  "count": 385,
   "prefixes": [
+    {
+      "prefix": "3.1.36.99/32",
+      "tags": {
+        "provider": "datadog",
+        "service": "synthetics"
+      }
+    },
+    {
+      "prefix": "3.1.219.207/32",
+      "tags": {
+        "provider": "datadog",
+        "service": "synthetics"
+      }
+    },
+    {
+      "prefix": "3.18.172.189/32",
+      "tags": {
+        "provider": "datadog",
+        "service": "synthetics"
+      }
+    },
+    {
+      "prefix": "3.18.188.104/32",
+      "tags": {
+        "provider": "datadog",
+        "service": "synthetics"
+      }
+    },
+    {
+      "prefix": "3.18.197.0/32",
+      "tags": {
+        "provider": "datadog",
+        "service": "synthetics"
+      }
+    },
+    {
+      "prefix": "3.35.66.96/32",
+      "tags": {
+        "provider": "datadog",
+        "service": "synthetics"
+      }
+    },
+    {
+      "prefix": "3.36.177.119/32",
+      "tags": {
+        "provider": "datadog",
+        "service": "synthetics"
+      }
+    },
+    {
+      "prefix": "3.40.2.64/29",
+      "tags": {
+        "provider": "datadog",
+        "service": "synthetics"
+      }
+    },
+    {
+      "prefix": "3.40.134.72/29",
+      "tags": {
+        "provider": "datadog",
+        "service": "synthetics"
+      }
+    },
+    {
+      "prefix": "3.41.0.88/29",
+      "tags": {
+        "provider": "datadog",
+        "service": "synthetics"
+      }
+    },
+    {
+      "prefix": "3.41.176.48/29",
+      "tags": {
+        "provider": "datadog",
+        "service": "synthetics"
+      }
+    },
+    {
+      "prefix": "3.42.136.80/29",
+      "tags": {
+        "provider": "datadog",
+        "service": "synthetics"
+      }
+    },
+    {
+      "prefix": "3.44.192.120/29",
+      "tags": {
+        "provider": "datadog",
+        "service": "synthetics"
+      }
+    },
+    {
+      "prefix": "3.45.0.40/29",
+      "tags": {
+        "provider": "datadog",
+        "service": "synthetics"
+      }
+    },
+    {
+      "prefix": "3.92.150.182/32",
+      "tags": {
+        "provider": "datadog",
+        "service": "synthetics"
+      }
+    },
+    {
+      "prefix": "3.96.7.126/32",
+      "tags": {
+        "provider": "datadog",
+        "service": "synthetics"
+      }
+    },
+    {
+      "prefix": "3.120.223.25/32",
+      "tags": {
+        "provider": "datadog",
+        "service": "synthetics"
+      }
+    },
+    {
+      "prefix": "3.121.24.234/32",
+      "tags": {
+        "provider": "datadog",
+        "service": "synthetics"
+      }
+    },
     {
       "prefix": "4.150.57.203/32",
       "tags": {
@@ -107,6 +233,41 @@
       "tags": {
         "provider": "azure",
         "service": "AzureTrafficManager"
+      }
+    },
+    {
+      "prefix": "5.60.130.112/29",
+      "tags": {
+        "provider": "datadog",
+        "service": "synthetics"
+      }
+    },
+    {
+      "prefix": "13.48.150.244/32",
+      "tags": {
+        "provider": "datadog",
+        "service": "synthetics"
+      }
+    },
+    {
+      "prefix": "13.48.239.118/32",
+      "tags": {
+        "provider": "datadog",
+        "service": "synthetics"
+      }
+    },
+    {
+      "prefix": "13.48.254.37/32",
+      "tags": {
+        "provider": "datadog",
+        "service": "synthetics"
+      }
+    },
+    {
+      "prefix": "13.54.169.48/32",
+      "tags": {
+        "provider": "datadog",
+        "service": "synthetics"
       }
     },
     {
@@ -222,6 +383,160 @@
       }
     },
     {
+      "prefix": "13.114.211.96/32",
+      "tags": {
+        "provider": "datadog",
+        "service": "synthetics"
+      }
+    },
+    {
+      "prefix": "13.115.46.213/32",
+      "tags": {
+        "provider": "datadog",
+        "service": "synthetics"
+      }
+    },
+    {
+      "prefix": "13.126.169.175/32",
+      "tags": {
+        "provider": "datadog",
+        "service": "synthetics"
+      }
+    },
+    {
+      "prefix": "13.208.126.217/32",
+      "tags": {
+        "provider": "datadog",
+        "service": "synthetics"
+      }
+    },
+    {
+      "prefix": "13.208.133.55/32",
+      "tags": {
+        "provider": "datadog",
+        "service": "synthetics"
+      }
+    },
+    {
+      "prefix": "13.208.142.17/32",
+      "tags": {
+        "provider": "datadog",
+        "service": "synthetics"
+      }
+    },
+    {
+      "prefix": "13.208.255.200/32",
+      "tags": {
+        "provider": "datadog",
+        "service": "synthetics"
+      }
+    },
+    {
+      "prefix": "13.209.118.42/32",
+      "tags": {
+        "provider": "datadog",
+        "service": "synthetics"
+      }
+    },
+    {
+      "prefix": "13.209.230.111/32",
+      "tags": {
+        "provider": "datadog",
+        "service": "synthetics"
+      }
+    },
+    {
+      "prefix": "13.234.54.8/32",
+      "tags": {
+        "provider": "datadog",
+        "service": "synthetics"
+      }
+    },
+    {
+      "prefix": "13.236.246.161/32",
+      "tags": {
+        "provider": "datadog",
+        "service": "synthetics"
+      }
+    },
+    {
+      "prefix": "13.238.14.57/32",
+      "tags": {
+        "provider": "datadog",
+        "service": "synthetics"
+      }
+    },
+    {
+      "prefix": "13.244.85.86/32",
+      "tags": {
+        "provider": "datadog",
+        "service": "synthetics"
+      }
+    },
+    {
+      "prefix": "13.244.188.203/32",
+      "tags": {
+        "provider": "datadog",
+        "service": "synthetics"
+      }
+    },
+    {
+      "prefix": "13.245.194.43/32",
+      "tags": {
+        "provider": "datadog",
+        "service": "synthetics"
+      }
+    },
+    {
+      "prefix": "13.245.200.254/32",
+      "tags": {
+        "provider": "datadog",
+        "service": "synthetics"
+      }
+    },
+    {
+      "prefix": "13.246.172.210/32",
+      "tags": {
+        "provider": "datadog",
+        "service": "synthetics"
+      }
+    },
+    {
+      "prefix": "13.247.164.9/32",
+      "tags": {
+        "provider": "datadog",
+        "service": "synthetics"
+      }
+    },
+    {
+      "prefix": "15.152.238.192/32",
+      "tags": {
+        "provider": "datadog",
+        "service": "synthetics"
+      }
+    },
+    {
+      "prefix": "15.161.86.71/32",
+      "tags": {
+        "provider": "datadog",
+        "service": "synthetics"
+      }
+    },
+    {
+      "prefix": "15.165.240.116/32",
+      "tags": {
+        "provider": "datadog",
+        "service": "synthetics"
+      }
+    },
+    {
+      "prefix": "15.168.188.85/32",
+      "tags": {
+        "provider": "datadog",
+        "service": "synthetics"
+      }
+    },
+    {
       "prefix": "15.177.0.0/18",
       "tags": {
         "network_border_group": "GLOBAL",
@@ -231,363 +546,243 @@
       }
     },
     {
-      "prefix": "15.177.64.0/23",
-      "tags": {
-        "network_border_group": "us-east-1",
-        "provider": "aws",
-        "region": "us-east-1",
-        "service": "ROUTE53_HEALTHCHECKS_PUBLISHING"
-      }
-    },
-    {
-      "prefix": "15.177.66.0/23",
-      "tags": {
-        "network_border_group": "us-east-2",
-        "provider": "aws",
-        "region": "us-east-2",
-        "service": "ROUTE53_HEALTHCHECKS_PUBLISHING"
-      }
-    },
-    {
-      "prefix": "15.177.68.0/23",
-      "tags": {
-        "network_border_group": "eu-central-1",
-        "provider": "aws",
-        "region": "eu-central-1",
-        "service": "ROUTE53_HEALTHCHECKS_PUBLISHING"
-      }
-    },
-    {
-      "prefix": "15.177.70.0/23",
-      "tags": {
-        "network_border_group": "sa-east-1",
-        "provider": "aws",
-        "region": "sa-east-1",
-        "service": "ROUTE53_HEALTHCHECKS_PUBLISHING"
-      }
-    },
-    {
-      "prefix": "15.177.72.0/24",
-      "tags": {
-        "network_border_group": "eu-north-1",
-        "provider": "aws",
-        "region": "eu-north-1",
-        "service": "ROUTE53_HEALTHCHECKS_PUBLISHING"
-      }
-    },
-    {
-      "prefix": "15.177.73.0/24",
-      "tags": {
-        "network_border_group": "ap-south-1",
-        "provider": "aws",
-        "region": "ap-south-1",
-        "service": "ROUTE53_HEALTHCHECKS_PUBLISHING"
-      }
-    },
-    {
-      "prefix": "15.177.74.0/24",
-      "tags": {
-        "network_border_group": "eu-west-3",
-        "provider": "aws",
-        "region": "eu-west-3",
-        "service": "ROUTE53_HEALTHCHECKS_PUBLISHING"
-      }
-    },
-    {
-      "prefix": "15.177.75.0/24",
-      "tags": {
-        "network_border_group": "eu-west-1",
-        "provider": "aws",
-        "region": "eu-west-1",
-        "service": "ROUTE53_HEALTHCHECKS_PUBLISHING"
-      }
-    },
-    {
-      "prefix": "15.177.76.0/24",
-      "tags": {
-        "network_border_group": "ap-northeast-2",
-        "provider": "aws",
-        "region": "ap-northeast-2",
-        "service": "ROUTE53_HEALTHCHECKS_PUBLISHING"
-      }
-    },
-    {
-      "prefix": "15.177.77.0/24",
-      "tags": {
-        "network_border_group": "ap-northeast-3",
-        "provider": "aws",
-        "region": "ap-northeast-3",
-        "service": "ROUTE53_HEALTHCHECKS_PUBLISHING"
-      }
-    },
-    {
-      "prefix": "15.177.78.0/24",
-      "tags": {
-        "network_border_group": "eu-west-2",
-        "provider": "aws",
-        "region": "eu-west-2",
-        "service": "ROUTE53_HEALTHCHECKS_PUBLISHING"
-      }
-    },
-    {
-      "prefix": "15.177.79.0/24",
-      "tags": {
-        "network_border_group": "ap-northeast-1",
-        "provider": "aws",
-        "region": "ap-northeast-1",
-        "service": "ROUTE53_HEALTHCHECKS_PUBLISHING"
-      }
-    },
-    {
-      "prefix": "15.177.80.0/24",
-      "tags": {
-        "network_border_group": "us-west-2",
-        "provider": "aws",
-        "region": "us-west-2",
-        "service": "ROUTE53_HEALTHCHECKS_PUBLISHING"
-      }
-    },
-    {
-      "prefix": "15.177.81.0/24",
-      "tags": {
-        "network_border_group": "us-west-1",
-        "provider": "aws",
-        "region": "us-west-1",
-        "service": "ROUTE53_HEALTHCHECKS_PUBLISHING"
-      }
-    },
-    {
-      "prefix": "15.177.82.0/24",
-      "tags": {
-        "network_border_group": "ap-southeast-1",
-        "provider": "aws",
-        "region": "ap-southeast-1",
-        "service": "ROUTE53_HEALTHCHECKS_PUBLISHING"
-      }
-    },
-    {
-      "prefix": "15.177.83.0/24",
-      "tags": {
-        "network_border_group": "ap-southeast-2",
-        "provider": "aws",
-        "region": "ap-southeast-2",
-        "service": "ROUTE53_HEALTHCHECKS_PUBLISHING"
-      }
-    },
-    {
-      "prefix": "15.177.84.0/24",
-      "tags": {
-        "network_border_group": "ca-central-1",
-        "provider": "aws",
-        "region": "ca-central-1",
-        "service": "ROUTE53_HEALTHCHECKS_PUBLISHING"
-      }
-    },
-    {
-      "prefix": "15.177.85.0/24",
-      "tags": {
-        "network_border_group": "ap-east-1",
-        "provider": "aws",
-        "region": "ap-east-1",
-        "service": "ROUTE53_HEALTHCHECKS_PUBLISHING"
-      }
-    },
-    {
-      "prefix": "15.177.86.0/24",
-      "tags": {
-        "network_border_group": "ap-east-1",
-        "provider": "aws",
-        "region": "ap-east-1",
-        "service": "ROUTE53_HEALTHCHECKS_PUBLISHING"
-      }
-    },
-    {
-      "prefix": "15.177.87.0/24",
-      "tags": {
-        "network_border_group": "me-south-1",
-        "provider": "aws",
-        "region": "me-south-1",
-        "service": "ROUTE53_HEALTHCHECKS_PUBLISHING"
-      }
-    },
-    {
-      "prefix": "15.177.88.0/24",
-      "tags": {
-        "network_border_group": "sa-east-1",
-        "provider": "aws",
-        "region": "sa-east-1",
-        "service": "ROUTE53_HEALTHCHECKS_PUBLISHING"
-      }
-    },
-    {
-      "prefix": "15.177.89.0/24",
-      "tags": {
-        "network_border_group": "eu-west-1",
-        "provider": "aws",
-        "region": "eu-west-1",
-        "service": "ROUTE53_HEALTHCHECKS_PUBLISHING"
-      }
-    },
-    {
-      "prefix": "15.177.90.0/24",
-      "tags": {
-        "network_border_group": "eu-south-1",
-        "provider": "aws",
-        "region": "eu-south-1",
-        "service": "ROUTE53_HEALTHCHECKS_PUBLISHING"
-      }
-    },
-    {
-      "prefix": "15.177.91.0/24",
-      "tags": {
-        "network_border_group": "af-south-1",
-        "provider": "aws",
-        "region": "af-south-1",
-        "service": "ROUTE53_HEALTHCHECKS_PUBLISHING"
-      }
-    },
-    {
-      "prefix": "15.177.92.0/24",
-      "tags": {
-        "network_border_group": "ap-southeast-3",
-        "provider": "aws",
-        "region": "ap-southeast-3",
-        "service": "ROUTE53_HEALTHCHECKS_PUBLISHING"
-      }
-    },
-    {
-      "prefix": "15.177.93.0/24",
-      "tags": {
-        "network_border_group": "me-central-1",
-        "provider": "aws",
-        "region": "me-central-1",
-        "service": "ROUTE53_HEALTHCHECKS_PUBLISHING"
-      }
-    },
-    {
-      "prefix": "15.177.94.0/24",
-      "tags": {
-        "network_border_group": "ap-south-2",
-        "provider": "aws",
-        "region": "ap-south-2",
-        "service": "ROUTE53_HEALTHCHECKS_PUBLISHING"
-      }
-    },
-    {
-      "prefix": "15.177.95.0/24",
-      "tags": {
-        "network_border_group": "ap-southeast-5",
-        "provider": "aws",
-        "region": "ap-southeast-5",
-        "service": "ROUTE53_HEALTHCHECKS_PUBLISHING"
-      }
-    },
-    {
-      "prefix": "15.177.96.0/24",
-      "tags": {
-        "network_border_group": "ap-southeast-4",
-        "provider": "aws",
-        "region": "ap-southeast-4",
-        "service": "ROUTE53_HEALTHCHECKS_PUBLISHING"
-      }
-    },
-    {
-      "prefix": "15.177.97.0/24",
-      "tags": {
-        "network_border_group": "eu-south-2",
-        "provider": "aws",
-        "region": "eu-south-2",
-        "service": "ROUTE53_HEALTHCHECKS_PUBLISHING"
-      }
-    },
-    {
-      "prefix": "15.177.98.0/24",
-      "tags": {
-        "network_border_group": "eu-central-2",
-        "provider": "aws",
-        "region": "eu-central-2",
-        "service": "ROUTE53_HEALTHCHECKS_PUBLISHING"
-      }
-    },
-    {
-      "prefix": "15.177.99.0/24",
-      "tags": {
-        "network_border_group": "il-central-1",
-        "provider": "aws",
-        "region": "il-central-1",
-        "service": "ROUTE53_HEALTHCHECKS_PUBLISHING"
-      }
-    },
-    {
-      "prefix": "15.177.100.0/24",
-      "tags": {
-        "network_border_group": "ca-west-1",
-        "provider": "aws",
-        "region": "ca-west-1",
-        "service": "ROUTE53_HEALTHCHECKS_PUBLISHING"
-      }
-    },
-    {
-      "prefix": "15.177.102.0/24",
-      "tags": {
-        "network_border_group": "mx-central-1",
-        "provider": "aws",
-        "region": "mx-central-1",
-        "service": "ROUTE53_HEALTHCHECKS_PUBLISHING"
-      }
-    },
-    {
-      "prefix": "15.177.103.0/24",
-      "tags": {
-        "network_border_group": "ap-southeast-7",
-        "provider": "aws",
-        "region": "ap-southeast-7",
-        "service": "ROUTE53_HEALTHCHECKS_PUBLISHING"
-      }
-    },
-    {
-      "prefix": "15.177.104.0/24",
-      "tags": {
-        "network_border_group": "ap-east-2",
-        "provider": "aws",
-        "region": "ap-east-2",
-        "service": "ROUTE53_HEALTHCHECKS_PUBLISHING"
-      }
-    },
-    {
-      "prefix": "15.177.105.0/24",
-      "tags": {
-        "network_border_group": "ap-southeast-6",
-        "provider": "aws",
-        "region": "ap-southeast-6",
-        "service": "ROUTE53_HEALTHCHECKS_PUBLISHING"
-      }
-    },
-    {
-      "prefix": "15.177.106.0/24",
-      "tags": {
-        "network_border_group": "me-west-1",
-        "provider": "aws",
-        "region": "me-west-1",
-        "service": "ROUTE53_HEALTHCHECKS_PUBLISHING"
-      }
-    },
-    {
-      "prefix": "15.177.107.0/24",
-      "tags": {
-        "network_border_group": "sa-west-1",
-        "provider": "aws",
-        "region": "sa-west-1",
-        "service": "ROUTE53_HEALTHCHECKS_PUBLISHING"
-      }
-    },
-    {
       "prefix": "15.177.108.0/24",
       "tags": {
         "network_border_group": "us-south-1",
         "provider": "aws",
         "region": "us-south-1",
         "service": "ROUTE53_HEALTHCHECKS"
+      }
+    },
+    {
+      "prefix": "15.184.139.182/32",
+      "tags": {
+        "provider": "datadog",
+        "service": "synthetics"
+      }
+    },
+    {
+      "prefix": "15.185.189.82/32",
+      "tags": {
+        "provider": "datadog",
+        "service": "synthetics"
+      }
+    },
+    {
+      "prefix": "15.188.202.64/32",
+      "tags": {
+        "provider": "datadog",
+        "service": "synthetics"
+      }
+    },
+    {
+      "prefix": "15.188.240.172/32",
+      "tags": {
+        "provider": "datadog",
+        "service": "synthetics"
+      }
+    },
+    {
+      "prefix": "15.188.243.248/32",
+      "tags": {
+        "provider": "datadog",
+        "service": "synthetics"
+      }
+    },
+    {
+      "prefix": "16.24.38.13/32",
+      "tags": {
+        "provider": "datadog",
+        "service": "synthetics"
+      }
+    },
+    {
+      "prefix": "16.24.60.114/32",
+      "tags": {
+        "provider": "datadog",
+        "service": "synthetics"
+      }
+    },
+    {
+      "prefix": "16.162.136.62/32",
+      "tags": {
+        "provider": "datadog",
+        "service": "synthetics"
+      }
+    },
+    {
+      "prefix": "16.163.153.45/32",
+      "tags": {
+        "provider": "datadog",
+        "service": "synthetics"
+      }
+    },
+    {
+      "prefix": "18.96.16.112/29",
+      "tags": {
+        "provider": "datadog",
+        "service": "synthetics"
+      }
+    },
+    {
+      "prefix": "18.96.130.96/29",
+      "tags": {
+        "provider": "datadog",
+        "service": "synthetics"
+      }
+    },
+    {
+      "prefix": "18.96.227.72/29",
+      "tags": {
+        "provider": "datadog",
+        "service": "synthetics"
+      }
+    },
+    {
+      "prefix": "18.97.147.8/29",
+      "tags": {
+        "provider": "datadog",
+        "service": "synthetics"
+      }
+    },
+    {
+      "prefix": "18.98.67.176/29",
+      "tags": {
+        "provider": "datadog",
+        "service": "synthetics"
+      }
+    },
+    {
+      "prefix": "18.98.96.240/29",
+      "tags": {
+        "provider": "datadog",
+        "service": "synthetics"
+      }
+    },
+    {
+      "prefix": "18.98.131.24/29",
+      "tags": {
+        "provider": "datadog",
+        "service": "synthetics"
+      }
+    },
+    {
+      "prefix": "18.98.196.216/29",
+      "tags": {
+        "provider": "datadog",
+        "service": "synthetics"
+      }
+    },
+    {
+      "prefix": "18.99.4.112/29",
+      "tags": {
+        "provider": "datadog",
+        "service": "synthetics"
+      }
+    },
+    {
+      "prefix": "18.99.34.208/29",
+      "tags": {
+        "provider": "datadog",
+        "service": "synthetics"
+      }
+    },
+    {
+      "prefix": "18.99.99.232/29",
+      "tags": {
+        "provider": "datadog",
+        "service": "synthetics"
+      }
+    },
+    {
+      "prefix": "18.99.147.8/29",
+      "tags": {
+        "provider": "datadog",
+        "service": "synthetics"
+      }
+    },
+    {
+      "prefix": "18.99.209.96/29",
+      "tags": {
+        "provider": "datadog",
+        "service": "synthetics"
+      }
+    },
+    {
+      "prefix": "18.99.224.56/29",
+      "tags": {
+        "provider": "datadog",
+        "service": "synthetics"
+      }
+    },
+    {
+      "prefix": "18.102.80.189/32",
+      "tags": {
+        "provider": "datadog",
+        "service": "synthetics"
+      }
+    },
+    {
+      "prefix": "18.130.113.168/32",
+      "tags": {
+        "provider": "datadog",
+        "service": "synthetics"
+      }
+    },
+    {
+      "prefix": "18.139.52.173/32",
+      "tags": {
+        "provider": "datadog",
+        "service": "synthetics"
+      }
+    },
+    {
+      "prefix": "18.163.21.55/32",
+      "tags": {
+        "provider": "datadog",
+        "service": "synthetics"
+      }
+    },
+    {
+      "prefix": "18.163.59.106/32",
+      "tags": {
+        "provider": "datadog",
+        "service": "synthetics"
+      }
+    },
+    {
+      "prefix": "18.166.19.255/32",
+      "tags": {
+        "provider": "datadog",
+        "service": "synthetics"
+      }
+    },
+    {
+      "prefix": "18.195.155.52/32",
+      "tags": {
+        "provider": "datadog",
+        "service": "synthetics"
+      }
+    },
+    {
+      "prefix": "18.200.120.237/32",
+      "tags": {
+        "provider": "datadog",
+        "service": "synthetics"
+      }
+    },
+    {
+      "prefix": "18.229.28.50/32",
+      "tags": {
+        "provider": "datadog",
+        "service": "synthetics"
+      }
+    },
+    {
+      "prefix": "18.229.36.120/32",
+      "tags": {
+        "provider": "datadog",
+        "service": "synthetics"
       }
     },
     {
@@ -793,6 +988,13 @@
       }
     },
     {
+      "prefix": "20.62.248.141/32",
+      "tags": {
+        "provider": "datadog",
+        "service": "synthetics"
+      }
+    },
+    {
       "prefix": "20.65.242.11/32",
       "tags": {
         "provider": "azure",
@@ -846,6 +1048,13 @@
       "tags": {
         "provider": "azure",
         "service": "AzureTrafficManager"
+      }
+    },
+    {
+      "prefix": "20.83.144.189/32",
+      "tags": {
+        "provider": "datadog",
+        "service": "synthetics"
       }
     },
     {
@@ -1220,6 +1429,83 @@
       }
     },
     {
+      "prefix": "34.48.76.208/29",
+      "tags": {
+        "provider": "datadog",
+        "service": "synthetics"
+      }
+    },
+    {
+      "prefix": "34.94.234.88/29",
+      "tags": {
+        "provider": "datadog",
+        "service": "synthetics"
+      }
+    },
+    {
+      "prefix": "34.145.82.128/29",
+      "tags": {
+        "provider": "datadog",
+        "service": "synthetics"
+      }
+    },
+    {
+      "prefix": "34.146.154.144/29",
+      "tags": {
+        "provider": "datadog",
+        "service": "synthetics"
+      }
+    },
+    {
+      "prefix": "34.159.50.128/29",
+      "tags": {
+        "provider": "datadog",
+        "service": "synthetics"
+      }
+    },
+    {
+      "prefix": "34.174.98.16/29",
+      "tags": {
+        "provider": "datadog",
+        "service": "synthetics"
+      }
+    },
+    {
+      "prefix": "34.208.32.189/32",
+      "tags": {
+        "provider": "datadog",
+        "service": "synthetics"
+      }
+    },
+    {
+      "prefix": "35.152.76.8/32",
+      "tags": {
+        "provider": "datadog",
+        "service": "synthetics"
+      }
+    },
+    {
+      "prefix": "35.154.93.182/32",
+      "tags": {
+        "provider": "datadog",
+        "service": "synthetics"
+      }
+    },
+    {
+      "prefix": "35.176.195.46/32",
+      "tags": {
+        "provider": "datadog",
+        "service": "synthetics"
+      }
+    },
+    {
+      "prefix": "35.177.43.250/32",
+      "tags": {
+        "provider": "datadog",
+        "service": "synthetics"
+      }
+    },
+    {
       "prefix": "40.68.30.66/32",
       "tags": {
         "provider": "azure",
@@ -1273,6 +1559,13 @@
       "tags": {
         "provider": "azure",
         "service": "ApplicationInsightsAvailability"
+      }
+    },
+    {
+      "prefix": "40.76.107.170/32",
+      "tags": {
+        "provider": "datadog",
+        "service": "synthetics"
       }
     },
     {
@@ -1388,6 +1681,27 @@
       }
     },
     {
+      "prefix": "43.198.123.228/32",
+      "tags": {
+        "provider": "datadog",
+        "service": "synthetics"
+      }
+    },
+    {
+      "prefix": "43.203.72.233/32",
+      "tags": {
+        "provider": "datadog",
+        "service": "synthetics"
+      }
+    },
+    {
+      "prefix": "43.218.5.202/32",
+      "tags": {
+        "provider": "datadog",
+        "service": "synthetics"
+      }
+    },
+    {
       "prefix": "51.0.252.0/24",
       "tags": {
         "network_border_group": "eusc-de-east-1",
@@ -1422,6 +1736,48 @@
       "tags": {
         "provider": "azure",
         "service": "ApplicationInsightsAvailability"
+      }
+    },
+    {
+      "prefix": "52.9.13.199/32",
+      "tags": {
+        "provider": "datadog",
+        "service": "synthetics"
+      }
+    },
+    {
+      "prefix": "52.9.139.134/32",
+      "tags": {
+        "provider": "datadog",
+        "service": "synthetics"
+      }
+    },
+    {
+      "prefix": "52.35.61.232/32",
+      "tags": {
+        "provider": "datadog",
+        "service": "synthetics"
+      }
+    },
+    {
+      "prefix": "52.55.56.26/32",
+      "tags": {
+        "provider": "datadog",
+        "service": "synthetics"
+      }
+    },
+    {
+      "prefix": "52.60.189.53/32",
+      "tags": {
+        "provider": "datadog",
+        "service": "synthetics"
+      }
+    },
+    {
+      "prefix": "52.67.95.251/32",
+      "tags": {
+        "provider": "datadog",
+        "service": "synthetics"
       }
     },
     {
@@ -1476,6 +1832,13 @@
         "provider": "aws",
         "region": "cn-northwest-1",
         "service": "ROUTE53_HEALTHCHECKS"
+      }
+    },
+    {
+      "prefix": "52.89.221.151/32",
+      "tags": {
+        "provider": "datadog",
+        "service": "synthetics"
       }
     },
     {
@@ -1619,6 +1982,20 @@
       }
     },
     {
+      "prefix": "52.186.167.216/29",
+      "tags": {
+        "provider": "datadog",
+        "service": "synthetics"
+      }
+    },
+    {
+      "prefix": "52.192.175.207/32",
+      "tags": {
+        "provider": "datadog",
+        "service": "synthetics"
+      }
+    },
+    {
       "prefix": "52.229.216.48/28",
       "tags": {
         "provider": "azure",
@@ -1637,6 +2014,13 @@
       "tags": {
         "provider": "azure",
         "service": "AzureTrafficManager"
+      }
+    },
+    {
+      "prefix": "54.177.155.33/32",
+      "tags": {
+        "provider": "datadog",
+        "service": "synthetics"
       }
     },
     {
@@ -1771,6 +2155,20 @@
       }
     },
     {
+      "prefix": "63.34.100.178/32",
+      "tags": {
+        "provider": "datadog",
+        "service": "synthetics"
+      }
+    },
+    {
+      "prefix": "63.35.33.198/32",
+      "tags": {
+        "provider": "datadog",
+        "service": "synthetics"
+      }
+    },
+    {
       "prefix": "65.52.21.244/32",
       "tags": {
         "provider": "azure",
@@ -1810,6 +2208,13 @@
       "tags": {
         "provider": "azure",
         "service": "AzureTrafficManager"
+      }
+    },
+    {
+      "prefix": "99.79.87.237/32",
+      "tags": {
+        "provider": "datadog",
+        "service": "synthetics"
       }
     },
     {
@@ -1953,12 +2358,33 @@
       }
     },
     {
+      "prefix": "107.21.25.247/32",
+      "tags": {
+        "provider": "datadog",
+        "service": "synthetics"
+      }
+    },
+    {
       "prefix": "107.23.255.0/26",
       "tags": {
         "network_border_group": "us-east-1",
         "provider": "aws",
         "region": "us-east-1",
         "service": "ROUTE53_HEALTHCHECKS"
+      }
+    },
+    {
+      "prefix": "108.137.133.223/32",
+      "tags": {
+        "provider": "datadog",
+        "service": "synthetics"
+      }
+    },
+    {
+      "prefix": "108.137.188.57/32",
+      "tags": {
+        "provider": "datadog",
+        "service": "synthetics"
       }
     },
     {
@@ -2092,6 +2518,20 @@
       "tags": {
         "provider": "azure",
         "service": "AzureTrafficManager"
+      }
+    },
+    {
+      "prefix": "157.241.36.106/32",
+      "tags": {
+        "provider": "datadog",
+        "service": "synthetics"
+      }
+    },
+    {
+      "prefix": "157.241.93.102/32",
+      "tags": {
+        "provider": "datadog",
+        "service": "synthetics"
       }
     },
     {
