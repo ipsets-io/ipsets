@@ -9,7 +9,7 @@
   "source": {
     "url": ""
   },
-  "count": 1369,
+  "count": 1372,
   "prefixes": [
     {
       "prefix": "2.56.10.36/32",
@@ -2418,6 +2418,12 @@
       }
     },
     {
+      "prefix": "51.15.18.73/32",
+      "tags": {
+        "provider": "tor"
+      }
+    },
+    {
       "prefix": "51.81.222.62/32",
       "tags": {
         "provider": "tor"
@@ -3025,6 +3031,12 @@
     },
     {
       "prefix": "91.92.109.126/32",
+      "tags": {
+        "provider": "tor"
+      }
+    },
+    {
+      "prefix": "91.99.118.154/32",
       "tags": {
         "provider": "tor"
       }
@@ -4225,6 +4237,12 @@
     },
     {
       "prefix": "149.56.44.47/32",
+      "tags": {
+        "provider": "tor"
+      }
+    },
+    {
+      "prefix": "149.202.79.129/32",
       "tags": {
         "provider": "tor"
       }

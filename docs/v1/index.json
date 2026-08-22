@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-22T15:41:57Z",
+  "generated_at": "2026-08-22T16:29:10Z",
   "providers": [
     {
       "id": "anthropic",
@@ -1384,8 +1384,8 @@
           "category": "anonymizer",
           "ipv4": {
             "path": "/v1/tor/exits/ipv4.json",
-            "count": 1369,
-            "sha256": "13813161823252df58a31cdbcd22e2f6a745ffcd883aa007887e6fa01f3bbb6b"
+            "count": 1372,
+            "sha256": "9af6c31a1a524cc2edcd403f8b7f63e3d9613583bc81cf7b12b3f300e9b6dc2e"
           },
           "ipv6": {
             "path": "/v1/tor/exits/ipv6.json",
@@ -1406,8 +1406,8 @@
           "category": "anonymizer",
           "ipv4": {
             "path": "/v1/categories/anonymizer/ipv4.json",
-            "count": 1369,
-            "sha256": "aebd2d18a0f124f7869677ffa432ddfe922f5d05913f4fb7a478915c3bab71f1"
+            "count": 1372,
+            "sha256": "1c9d28e49740eac9ff95be56d2afc0ddc3bf086a779f20f7d6e03c1dab6f86fb"
           },
           "ipv6": {
             "path": "/v1/categories/anonymizer/ipv6.json",
