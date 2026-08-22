@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "provider": "oracle",
+  "provider_name": "Oracle Cloud Infrastructure",
+  "set": "oci",
+  "set_name": "OCI customer infrastructure",
+  "family": "ipv6",
+  "source": {
+    "url": "https://docs.oracle.com/en-us/iaas/tools/public_ip_ranges.json",
+    "homepage": "https://docs.oracle.com/en-us/iaas/Content/General/Concepts/addressranges.htm"
+  },
+  "count": 0,
+  "prefixes": []
+}

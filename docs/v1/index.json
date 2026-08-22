@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-22T11:23:43Z",
+  "generated_at": "2026-08-22T11:27:41Z",
   "providers": [
     {
       "id": "anthropic",
@@ -841,6 +841,56 @@
             "path": "/v1/openai/searchbot/ipv6.json",
             "count": 0,
             "sha256": "ae997488261edc042f1fc79aef5480afe9b9a9dd0a7afc75bacad716928cefe1"
+          }
+        }
+      ]
+    },
+    {
+      "id": "oracle",
+      "name": "Oracle Cloud Infrastructure",
+      "homepage": "https://docs.oracle.com/en-us/iaas/Content/General/Concepts/addressranges.htm",
+      "source": "https://docs.oracle.com/en-us/iaas/tools/public_ip_ranges.json",
+      "sets": [
+        {
+          "id": "oci",
+          "name": "OCI customer infrastructure",
+          "ipv4": {
+            "path": "/v1/oracle/oci/ipv4.json",
+            "count": 555,
+            "sha256": "b8bbe1182700ce824483544772f0a011f28a99af606794d815465abde0f7f263"
+          },
+          "ipv6": {
+            "path": "/v1/oracle/oci/ipv6.json",
+            "count": 0,
+            "sha256": "a4647c7d3e7082351b8fb20c12024f78c6ab65587ff5d4c0f3049b90230ccd6a"
+          }
+        },
+        {
+          "id": "osn",
+          "name": "Oracle Services Network",
+          "ipv4": {
+            "path": "/v1/oracle/osn/ipv4.json",
+            "count": 547,
+            "sha256": "b8a41125a0c68299c02376d7694534ee75a911ff8ef5e0c6f2d4d113b4ece72b"
+          },
+          "ipv6": {
+            "path": "/v1/oracle/osn/ipv6.json",
+            "count": 0,
+            "sha256": "2dfdf5637182629cf81b6173a216a09a7a55e531f11839c072a8ce1807a07d3e"
+          }
+        },
+        {
+          "id": "object-storage",
+          "name": "Object Storage",
+          "ipv4": {
+            "path": "/v1/oracle/object-storage/ipv4.json",
+            "count": 68,
+            "sha256": "7f345e478dc8347f437bfea85cb82807c444cc2d01eb6411eae4fc1009638419"
+          },
+          "ipv6": {
+            "path": "/v1/oracle/object-storage/ipv6.json",
+            "count": 0,
+            "sha256": "3ca774cf8e6a39262c00e369832c4a2c44bf15e6269fb6d136bb94ed0e94e740"
           }
         }
       ]
