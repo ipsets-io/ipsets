@@ -1,0 +1,4255 @@
+{
+  "schema_version": 1,
+  "provider": "azure",
+  "provider_name": "Microsoft Azure",
+  "set": "container-registry",
+  "set_name": "Container Registry",
+  "family": "ipv6",
+  "source": {
+    "url": "https://www.microsoft.com/en-us/download/details.aspx?id=56519",
+    "homepage": "https://learn.microsoft.com/en-us/azure/virtual-network/service-tags-overview"
+  },
+  "count": 608,
+  "prefixes": [
+    {
+      "prefix": "2603:1000:4:5::740/122",
+      "tags": {
+        "region": "southafricawest",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1000:4:402::90/125",
+      "tags": {
+        "region": "southafricawest",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1000:4:402::340/122",
+      "tags": {
+        "region": "southafricawest",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1000:4:402::580/122",
+      "tags": {
+        "region": "southafricawest",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1000:104:3::5c0/122",
+      "tags": {
+        "region": "southafricanorth",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1000:104:402::90/125",
+      "tags": {
+        "region": "southafricanorth",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1000:104:402::340/122",
+      "tags": {
+        "region": "southafricanorth",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1000:104:402::580/121",
+      "tags": {
+        "region": "southafricanorth",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1000:104:802::90/125",
+      "tags": {
+        "region": "southafricanorth",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1000:104:802::2c0/122",
+      "tags": {
+        "region": "southafricanorth",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1000:104:802::400/121",
+      "tags": {
+        "region": "southafricanorth",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1000:104:c02::90/125",
+      "tags": {
+        "region": "southafricanorth",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1000:104:c02::400/121",
+      "tags": {
+        "region": "southafricanorth",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1010:6:4::4c0/122",
+      "tags": {
+        "region": "australiaeast",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1010:6:402::90/125",
+      "tags": {
+        "region": "australiaeast",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1010:6:402::340/122",
+      "tags": {
+        "region": "australiaeast",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1010:6:402::580/121",
+      "tags": {
+        "region": "australiaeast",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1010:6:802::90/125",
+      "tags": {
+        "region": "australiaeast",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1010:6:802::2c0/122",
+      "tags": {
+        "region": "australiaeast",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1010:6:802::400/121",
+      "tags": {
+        "region": "australiaeast",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1010:6:c02::90/125",
+      "tags": {
+        "region": "australiaeast",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1010:6:c02::400/121",
+      "tags": {
+        "region": "australiaeast",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1010:101:2::540/122",
+      "tags": {
+        "region": "australiasoutheast",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1010:101:402::90/125",
+      "tags": {
+        "region": "australiasoutheast",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1010:101:402::340/122",
+      "tags": {
+        "region": "australiasoutheast",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1010:101:402::580/122",
+      "tags": {
+        "region": "australiasoutheast",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1010:101:800::8/125",
+      "tags": {
+        "region": "australiasoutheast",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1010:207:400::8/125",
+      "tags": {
+        "region": "australiasoutheast",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1010:207:400::80/121",
+      "tags": {
+        "region": "australiasoutheast",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1010:304:1::4b0/125",
+      "tags": {
+        "region": "australiacentral",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1010:304:5::780/122",
+      "tags": {
+        "region": "australiacentral",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1010:304:402::90/125",
+      "tags": {
+        "region": "australiacentral",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1010:304:402::340/122",
+      "tags": {
+        "region": "australiacentral",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1010:304:402::580/122",
+      "tags": {
+        "region": "australiacentral",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1010:304:402::600/121",
+      "tags": {
+        "region": "australiacentral",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1010:404:1::4b8/125",
+      "tags": {
+        "region": "australiacentral2",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1010:404:5::7c0/122",
+      "tags": {
+        "region": "australiacentral2",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1010:404:402::90/125",
+      "tags": {
+        "region": "australiacentral2",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1010:404:402::340/122",
+      "tags": {
+        "region": "australiacentral2",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1010:404:402::580/122",
+      "tags": {
+        "region": "australiacentral2",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1010:404:402::600/121",
+      "tags": {
+        "region": "australiacentral2",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1010:502::560/125",
+      "tags": {
+        "region": "newzealandnorth",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1010:502:5::418/125",
+      "tags": {
+        "region": "newzealandnorth",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1010:502:5::430/124",
+      "tags": {
+        "region": "newzealandnorth",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1010:502:5::460/123",
+      "tags": {
+        "region": "newzealandnorth",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1010:502:400::48/125",
+      "tags": {
+        "region": "newzealandnorth",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1010:502:400::100/121",
+      "tags": {
+        "region": "newzealandnorth",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1010:502:800::8/125",
+      "tags": {
+        "region": "newzealandnorth",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1010:502:800::80/121",
+      "tags": {
+        "region": "newzealandnorth",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1010:502:c00::8/125",
+      "tags": {
+        "region": "newzealandnorth",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1010:502:c00::80/121",
+      "tags": {
+        "region": "newzealandnorth",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:5:9::300/122",
+      "tags": {
+        "region": "northeurope",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:5:402::90/125",
+      "tags": {
+        "region": "northeurope",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:5:402::340/122",
+      "tags": {
+        "region": "northeurope",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:5:402::580/121",
+      "tags": {
+        "region": "northeurope",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:5:802::90/125",
+      "tags": {
+        "region": "northeurope",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:5:802::2c0/122",
+      "tags": {
+        "region": "northeurope",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:5:802::400/121",
+      "tags": {
+        "region": "northeurope",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:5:c02::90/125",
+      "tags": {
+        "region": "northeurope",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:5:c02::400/121",
+      "tags": {
+        "region": "northeurope",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:104:3::368/125",
+      "tags": {
+        "region": "austriaeast",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:104:6::588/125",
+      "tags": {
+        "region": "austriaeast",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:104:6::590/124",
+      "tags": {
+        "region": "austriaeast",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:104:6::5a0/123",
+      "tags": {
+        "region": "austriaeast",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:104:403::8/125",
+      "tags": {
+        "region": "austriaeast",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:104:403::80/121",
+      "tags": {
+        "region": "austriaeast",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:104:800::8/125",
+      "tags": {
+        "region": "austriaeast",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:104:800::80/121",
+      "tags": {
+        "region": "austriaeast",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:104:c00::8/125",
+      "tags": {
+        "region": "austriaeast",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:104:c00::80/121",
+      "tags": {
+        "region": "austriaeast",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:206:b::400/122",
+      "tags": {
+        "region": "westeurope",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:206:402::90/125",
+      "tags": {
+        "region": "westeurope",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:206:402::340/122",
+      "tags": {
+        "region": "westeurope",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:206:402::580/121",
+      "tags": {
+        "region": "westeurope",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:206:403::30/125",
+      "tags": {
+        "region": "westeurope",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:206:802::90/125",
+      "tags": {
+        "region": "westeurope",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:206:802::2c0/122",
+      "tags": {
+        "region": "westeurope",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:206:802::400/121",
+      "tags": {
+        "region": "westeurope",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:206:c02::90/125",
+      "tags": {
+        "region": "westeurope",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:206:c02::400/121",
+      "tags": {
+        "region": "westeurope",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:305:402::90/125",
+      "tags": {
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:305:402::340/122",
+      "tags": {
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:406::7/128",
+      "tags": {
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:605:3::280/122",
+      "tags": {
+        "region": "ukwest",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:605:402::90/125",
+      "tags": {
+        "region": "ukwest",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:605:402::340/122",
+      "tags": {
+        "region": "ukwest",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:605:402::580/122",
+      "tags": {
+        "region": "ukwest",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:605:402::600/121",
+      "tags": {
+        "region": "ukwest",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:705:3::480/122",
+      "tags": {
+        "region": "uksouth",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:705:402::90/125",
+      "tags": {
+        "region": "uksouth",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:705:402::340/122",
+      "tags": {
+        "region": "uksouth",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:705:402::580/121",
+      "tags": {
+        "region": "uksouth",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:705:802::90/125",
+      "tags": {
+        "region": "uksouth",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:705:802::2c0/122",
+      "tags": {
+        "region": "uksouth",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:705:802::400/121",
+      "tags": {
+        "region": "uksouth",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:705:c02::90/125",
+      "tags": {
+        "region": "uksouth",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:705:c02::400/121",
+      "tags": {
+        "region": "uksouth",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:805:3::240/122",
+      "tags": {
+        "region": "centralfrance",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:805:402::90/125",
+      "tags": {
+        "region": "centralfrance",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:805:402::340/122",
+      "tags": {
+        "region": "centralfrance",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:805:402::580/121",
+      "tags": {
+        "region": "centralfrance",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:805:802::90/125",
+      "tags": {
+        "region": "centralfrance",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:805:802::2c0/122",
+      "tags": {
+        "region": "centralfrance",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:805:802::400/121",
+      "tags": {
+        "region": "centralfrance",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:805:c02::90/125",
+      "tags": {
+        "region": "centralfrance",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:805:c02::400/121",
+      "tags": {
+        "region": "centralfrance",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:905::128/125",
+      "tags": {
+        "region": "southfrance",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:905:402::90/125",
+      "tags": {
+        "region": "southfrance",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:905:402::340/122",
+      "tags": {
+        "region": "southfrance",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:905:402::580/122",
+      "tags": {
+        "region": "southfrance",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:905:402::600/121",
+      "tags": {
+        "region": "southfrance",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:a04::348/125",
+      "tags": {
+        "region": "switzerlandn",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:a04:3::3c0/122",
+      "tags": {
+        "region": "switzerlandn",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:a04:402::90/125",
+      "tags": {
+        "region": "switzerlandn",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:a04:402::340/122",
+      "tags": {
+        "region": "switzerlandn",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:a04:402::580/121",
+      "tags": {
+        "region": "switzerlandn",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:a04:802::90/125",
+      "tags": {
+        "region": "switzerlandn",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:a04:802::2c0/122",
+      "tags": {
+        "region": "switzerlandn",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:a04:802::400/121",
+      "tags": {
+        "region": "switzerlandn",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:a04:c02::90/125",
+      "tags": {
+        "region": "switzerlandn",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:a04:c02::400/121",
+      "tags": {
+        "region": "switzerlandn",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:b04:2::780/122",
+      "tags": {
+        "region": "switzerlandw",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:b04:402::90/125",
+      "tags": {
+        "region": "switzerlandw",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:b04:402::340/122",
+      "tags": {
+        "region": "switzerlandw",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:b04:402::580/122",
+      "tags": {
+        "region": "switzerlandw",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:b04:402::600/121",
+      "tags": {
+        "region": "switzerlandw",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:c04:5::c0/122",
+      "tags": {
+        "region": "germanywc",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:c04:402::90/125",
+      "tags": {
+        "region": "germanywc",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:c04:402::340/122",
+      "tags": {
+        "region": "germanywc",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:c04:402::580/121",
+      "tags": {
+        "region": "germanywc",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:c04:802::90/125",
+      "tags": {
+        "region": "germanywc",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:c04:802::2c0/122",
+      "tags": {
+        "region": "germanywc",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:c04:802::400/121",
+      "tags": {
+        "region": "germanywc",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:c04:c02::90/125",
+      "tags": {
+        "region": "germanywc",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:c04:c02::400/121",
+      "tags": {
+        "region": "germanywc",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:d04:1::4b0/125",
+      "tags": {
+        "region": "germanyn",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:d04:5::780/122",
+      "tags": {
+        "region": "germanyn",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:d04:402::90/125",
+      "tags": {
+        "region": "germanyn",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:d04:402::340/122",
+      "tags": {
+        "region": "germanyn",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:d04:402::580/122",
+      "tags": {
+        "region": "germanyn",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:e04::348/125",
+      "tags": {
+        "region": "norwaye",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:e04:4::5c0/122",
+      "tags": {
+        "region": "norwaye",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:e04:402::90/125",
+      "tags": {
+        "region": "norwaye",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:e04:402::340/122",
+      "tags": {
+        "region": "norwaye",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:e04:402::580/121",
+      "tags": {
+        "region": "norwaye",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:e04:402::600/120",
+      "tags": {
+        "region": "norwaye",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:e04:802::90/125",
+      "tags": {
+        "region": "norwaye",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:e04:802::2c0/122",
+      "tags": {
+        "region": "norwaye",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:e04:802::400/121",
+      "tags": {
+        "region": "norwaye",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:e04:c02::90/125",
+      "tags": {
+        "region": "norwaye",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:e04:c02::400/121",
+      "tags": {
+        "region": "norwaye",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:f04:1::4b0/125",
+      "tags": {
+        "region": "norwayw",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:f04:6::780/122",
+      "tags": {
+        "region": "norwayw",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:f04:402::90/125",
+      "tags": {
+        "region": "norwayw",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:f04:402::340/122",
+      "tags": {
+        "region": "norwayw",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:f04:402::580/122",
+      "tags": {
+        "region": "norwayw",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:f04:402::600/121",
+      "tags": {
+        "region": "norwayw",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:1004:1::1a0/125",
+      "tags": {
+        "region": "swedencentral",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:1004:3::700/122",
+      "tags": {
+        "region": "swedencentral",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:1004:400::90/125",
+      "tags": {
+        "region": "swedencentral",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:1004:400::3b8/125",
+      "tags": {
+        "region": "swedencentral",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:1004:400::4c0/122",
+      "tags": {
+        "region": "swedencentral",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:1004:400::500/121",
+      "tags": {
+        "region": "swedencentral",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:1004:800::150/125",
+      "tags": {
+        "region": "swedencentral",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:1004:800::180/121",
+      "tags": {
+        "region": "swedencentral",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:1004:800::280/121",
+      "tags": {
+        "region": "swedencentral",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:1004:c02::1b0/125",
+      "tags": {
+        "region": "swedencentral",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:1004:c02::300/121",
+      "tags": {
+        "region": "swedencentral",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:1104::5a0/125",
+      "tags": {
+        "region": "swedensouth",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:1104:2::640/122",
+      "tags": {
+        "region": "swedensouth",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:1104:400::90/125",
+      "tags": {
+        "region": "swedensouth",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:1104:400::380/121",
+      "tags": {
+        "region": "swedensouth",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:1104:400::540/122",
+      "tags": {
+        "region": "swedensouth",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:1204::580/125",
+      "tags": {
+        "region": "italynorth",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:1204:3::500/122",
+      "tags": {
+        "region": "italynorth",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:1204:400::48/125",
+      "tags": {
+        "region": "italynorth",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:1204:400::200/121",
+      "tags": {
+        "region": "italynorth",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:1204:800::8/125",
+      "tags": {
+        "region": "italynorth",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:1204:800::180/121",
+      "tags": {
+        "region": "italynorth",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:1204:c00::8/125",
+      "tags": {
+        "region": "italynorth",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:1204:c00::180/121",
+      "tags": {
+        "region": "italynorth",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:1302::540/125",
+      "tags": {
+        "region": "polandcentral",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:1302:3::80/122",
+      "tags": {
+        "region": "polandcentral",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:1302:400::48/125",
+      "tags": {
+        "region": "polandcentral",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:1302:400::280/121",
+      "tags": {
+        "region": "polandcentral",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:1302:800::48/125",
+      "tags": {
+        "region": "polandcentral",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:1302:800::180/121",
+      "tags": {
+        "region": "polandcentral",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:1302:c00::48/125",
+      "tags": {
+        "region": "polandcentral",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:1302:c00::180/121",
+      "tags": {
+        "region": "polandcentral",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:1403::580/125",
+      "tags": {
+        "region": "spaincentral",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:1403:7::160/123",
+      "tags": {
+        "region": "spaincentral",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:1403:7::200/124",
+      "tags": {
+        "region": "spaincentral",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:1403:7::210/125",
+      "tags": {
+        "region": "spaincentral",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:1403:400::8/125",
+      "tags": {
+        "region": "spaincentral",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:1403:400::200/121",
+      "tags": {
+        "region": "spaincentral",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:1403:800::8/125",
+      "tags": {
+        "region": "spaincentral",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:1403:800::180/121",
+      "tags": {
+        "region": "spaincentral",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:1403:c00::48/125",
+      "tags": {
+        "region": "spaincentral",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:1403:c00::100/121",
+      "tags": {
+        "region": "spaincentral",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:1502::3e0/125",
+      "tags": {
+        "region": "belgiumcentral",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:1502:3::6e0/123",
+      "tags": {
+        "region": "belgiumcentral",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:1502:3::780/124",
+      "tags": {
+        "region": "belgiumcentral",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:1502:3::790/125",
+      "tags": {
+        "region": "belgiumcentral",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:1502:400::8/125",
+      "tags": {
+        "region": "belgiumcentral",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:1502:400::80/121",
+      "tags": {
+        "region": "belgiumcentral",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:1502:800::8/125",
+      "tags": {
+        "region": "belgiumcentral",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:1502:800::80/121",
+      "tags": {
+        "region": "belgiumcentral",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:1502:c00::8/125",
+      "tags": {
+        "region": "belgiumcentral",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:1502:c00::80/121",
+      "tags": {
+        "region": "belgiumcentral",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:1602::3e0/125",
+      "tags": {
+        "region": "denmarkeast",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:1602:4::100/121",
+      "tags": {
+        "region": "denmarkeast",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:1602:4::480/123",
+      "tags": {
+        "region": "denmarkeast",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:1602:4::4a0/124",
+      "tags": {
+        "region": "denmarkeast",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:1602:4::4b0/125",
+      "tags": {
+        "region": "denmarkeast",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:1602:400::8/125",
+      "tags": {
+        "region": "denmarkeast",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:1602:400::80/121",
+      "tags": {
+        "region": "denmarkeast",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:1602:800::8/125",
+      "tags": {
+        "region": "denmarkeast",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:1602:800::80/121",
+      "tags": {
+        "region": "denmarkeast",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:1602:c00::8/125",
+      "tags": {
+        "region": "denmarkeast",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:1602:c00::80/121",
+      "tags": {
+        "region": "denmarkeast",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:1701::5e0/125",
+      "tags": {
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1020:1701:2::500/121",
+      "tags": {
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:f:1::2a8/125",
+      "tags": {
+        "region": "centraluseuap",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:f:8::580/122",
+      "tags": {
+        "region": "centraluseuap",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:f:400::890/125",
+      "tags": {
+        "region": "centraluseuap",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:f:400::b40/122",
+      "tags": {
+        "region": "centraluseuap",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:f:400::d80/122",
+      "tags": {
+        "region": "centraluseuap",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:f:400::e00/121",
+      "tags": {
+        "region": "centraluseuap",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:10:b::280/122",
+      "tags": {
+        "region": "centralus",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:10:402::90/125",
+      "tags": {
+        "region": "centralus",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:10:402::340/122",
+      "tags": {
+        "region": "centralus",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:10:402::580/121",
+      "tags": {
+        "region": "centralus",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:10:802::90/125",
+      "tags": {
+        "region": "centralus",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:10:802::2c0/122",
+      "tags": {
+        "region": "centralus",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:10:802::400/121",
+      "tags": {
+        "region": "centralus",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:10:c02::90/125",
+      "tags": {
+        "region": "centralus",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:10:c02::400/121",
+      "tags": {
+        "region": "centralus",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:104::348/125",
+      "tags": {
+        "region": "usstagee",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:104:402::90/125",
+      "tags": {
+        "region": "usstagee",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:104:402::168/125",
+      "tags": {
+        "region": "usstagee",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:104:402::340/122",
+      "tags": {
+        "region": "usstagee",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:104:402::580/122",
+      "tags": {
+        "region": "usstagee",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:104:402::780/121",
+      "tags": {
+        "region": "usstagee",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:104:802::58/125",
+      "tags": {
+        "region": "usstagee",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:104:802::200/121",
+      "tags": {
+        "region": "usstagee",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:107::580/125",
+      "tags": {
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:107:400::18/125",
+      "tags": {
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:107:400::300/121",
+      "tags": {
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:107:400::500/122",
+      "tags": {
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:210:d::680/122",
+      "tags": {
+        "region": "eastus",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:210:402::90/125",
+      "tags": {
+        "region": "eastus",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:210:402::340/122",
+      "tags": {
+        "region": "eastus",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:210:402::580/121",
+      "tags": {
+        "region": "eastus",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:210:802::90/125",
+      "tags": {
+        "region": "eastus",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:210:802::2c0/122",
+      "tags": {
+        "region": "eastus",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:210:802::400/121",
+      "tags": {
+        "region": "eastus",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:210:c02::90/125",
+      "tags": {
+        "region": "eastus",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:210:c02::400/121",
+      "tags": {
+        "region": "eastus",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:302:402::c0/122",
+      "tags": {
+        "region": "usstagec",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:40b:8::340/122",
+      "tags": {
+        "region": "eastus2euap",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:40b:400::890/125",
+      "tags": {
+        "region": "eastus2euap",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:40b:400::b40/122",
+      "tags": {
+        "region": "eastus2euap",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:40b:800::90/125",
+      "tags": {
+        "region": "eastus2euap",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:40b:800::2c0/122",
+      "tags": {
+        "region": "eastus2euap",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:40b:c00::90/125",
+      "tags": {
+        "region": "eastus2euap",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:40b:c00::400/121",
+      "tags": {
+        "region": "eastus2euap",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:40b:1000::8/125",
+      "tags": {
+        "region": "eastus2euap",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:40b:1000::100/121",
+      "tags": {
+        "region": "eastus2euap",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:40c:d::400/122",
+      "tags": {
+        "region": "eastus2",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:40c:2a::700/121",
+      "tags": {
+        "region": "eastus2",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:40c:402::90/125",
+      "tags": {
+        "region": "eastus2",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:40c:402::340/122",
+      "tags": {
+        "region": "eastus2",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:40c:402::580/121",
+      "tags": {
+        "region": "eastus2",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:40c:802::90/125",
+      "tags": {
+        "region": "eastus2",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:40c:802::2c0/122",
+      "tags": {
+        "region": "eastus2",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:40c:802::400/121",
+      "tags": {
+        "region": "eastus2",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:40c:c02::90/125",
+      "tags": {
+        "region": "eastus2",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:40c:1000::8/125",
+      "tags": {
+        "region": "eastus2",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:40c:1000::80/121",
+      "tags": {
+        "region": "eastus2",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:504::1a0/125",
+      "tags": {
+        "region": "westus3",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:504:8::400/122",
+      "tags": {
+        "region": "westus3",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:504:402::90/125",
+      "tags": {
+        "region": "westus3",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:504:402::3b8/125",
+      "tags": {
+        "region": "westus3",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:504:402::480/121",
+      "tags": {
+        "region": "westus3",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:504:802::c0/125",
+      "tags": {
+        "region": "westus3",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:504:802::150/125",
+      "tags": {
+        "region": "westus3",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:504:802::180/121",
+      "tags": {
+        "region": "westus3",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:504:c02::140/122",
+      "tags": {
+        "region": "westus3",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:504:c02::300/121",
+      "tags": {
+        "region": "westus3",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:504:c02::400/125",
+      "tags": {
+        "region": "westus3",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:504:1000::8/125",
+      "tags": {
+        "region": "westus3",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:608::2a8/125",
+      "tags": {
+        "region": "northcentralus",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:608:7::1c0/122",
+      "tags": {
+        "region": "northcentralus",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:608:402::90/125",
+      "tags": {
+        "region": "northcentralus",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:608:402::340/122",
+      "tags": {
+        "region": "northcentralus",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:608:402::580/122",
+      "tags": {
+        "region": "northcentralus",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:608:402::600/121",
+      "tags": {
+        "region": "northcentralus",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:608:800::48/125",
+      "tags": {
+        "region": "northcentralus",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:608:800::180/121",
+      "tags": {
+        "region": "northcentralus",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:608:c00::48/125",
+      "tags": {
+        "region": "northcentralus",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:608:c00::180/121",
+      "tags": {
+        "region": "northcentralus",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:702::580/125",
+      "tags": {
+        "region": "mexicocentral",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:702:3::4c0/122",
+      "tags": {
+        "region": "mexicocentral",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:702:400::8/125",
+      "tags": {
+        "region": "mexicocentral",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:702:400::200/121",
+      "tags": {
+        "region": "mexicocentral",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:702:800::8/125",
+      "tags": {
+        "region": "mexicocentral",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:702:800::180/121",
+      "tags": {
+        "region": "mexicocentral",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:702:c00::8/125",
+      "tags": {
+        "region": "mexicocentral",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:702:c00::180/121",
+      "tags": {
+        "region": "mexicocentral",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:807:7::500/122",
+      "tags": {
+        "region": "southcentralus",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:807:402::90/125",
+      "tags": {
+        "region": "southcentralus",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:807:402::340/122",
+      "tags": {
+        "region": "southcentralus",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:807:402::580/121",
+      "tags": {
+        "region": "southcentralus",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:807:802::90/125",
+      "tags": {
+        "region": "southcentralus",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:807:802::2c0/122",
+      "tags": {
+        "region": "southcentralus",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:807:802::400/121",
+      "tags": {
+        "region": "southcentralus",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:807:c02::90/125",
+      "tags": {
+        "region": "southcentralus",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:807:c02::400/121",
+      "tags": {
+        "region": "southcentralus",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:807:1000::8/125",
+      "tags": {
+        "region": "southcentralus",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:902::560/125",
+      "tags": {
+        "region": "southeastus",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:902:4::180/121",
+      "tags": {
+        "region": "southeastus",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:902:4::660/123",
+      "tags": {
+        "region": "southeastus",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:902:4::700/124",
+      "tags": {
+        "region": "southeastus",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:902:4::710/125",
+      "tags": {
+        "region": "southeastus",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:902:400::8/125",
+      "tags": {
+        "region": "southeastus",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:902:400::100/121",
+      "tags": {
+        "region": "southeastus",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:a07:9::10/125",
+      "tags": {
+        "region": "westus",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:a07:b::5c0/122",
+      "tags": {
+        "region": "westus",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:a07:402::90/125",
+      "tags": {
+        "region": "westus",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:a07:402::9c0/122",
+      "tags": {
+        "region": "westus",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:a07:402::a00/122",
+      "tags": {
+        "region": "westus",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:a07:402::a80/121",
+      "tags": {
+        "region": "westus",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:a07:c00::48/125",
+      "tags": {
+        "region": "westus",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:a07:c00::180/121",
+      "tags": {
+        "region": "westus",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:b04:3::540/122",
+      "tags": {
+        "region": "westcentralus",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:b04:402::90/125",
+      "tags": {
+        "region": "westcentralus",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:b04:402::340/122",
+      "tags": {
+        "region": "westcentralus",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:b04:402::580/122",
+      "tags": {
+        "region": "westcentralus",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:b04:800::8/125",
+      "tags": {
+        "region": "westcentralus",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:b04:800::100/121",
+      "tags": {
+        "region": "westcentralus",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:b04:c00::8/125",
+      "tags": {
+        "region": "westcentralus",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:b04:c00::80/121",
+      "tags": {
+        "region": "westcentralus",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:c06:c::140/122",
+      "tags": {
+        "region": "westus2",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:c06:11::6a0/123",
+      "tags": {
+        "region": "westus2",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:c06:13::440/122",
+      "tags": {
+        "region": "westus2",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:c06:400::890/125",
+      "tags": {
+        "region": "westus2",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:c06:400::b40/122",
+      "tags": {
+        "region": "westus2",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:c06:802::90/125",
+      "tags": {
+        "region": "westus2",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:c06:802::2c0/122",
+      "tags": {
+        "region": "westus2",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:c06:c02::90/125",
+      "tags": {
+        "region": "westus2",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:c06:c02::400/121",
+      "tags": {
+        "region": "westus2",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:f05:4::380/122",
+      "tags": {
+        "region": "canadacentral",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:f05:402::90/125",
+      "tags": {
+        "region": "canadacentral",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:f05:402::340/122",
+      "tags": {
+        "region": "canadacentral",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:f05:402::580/121",
+      "tags": {
+        "region": "canadacentral",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:f05:802::90/125",
+      "tags": {
+        "region": "canadacentral",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:f05:802::2c0/122",
+      "tags": {
+        "region": "canadacentral",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:f05:802::400/121",
+      "tags": {
+        "region": "canadacentral",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:f05:c02::90/125",
+      "tags": {
+        "region": "canadacentral",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:f05:c02::400/121",
+      "tags": {
+        "region": "canadacentral",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:1005:3::180/125",
+      "tags": {
+        "region": "canadaeast",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:1005:6::40/122",
+      "tags": {
+        "region": "canadaeast",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:1005:402::90/125",
+      "tags": {
+        "region": "canadaeast",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:1005:402::340/122",
+      "tags": {
+        "region": "canadaeast",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:1005:402::580/122",
+      "tags": {
+        "region": "canadaeast",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:1005:402::600/121",
+      "tags": {
+        "region": "canadaeast",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:1102::3e0/125",
+      "tags": {
+        "region": "southcentralus2",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:1102:3::780/121",
+      "tags": {
+        "region": "southcentralus2",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:1102:4::4f8/125",
+      "tags": {
+        "region": "southcentralus2",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:1102:4::540/123",
+      "tags": {
+        "region": "southcentralus2",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:1102:4::560/124",
+      "tags": {
+        "region": "southcentralus2",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:1102:400::8/125",
+      "tags": {
+        "region": "southcentralus2",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:1102:400::80/121",
+      "tags": {
+        "region": "southcentralus2",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:1202::3e0/125",
+      "tags": {
+        "region": "southwestus",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:1202:4::180/121",
+      "tags": {
+        "region": "southwestus",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:1202:4::580/123",
+      "tags": {
+        "region": "southwestus",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:1202:4::5a0/124",
+      "tags": {
+        "region": "southwestus",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:1202:4::5b0/125",
+      "tags": {
+        "region": "southwestus",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:1202:400::8/125",
+      "tags": {
+        "region": "southwestus",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:1202:400::80/121",
+      "tags": {
+        "region": "southwestus",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:1302::3e0/125",
+      "tags": {
+        "region": "southeastus3",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:1302:4::200/121",
+      "tags": {
+        "region": "southeastus3",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:1302:4::4a8/125",
+      "tags": {
+        "region": "southeastus3",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:1302:4::4b0/124",
+      "tags": {
+        "region": "southeastus3",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:1302:4::540/123",
+      "tags": {
+        "region": "southeastus3",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:1302:400::8/125",
+      "tags": {
+        "region": "southeastus3",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:1302:400::80/121",
+      "tags": {
+        "region": "southeastus3",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:1402::700/125",
+      "tags": {
+        "region": "eastus3",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:1402:4::280/121",
+      "tags": {
+        "region": "eastus3",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:1402:4::508/125",
+      "tags": {
+        "region": "eastus3",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:1402:4::510/124",
+      "tags": {
+        "region": "eastus3",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:1402:4::540/123",
+      "tags": {
+        "region": "eastus3",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:1402:400::8/125",
+      "tags": {
+        "region": "eastus3",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:1402:400::80/121",
+      "tags": {
+        "region": "eastus3",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:1502::700/125",
+      "tags": {
+        "region": "southeastus5",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:1502:4::100/121",
+      "tags": {
+        "region": "southeastus5",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:1502:4::4e8/125",
+      "tags": {
+        "region": "southeastus5",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:1502:4::4f0/124",
+      "tags": {
+        "region": "southeastus5",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:1502:4::580/123",
+      "tags": {
+        "region": "southeastus5",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:1502:400::8/125",
+      "tags": {
+        "region": "southeastus5",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:1502:400::80/121",
+      "tags": {
+        "region": "southeastus5",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:1602::5c0/125",
+      "tags": {
+        "region": "northeastus5",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:1602:2::500/121",
+      "tags": {
+        "region": "northeastus5",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:1602:400::/125",
+      "tags": {
+        "region": "northeastus5",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:1702::700/125",
+      "tags": {
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:1702:2::580/121",
+      "tags": {
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:5:3::740/122",
+      "tags": {
+        "region": "southeastasia",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:5:402::90/125",
+      "tags": {
+        "region": "southeastasia",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:5:402::340/122",
+      "tags": {
+        "region": "southeastasia",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:5:402::580/121",
+      "tags": {
+        "region": "southeastasia",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:5:802::90/125",
+      "tags": {
+        "region": "southeastasia",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:5:802::2c0/122",
+      "tags": {
+        "region": "southeastasia",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:5:802::400/121",
+      "tags": {
+        "region": "southeastasia",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:5:c02::90/125",
+      "tags": {
+        "region": "southeastasia",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:5:c02::400/121",
+      "tags": {
+        "region": "southeastasia",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:207::2a8/125",
+      "tags": {
+        "region": "eastasia",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:207:6::200/122",
+      "tags": {
+        "region": "eastasia",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:207:402::90/125",
+      "tags": {
+        "region": "eastasia",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:207:402::340/122",
+      "tags": {
+        "region": "eastasia",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:207:402::580/122",
+      "tags": {
+        "region": "eastasia",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:207:402::600/121",
+      "tags": {
+        "region": "eastasia",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:207:800::48/125",
+      "tags": {
+        "region": "eastasia",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:207:800::180/121",
+      "tags": {
+        "region": "eastasia",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:207:c00::48/125",
+      "tags": {
+        "region": "eastasia",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:207:c00::180/121",
+      "tags": {
+        "region": "eastasia",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:407:7::c0/122",
+      "tags": {
+        "region": "japaneast",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:407:402::90/125",
+      "tags": {
+        "region": "japaneast",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:407:402::340/122",
+      "tags": {
+        "region": "japaneast",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:407:402::580/121",
+      "tags": {
+        "region": "japaneast",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:407:802::90/125",
+      "tags": {
+        "region": "japaneast",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:407:802::2c0/122",
+      "tags": {
+        "region": "japaneast",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:407:802::400/121",
+      "tags": {
+        "region": "japaneast",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:407:c02::90/125",
+      "tags": {
+        "region": "japaneast",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:407:c02::400/121",
+      "tags": {
+        "region": "japaneast",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:606:3::80/125",
+      "tags": {
+        "region": "japanwest",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:606:6::180/122",
+      "tags": {
+        "region": "japanwest",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:606:402::90/125",
+      "tags": {
+        "region": "japanwest",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:606:402::340/122",
+      "tags": {
+        "region": "japanwest",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:606:402::580/122",
+      "tags": {
+        "region": "japanwest",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:606:402::600/121",
+      "tags": {
+        "region": "japanwest",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:606:800::8/125",
+      "tags": {
+        "region": "japanwest",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:606:800::180/121",
+      "tags": {
+        "region": "japanwest",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:606:c00::90/125",
+      "tags": {
+        "region": "japanwest",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:606:c00::100/121",
+      "tags": {
+        "region": "japanwest",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:806:2::310/125",
+      "tags": {
+        "region": "westindia",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:806:402::90/125",
+      "tags": {
+        "region": "westindia",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:806:402::340/122",
+      "tags": {
+        "region": "westindia",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:806:402::580/122",
+      "tags": {
+        "region": "westindia",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:806:402::600/121",
+      "tags": {
+        "region": "westindia",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:904::348/125",
+      "tags": {
+        "region": "uaenorth",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:904:3::5c0/122",
+      "tags": {
+        "region": "uaenorth",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:904:402::90/125",
+      "tags": {
+        "region": "uaenorth",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:904:402::340/122",
+      "tags": {
+        "region": "uaenorth",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:904:402::580/121",
+      "tags": {
+        "region": "uaenorth",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:904:802::90/125",
+      "tags": {
+        "region": "uaenorth",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:904:802::2c0/122",
+      "tags": {
+        "region": "uaenorth",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:904:802::400/121",
+      "tags": {
+        "region": "uaenorth",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:904:c02::90/125",
+      "tags": {
+        "region": "uaenorth",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:904:c02::400/121",
+      "tags": {
+        "region": "uaenorth",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:a06::448/125",
+      "tags": {
+        "region": "centralindia",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:a06:3::7c0/122",
+      "tags": {
+        "region": "centralindia",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:a06:402::90/125",
+      "tags": {
+        "region": "centralindia",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:a06:402::340/122",
+      "tags": {
+        "region": "centralindia",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:a06:402::580/121",
+      "tags": {
+        "region": "centralindia",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:a06:802::90/125",
+      "tags": {
+        "region": "centralindia",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:a06:802::2c0/122",
+      "tags": {
+        "region": "centralindia",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:a06:802::400/121",
+      "tags": {
+        "region": "centralindia",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:a06:c02::90/125",
+      "tags": {
+        "region": "centralindia",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:a06:c02::400/121",
+      "tags": {
+        "region": "centralindia",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:b04:1::4b0/125",
+      "tags": {
+        "region": "uaecentral",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:b04:5::540/122",
+      "tags": {
+        "region": "uaecentral",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:b04:402::90/125",
+      "tags": {
+        "region": "uaecentral",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:b04:402::340/122",
+      "tags": {
+        "region": "uaecentral",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:b04:402::580/122",
+      "tags": {
+        "region": "uaecentral",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:b04:800::8/125",
+      "tags": {
+        "region": "uaecentral",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:b04:800::80/121",
+      "tags": {
+        "region": "uaecentral",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:c06:3::240/122",
+      "tags": {
+        "region": "southindia",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:c06:402::90/125",
+      "tags": {
+        "region": "southindia",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:c06:402::340/122",
+      "tags": {
+        "region": "southindia",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:c06:402::580/122",
+      "tags": {
+        "region": "southindia",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:c06:402::600/121",
+      "tags": {
+        "region": "southindia",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:d04:1::1a0/125",
+      "tags": {
+        "region": "jioindiawest",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:d04:3::540/122",
+      "tags": {
+        "region": "jioindiawest",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:d04:400::90/125",
+      "tags": {
+        "region": "jioindiawest",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:d04:400::3b8/125",
+      "tags": {
+        "region": "jioindiawest",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:d04:400::4c0/122",
+      "tags": {
+        "region": "jioindiawest",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:d04:400::500/121",
+      "tags": {
+        "region": "jioindiawest",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:d04:800::150/125",
+      "tags": {
+        "region": "jioindiawest",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:d04:800::180/121",
+      "tags": {
+        "region": "jioindiawest",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:d04:800::280/121",
+      "tags": {
+        "region": "jioindiawest",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:d04:c02::300/121",
+      "tags": {
+        "region": "jioindiawest",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:e05:1::450/125",
+      "tags": {
+        "region": "koreasouth",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:e05:6::600/122",
+      "tags": {
+        "region": "koreasouth",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:e05:402::100/122",
+      "tags": {
+        "region": "koreasouth",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:e05:402::148/125",
+      "tags": {
+        "region": "koreasouth",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:e05:402::200/121",
+      "tags": {
+        "region": "koreasouth",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:f05::348/125",
+      "tags": {
+        "region": "koreacentral",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:f05:3::6c0/122",
+      "tags": {
+        "region": "koreacentral",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:f05:402::90/125",
+      "tags": {
+        "region": "koreacentral",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:f05:402::340/122",
+      "tags": {
+        "region": "koreacentral",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:f05:402::580/121",
+      "tags": {
+        "region": "koreacentral",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:f05:402::600/120",
+      "tags": {
+        "region": "koreacentral",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:f05:402::700/121",
+      "tags": {
+        "region": "koreacentral",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:f05:802::90/125",
+      "tags": {
+        "region": "koreacentral",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:f05:802::2c0/122",
+      "tags": {
+        "region": "koreacentral",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:f05:802::400/121",
+      "tags": {
+        "region": "koreacentral",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:f05:c02::90/125",
+      "tags": {
+        "region": "koreacentral",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:f05:c02::400/121",
+      "tags": {
+        "region": "koreacentral",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:1002::780/125",
+      "tags": {
+        "region": "qatarcentral",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:1002:5::440/122",
+      "tags": {
+        "region": "qatarcentral",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:1002:400::48/125",
+      "tags": {
+        "region": "qatarcentral",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:1002:400::280/121",
+      "tags": {
+        "region": "qatarcentral",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:1002:800::48/125",
+      "tags": {
+        "region": "qatarcentral",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:1002:800::180/121",
+      "tags": {
+        "region": "qatarcentral",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:1002:c00::48/125",
+      "tags": {
+        "region": "qatarcentral",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:1002:c00::180/121",
+      "tags": {
+        "region": "qatarcentral",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:1104::5a0/125",
+      "tags": {
+        "region": "jioindiacentral",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:1104:5::1c0/122",
+      "tags": {
+        "region": "jioindiacentral",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:1104:400::90/125",
+      "tags": {
+        "region": "jioindiacentral",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:1104:400::380/121",
+      "tags": {
+        "region": "jioindiacentral",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:1104:400::480/122",
+      "tags": {
+        "region": "jioindiacentral",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:1202::520/125",
+      "tags": {
+        "region": "taiwannorthwest",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:1202:3::480/122",
+      "tags": {
+        "region": "taiwannorthwest",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:1202:400::48/125",
+      "tags": {
+        "region": "taiwannorthwest",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:1202:400::280/121",
+      "tags": {
+        "region": "taiwannorthwest",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:1302::520/125",
+      "tags": {
+        "region": "taiwannorth",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:1302:3::4c0/122",
+      "tags": {
+        "region": "taiwannorth",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:1302:5::400/121",
+      "tags": {
+        "region": "taiwannorth",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:1302:400::48/125",
+      "tags": {
+        "region": "taiwannorth",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:1302:400::280/121",
+      "tags": {
+        "region": "taiwannorth",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:1302:800::18/125",
+      "tags": {
+        "region": "taiwannorth",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:1302:c00::18/125",
+      "tags": {
+        "region": "taiwannorth",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:1402::540/125",
+      "tags": {
+        "region": "israelcentral",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:1402:2::4c0/122",
+      "tags": {
+        "region": "israelcentral",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:1402:400::48/125",
+      "tags": {
+        "region": "israelcentral",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:1402:400::280/121",
+      "tags": {
+        "region": "israelcentral",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:1402:800::48/125",
+      "tags": {
+        "region": "israelcentral",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:1402:800::180/121",
+      "tags": {
+        "region": "israelcentral",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:1402:c00::48/125",
+      "tags": {
+        "region": "israelcentral",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:1402:c00::180/121",
+      "tags": {
+        "region": "israelcentral",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:1503::540/125",
+      "tags": {
+        "region": "malaysiasouth",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:1503:3::4c0/122",
+      "tags": {
+        "region": "malaysiasouth",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:1503:6::/121",
+      "tags": {
+        "region": "malaysiasouth",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:1503:400::48/125",
+      "tags": {
+        "region": "malaysiasouth",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:1503:400::280/121",
+      "tags": {
+        "region": "malaysiasouth",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:1602::560/125",
+      "tags": {
+        "region": "malaysiawest",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:1602:4::5c0/123",
+      "tags": {
+        "region": "malaysiawest",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:1602:4::5e0/124",
+      "tags": {
+        "region": "malaysiawest",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:1602:4::5f0/125",
+      "tags": {
+        "region": "malaysiawest",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:1602:400::8/125",
+      "tags": {
+        "region": "malaysiawest",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:1602:400::100/121",
+      "tags": {
+        "region": "malaysiawest",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:1602:800::18/125",
+      "tags": {
+        "region": "malaysiawest",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:1602:800::80/121",
+      "tags": {
+        "region": "malaysiawest",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:1602:c00::18/125",
+      "tags": {
+        "region": "malaysiawest",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:1602:c00::80/121",
+      "tags": {
+        "region": "malaysiawest",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:1702::3e0/125",
+      "tags": {
+        "region": "israelnorthwest",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:1702:4::200/121",
+      "tags": {
+        "region": "israelnorthwest",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:1702:4::570/124",
+      "tags": {
+        "region": "israelnorthwest",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:1702:4::600/123",
+      "tags": {
+        "region": "israelnorthwest",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:1702:4::620/125",
+      "tags": {
+        "region": "israelnorthwest",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:1702:400::8/125",
+      "tags": {
+        "region": "israelnorthwest",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:1702:400::80/121",
+      "tags": {
+        "region": "israelnorthwest",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:1802::280/125",
+      "tags": {
+        "region": "indonesiacentral",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:1802:4::6a8/125",
+      "tags": {
+        "region": "indonesiacentral",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:1802:4::6b0/124",
+      "tags": {
+        "region": "indonesiacentral",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:1802:4::6c0/123",
+      "tags": {
+        "region": "indonesiacentral",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:1802:5::480/121",
+      "tags": {
+        "region": "indonesiacentral",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:1802:400::8/125",
+      "tags": {
+        "region": "indonesiacentral",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:1802:400::100/121",
+      "tags": {
+        "region": "indonesiacentral",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:1802:800::8/125",
+      "tags": {
+        "region": "indonesiacentral",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:1802:800::80/121",
+      "tags": {
+        "region": "indonesiacentral",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:1802:c00::8/125",
+      "tags": {
+        "region": "indonesiacentral",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:1802:c00::80/121",
+      "tags": {
+        "region": "indonesiacentral",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:1904::700/125",
+      "tags": {
+        "region": "indiasouthcentral",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:1904:2::580/121",
+      "tags": {
+        "region": "indiasouthcentral",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:1904:4::188/125",
+      "tags": {
+        "region": "indiasouthcentral",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:1904:4::300/123",
+      "tags": {
+        "region": "indiasouthcentral",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:1904:4::320/124",
+      "tags": {
+        "region": "indiasouthcentral",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:1904:400::8/125",
+      "tags": {
+        "region": "indiasouthcentral",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:1904:800::8/125",
+      "tags": {
+        "region": "indiasouthcentral",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:1904:c00::8/125",
+      "tags": {
+        "region": "indiasouthcentral",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:1a02::700/125",
+      "tags": {
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:1a02:2::580/121",
+      "tags": {
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:1a02:400::8/125",
+      "tags": {
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:1b02::700/125",
+      "tags": {
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1040:1b02:2::580/121",
+      "tags": {
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1050:6:3::4c0/122",
+      "tags": {
+        "region": "brazilsouth",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1050:6:402::90/125",
+      "tags": {
+        "region": "brazilsouth",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1050:6:402::340/122",
+      "tags": {
+        "region": "brazilsouth",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1050:6:402::500/121",
+      "tags": {
+        "region": "brazilsouth",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1050:6:802::90/125",
+      "tags": {
+        "region": "brazilsouth",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1050:6:802::2c0/122",
+      "tags": {
+        "region": "brazilsouth",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1050:6:802::400/121",
+      "tags": {
+        "region": "brazilsouth",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1050:6:c02::90/125",
+      "tags": {
+        "region": "brazilsouth",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1050:6:c02::400/121",
+      "tags": {
+        "region": "brazilsouth",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1050:301::3e0/125",
+      "tags": {
+        "region": "chilec",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1050:301:4::4b0/124",
+      "tags": {
+        "region": "chilec",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1050:301:4::4c0/123",
+      "tags": {
+        "region": "chilec",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1050:301:4::4e0/125",
+      "tags": {
+        "region": "chilec",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1050:301:400::8/125",
+      "tags": {
+        "region": "chilec",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1050:301:400::80/121",
+      "tags": {
+        "region": "chilec",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1050:301:800::8/125",
+      "tags": {
+        "region": "chilec",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1050:301:800::80/121",
+      "tags": {
+        "region": "chilec",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1050:301:c00::8/125",
+      "tags": {
+        "region": "chilec",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1050:301:c00::80/121",
+      "tags": {
+        "region": "chilec",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1050:403:6::440/122",
+      "tags": {
+        "region": "brazilse",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1050:403:400::98/125",
+      "tags": {
+        "region": "brazilse",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1050:403:400::480/121",
+      "tags": {
+        "region": "brazilse",
+        "service": "AzureContainerRegistry"
+      }
+    }
+  ]
+}

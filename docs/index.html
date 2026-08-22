@@ -42,8 +42,8 @@
         separate files per address family, as JSON or bare CIDRs.
       </p>
       <p class="uk-text-meta mt-4">
-        <span class="font-semibold">13</span> providers ·
-        <span class="font-semibold">58</span> sets
+        <span class="font-semibold">14</span> providers ·
+        <span class="font-semibold">69</span> sets
         · built 22 August 2026
       </p>
     </div>
@@ -83,7 +83,7 @@
     <div class="row flex items-center gap-2 px-4 py-2 border-b"
          data-name="categories cdn" data-cat="cdn" data-path="/v1/categories/cdn">
       <span class="mono text-sm">cdn</span>
-      <span class="uk-text-meta mono ml-auto nowrap">376 v4 · 86 v6</span>
+      <span class="uk-text-meta mono ml-auto nowrap">646 v4 · 281 v6</span>
       <span class="flex gap-1 shrink-0">
         <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv4">v4</button>
         <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv6">v6</button>
@@ -93,7 +93,7 @@
     <div class="row flex items-center gap-2 px-4 py-2 border-b"
          data-name="categories ci" data-cat="ci" data-path="/v1/categories/ci">
       <span class="mono text-sm">ci</span>
-      <span class="uk-text-meta mono ml-auto nowrap">5,796 v4 · 1,635 v6</span>
+      <span class="uk-text-meta mono ml-auto nowrap">5,839 v4 · 1,665 v6</span>
       <span class="flex gap-1 shrink-0">
         <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv4">v4</button>
         <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv6">v6</button>
@@ -113,7 +113,7 @@
     <div class="row flex items-center gap-2 px-4 py-2 border-b"
          data-name="categories monitoring" data-cat="monitoring" data-path="/v1/categories/monitoring">
       <span class="mono text-sm">monitoring</span>
-      <span class="uk-text-meta mono ml-auto nowrap">70 v4 · 26 v6</span>
+      <span class="uk-text-meta mono ml-auto nowrap">311 v4 · 185 v6</span>
       <span class="flex gap-1 shrink-0">
         <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv4">v4</button>
         <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv6">v6</button>
@@ -464,6 +464,137 @@
         <span class="mono text-sm">ivs-low-latency</span>
         
         <span class="uk-text-meta mono ml-auto nowrap">1 v4 · 1 v6</span>
+        <span class="flex gap-1 shrink-0">
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv4">v4</button>
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv6">v6</button>
+        </span>
+      </div>
+      
+    </div>
+    
+    <div class="uk-card group" data-name="azure Microsoft Azure">
+      <div class="uk-card-header flex items-baseline justify-between gap-2">
+        <h3 class="uk-card-title">Microsoft Azure</h3>
+        
+        <a class="uk-text-meta plain nowrap" href="https://learn.microsoft.com/en-us/azure/virtual-network/service-tags-overview" rel="noopener">docs ↗</a>
+        
+      </div>
+      
+      <div class="row flex items-center gap-2 px-4 py-2 border-b"
+           data-name="front-door-backend Front Door (origin-facing)" data-cat="cdn" data-path="/v1/azure/front-door-backend">
+        <span class="mono text-sm">front-door-backend</span>
+        <span class="uk-badge uk-badge-secondary">cdn</span>
+        <span class="uk-text-meta mono ml-auto nowrap">147 v4 · 92 v6</span>
+        <span class="flex gap-1 shrink-0">
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv4">v4</button>
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv6">v6</button>
+        </span>
+      </div>
+      
+      <div class="row flex items-center gap-2 px-4 py-2 border-b"
+           data-name="front-door-frontend Front Door (edge)" data-cat="cdn" data-path="/v1/azure/front-door-frontend">
+        <span class="mono text-sm">front-door-frontend</span>
+        <span class="uk-badge uk-badge-secondary">cdn</span>
+        <span class="uk-text-meta mono ml-auto nowrap">123 v4 · 103 v6</span>
+        <span class="flex gap-1 shrink-0">
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv4">v4</button>
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv6">v6</button>
+        </span>
+      </div>
+      
+      <div class="row flex items-center gap-2 px-4 py-2 border-b"
+           data-name="devops Azure DevOps hosted agents" data-cat="ci" data-path="/v1/azure/devops">
+        <span class="mono text-sm">devops</span>
+        <span class="uk-badge uk-badge-secondary">ci</span>
+        <span class="uk-text-meta mono ml-auto nowrap">84 v4 · 63 v6</span>
+        <span class="flex gap-1 shrink-0">
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv4">v4</button>
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv6">v6</button>
+        </span>
+      </div>
+      
+      <div class="row flex items-center gap-2 px-4 py-2 border-b"
+           data-name="application-insights-availability Application Insights availability tests" data-cat="monitoring" data-path="/v1/azure/application-insights-availability">
+        <span class="mono text-sm">application-insights-availability</span>
+        <span class="uk-badge uk-badge-secondary">monitoring</span>
+        <span class="uk-text-meta mono ml-auto nowrap">31 v4</span>
+        <span class="flex gap-1 shrink-0">
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv4">v4</button>
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv6">v6</button>
+        </span>
+      </div>
+      
+      <div class="row flex items-center gap-2 px-4 py-2 border-b"
+           data-name="traffic-manager Traffic Manager probes" data-cat="monitoring" data-path="/v1/azure/traffic-manager">
+        <span class="mono text-sm">traffic-manager</span>
+        <span class="uk-badge uk-badge-secondary">monitoring</span>
+        <span class="uk-text-meta mono ml-auto nowrap">210 v4 · 159 v6</span>
+        <span class="flex gap-1 shrink-0">
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv4">v4</button>
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv6">v6</button>
+        </span>
+      </div>
+      
+      <div class="row flex items-center gap-2 px-4 py-2 border-b"
+           data-name="monitor Azure Monitor" data-cat="" data-path="/v1/azure/monitor">
+        <span class="mono text-sm">monitor</span>
+        
+        <span class="uk-text-meta mono ml-auto nowrap">1,883 v4 · 1,231 v6</span>
+        <span class="flex gap-1 shrink-0">
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv4">v4</button>
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv6">v6</button>
+        </span>
+      </div>
+      
+      <div class="row flex items-center gap-2 px-4 py-2 border-b"
+           data-name="app-service App Service" data-cat="" data-path="/v1/azure/app-service">
+        <span class="mono text-sm">app-service</span>
+        
+        <span class="uk-text-meta mono ml-auto nowrap">1,090 v4 · 207 v6</span>
+        <span class="flex gap-1 shrink-0">
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv4">v4</button>
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv6">v6</button>
+        </span>
+      </div>
+      
+      <div class="row flex items-center gap-2 px-4 py-2 border-b"
+           data-name="storage Storage" data-cat="" data-path="/v1/azure/storage">
+        <span class="mono text-sm">storage</span>
+        
+        <span class="uk-text-meta mono ml-auto nowrap">496 v4 · 80 v6</span>
+        <span class="flex gap-1 shrink-0">
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv4">v4</button>
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv6">v6</button>
+        </span>
+      </div>
+      
+      <div class="row flex items-center gap-2 px-4 py-2 border-b"
+           data-name="sql SQL" data-cat="" data-path="/v1/azure/sql">
+        <span class="mono text-sm">sql</span>
+        
+        <span class="uk-text-meta mono ml-auto nowrap">1,115 v4 · 402 v6</span>
+        <span class="flex gap-1 shrink-0">
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv4">v4</button>
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv6">v6</button>
+        </span>
+      </div>
+      
+      <div class="row flex items-center gap-2 px-4 py-2 border-b"
+           data-name="active-directory Entra ID" data-cat="" data-path="/v1/azure/active-directory">
+        <span class="mono text-sm">active-directory</span>
+        
+        <span class="uk-text-meta mono ml-auto nowrap">312 v4 · 93 v6</span>
+        <span class="flex gap-1 shrink-0">
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv4">v4</button>
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv6">v6</button>
+        </span>
+      </div>
+      
+      <div class="row flex items-center gap-2 px-4 py-2 border-b"
+           data-name="container-registry Container Registry" data-cat="" data-path="/v1/azure/container-registry">
+        <span class="mono text-sm">container-registry</span>
+        
+        <span class="uk-text-meta mono ml-auto nowrap">600 v4 · 608 v6</span>
         <span class="flex gap-1 shrink-0">
           <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv4">v4</button>
           <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv6">v6</button>

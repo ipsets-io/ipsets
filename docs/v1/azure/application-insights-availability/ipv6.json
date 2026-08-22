@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "provider": "azure",
+  "provider_name": "Microsoft Azure",
+  "set": "application-insights-availability",
+  "set_name": "Application Insights availability tests",
+  "category": "monitoring",
+  "family": "ipv6",
+  "source": {
+    "url": "https://www.microsoft.com/en-us/download/details.aspx?id=56519",
+    "homepage": "https://learn.microsoft.com/en-us/azure/virtual-network/service-tags-overview"
+  },
+  "count": 0,
+  "prefixes": []
+}

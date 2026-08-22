@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-22T11:33:32Z",
+  "generated_at": "2026-08-22T14:58:58Z",
   "providers": [
     {
       "id": "anthropic",
@@ -435,6 +435,173 @@
             "path": "/v1/aws/ivs-low-latency/ipv6.json",
             "count": 1,
             "sha256": "192315b8c4c40a238a2688f3524d6b68bf30ae878eca9bd3017a2227e2bc42b5"
+          }
+        }
+      ]
+    },
+    {
+      "id": "azure",
+      "name": "Microsoft Azure",
+      "homepage": "https://learn.microsoft.com/en-us/azure/virtual-network/service-tags-overview",
+      "source": "https://www.microsoft.com/en-us/download/details.aspx?id=56519",
+      "sets": [
+        {
+          "id": "front-door-backend",
+          "name": "Front Door (origin-facing)",
+          "category": "cdn",
+          "ipv4": {
+            "path": "/v1/azure/front-door-backend/ipv4.json",
+            "count": 147,
+            "sha256": "7e0cddedfbfd702527e30c42bf9347d03b22617e9605e09f65742b8554881dea"
+          },
+          "ipv6": {
+            "path": "/v1/azure/front-door-backend/ipv6.json",
+            "count": 92,
+            "sha256": "86d7922be0aac34cc7a62205193b229a41b1f6414aea43c0622c97a0e1265fd7"
+          }
+        },
+        {
+          "id": "front-door-frontend",
+          "name": "Front Door (edge)",
+          "category": "cdn",
+          "ipv4": {
+            "path": "/v1/azure/front-door-frontend/ipv4.json",
+            "count": 123,
+            "sha256": "8ab5c5f853f5cfbbe0d85cac8f8511bf2269e0fcaaa77c78d0f8048e4b375a2d"
+          },
+          "ipv6": {
+            "path": "/v1/azure/front-door-frontend/ipv6.json",
+            "count": 103,
+            "sha256": "e7f775e395804f11c601f7e735054b0d9dc06a2dbdbdf5e2f57757fef4c3127a"
+          }
+        },
+        {
+          "id": "devops",
+          "name": "Azure DevOps hosted agents",
+          "category": "ci",
+          "ipv4": {
+            "path": "/v1/azure/devops/ipv4.json",
+            "count": 84,
+            "sha256": "8325b19ea5215b1bebeb9e013039767f893731e24ff0766fc822929d72e24dfd"
+          },
+          "ipv6": {
+            "path": "/v1/azure/devops/ipv6.json",
+            "count": 63,
+            "sha256": "bee78b9eafbb373ad4fb0a9e4f9b06a20d26aabf7d0a043ad8f19ab542fa5b92"
+          }
+        },
+        {
+          "id": "application-insights-availability",
+          "name": "Application Insights availability tests",
+          "category": "monitoring",
+          "ipv4": {
+            "path": "/v1/azure/application-insights-availability/ipv4.json",
+            "count": 31,
+            "sha256": "759b5403f14eb215aa4c80181e50c24eec488444b6a5c33a4f3d6e66e7edc35a"
+          },
+          "ipv6": {
+            "path": "/v1/azure/application-insights-availability/ipv6.json",
+            "count": 0,
+            "sha256": "f0e503ea591c559e001fc65a14136b12be92c5da2b03d435b9e2e1ba828405e1"
+          }
+        },
+        {
+          "id": "traffic-manager",
+          "name": "Traffic Manager probes",
+          "category": "monitoring",
+          "ipv4": {
+            "path": "/v1/azure/traffic-manager/ipv4.json",
+            "count": 210,
+            "sha256": "3f7ab68297a5835381235c91c28704ee2de1d5c1e7429230f0d50d6d10908abf"
+          },
+          "ipv6": {
+            "path": "/v1/azure/traffic-manager/ipv6.json",
+            "count": 159,
+            "sha256": "905c78f3253962885143a97a0793c5dfffb4758ccb02fd2333f5d92e5609fca7"
+          }
+        },
+        {
+          "id": "monitor",
+          "name": "Azure Monitor",
+          "ipv4": {
+            "path": "/v1/azure/monitor/ipv4.json",
+            "count": 1883,
+            "sha256": "afabce9b797b0018a0d9010a6bc4ac4b98480c400c4fa6c739ab123a7db53ca5"
+          },
+          "ipv6": {
+            "path": "/v1/azure/monitor/ipv6.json",
+            "count": 1231,
+            "sha256": "d8426221ad9d272b0ce789992b2562bd84441793cb5b5adc164ce0b953c55dba"
+          }
+        },
+        {
+          "id": "app-service",
+          "name": "App Service",
+          "ipv4": {
+            "path": "/v1/azure/app-service/ipv4.json",
+            "count": 1090,
+            "sha256": "fc80596f1159aaaa062321ac4b2a9dc923caa8b7ab1df9c5aa803f0525d4b9bb"
+          },
+          "ipv6": {
+            "path": "/v1/azure/app-service/ipv6.json",
+            "count": 207,
+            "sha256": "c9e9b5d4d678a35892205d687a4dfee23339f09797a83d18583381d9fabb13f1"
+          }
+        },
+        {
+          "id": "storage",
+          "name": "Storage",
+          "ipv4": {
+            "path": "/v1/azure/storage/ipv4.json",
+            "count": 496,
+            "sha256": "354775951ce60a0b3d79bcece906bfad39a7522578fd4d7e5a0b751010d04e29"
+          },
+          "ipv6": {
+            "path": "/v1/azure/storage/ipv6.json",
+            "count": 80,
+            "sha256": "79ef00f7e2adc0376d403fe9d87ccae2951da4b545e583f200f20ed77f7fb174"
+          }
+        },
+        {
+          "id": "sql",
+          "name": "SQL",
+          "ipv4": {
+            "path": "/v1/azure/sql/ipv4.json",
+            "count": 1115,
+            "sha256": "59c6e82bb42fe9216a69871f49862480230539c841e7a0fafcb0def7881e11a7"
+          },
+          "ipv6": {
+            "path": "/v1/azure/sql/ipv6.json",
+            "count": 402,
+            "sha256": "7f29e8d1f80141f03225bfae2ae17a266118e2dd0e1a08a71accc0e1ccb7a211"
+          }
+        },
+        {
+          "id": "active-directory",
+          "name": "Entra ID",
+          "ipv4": {
+            "path": "/v1/azure/active-directory/ipv4.json",
+            "count": 312,
+            "sha256": "d11890800e153f4d769d0d351cb1d564be81062a3e589a5a3eb289d8f0e27256"
+          },
+          "ipv6": {
+            "path": "/v1/azure/active-directory/ipv6.json",
+            "count": 93,
+            "sha256": "cbf57d8470bbecc58afa917940e097d12fed499afc8d43cad0baba1dabdc5c96"
+          }
+        },
+        {
+          "id": "container-registry",
+          "name": "Container Registry",
+          "ipv4": {
+            "path": "/v1/azure/container-registry/ipv4.json",
+            "count": 600,
+            "sha256": "8c18c7c468f65acabf8c22300e81da862b79fad10c4e4d72eb6ef5cff5985864"
+          },
+          "ipv6": {
+            "path": "/v1/azure/container-registry/ipv6.json",
+            "count": 608,
+            "sha256": "b8eeea4fa1e7d6c1b62dee9bdd84dce4b5c78ba8b18bfa3590533e235fa25377"
           }
         }
       ]
@@ -931,7 +1098,7 @@
           "ipv4": {
             "path": "/v1/tor/exits/ipv4.json",
             "count": 1369,
-            "sha256": "e74f09d4af73ef4c80040bdbfae3688e57b21eefe5cafef361037fd1c3a0b28f"
+            "sha256": "13813161823252df58a31cdbcd22e2f6a745ffcd883aa007887e6fa01f3bbb6b"
           },
           "ipv6": {
             "path": "/v1/tor/exits/ipv6.json",
@@ -953,7 +1120,7 @@
           "ipv4": {
             "path": "/v1/categories/anonymizer/ipv4.json",
             "count": 1369,
-            "sha256": "9e75aef9853ee77177be21e1294d992cb4d2d46cdfd6c8d1d2997f6b4f1a04e2"
+            "sha256": "aebd2d18a0f124f7869677ffa432ddfe922f5d05913f4fb7a478915c3bab71f1"
           },
           "ipv6": {
             "path": "/v1/categories/anonymizer/ipv6.json",
@@ -972,13 +1139,13 @@
           "category": "cdn",
           "ipv4": {
             "path": "/v1/categories/cdn/ipv4.json",
-            "count": 376,
-            "sha256": "804d1a77592f42d28b5d39a2c76197436add47384552d50cc71e785181382358"
+            "count": 646,
+            "sha256": "775c05665070d87add26d3965f28d85c0e4c090c07d2c7e8537dfe24b01a7701"
           },
           "ipv6": {
             "path": "/v1/categories/cdn/ipv6.json",
-            "count": 86,
-            "sha256": "13d534b27e367fab9e7c5f96eeb0a50a1f68f41a7bc91a839a6b4a6b62cc49f0"
+            "count": 281,
+            "sha256": "d8f5e11b707661e4d5736c6f807853dc0e0eaa87cbfdd70ead9e81074ffb9a36"
           }
         }
       ]
@@ -992,13 +1159,13 @@
           "category": "ci",
           "ipv4": {
             "path": "/v1/categories/ci/ipv4.json",
-            "count": 5796,
-            "sha256": "60d27a17e9478002e3aceeaf652e2da26d404d99f996309fee395a9a115c37c3"
+            "count": 5839,
+            "sha256": "4d8295128002f011bc59587208729dc220d53337b4029f731ec3b511df467773"
           },
           "ipv6": {
             "path": "/v1/categories/ci/ipv6.json",
-            "count": 1635,
-            "sha256": "fad02774cc67628a0402f7a09169f71a1d40c623dbba6c431d7a67761ec6734c"
+            "count": 1665,
+            "sha256": "bd8f0cb85107d526bf658251234e4c2fd03b7fac44db440a94e8849a05e2b309"
           }
         }
       ]
@@ -1032,13 +1199,13 @@
           "category": "monitoring",
           "ipv4": {
             "path": "/v1/categories/monitoring/ipv4.json",
-            "count": 70,
-            "sha256": "9e2c202702645e12c28ca4ea77ec6e8d1e14d77e634d4df2add108ce24ddceed"
+            "count": 311,
+            "sha256": "9d6388eae136782eea54bcc1e894541eef08751662670bdc277d46e438eed568"
           },
           "ipv6": {
             "path": "/v1/categories/monitoring/ipv6.json",
-            "count": 26,
-            "sha256": "3490539773772ac9933e6f85448c2174e5a7781ad83582a7fab1a124237357b1"
+            "count": 185,
+            "sha256": "4f521b4e7f36f3267238ab1348d5f6dc5f8e51a6e1203163b69a6aeacafb880a"
           }
         }
       ]

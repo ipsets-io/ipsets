@@ -2562,12 +2562,6 @@
       }
     },
     {
-      "prefix": "64.190.113.221/32",
-      "tags": {
-        "provider": "tor"
-      }
-    },
-    {
       "prefix": "65.87.223.26/32",
       "tags": {
         "provider": "tor"
@@ -3385,6 +3379,12 @@
     },
     {
       "prefix": "103.214.53.179/32",
+      "tags": {
+        "provider": "tor"
+      }
+    },
+    {
+      "prefix": "103.255.66.69/32",
       "tags": {
         "provider": "tor"
       }

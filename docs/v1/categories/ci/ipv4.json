@@ -9,7 +9,7 @@
   "source": {
     "url": ""
   },
-  "count": 5796,
+  "count": 5839,
   "prefixes": [
     {
       "prefix": "3.26.127.24/29",
@@ -99,6 +99,22 @@
         "provider": "aws",
         "region": "eu-west-1",
         "service": "CODEBUILD"
+      }
+    },
+    {
+      "prefix": "4.145.0.106/31",
+      "tags": {
+        "provider": "azure",
+        "region": "southeastasia",
+        "service": "AzureDevOps"
+      }
+    },
+    {
+      "prefix": "4.145.0.192/27",
+      "tags": {
+        "provider": "azure",
+        "region": "southeastasia",
+        "service": "AzureDevOps"
       }
     },
     {
@@ -206,6 +222,14 @@
       }
     },
     {
+      "prefix": "4.166.33.80/28",
+      "tags": {
+        "provider": "azure",
+        "region": "swedencentral",
+        "service": "AzureDevOps"
+      }
+    },
+    {
       "prefix": "4.172.0.0/15",
       "tags": {
         "provider": "github",
@@ -230,6 +254,14 @@
       "prefix": "4.180.0.0/16",
       "tags": {
         "provider": "github"
+      }
+    },
+    {
+      "prefix": "4.188.8.0/27",
+      "tags": {
+        "provider": "azure",
+        "region": "centralindia",
+        "service": "AzureDevOps"
       }
     },
     {
@@ -303,6 +335,38 @@
       }
     },
     {
+      "prefix": "4.198.222.196/30",
+      "tags": {
+        "provider": "azure",
+        "region": "australiaeast",
+        "service": "AzureDevOps"
+      }
+    },
+    {
+      "prefix": "4.198.222.200/29",
+      "tags": {
+        "provider": "azure",
+        "region": "australiaeast",
+        "service": "AzureDevOps"
+      }
+    },
+    {
+      "prefix": "4.198.222.208/28",
+      "tags": {
+        "provider": "azure",
+        "region": "australiaeast",
+        "service": "AzureDevOps"
+      }
+    },
+    {
+      "prefix": "4.198.222.224/31",
+      "tags": {
+        "provider": "azure",
+        "region": "australiaeast",
+        "service": "AzureDevOps"
+      }
+    },
+    {
       "prefix": "4.204.0.0/15",
       "tags": {
         "provider": "github",
@@ -310,11 +374,7 @@
       }
     },
     {
-      "prefix": "4.206.0.0/16",
-      "tags": {
-        "provider": "github",
-        "usage": "actions"
-      }
+      "prefix": "4.206.0.0/16"
     },
     {
       "prefix": "4.207.0.0/16",
@@ -358,11 +418,7 @@
       }
     },
     {
-      "prefix": "4.229.0.0/17",
-      "tags": {
-        "provider": "github",
-        "usage": "actions"
-      }
+      "prefix": "4.229.0.0/17"
     },
     {
       "prefix": "4.229.128.0/17",
@@ -627,6 +683,14 @@
       "tags": {
         "provider": "github",
         "usage": "actions"
+      }
+    },
+    {
+      "prefix": "4.247.191.228/30",
+      "tags": {
+        "provider": "azure",
+        "region": "centralindia",
+        "service": "AzureDevOps"
       }
     },
     {
@@ -1229,6 +1293,14 @@
       "tags": {
         "provider": "github",
         "usage": "actions"
+      }
+    },
+    {
+      "prefix": "9.223.122.120/31",
+      "tags": {
+        "provider": "azure",
+        "region": "swedencentral",
+        "service": "AzureDevOps"
       }
     },
     {
@@ -3117,6 +3189,14 @@
       }
     },
     {
+      "prefix": "20.2.105.224/30",
+      "tags": {
+        "provider": "azure",
+        "region": "eastasia",
+        "service": "AzureDevOps"
+      }
+    },
+    {
       "prefix": "20.3.0.0/16",
       "tags": {
         "provider": "github"
@@ -4873,10 +4953,14 @@
       }
     },
     {
-      "prefix": "20.37.128.0/18",
+      "prefix": "20.37.128.0/18"
+    },
+    {
+      "prefix": "20.37.194.0/24",
       "tags": {
-        "provider": "github",
-        "usage": "actions"
+        "provider": "azure",
+        "region": "australiaeast",
+        "service": "AzureDevOps"
       }
     },
     {
@@ -5013,6 +5097,14 @@
       }
     },
     {
+      "prefix": "20.39.13.0/26",
+      "tags": {
+        "provider": "azure",
+        "region": "eastus2euap",
+        "service": "AzureDevOps"
+      }
+    },
+    {
       "prefix": "20.39.32.0/19",
       "tags": {
         "provider": "github",
@@ -5041,11 +5133,7 @@
       }
     },
     {
-      "prefix": "20.41.0.0/18",
-      "tags": {
-        "provider": "github",
-        "usage": "actions"
-      }
+      "prefix": "20.41.0.0/18"
     },
     {
       "prefix": "20.41.128.0/18",
@@ -5055,17 +5143,18 @@
       }
     },
     {
-      "prefix": "20.42.0.0/17",
+      "prefix": "20.41.194.0/24",
       "tags": {
-        "provider": "github"
+        "provider": "azure",
+        "region": "southindia",
+        "service": "AzureDevOps"
       }
     },
     {
-      "prefix": "20.42.128.0/19",
-      "tags": {
-        "provider": "github",
-        "usage": "actions"
-      }
+      "prefix": "20.42.0.0/17"
+    },
+    {
+      "prefix": "20.42.128.0/19"
     },
     {
       "prefix": "20.42.160.0/23",
@@ -5086,6 +5175,14 @@
       "tags": {
         "provider": "github",
         "usage": "actions"
+      }
+    },
+    {
+      "prefix": "20.42.226.0/24",
+      "tags": {
+        "provider": "azure",
+        "region": "australiasoutheast",
+        "service": "AzureDevOps"
       }
     },
     {
@@ -5135,6 +5232,14 @@
       "tags": {
         "provider": "github",
         "usage": "actions"
+      }
+    },
+    {
+      "prefix": "20.45.196.64/26",
+      "tags": {
+        "provider": "azure",
+        "region": "centraluseuap",
+        "service": "AzureDevOps"
       }
     },
     {
@@ -6473,6 +6578,30 @@
       }
     },
     {
+      "prefix": "20.91.56.16/31",
+      "tags": {
+        "provider": "azure",
+        "region": "swedensouth",
+        "service": "AzureDevOps"
+      }
+    },
+    {
+      "prefix": "20.91.91.32/28",
+      "tags": {
+        "provider": "azure",
+        "region": "swedensouth",
+        "service": "AzureDevOps"
+      }
+    },
+    {
+      "prefix": "20.91.148.128/25",
+      "tags": {
+        "provider": "azure",
+        "region": "swedencentral",
+        "service": "AzureDevOps"
+      }
+    },
+    {
       "prefix": "20.93.0.0/17",
       "tags": {
         "provider": "github",
@@ -7341,11 +7470,7 @@
       }
     },
     {
-      "prefix": "20.125.128.0/19",
-      "tags": {
-        "provider": "github",
-        "usage": "actions"
-      }
+      "prefix": "20.125.128.0/19"
     },
     {
       "prefix": "20.125.160.0/19",
@@ -10238,11 +10363,7 @@
       }
     },
     {
-      "prefix": "20.166.0.0/16",
-      "tags": {
-        "provider": "github",
-        "usage": "actions"
-      }
+      "prefix": "20.166.0.0/16"
     },
     {
       "prefix": "20.168.0.0/17",
@@ -10388,6 +10509,14 @@
       "tags": {
         "provider": "github",
         "usage": "actions"
+      }
+    },
+    {
+      "prefix": "20.189.107.0/24",
+      "tags": {
+        "provider": "azure",
+        "region": "eastasia",
+        "service": "AzureDevOps"
       }
     },
     {
@@ -10608,11 +10737,15 @@
       }
     },
     {
-      "prefix": "20.200.0.0/18",
+      "prefix": "20.195.68.0/24",
       "tags": {
-        "provider": "github",
-        "usage": "actions"
+        "provider": "azure",
+        "region": "southeastasia",
+        "service": "AzureDevOps"
       }
+    },
+    {
+      "prefix": "20.200.0.0/18"
     },
     {
       "prefix": "20.200.64.0/18",
@@ -11420,6 +11553,14 @@
       }
     },
     {
+      "prefix": "20.204.197.192/26",
+      "tags": {
+        "provider": "azure",
+        "region": "centralindia",
+        "service": "AzureDevOps"
+      }
+    },
+    {
       "prefix": "20.209.0.0/23",
       "tags": {
         "provider": "github",
@@ -11819,6 +11960,14 @@
       }
     },
     {
+      "prefix": "20.216.121.80/31",
+      "tags": {
+        "provider": "azure",
+        "region": "uaecentral",
+        "service": "AzureDevOps"
+      }
+    },
+    {
       "prefix": "20.220.0.0/18",
       "tags": {
         "provider": "github",
@@ -12040,6 +12189,14 @@
       "tags": {
         "provider": "github",
         "usage": "actions"
+      }
+    },
+    {
+      "prefix": "20.233.130.0/25",
+      "tags": {
+        "provider": "azure",
+        "region": "uaenorth",
+        "service": "AzureDevOps"
       }
     },
     {
@@ -13011,11 +13168,7 @@
       }
     },
     {
-      "prefix": "40.74.0.0/18",
-      "tags": {
-        "provider": "github",
-        "usage": "actions"
-      }
+      "prefix": "40.74.0.0/18"
     },
     {
       "prefix": "40.74.160.0/19",
@@ -14474,11 +14627,7 @@
       }
     },
     {
-      "prefix": "40.80.184.0/21",
-      "tags": {
-        "provider": "github",
-        "usage": "actions"
-      }
+      "prefix": "40.80.184.0/21"
     },
     {
       "prefix": "40.80.192.0/19",
@@ -14572,11 +14721,7 @@
       }
     },
     {
-      "prefix": "40.82.248.0/21",
-      "tags": {
-        "provider": "github",
-        "usage": "actions"
-      }
+      "prefix": "40.82.248.0/21"
     },
     {
       "prefix": "40.83.0.0/20",
@@ -18828,11 +18973,7 @@
       }
     },
     {
-      "prefix": "40.119.0.0/18",
-      "tags": {
-        "provider": "github",
-        "usage": "actions"
-      }
+      "prefix": "40.119.0.0/18"
     },
     {
       "prefix": "40.119.88.0/22",
@@ -23141,11 +23282,7 @@
       }
     },
     {
-      "prefix": "48.195.0.0/17",
-      "tags": {
-        "provider": "github",
-        "usage": "actions"
-      }
+      "prefix": "48.195.0.0/17"
     },
     {
       "prefix": "48.195.128.0/17",
@@ -25227,6 +25364,14 @@
       }
     },
     {
+      "prefix": "48.215.155.96/31",
+      "tags": {
+        "provider": "azure",
+        "region": "australiasoutheast",
+        "service": "AzureDevOps"
+      }
+    },
+    {
       "prefix": "48.216.128.0/17",
       "tags": {
         "provider": "github",
@@ -25273,6 +25418,22 @@
       "tags": {
         "provider": "github",
         "usage": "actions"
+      }
+    },
+    {
+      "prefix": "48.223.55.140/30",
+      "tags": {
+        "provider": "azure",
+        "region": "eastus2euap",
+        "service": "AzureDevOps"
+      }
+    },
+    {
+      "prefix": "48.223.55.160/27",
+      "tags": {
+        "provider": "azure",
+        "region": "eastus2euap",
+        "service": "AzureDevOps"
       }
     },
     {
@@ -25465,6 +25626,14 @@
         "provider": "aws",
         "region": "eusc-de-east-1",
         "service": "CODEBUILD"
+      }
+    },
+    {
+      "prefix": "51.104.26.0/24",
+      "tags": {
+        "provider": "azure",
+        "region": "uksouth",
+        "service": "AzureDevOps"
       }
     },
     {
@@ -30015,11 +30184,7 @@
       }
     },
     {
-      "prefix": "52.150.128.0/17",
-      "tags": {
-        "provider": "github",
-        "usage": "actions"
-      }
+      "prefix": "52.150.128.0/17"
     },
     {
       "prefix": "52.151.0.0/18",
@@ -30822,11 +30987,7 @@
       }
     },
     {
-      "prefix": "52.228.0.0/17",
-      "tags": {
-        "provider": "github",
-        "usage": "actions"
-      }
+      "prefix": "52.228.0.0/17"
     },
     {
       "prefix": "52.228.128.0/17",
@@ -34709,11 +34870,7 @@
       }
     },
     {
-      "prefix": "57.167.128.0/17",
-      "tags": {
-        "provider": "github",
-        "usage": "actions"
-      }
+      "prefix": "57.167.128.0/17"
     },
     {
       "prefix": "57.168.0.0/16",
@@ -34723,11 +34880,7 @@
       }
     },
     {
-      "prefix": "57.169.0.0/16",
-      "tags": {
-        "provider": "github",
-        "usage": "actions"
-      }
+      "prefix": "57.169.0.0/16"
     },
     {
       "prefix": "57.171.1.0/24",
@@ -34793,11 +34946,7 @@
       }
     },
     {
-      "prefix": "57.175.0.0/17",
-      "tags": {
-        "provider": "github",
-        "usage": "actions"
-      }
+      "prefix": "57.175.0.0/17"
     },
     {
       "prefix": "57.175.128.0/17",
@@ -35887,6 +36036,30 @@
       }
     },
     {
+      "prefix": "72.147.54.8/29",
+      "tags": {
+        "provider": "azure",
+        "region": "eastus2euap",
+        "service": "AzureDevOps"
+      }
+    },
+    {
+      "prefix": "72.147.54.48/28",
+      "tags": {
+        "provider": "azure",
+        "region": "eastus2euap",
+        "service": "AzureDevOps"
+      }
+    },
+    {
+      "prefix": "72.147.54.64/29",
+      "tags": {
+        "provider": "azure",
+        "region": "eastus2euap",
+        "service": "AzureDevOps"
+      }
+    },
+    {
       "prefix": "72.147.128.0/17",
       "tags": {
         "provider": "github",
@@ -35957,11 +36130,7 @@
       }
     },
     {
-      "prefix": "74.145.128.0/17",
-      "tags": {
-        "provider": "github",
-        "usage": "actions"
-      }
+      "prefix": "74.145.128.0/17"
     },
     {
       "prefix": "74.146.0.0/17",
@@ -36027,6 +36196,30 @@
       }
     },
     {
+      "prefix": "74.162.170.96/31",
+      "tags": {
+        "provider": "azure",
+        "region": "uaenorth",
+        "service": "AzureDevOps"
+      }
+    },
+    {
+      "prefix": "74.163.231.200/29",
+      "tags": {
+        "provider": "azure",
+        "region": "brazilsouth",
+        "service": "AzureDevOps"
+      }
+    },
+    {
+      "prefix": "74.163.231.224/27",
+      "tags": {
+        "provider": "azure",
+        "region": "brazilsouth",
+        "service": "AzureDevOps"
+      }
+    },
+    {
       "prefix": "74.178.0.0/17",
       "tags": {
         "provider": "github",
@@ -36052,6 +36245,14 @@
       "tags": {
         "provider": "github",
         "usage": "actions"
+      }
+    },
+    {
+      "prefix": "74.224.241.88/31",
+      "tags": {
+        "provider": "azure",
+        "region": "southindia",
+        "service": "AzureDevOps"
       }
     },
     {
@@ -36840,11 +37041,7 @@
       }
     },
     {
-      "prefix": "128.24.128.0/17",
-      "tags": {
-        "provider": "github",
-        "usage": "actions"
-      }
+      "prefix": "128.24.128.0/17"
     },
     {
       "prefix": "128.85.0.0/17",
@@ -36910,11 +37107,7 @@
       }
     },
     {
-      "prefix": "130.213.0.0/17",
-      "tags": {
-        "provider": "github",
-        "usage": "actions"
-      }
+      "prefix": "130.213.0.0/17"
     },
     {
       "prefix": "130.213.128.0/17",
@@ -37386,11 +37579,7 @@
       }
     },
     {
-      "prefix": "134.149.0.0/17",
-      "tags": {
-        "provider": "github",
-        "usage": "actions"
-      }
+      "prefix": "134.149.0.0/17"
     },
     {
       "prefix": "134.149.128.0/17",
@@ -38100,6 +38289,22 @@
       }
     },
     {
+      "prefix": "135.235.135.96/27",
+      "tags": {
+        "provider": "azure",
+        "region": "centralindia",
+        "service": "AzureDevOps"
+      }
+    },
+    {
+      "prefix": "135.235.135.128/31",
+      "tags": {
+        "provider": "azure",
+        "region": "centralindia",
+        "service": "AzureDevOps"
+      }
+    },
+    {
       "prefix": "135.236.0.0/17",
       "tags": {
         "provider": "github",
@@ -38287,6 +38492,14 @@
       "tags": {
         "provider": "github",
         "usage": "actions"
+      }
+    },
+    {
+      "prefix": "145.133.35.96/27",
+      "tags": {
+        "provider": "azure",
+        "region": "uksouth",
+        "service": "AzureDevOps"
       }
     },
     {
@@ -39613,6 +39826,14 @@
       }
     },
     {
+      "prefix": "168.61.229.176/28",
+      "tags": {
+        "provider": "azure",
+        "region": "centraluseuap",
+        "service": "AzureDevOps"
+      }
+    },
+    {
       "prefix": "168.62.0.0/19",
       "tags": {
         "provider": "github",
@@ -39718,6 +39939,14 @@
       }
     },
     {
+      "prefix": "172.165.40.0/31",
+      "tags": {
+        "provider": "azure",
+        "region": "uksouth",
+        "service": "AzureDevOps"
+      }
+    },
+    {
       "prefix": "172.166.151.112/28",
       "tags": {
         "provider": "github",
@@ -39739,11 +39968,7 @@
       }
     },
     {
-      "prefix": "172.168.0.0/15",
-      "tags": {
-        "provider": "github",
-        "usage": "actions"
-      }
+      "prefix": "172.168.0.0/15"
     },
     {
       "prefix": "172.170.0.0/16",
@@ -39865,11 +40090,7 @@
       }
     },
     {
-      "prefix": "172.179.0.0/16",
-      "tags": {
-        "provider": "github",
-        "usage": "actions"
-      }
+      "prefix": "172.179.0.0/16"
     },
     {
       "prefix": "172.180.0.0/15",
@@ -39879,10 +40100,7 @@
       }
     },
     {
-      "prefix": "172.182.0.0/16",
-      "tags": {
-        "provider": "github"
-      }
+      "prefix": "172.182.0.0/16"
     },
     {
       "prefix": "172.183.0.0/16",
@@ -39896,6 +40114,22 @@
       "tags": {
         "provider": "github",
         "usage": "actions"
+      }
+    },
+    {
+      "prefix": "172.186.108.192/26",
+      "tags": {
+        "provider": "azure",
+        "region": "ukwest",
+        "service": "AzureDevOps"
+      }
+    },
+    {
+      "prefix": "172.187.17.104/31",
+      "tags": {
+        "provider": "azure",
+        "region": "ukwest",
+        "service": "AzureDevOps"
       }
     },
     {
@@ -39933,11 +40167,7 @@
       }
     },
     {
-      "prefix": "172.199.0.0/16",
-      "tags": {
-        "provider": "github",
-        "usage": "actions"
-      }
+      "prefix": "172.199.0.0/16"
     },
     {
       "prefix": "172.200.0.0/16",
@@ -40131,6 +40361,14 @@
       "tags": {
         "provider": "github",
         "usage": "actions"
+      }
+    },
+    {
+      "prefix": "191.235.226.0/24",
+      "tags": {
+        "provider": "azure",
+        "region": "brazilsouth",
+        "service": "AzureDevOps"
       }
     },
     {

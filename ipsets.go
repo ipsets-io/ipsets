@@ -5,6 +5,7 @@ import (
 	"github.com/ipsets-io/ipsets/provider/anthropic"
 	"github.com/ipsets-io/ipsets/provider/apple"
 	"github.com/ipsets-io/ipsets/provider/aws"
+	"github.com/ipsets-io/ipsets/provider/azure"
 	"github.com/ipsets-io/ipsets/provider/bing"
 	"github.com/ipsets-io/ipsets/provider/cloudflare"
 	"github.com/ipsets-io/ipsets/provider/duckduckgo"
@@ -22,6 +23,7 @@ func Providers() []provider.Provider {
 		anthropic.New(),
 		apple.New(),
 		aws.New(),
+		azure.New(),
 		bing.New(),
 		cloudflare.New(),
 		duckduckgo.New(),
