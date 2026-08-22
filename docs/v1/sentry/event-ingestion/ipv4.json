@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "provider": "sentry",
+  "provider_name": "Sentry",
+  "set": "event-ingestion",
+  "set_name": "Event ingestion endpoints",
+  "family": "ipv4",
+  "source": {
+    "url": "https://docs.sentry.io/api/ip-ranges/",
+    "homepage": "https://docs.sentry.io/security-legal-pii/security/ip-ranges/"
+  },
+  "count": 4,
+  "prefixes": [
+    {
+      "prefix": "34.96.102.34/32",
+      "tags": {
+        "scope": "legacy",
+        "service": "event_ingestion"
+      }
+    },
+    {
+      "prefix": "34.102.210.18/32",
+      "tags": {
+        "service": "event_ingestion"
+      }
+    },
+    {
+      "prefix": "34.160.81.0/32",
+      "tags": {
+        "service": "event_ingestion"
+      }
+    },
+    {
+      "prefix": "35.186.247.156/32",
+      "tags": {
+        "scope": "apex_domain",
+        "service": "event_ingestion"
+      }
+    }
+  ]
+}

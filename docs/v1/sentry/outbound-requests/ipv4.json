@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "provider": "sentry",
+  "provider_name": "Sentry",
+  "set": "outbound-requests",
+  "set_name": "Outbound requests (webhooks, integrations)",
+  "family": "ipv4",
+  "source": {
+    "url": "https://docs.sentry.io/api/ip-ranges/",
+    "homepage": "https://docs.sentry.io/security-legal-pii/security/ip-ranges/"
+  },
+  "count": 7,
+  "prefixes": [
+    {
+      "prefix": "34.141.4.162/32",
+      "tags": {
+        "scope": "eu",
+        "service": "outbound_requests"
+      }
+    },
+    {
+      "prefix": "34.141.31.19/32",
+      "tags": {
+        "scope": "eu",
+        "service": "outbound_requests"
+      }
+    },
+    {
+      "prefix": "35.184.238.160/32",
+      "tags": {
+        "scope": "us",
+        "service": "outbound_requests"
+      }
+    },
+    {
+      "prefix": "35.234.78.236/32",
+      "tags": {
+        "scope": "eu",
+        "service": "outbound_requests"
+      }
+    },
+    {
+      "prefix": "104.155.149.19/32",
+      "tags": {
+        "scope": "us",
+        "service": "outbound_requests"
+      }
+    },
+    {
+      "prefix": "104.155.159.182/32",
+      "tags": {
+        "scope": "us",
+        "service": "outbound_requests"
+      }
+    },
+    {
+      "prefix": "130.211.230.102/32",
+      "tags": {
+        "scope": "us",
+        "service": "outbound_requests"
+      }
+    }
+  ]
+}

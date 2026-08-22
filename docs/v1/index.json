@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-22T15:39:37Z",
+  "generated_at": "2026-08-22T15:41:57Z",
   "providers": [
     {
       "id": "anthropic",
@@ -1294,6 +1294,85 @@
       ]
     },
     {
+      "id": "sentry",
+      "name": "Sentry",
+      "homepage": "https://docs.sentry.io/security-legal-pii/security/ip-ranges/",
+      "source": "https://docs.sentry.io/api/ip-ranges/",
+      "sets": [
+        {
+          "id": "uptime-monitoring",
+          "name": "Uptime monitoring probes",
+          "category": "monitoring",
+          "ipv4": {
+            "path": "/v1/sentry/uptime-monitoring/ipv4.json",
+            "count": 12,
+            "sha256": "536b1183428fd998e15bc8d7632f3b6ffe4a95f7d040f6be3a656e97751d0fef"
+          },
+          "ipv6": {
+            "path": "/v1/sentry/uptime-monitoring/ipv6.json",
+            "count": 0,
+            "sha256": "c889bdb8a75d1e555e8ce76980f1527dff3b8393bf1d65e8267bab3c4601bf64"
+          }
+        },
+        {
+          "id": "outbound-requests",
+          "name": "Outbound requests (webhooks, integrations)",
+          "ipv4": {
+            "path": "/v1/sentry/outbound-requests/ipv4.json",
+            "count": 7,
+            "sha256": "cc622171f13545cda06805ceaf72bf60b4c2f79d8d47f955188391a4f8f10bf9"
+          },
+          "ipv6": {
+            "path": "/v1/sentry/outbound-requests/ipv6.json",
+            "count": 0,
+            "sha256": "673d3aa950719b6651f7a4b422000ccdb2a8c86122a75c962782093e9b1cb9a2"
+          }
+        },
+        {
+          "id": "email-delivery",
+          "name": "Email delivery",
+          "ipv4": {
+            "path": "/v1/sentry/email-delivery/ipv4.json",
+            "count": 5,
+            "sha256": "31fd8f46834e0714b11d4f5d2814a0faaea0894a5cc1a840dd1ad9af1316fd5f"
+          },
+          "ipv6": {
+            "path": "/v1/sentry/email-delivery/ipv6.json",
+            "count": 0,
+            "sha256": "c87b9d05b4772cd75451dce081bd218a4d88cd64595ca2327bfea7e841b86d0c"
+          }
+        },
+        {
+          "id": "event-ingestion",
+          "name": "Event ingestion endpoints",
+          "ipv4": {
+            "path": "/v1/sentry/event-ingestion/ipv4.json",
+            "count": 4,
+            "sha256": "b50e9f169e6944df31c163254e717d848fb88763b5d6f80df74ffdbe7876c6b7"
+          },
+          "ipv6": {
+            "path": "/v1/sentry/event-ingestion/ipv6.json",
+            "count": 2,
+            "sha256": "58cb669fae33e0122e8472e7663e58779c60a08bc6bc76a656f4583b655bda12"
+          }
+        },
+        {
+          "id": "dashboard",
+          "name": "Dashboard",
+          "ipv4": {
+            "path": "/v1/sentry/dashboard/ipv4.json",
+            "count": 3,
+            "sha256": "1628ba356c1eac081bba33499c8dfcf1c3901b22655de7a70306a8e56272d521"
+          },
+          "ipv6": {
+            "path": "/v1/sentry/dashboard/ipv6.json",
+            "count": 0,
+            "sha256": "10ec9be87ec1295550caa9a5f6448e0f53ae2c0efbc5fe3dfbee277232cdf32e"
+          }
+        }
+      ]
+    },
+    {
       "id": "tor",
       "name": "Tor Project",
       "homepage": "https://support.torproject.org/abuse/i-want-to-ban-tor/",
@@ -1407,8 +1486,8 @@
           "category": "monitoring",
           "ipv4": {
             "path": "/v1/categories/monitoring/ipv4.json",
-            "count": 484,
-            "sha256": "62fdbe9aa2f5f35247250ec75c21dc6d96cfac56595bef39856c5b7309a549de"
+            "count": 496,
+            "sha256": "fa5e203b4b3c6c29476c3d057a1867ba11548a6a60d1c01a33190e787f6fa7ef"
           },
           "ipv6": {
             "path": "/v1/categories/monitoring/ipv6.json",

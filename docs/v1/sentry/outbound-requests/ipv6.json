@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "provider": "sentry",
+  "provider_name": "Sentry",
+  "set": "outbound-requests",
+  "set_name": "Outbound requests (webhooks, integrations)",
+  "family": "ipv6",
+  "source": {
+    "url": "https://docs.sentry.io/api/ip-ranges/",
+    "homepage": "https://docs.sentry.io/security-legal-pii/security/ip-ranges/"
+  },
+  "count": 0,
+  "prefixes": []
+}

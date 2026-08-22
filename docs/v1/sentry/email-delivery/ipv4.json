@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "provider": "sentry",
+  "provider_name": "Sentry",
+  "set": "email-delivery",
+  "set_name": "Email delivery",
+  "family": "ipv4",
+  "source": {
+    "url": "https://docs.sentry.io/api/ip-ranges/",
+    "homepage": "https://docs.sentry.io/security-legal-pii/security/ip-ranges/"
+  },
+  "count": 5,
+  "prefixes": [
+    {
+      "prefix": "159.183.185.10/32",
+      "tags": {
+        "service": "email_delivery"
+      }
+    },
+    {
+      "prefix": "159.183.224.167/32",
+      "tags": {
+        "service": "email_delivery"
+      }
+    },
+    {
+      "prefix": "167.89.84.14/32",
+      "tags": {
+        "service": "email_delivery"
+      }
+    },
+    {
+      "prefix": "167.89.84.75/32",
+      "tags": {
+        "service": "email_delivery"
+      }
+    },
+    {
+      "prefix": "167.89.86.73/32",
+      "tags": {
+        "service": "email_delivery"
+      }
+    }
+  ]
+}

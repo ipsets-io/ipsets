@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "provider": "sentry",
+  "provider_name": "Sentry",
+  "set": "uptime-monitoring",
+  "set_name": "Uptime monitoring probes",
+  "category": "monitoring",
+  "family": "ipv4",
+  "source": {
+    "url": "https://docs.sentry.io/api/ip-ranges/",
+    "homepage": "https://docs.sentry.io/security-legal-pii/security/ip-ranges/"
+  },
+  "count": 12,
+  "prefixes": [
+    {
+      "prefix": "34.41.121.171/32",
+      "tags": {
+        "service": "uptime_monitoring"
+      }
+    },
+    {
+      "prefix": "34.85.249.57/32",
+      "tags": {
+        "service": "uptime_monitoring"
+      }
+    },
+    {
+      "prefix": "34.107.93.3/32",
+      "tags": {
+        "service": "uptime_monitoring"
+      }
+    },
+    {
+      "prefix": "34.123.33.225/32",
+      "tags": {
+        "service": "uptime_monitoring"
+      }
+    },
+    {
+      "prefix": "34.159.197.47/32",
+      "tags": {
+        "service": "uptime_monitoring"
+      }
+    },
+    {
+      "prefix": "34.169.179.115/32",
+      "tags": {
+        "service": "uptime_monitoring"
+      }
+    },
+    {
+      "prefix": "35.196.182.243/32",
+      "tags": {
+        "service": "uptime_monitoring"
+      }
+    },
+    {
+      "prefix": "35.204.169.245/32",
+      "tags": {
+        "service": "uptime_monitoring"
+      }
+    },
+    {
+      "prefix": "35.230.15.29/32",
+      "tags": {
+        "service": "uptime_monitoring"
+      }
+    },
+    {
+      "prefix": "35.237.134.233/32",
+      "tags": {
+        "service": "uptime_monitoring"
+      }
+    },
+    {
+      "prefix": "35.242.231.10/32",
+      "tags": {
+        "service": "uptime_monitoring"
+      }
+    },
+    {
+      "prefix": "35.245.72.176/32",
+      "tags": {
+        "service": "uptime_monitoring"
+      }
+    }
+  ]
+}

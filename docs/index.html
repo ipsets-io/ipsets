@@ -42,8 +42,8 @@
         separate files per address family, as JSON or bare CIDRs.
       </p>
       <p class="uk-text-meta mt-4">
-        <span class="font-semibold">17</span> providers ·
-        <span class="font-semibold">82</span> sets
+        <span class="font-semibold">18</span> providers ·
+        <span class="font-semibold">87</span> sets
         · built 22 August 2026
       </p>
     </div>
@@ -113,7 +113,7 @@
     <div class="row flex items-center gap-2 px-4 py-2 border-b"
          data-name="categories monitoring" data-cat="monitoring" data-path="/v1/categories/monitoring">
       <span class="mono text-sm">monitoring</span>
-      <span class="uk-text-meta mono ml-auto nowrap">484 v4 · 242 v6</span>
+      <span class="uk-text-meta mono ml-auto nowrap">496 v4 · 242 v6</span>
       <span class="flex gap-1 shrink-0">
         <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv4">v4</button>
         <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv6">v6</button>
@@ -1166,6 +1166,71 @@
         <span class="mono text-sm">probes</span>
         <span class="uk-badge uk-badge-secondary">monitoring</span>
         <span class="uk-text-meta mono ml-auto nowrap">99 v4 · 57 v6</span>
+        <span class="flex gap-1 shrink-0">
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv4">v4</button>
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv6">v6</button>
+        </span>
+      </div>
+      
+    </div>
+    
+    <div class="uk-card group" data-name="sentry Sentry">
+      <div class="uk-card-header flex items-baseline justify-between gap-2">
+        <h3 class="uk-card-title">Sentry</h3>
+        
+        <a class="uk-text-meta plain nowrap" href="https://docs.sentry.io/security-legal-pii/security/ip-ranges/" rel="noopener">docs ↗</a>
+        
+      </div>
+      
+      <div class="row flex items-center gap-2 px-4 py-2 border-b"
+           data-name="uptime-monitoring Uptime monitoring probes" data-cat="monitoring" data-path="/v1/sentry/uptime-monitoring">
+        <span class="mono text-sm">uptime-monitoring</span>
+        <span class="uk-badge uk-badge-secondary">monitoring</span>
+        <span class="uk-text-meta mono ml-auto nowrap">12 v4</span>
+        <span class="flex gap-1 shrink-0">
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv4">v4</button>
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv6">v6</button>
+        </span>
+      </div>
+      
+      <div class="row flex items-center gap-2 px-4 py-2 border-b"
+           data-name="outbound-requests Outbound requests (webhooks, integrations)" data-cat="" data-path="/v1/sentry/outbound-requests">
+        <span class="mono text-sm">outbound-requests</span>
+        
+        <span class="uk-text-meta mono ml-auto nowrap">7 v4</span>
+        <span class="flex gap-1 shrink-0">
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv4">v4</button>
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv6">v6</button>
+        </span>
+      </div>
+      
+      <div class="row flex items-center gap-2 px-4 py-2 border-b"
+           data-name="email-delivery Email delivery" data-cat="" data-path="/v1/sentry/email-delivery">
+        <span class="mono text-sm">email-delivery</span>
+        
+        <span class="uk-text-meta mono ml-auto nowrap">5 v4</span>
+        <span class="flex gap-1 shrink-0">
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv4">v4</button>
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv6">v6</button>
+        </span>
+      </div>
+      
+      <div class="row flex items-center gap-2 px-4 py-2 border-b"
+           data-name="event-ingestion Event ingestion endpoints" data-cat="" data-path="/v1/sentry/event-ingestion">
+        <span class="mono text-sm">event-ingestion</span>
+        
+        <span class="uk-text-meta mono ml-auto nowrap">4 v4 · 2 v6</span>
+        <span class="flex gap-1 shrink-0">
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv4">v4</button>
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv6">v6</button>
+        </span>
+      </div>
+      
+      <div class="row flex items-center gap-2 px-4 py-2 border-b"
+           data-name="dashboard Dashboard" data-cat="" data-path="/v1/sentry/dashboard">
+        <span class="mono text-sm">dashboard</span>
+        
+        <span class="uk-text-meta mono ml-auto nowrap">3 v4</span>
         <span class="flex gap-1 shrink-0">
           <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv4">v4</button>
           <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv6">v6</button>

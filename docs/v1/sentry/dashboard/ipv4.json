@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "provider": "sentry",
+  "provider_name": "Sentry",
+  "set": "dashboard",
+  "set_name": "Dashboard",
+  "family": "ipv4",
+  "source": {
+    "url": "https://docs.sentry.io/api/ip-ranges/",
+    "homepage": "https://docs.sentry.io/security-legal-pii/security/ip-ranges/"
+  },
+  "count": 3,
+  "prefixes": [
+    {
+      "prefix": "34.36.87.148/32",
+      "tags": {
+        "scope": "de_sentry_io",
+        "service": "dashboard"
+      }
+    },
+    {
+      "prefix": "34.36.122.224/32",
+      "tags": {
+        "scope": "de_sentry_io",
+        "service": "dashboard"
+      }
+    },
+    {
+      "prefix": "35.186.247.156/32",
+      "tags": {
+        "service": "dashboard"
+      }
+    }
+  ]
+}

@@ -9,7 +9,7 @@
   "source": {
     "url": ""
   },
-  "count": 484,
+  "count": 496,
   "prefixes": [
     {
       "prefix": "3.1.36.99/32",
@@ -1471,6 +1471,13 @@
       }
     },
     {
+      "prefix": "34.41.121.171/32",
+      "tags": {
+        "provider": "sentry",
+        "service": "uptime_monitoring"
+      }
+    },
+    {
       "prefix": "34.48.76.208/29",
       "tags": {
         "provider": "datadog",
@@ -1478,10 +1485,31 @@
       }
     },
     {
+      "prefix": "34.85.249.57/32",
+      "tags": {
+        "provider": "sentry",
+        "service": "uptime_monitoring"
+      }
+    },
+    {
       "prefix": "34.94.234.88/29",
       "tags": {
         "provider": "datadog",
         "service": "synthetics"
+      }
+    },
+    {
+      "prefix": "34.107.93.3/32",
+      "tags": {
+        "provider": "sentry",
+        "service": "uptime_monitoring"
+      }
+    },
+    {
+      "prefix": "34.123.33.225/32",
+      "tags": {
+        "provider": "sentry",
+        "service": "uptime_monitoring"
       }
     },
     {
@@ -1503,6 +1531,20 @@
       "tags": {
         "provider": "datadog",
         "service": "synthetics"
+      }
+    },
+    {
+      "prefix": "34.159.197.47/32",
+      "tags": {
+        "provider": "sentry",
+        "service": "uptime_monitoring"
+      }
+    },
+    {
+      "prefix": "34.169.179.115/32",
+      "tags": {
+        "provider": "sentry",
+        "service": "uptime_monitoring"
       }
     },
     {
@@ -1545,6 +1587,48 @@
       "tags": {
         "provider": "datadog",
         "service": "synthetics"
+      }
+    },
+    {
+      "prefix": "35.196.182.243/32",
+      "tags": {
+        "provider": "sentry",
+        "service": "uptime_monitoring"
+      }
+    },
+    {
+      "prefix": "35.204.169.245/32",
+      "tags": {
+        "provider": "sentry",
+        "service": "uptime_monitoring"
+      }
+    },
+    {
+      "prefix": "35.230.15.29/32",
+      "tags": {
+        "provider": "sentry",
+        "service": "uptime_monitoring"
+      }
+    },
+    {
+      "prefix": "35.237.134.233/32",
+      "tags": {
+        "provider": "sentry",
+        "service": "uptime_monitoring"
+      }
+    },
+    {
+      "prefix": "35.242.231.10/32",
+      "tags": {
+        "provider": "sentry",
+        "service": "uptime_monitoring"
+      }
+    },
+    {
+      "prefix": "35.245.72.176/32",
+      "tags": {
+        "provider": "sentry",
+        "service": "uptime_monitoring"
       }
     },
     {

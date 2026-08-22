@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "provider": "sentry",
+  "provider_name": "Sentry",
+  "set": "event-ingestion",
+  "set_name": "Event ingestion endpoints",
+  "family": "ipv6",
+  "source": {
+    "url": "https://docs.sentry.io/api/ip-ranges/",
+    "homepage": "https://docs.sentry.io/security-legal-pii/security/ip-ranges/"
+  },
+  "count": 2,
+  "prefixes": [
+    {
+      "prefix": "2600:1901:0:5e8a::/64",
+      "tags": {
+        "service": "event_ingestion"
+      }
+    },
+    {
+      "prefix": "2600:1901:0:7edb::/64",
+      "tags": {
+        "service": "event_ingestion"
+      }
+    }
+  ]
+}
