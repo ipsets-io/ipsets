@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "provider": "stripe",
+  "provider_name": "Stripe",
+  "set": "webhooks",
+  "set_name": "Webhook senders",
+  "family": "ipv4",
+  "source": {
+    "url": "https://stripe.com/files/ips/ips_webhooks.json",
+    "homepage": "https://docs.stripe.com/ips"
+  },
+  "count": 15,
+  "prefixes": [
+    {
+      "prefix": "3.18.12.63/32",
+      "tags": {
+        "list": "webhooks"
+      }
+    },
+    {
+      "prefix": "3.69.109.8/32",
+      "tags": {
+        "list": "webhooks"
+      }
+    },
+    {
+      "prefix": "3.120.168.93/32",
+      "tags": {
+        "list": "webhooks"
+      }
+    },
+    {
+      "prefix": "3.130.192.231/32",
+      "tags": {
+        "list": "webhooks"
+      }
+    },
+    {
+      "prefix": "13.235.14.237/32",
+      "tags": {
+        "list": "webhooks"
+      }
+    },
+    {
+      "prefix": "13.235.122.149/32",
+      "tags": {
+        "list": "webhooks"
+      }
+    },
+    {
+      "prefix": "18.211.135.69/32",
+      "tags": {
+        "list": "webhooks"
+      }
+    },
+    {
+      "prefix": "35.154.171.200/32",
+      "tags": {
+        "list": "webhooks"
+      }
+    },
+    {
+      "prefix": "35.157.207.129/32",
+      "tags": {
+        "list": "webhooks"
+      }
+    },
+    {
+      "prefix": "52.15.183.38/32",
+      "tags": {
+        "list": "webhooks"
+      }
+    },
+    {
+      "prefix": "54.88.130.119/32",
+      "tags": {
+        "list": "webhooks"
+      }
+    },
+    {
+      "prefix": "54.88.130.237/32",
+      "tags": {
+        "list": "webhooks"
+      }
+    },
+    {
+      "prefix": "54.187.174.169/32",
+      "tags": {
+        "list": "webhooks"
+      }
+    },
+    {
+      "prefix": "54.187.205.235/32",
+      "tags": {
+        "list": "webhooks"
+      }
+    },
+    {
+      "prefix": "54.187.216.72/32",
+      "tags": {
+        "list": "webhooks"
+      }
+    }
+  ]
+}

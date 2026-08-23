@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "provider": "stripe",
+  "provider_name": "Stripe",
+  "set": "api",
+  "set_name": "Stripe API",
+  "family": "ipv6",
+  "source": {
+    "url": "https://stripe.com/files/ips/ips_api.json",
+    "homepage": "https://docs.stripe.com/ips"
+  },
+  "count": 0,
+  "prefixes": []
+}

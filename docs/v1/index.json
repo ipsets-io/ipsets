@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-23T06:39:04Z",
+  "generated_at": "2026-08-23T14:32:21Z",
   "providers": [
     {
       "id": "anthropic",
@@ -1373,6 +1373,56 @@
       ]
     },
     {
+      "id": "stripe",
+      "name": "Stripe",
+      "homepage": "https://docs.stripe.com/ips",
+      "source": "https://stripe.com/files/ips/ips_api.json",
+      "sets": [
+        {
+          "id": "api",
+          "name": "Stripe API",
+          "ipv4": {
+            "path": "/v1/stripe/api/ipv4.json",
+            "count": 162,
+            "sha256": "accac306817e77d79d4ce3f24e7dee1c81f98a97e116e139457f2a624f74f838"
+          },
+          "ipv6": {
+            "path": "/v1/stripe/api/ipv6.json",
+            "count": 0,
+            "sha256": "530208becbac9673b6188bf61bb2c8633a32753dbc07a751ad088a3105868e1e"
+          }
+        },
+        {
+          "id": "armada-gator",
+          "name": "Files, Armada and Gator",
+          "ipv4": {
+            "path": "/v1/stripe/armada-gator/ipv4.json",
+            "count": 38,
+            "sha256": "81fcd73164064ad59cea97edde1b9e3a3ebd8dbb3c5db99e1540a7f0a6599d8c"
+          },
+          "ipv6": {
+            "path": "/v1/stripe/armada-gator/ipv6.json",
+            "count": 0,
+            "sha256": "23b1376d8b69ca67928a28cf6d18d221ec96f664af19449ab9ea99b0723d26d6"
+          }
+        },
+        {
+          "id": "webhooks",
+          "name": "Webhook senders",
+          "ipv4": {
+            "path": "/v1/stripe/webhooks/ipv4.json",
+            "count": 15,
+            "sha256": "4d183831311e124a6152325775ebb119488c688b7e9e05a9744f1692042b8e4f"
+          },
+          "ipv6": {
+            "path": "/v1/stripe/webhooks/ipv6.json",
+            "count": 0,
+            "sha256": "4646ac6d0ba0a82d8434b17e1db83e6ae3d3e6e67b125dfeb123b851e76a6ba3"
+          }
+        }
+      ]
+    },
+    {
       "id": "tor",
       "name": "Tor Project",
       "homepage": "https://support.torproject.org/abuse/i-want-to-ban-tor/",
@@ -1384,8 +1434,8 @@
           "category": "anonymizer",
           "ipv4": {
             "path": "/v1/tor/exits/ipv4.json",
-            "count": 1373,
-            "sha256": "1a6278cc0d226d234bed03138b34c0c8f9efef908816d609f25527b0a479697d"
+            "count": 1385,
+            "sha256": "9b9a5a92a2f16fd825798fdb41aadbf55a5bb7fc6d38d740df77a446bdbdaf88"
           },
           "ipv6": {
             "path": "/v1/tor/exits/ipv6.json",
@@ -1406,8 +1456,8 @@
           "category": "anonymizer",
           "ipv4": {
             "path": "/v1/categories/anonymizer/ipv4.json",
-            "count": 1373,
-            "sha256": "15c75a2ce751515805e3f8e038fd7b959d8f0e19b85757e603fc6104f0bc3d5e"
+            "count": 1385,
+            "sha256": "dca77dfd425e6e34c0b7ef274a4163dfcb11d12944e92b331600c3860db6d47a"
           },
           "ipv6": {
             "path": "/v1/categories/anonymizer/ipv6.json",
