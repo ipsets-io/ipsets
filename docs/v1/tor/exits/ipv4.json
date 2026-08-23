@@ -10,7 +10,7 @@
     "url": "https://check.torproject.org/torbulkexitlist",
     "homepage": "https://support.torproject.org/abuse/i-want-to-ban-tor/"
   },
-  "count": 1372,
+  "count": 1373,
   "prefixes": [
     {
       "prefix": "2.56.10.36/32"
@@ -71,6 +71,9 @@
     },
     {
       "prefix": "5.255.105.87/32"
+    },
+    {
+      "prefix": "5.255.108.145/32"
     },
     {
       "prefix": "5.255.110.120/32"
