@@ -10,6 +10,13 @@
     "url": "https://ip-ranges.datadoghq.com/",
     "homepage": "https://docs.datadoghq.com/api/latest/ip-ranges/"
   },
-  "count": 0,
-  "prefixes": []
+  "count": 1,
+  "prefixes": [
+    {
+      "prefix": "2607:4240:4000::/34",
+      "tags": {
+        "service": "synthetics"
+      }
+    }
+  ]
 }

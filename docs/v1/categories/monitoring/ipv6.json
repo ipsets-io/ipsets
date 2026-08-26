@@ -9,7 +9,7 @@
   "source": {
     "url": ""
   },
-  "count": 242,
+  "count": 243,
   "prefixes": [
     {
       "prefix": "2001:19f0:200:125d::426/128",
@@ -1218,6 +1218,13 @@
       "prefix": "2606:9880:f000:4:5::4047/128",
       "tags": {
         "provider": "pingdom"
+      }
+    },
+    {
+      "prefix": "2607:4240:4000::/34",
+      "tags": {
+        "provider": "datadog",
+        "service": "synthetics"
       }
     },
     {

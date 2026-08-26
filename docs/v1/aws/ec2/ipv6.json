@@ -9,7 +9,7 @@
     "url": "https://ip-ranges.amazonaws.com/ip-ranges.json",
     "homepage": "https://docs.aws.amazon.com/vpc/latest/userguide/aws-ip-ranges.html"
   },
-  "count": 2229,
+  "count": 2230,
   "prefixes": [
     {
       "prefix": "2001:3fc0:800::/40",
@@ -11224,6 +11224,14 @@
       "tags": {
         "network_border_group": "ca-central-1",
         "region": "ca-central-1",
+        "service": "EC2"
+      }
+    },
+    {
+      "prefix": "2600:f0f0:c14e::/48",
+      "tags": {
+        "network_border_group": "us-west-2-lax-1",
+        "region": "us-west-2",
         "service": "EC2"
       }
     },

@@ -10,7 +10,7 @@
     "url": "https://ip-ranges.datadoghq.com/",
     "homepage": "https://docs.datadoghq.com/api/latest/ip-ranges/"
   },
-  "count": 113,
+  "count": 107,
   "prefixes": [
     {
       "prefix": "3.1.36.99/32",
@@ -283,18 +283,6 @@
       }
     },
     {
-      "prefix": "15.184.139.182/32",
-      "tags": {
-        "service": "synthetics"
-      }
-    },
-    {
-      "prefix": "15.185.189.82/32",
-      "tags": {
-        "service": "synthetics"
-      }
-    },
-    {
       "prefix": "15.188.202.64/32",
       "tags": {
         "service": "synthetics"
@@ -308,18 +296,6 @@
     },
     {
       "prefix": "15.188.243.248/32",
-      "tags": {
-        "service": "synthetics"
-      }
-    },
-    {
-      "prefix": "16.24.38.13/32",
-      "tags": {
-        "service": "synthetics"
-      }
-    },
-    {
-      "prefix": "16.24.60.114/32",
       "tags": {
         "service": "synthetics"
       }
@@ -674,18 +650,6 @@
     },
     {
       "prefix": "108.137.188.57/32",
-      "tags": {
-        "service": "synthetics"
-      }
-    },
-    {
-      "prefix": "157.241.36.106/32",
-      "tags": {
-        "service": "synthetics"
-      }
-    },
-    {
-      "prefix": "157.241.93.102/32",
       "tags": {
         "service": "synthetics"
       }

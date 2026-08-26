@@ -9,7 +9,7 @@
   "source": {
     "url": ""
   },
-  "count": 496,
+  "count": 490,
   "prefixes": [
     {
       "prefix": "3.1.36.99/32",
@@ -561,20 +561,6 @@
       }
     },
     {
-      "prefix": "15.184.139.182/32",
-      "tags": {
-        "provider": "datadog",
-        "service": "synthetics"
-      }
-    },
-    {
-      "prefix": "15.185.189.82/32",
-      "tags": {
-        "provider": "datadog",
-        "service": "synthetics"
-      }
-    },
-    {
       "prefix": "15.188.202.64/32",
       "tags": {
         "provider": "datadog",
@@ -590,20 +576,6 @@
     },
     {
       "prefix": "15.188.243.248/32",
-      "tags": {
-        "provider": "datadog",
-        "service": "synthetics"
-      }
-    },
-    {
-      "prefix": "16.24.38.13/32",
-      "tags": {
-        "provider": "datadog",
-        "service": "synthetics"
-      }
-    },
-    {
-      "prefix": "16.24.60.114/32",
       "tags": {
         "provider": "datadog",
         "service": "synthetics"
@@ -2974,20 +2946,6 @@
       "prefix": "151.106.52.134/32",
       "tags": {
         "provider": "pingdom"
-      }
-    },
-    {
-      "prefix": "157.241.36.106/32",
-      "tags": {
-        "provider": "datadog",
-        "service": "synthetics"
-      }
-    },
-    {
-      "prefix": "157.241.93.102/32",
-      "tags": {
-        "provider": "datadog",
-        "service": "synthetics"
       }
     },
     {

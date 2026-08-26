@@ -9,7 +9,7 @@
     "url": "https://docs.oracle.com/en-us/iaas/tools/public_ip_ranges.json",
     "homepage": "https://docs.oracle.com/en-us/iaas/Content/General/Concepts/addressranges.htm"
   },
-  "count": 555,
+  "count": 560,
   "prefixes": [
     {
       "prefix": "40.233.0.0/19",
@@ -281,6 +281,20 @@
       "prefix": "84.8.216.0/21",
       "tags": {
         "region": "af-casablanca-1",
+        "tag": "OCI"
+      }
+    },
+    {
+      "prefix": "84.13.64.0/18",
+      "tags": {
+        "region": "il-jerusalem-1",
+        "tag": "OCI"
+      }
+    },
+    {
+      "prefix": "84.13.128.0/18",
+      "tags": {
+        "region": "me-riyadh-1",
         "tag": "OCI"
       }
     },
@@ -925,6 +939,13 @@
       "prefix": "129.225.32.0/19",
       "tags": {
         "region": "ap-batam-1",
+        "tag": "OCI"
+      }
+    },
+    {
+      "prefix": "129.225.64.0/18",
+      "tags": {
+        "region": "ap-hyderabad-1",
         "tag": "OCI"
       }
     },
@@ -2696,6 +2717,20 @@
       "prefix": "152.70.240.0/20",
       "tags": {
         "region": "ap-seoul-1",
+        "tag": "OCI"
+      }
+    },
+    {
+      "prefix": "155.181.4.0/22",
+      "tags": {
+        "region": "sa-valparaiso-1",
+        "tag": "OCI"
+      }
+    },
+    {
+      "prefix": "155.181.32.0/20",
+      "tags": {
+        "region": "sa-valparaiso-1",
         "tag": "OCI"
       }
     },
