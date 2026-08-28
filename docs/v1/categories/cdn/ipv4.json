@@ -4916,6 +4916,12 @@
       }
     },
     {
+      "prefix": "94.130.68.122/32",
+      "tags": {
+        "provider": "bunny"
+      }
+    },
+    {
       "prefix": "94.130.204.110/32",
       "tags": {
         "provider": "bunny"
@@ -5353,12 +5359,6 @@
     },
     {
       "prefix": "103.60.15.167/32",
-      "tags": {
-        "provider": "bunny"
-      }
-    },
-    {
-      "prefix": "103.60.15.168/32",
       "tags": {
         "provider": "bunny"
       }

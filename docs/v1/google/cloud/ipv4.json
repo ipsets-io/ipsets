@@ -9,7 +9,7 @@
     "url": "https://www.gstatic.com/ipranges/cloud.json",
     "homepage": "https://developers.google.com/search/docs/crawling-indexing/verifying-googlebot"
   },
-  "count": 997,
+  "count": 1003,
   "prefixes": [
     {
       "prefix": "8.34.208.0/23",
@@ -4676,6 +4676,30 @@
       }
     },
     {
+      "prefix": "34.183.125.0/24",
+      "tags": {
+        "list": "cloud",
+        "scope": "us-west2",
+        "service": "Google Cloud"
+      }
+    },
+    {
+      "prefix": "34.183.128.0/24",
+      "tags": {
+        "list": "cloud",
+        "scope": "us-west4",
+        "service": "Google Cloud"
+      }
+    },
+    {
+      "prefix": "34.183.129.0/24",
+      "tags": {
+        "list": "cloud",
+        "scope": "asia-northeast2",
+        "service": "Google Cloud"
+      }
+    },
+    {
       "prefix": "34.184.0.0/24",
       "tags": {
         "list": "cloud",
@@ -5176,6 +5200,30 @@
       "tags": {
         "list": "cloud",
         "scope": "us-west1",
+        "service": "Google Cloud"
+      }
+    },
+    {
+      "prefix": "34.184.126.0/24",
+      "tags": {
+        "list": "cloud",
+        "scope": "us-west2",
+        "service": "Google Cloud"
+      }
+    },
+    {
+      "prefix": "34.184.127.0/24",
+      "tags": {
+        "list": "cloud",
+        "scope": "us-west4",
+        "service": "Google Cloud"
+      }
+    },
+    {
+      "prefix": "34.184.128.0/24",
+      "tags": {
+        "list": "cloud",
+        "scope": "asia-northeast2",
         "service": "Google Cloud"
       }
     },
