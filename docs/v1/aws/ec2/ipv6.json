@@ -9,7 +9,7 @@
     "url": "https://ip-ranges.amazonaws.com/ip-ranges.json",
     "homepage": "https://docs.aws.amazon.com/vpc/latest/userguide/aws-ip-ranges.html"
   },
-  "count": 2234,
+  "count": 2268,
   "prefixes": [
     {
       "prefix": "2001:3fc0:800::/40",
@@ -8532,6 +8532,270 @@
       }
     },
     {
+      "prefix": "2600:f0f0:c00::/56",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "region": "GLOBAL",
+        "service": "EC2"
+      }
+    },
+    {
+      "prefix": "2600:f0f0:c00:100::/56",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "region": "GLOBAL",
+        "service": "EC2"
+      }
+    },
+    {
+      "prefix": "2600:f0f0:c00:200::/56",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "region": "GLOBAL",
+        "service": "EC2"
+      }
+    },
+    {
+      "prefix": "2600:f0f0:c00:300::/56",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "region": "GLOBAL",
+        "service": "EC2"
+      }
+    },
+    {
+      "prefix": "2600:f0f0:c00:400::/56",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "region": "GLOBAL",
+        "service": "EC2"
+      }
+    },
+    {
+      "prefix": "2600:f0f0:c00:500::/56",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "region": "GLOBAL",
+        "service": "EC2"
+      }
+    },
+    {
+      "prefix": "2600:f0f0:c00:600::/56",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "region": "GLOBAL",
+        "service": "EC2"
+      }
+    },
+    {
+      "prefix": "2600:f0f0:c00:700::/56",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "region": "GLOBAL",
+        "service": "EC2"
+      }
+    },
+    {
+      "prefix": "2600:f0f0:c00:800::/56",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "region": "GLOBAL",
+        "service": "EC2"
+      }
+    },
+    {
+      "prefix": "2600:f0f0:c00:900::/56",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "region": "GLOBAL",
+        "service": "EC2"
+      }
+    },
+    {
+      "prefix": "2600:f0f0:c00:8000::/56",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "region": "GLOBAL",
+        "service": "EC2"
+      }
+    },
+    {
+      "prefix": "2600:f0f0:c00:8100::/56",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "region": "GLOBAL",
+        "service": "EC2"
+      }
+    },
+    {
+      "prefix": "2600:f0f0:c00:8200::/56",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "region": "GLOBAL",
+        "service": "EC2"
+      }
+    },
+    {
+      "prefix": "2600:f0f0:c00:8300::/56",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "region": "GLOBAL",
+        "service": "EC2"
+      }
+    },
+    {
+      "prefix": "2600:f0f0:c00:8400::/56",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "region": "GLOBAL",
+        "service": "EC2"
+      }
+    },
+    {
+      "prefix": "2600:f0f0:c00:8500::/56",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "region": "GLOBAL",
+        "service": "EC2"
+      }
+    },
+    {
+      "prefix": "2600:f0f0:c00:8600::/56",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "region": "GLOBAL",
+        "service": "EC2"
+      }
+    },
+    {
+      "prefix": "2600:f0f0:c00:8700::/56",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "region": "GLOBAL",
+        "service": "EC2"
+      }
+    },
+    {
+      "prefix": "2600:f0f0:c00:8800::/56",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "region": "GLOBAL",
+        "service": "EC2"
+      }
+    },
+    {
+      "prefix": "2600:f0f0:c00:8900::/56",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "region": "GLOBAL",
+        "service": "EC2"
+      }
+    },
+    {
+      "prefix": "2600:f0f0:c01::/56",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "region": "GLOBAL",
+        "service": "EC2"
+      }
+    },
+    {
+      "prefix": "2600:f0f0:c01:100::/56",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "region": "GLOBAL",
+        "service": "EC2"
+      }
+    },
+    {
+      "prefix": "2600:f0f0:c01:200::/56",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "region": "GLOBAL",
+        "service": "EC2"
+      }
+    },
+    {
+      "prefix": "2600:f0f0:c01:300::/56",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "region": "GLOBAL",
+        "service": "EC2"
+      }
+    },
+    {
+      "prefix": "2600:f0f0:c01:400::/56",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "region": "GLOBAL",
+        "service": "EC2"
+      }
+    },
+    {
+      "prefix": "2600:f0f0:c01:500::/56",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "region": "GLOBAL",
+        "service": "EC2"
+      }
+    },
+    {
+      "prefix": "2600:f0f0:c01:600::/56",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "region": "GLOBAL",
+        "service": "EC2"
+      }
+    },
+    {
+      "prefix": "2600:f0f0:c01:700::/56",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "region": "GLOBAL",
+        "service": "EC2"
+      }
+    },
+    {
+      "prefix": "2600:f0f0:c01:800::/56",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "region": "GLOBAL",
+        "service": "EC2"
+      }
+    },
+    {
+      "prefix": "2600:f0f0:c01:900::/56",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "region": "GLOBAL",
+        "service": "EC2"
+      }
+    },
+    {
+      "prefix": "2600:f0f0:cf8:c00::/56",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "region": "GLOBAL",
+        "service": "EC2"
+      }
+    },
+    {
+      "prefix": "2600:f0f0:cf8:d00::/56",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "region": "GLOBAL",
+        "service": "EC2"
+      }
+    },
+    {
+      "prefix": "2600:f0f0:cf8:e00::/56",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "region": "GLOBAL",
+        "service": "EC2"
+      }
+    },
+    {
       "prefix": "2600:f0f0:cfb::/48",
       "tags": {
         "network_border_group": "us-east-2",
@@ -10376,6 +10640,14 @@
       "tags": {
         "network_border_group": "ap-southeast-6",
         "region": "ap-southeast-6",
+        "service": "EC2"
+      }
+    },
+    {
+      "prefix": "2600:f0f0:6127::/48",
+      "tags": {
+        "network_border_group": "us-east-1",
+        "region": "us-east-1",
         "service": "EC2"
       }
     },
