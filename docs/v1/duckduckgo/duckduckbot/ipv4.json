@@ -10,10 +10,19 @@
     "url": "https://duckduckgo.com/duckduckbot.json",
     "homepage": "https://duckduckgo.com/duckduckgo-help-pages/results/duckduckbot/"
   },
-  "count": 481,
+  "count": 486,
   "prefixes": [
     {
+      "prefix": "4.144.148.23/32"
+    },
+    {
       "prefix": "4.144.182.50/32"
+    },
+    {
+      "prefix": "4.144.227.142/32"
+    },
+    {
+      "prefix": "4.144.251.39/32"
     },
     {
       "prefix": "4.149.142.7/32"
@@ -1324,6 +1333,9 @@
       "prefix": "134.33.207.189/32"
     },
     {
+      "prefix": "135.171.251.169/32"
+    },
+    {
       "prefix": "135.233.63.237/32"
     },
     {
@@ -1412,6 +1424,9 @@
     },
     {
       "prefix": "172.179.128.118/32"
+    },
+    {
+      "prefix": "172.188.250.220/32"
     },
     {
       "prefix": "172.189.40.18/32"

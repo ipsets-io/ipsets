@@ -9,7 +9,7 @@
     "url": "https://ip-ranges.amazonaws.com/ip-ranges.json",
     "homepage": "https://docs.aws.amazon.com/vpc/latest/userguide/aws-ip-ranges.html"
   },
-  "count": 2268,
+  "count": 2277,
   "prefixes": [
     {
       "prefix": "2001:3fc0:800::/40",
@@ -8772,6 +8772,30 @@
       }
     },
     {
+      "prefix": "2600:f0f0:cf8::/56",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "region": "GLOBAL",
+        "service": "EC2"
+      }
+    },
+    {
+      "prefix": "2600:f0f0:cf8:800::/56",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "region": "GLOBAL",
+        "service": "EC2"
+      }
+    },
+    {
+      "prefix": "2600:f0f0:cf8:900::/56",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "region": "GLOBAL",
+        "service": "EC2"
+      }
+    },
+    {
       "prefix": "2600:f0f0:cf8:c00::/56",
       "tags": {
         "network_border_group": "GLOBAL",
@@ -8789,6 +8813,30 @@
     },
     {
       "prefix": "2600:f0f0:cf8:e00::/56",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "region": "GLOBAL",
+        "service": "EC2"
+      }
+    },
+    {
+      "prefix": "2600:f0f0:cf9:c00::/56",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "region": "GLOBAL",
+        "service": "EC2"
+      }
+    },
+    {
+      "prefix": "2600:f0f0:cf9:d00::/56",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "region": "GLOBAL",
+        "service": "EC2"
+      }
+    },
+    {
+      "prefix": "2600:f0f0:cf9:e00::/56",
       "tags": {
         "network_border_group": "GLOBAL",
         "region": "GLOBAL",
@@ -12404,7 +12452,23 @@
       }
     },
     {
+      "prefix": "2600:f0fb:c900:1000::/52",
+      "tags": {
+        "network_border_group": "us-east-1",
+        "region": "us-east-1",
+        "service": "EC2"
+      }
+    },
+    {
       "prefix": "2600:f0fb:ca00::/52",
+      "tags": {
+        "network_border_group": "us-east-1",
+        "region": "us-east-1",
+        "service": "EC2"
+      }
+    },
+    {
+      "prefix": "2600:f0fb:ca00:1000::/52",
       "tags": {
         "network_border_group": "us-east-1",
         "region": "us-east-1",
@@ -15437,6 +15501,14 @@
     },
     {
       "prefix": "2606:7b40:1b0f:fd00::/56",
+      "tags": {
+        "network_border_group": "us-west-2",
+        "region": "us-west-2",
+        "service": "EC2"
+      }
+    },
+    {
+      "prefix": "2606:7b40:1c00::/40",
       "tags": {
         "network_border_group": "us-west-2",
         "region": "us-west-2",

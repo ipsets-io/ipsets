@@ -9,7 +9,7 @@
   "source": {
     "url": ""
   },
-  "count": 1056,
+  "count": 1060,
   "prefixes": [
     {
       "prefix": "2001:4860:4801:2::/64",
@@ -384,6 +384,13 @@
     },
     {
       "prefix": "2001:4860:4801:42::/64",
+      "tags": {
+        "list": "googlebot",
+        "provider": "google"
+      }
+    },
+    {
+      "prefix": "2001:4860:4801:43::/64",
       "tags": {
         "list": "googlebot",
         "provider": "google"
@@ -1406,6 +1413,13 @@
     },
     {
       "prefix": "2001:4860:4801:2042::/64",
+      "tags": {
+        "list": "special-crawlers",
+        "provider": "google"
+      }
+    },
+    {
+      "prefix": "2001:4860:4801:2043::/64",
       "tags": {
         "list": "special-crawlers",
         "provider": "google"
@@ -2477,6 +2491,13 @@
     },
     {
       "prefix": "2001:4860:4801:4062::/64",
+      "tags": {
+        "list": "user-triggered-fetchers-google",
+        "provider": "google"
+      }
+    },
+    {
+      "prefix": "2001:4860:4801:4063::/64",
       "tags": {
         "list": "user-triggered-fetchers-google",
         "provider": "google"
@@ -4318,6 +4339,13 @@
     },
     {
       "prefix": "2600:1900:0:62::/64",
+      "tags": {
+        "list": "user-triggered-fetchers",
+        "provider": "google"
+      }
+    },
+    {
+      "prefix": "2600:1900:0:63::/64",
       "tags": {
         "list": "user-triggered-fetchers",
         "provider": "google"

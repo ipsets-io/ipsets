@@ -10,7 +10,7 @@
     "url": "https://developers.google.com/static/search/apis/ipranges/googlebot.json",
     "homepage": "https://developers.google.com/search/docs/crawling-indexing/verifying-googlebot"
   },
-  "count": 146,
+  "count": 147,
   "prefixes": [
     {
       "prefix": "2001:4860:4801:2::/64",
@@ -332,6 +332,12 @@
     },
     {
       "prefix": "2001:4860:4801:42::/64",
+      "tags": {
+        "list": "googlebot"
+      }
+    },
+    {
+      "prefix": "2001:4860:4801:43::/64",
       "tags": {
         "list": "googlebot"
       }

@@ -10,7 +10,7 @@
     "url": "https://developers.google.com/static/search/apis/ipranges/googlebot.json",
     "homepage": "https://developers.google.com/search/docs/crawling-indexing/verifying-googlebot"
   },
-  "count": 169,
+  "count": 170,
   "prefixes": [
     {
       "prefix": "34.22.85.0/27",
@@ -350,6 +350,12 @@
     },
     {
       "prefix": "66.249.68.192/27",
+      "tags": {
+        "list": "googlebot"
+      }
+    },
+    {
+      "prefix": "66.249.68.224/27",
       "tags": {
         "list": "googlebot"
       }

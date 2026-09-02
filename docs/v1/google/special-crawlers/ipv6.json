@@ -10,7 +10,7 @@
     "url": "https://developers.google.com/static/search/apis/ipranges/special-crawlers.json",
     "homepage": "https://developers.google.com/search/docs/crawling-indexing/verifying-googlebot"
   },
-  "count": 135,
+  "count": 136,
   "prefixes": [
     {
       "prefix": "2001:4860:4801:2008::/64",
@@ -332,6 +332,12 @@
     },
     {
       "prefix": "2001:4860:4801:2042::/64",
+      "tags": {
+        "list": "special-crawlers"
+      }
+    },
+    {
+      "prefix": "2001:4860:4801:2043::/64",
       "tags": {
         "list": "special-crawlers"
       }
