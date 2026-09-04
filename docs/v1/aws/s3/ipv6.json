@@ -9,7 +9,7 @@
     "url": "https://ip-ranges.amazonaws.com/ip-ranges.json",
     "homepage": "https://docs.aws.amazon.com/vpc/latest/userguide/aws-ip-ranges.html"
   },
-  "count": 514,
+  "count": 538,
   "prefixes": [
     {
       "prefix": "2001:3fc5:800::/40",
@@ -2864,6 +2864,198 @@
       "tags": {
         "network_border_group": "us-east-1",
         "region": "us-east-1",
+        "service": "S3"
+      }
+    },
+    {
+      "prefix": "2600:f0f0:6128::/48",
+      "tags": {
+        "network_border_group": "us-east-1",
+        "region": "us-east-1",
+        "service": "S3"
+      }
+    },
+    {
+      "prefix": "2600:f0f0:6129::/48",
+      "tags": {
+        "network_border_group": "us-east-2",
+        "region": "us-east-2",
+        "service": "S3"
+      }
+    },
+    {
+      "prefix": "2600:f0f0:612a::/48",
+      "tags": {
+        "network_border_group": "us-west-2",
+        "region": "us-west-2",
+        "service": "S3"
+      }
+    },
+    {
+      "prefix": "2600:f0f0:612b::/48",
+      "tags": {
+        "network_border_group": "us-west-1",
+        "region": "us-west-1",
+        "service": "S3"
+      }
+    },
+    {
+      "prefix": "2600:f0f0:612d::/48",
+      "tags": {
+        "network_border_group": "eu-west-1",
+        "region": "eu-west-1",
+        "service": "S3"
+      }
+    },
+    {
+      "prefix": "2600:f0f0:612e::/48",
+      "tags": {
+        "network_border_group": "eu-west-2",
+        "region": "eu-west-2",
+        "service": "S3"
+      }
+    },
+    {
+      "prefix": "2600:f0f0:612f::/48",
+      "tags": {
+        "network_border_group": "eu-west-3",
+        "region": "eu-west-3",
+        "service": "S3"
+      }
+    },
+    {
+      "prefix": "2600:f0f0:6130::/48",
+      "tags": {
+        "network_border_group": "eu-central-1",
+        "region": "eu-central-1",
+        "service": "S3"
+      }
+    },
+    {
+      "prefix": "2600:f0f0:6131::/48",
+      "tags": {
+        "network_border_group": "eu-north-1",
+        "region": "eu-north-1",
+        "service": "S3"
+      }
+    },
+    {
+      "prefix": "2600:f0f0:6132::/48",
+      "tags": {
+        "network_border_group": "eu-south-1",
+        "region": "eu-south-1",
+        "service": "S3"
+      }
+    },
+    {
+      "prefix": "2600:f0f0:6133::/48",
+      "tags": {
+        "network_border_group": "eu-south-2",
+        "region": "eu-south-2",
+        "service": "S3"
+      }
+    },
+    {
+      "prefix": "2600:f0f0:6134::/48",
+      "tags": {
+        "network_border_group": "ap-south-1",
+        "region": "ap-south-1",
+        "service": "S3"
+      }
+    },
+    {
+      "prefix": "2600:f0f0:6135::/48",
+      "tags": {
+        "network_border_group": "ap-south-2",
+        "region": "ap-south-2",
+        "service": "S3"
+      }
+    },
+    {
+      "prefix": "2600:f0f0:6136::/48",
+      "tags": {
+        "network_border_group": "ap-northeast-1",
+        "region": "ap-northeast-1",
+        "service": "S3"
+      }
+    },
+    {
+      "prefix": "2600:f0f0:6137::/48",
+      "tags": {
+        "network_border_group": "ap-northeast-2",
+        "region": "ap-northeast-2",
+        "service": "S3"
+      }
+    },
+    {
+      "prefix": "2600:f0f0:6138::/48",
+      "tags": {
+        "network_border_group": "ap-northeast-3",
+        "region": "ap-northeast-3",
+        "service": "S3"
+      }
+    },
+    {
+      "prefix": "2600:f0f0:613a::/48",
+      "tags": {
+        "network_border_group": "ap-southeast-2",
+        "region": "ap-southeast-2",
+        "service": "S3"
+      }
+    },
+    {
+      "prefix": "2600:f0f0:613b::/48",
+      "tags": {
+        "network_border_group": "ap-southeast-5",
+        "region": "ap-southeast-5",
+        "service": "S3"
+      }
+    },
+    {
+      "prefix": "2600:f0f0:613c::/48",
+      "tags": {
+        "network_border_group": "ap-southeast-7",
+        "region": "ap-southeast-7",
+        "service": "S3"
+      }
+    },
+    {
+      "prefix": "2600:f0f0:613d::/48",
+      "tags": {
+        "network_border_group": "ap-east-1",
+        "region": "ap-east-1",
+        "service": "S3"
+      }
+    },
+    {
+      "prefix": "2600:f0f0:613e::/48",
+      "tags": {
+        "network_border_group": "me-south-1",
+        "region": "me-south-1",
+        "service": "S3"
+      }
+    },
+    {
+      "prefix": "2600:f0f0:613f::/48",
+      "tags": {
+        "network_border_group": "il-central-1",
+        "region": "il-central-1",
+        "service": "S3"
+      }
+    },
+    {
+      "prefix": "2600:f0f0:6140::/48",
+      "tags": {
+        "network_border_group": "sa-east-1",
+        "region": "sa-east-1",
+        "service": "S3"
+      }
+    },
+    {
+      "prefix": "2600:f0f0:6141::/48",
+      "tags": {
+        "network_border_group": "af-south-1",
+        "region": "af-south-1",
         "service": "S3"
       }
     },

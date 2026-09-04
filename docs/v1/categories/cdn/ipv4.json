@@ -9,7 +9,7 @@
   "source": {
     "url": ""
   },
-  "count": 1231,
+  "count": 1238,
   "prefixes": [
     {
       "prefix": "1.178.172.0/23",
@@ -590,6 +590,13 @@
       }
     },
     {
+      "prefix": "4.188.122.8/29",
+      "tags": {
+        "provider": "azure",
+        "service": "AzureFrontDoor.Backend"
+      }
+    },
+    {
       "prefix": "4.189.206.22/31",
       "tags": {
         "provider": "azure",
@@ -780,6 +787,20 @@
     },
     {
       "prefix": "4.232.98.120/29",
+      "tags": {
+        "provider": "azure",
+        "service": "AzureFrontDoor.Backend"
+      }
+    },
+    {
+      "prefix": "4.235.51.82/31",
+      "tags": {
+        "provider": "azure",
+        "service": "AzureFrontDoor.Backend"
+      }
+    },
+    {
+      "prefix": "4.235.51.144/29",
       "tags": {
         "provider": "azure",
         "service": "AzureFrontDoor.Backend"
@@ -3957,6 +3978,13 @@
       }
     },
     {
+      "prefix": "57.159.92.64/31",
+      "tags": {
+        "provider": "azure",
+        "service": "AzureFrontDoor.Backend"
+      }
+    },
+    {
       "prefix": "57.165.83.216/29",
       "tags": {
         "provider": "azure",
@@ -4218,6 +4246,20 @@
     },
     {
       "prefix": "74.147.18.124/32",
+      "tags": {
+        "provider": "azure",
+        "service": "AzureFrontDoor.Backend"
+      }
+    },
+    {
+      "prefix": "74.161.246.242/31",
+      "tags": {
+        "provider": "azure",
+        "service": "AzureFrontDoor.Backend"
+      }
+    },
+    {
+      "prefix": "74.161.246.248/29",
       "tags": {
         "provider": "azure",
         "service": "AzureFrontDoor.Backend"
@@ -7526,6 +7568,20 @@
       }
     },
     {
+      "prefix": "172.165.55.172/31",
+      "tags": {
+        "provider": "azure",
+        "service": "AzureFrontDoor.Backend"
+      }
+    },
+    {
+      "prefix": "172.165.55.240/29",
+      "tags": {
+        "provider": "azure",
+        "service": "AzureFrontDoor.Backend"
+      }
+    },
+    {
       "prefix": "172.166.242.232/29",
       "tags": {
         "provider": "azure",
@@ -7803,12 +7859,6 @@
     },
     {
       "prefix": "185.40.106.117/32",
-      "tags": {
-        "provider": "bunny"
-      }
-    },
-    {
-      "prefix": "185.59.220.198/32",
       "tags": {
         "provider": "bunny"
       }

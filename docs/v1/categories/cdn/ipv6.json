@@ -9,7 +9,7 @@
   "source": {
     "url": ""
   },
-  "count": 602,
+  "count": 601,
   "prefixes": [
     {
       "prefix": "2001:550:2:38::28:2/128",
@@ -982,12 +982,6 @@
     },
     {
       "prefix": "2400:52e0:1e00::722:1/128",
-      "tags": {
-        "provider": "bunny"
-      }
-    },
-    {
-      "prefix": "2400:52e0:1e00::723:1/128",
       "tags": {
         "provider": "bunny"
       }
