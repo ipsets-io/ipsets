@@ -9,7 +9,7 @@
   "source": {
     "url": ""
   },
-  "count": 1918,
+  "count": 1921,
   "prefixes": [
     {
       "prefix": "3.211.124.183/32",
@@ -7256,13 +7256,6 @@
       }
     },
     {
-      "prefix": "52.255.109.112/28",
-      "tags": {
-        "list": "chatgpt-user",
-        "provider": "openai"
-      }
-    },
-    {
       "prefix": "52.255.109.144/28",
       "tags": {
         "list": "chatgpt-user",
@@ -12134,6 +12127,13 @@
       }
     },
     {
+      "prefix": "191.232.238.96/28",
+      "tags": {
+        "list": "chatgpt-user",
+        "provider": "openai"
+      }
+    },
+    {
       "prefix": "191.233.3.197/32",
       "tags": {
         "provider": "duckduckgo"
@@ -12143,6 +12143,13 @@
       "prefix": "191.233.3.202/32",
       "tags": {
         "provider": "duckduckgo"
+      }
+    },
+    {
+      "prefix": "191.233.197.0/28",
+      "tags": {
+        "list": "chatgpt-user",
+        "provider": "openai"
       }
     },
     {
@@ -12159,6 +12166,13 @@
       }
     },
     {
+      "prefix": "191.234.167.144/28",
+      "tags": {
+        "list": "chatgpt-user",
+        "provider": "openai"
+      }
+    },
+    {
       "prefix": "191.234.216.4/32",
       "tags": {
         "provider": "duckduckgo"
@@ -12168,6 +12182,13 @@
       "prefix": "191.234.216.178/32",
       "tags": {
         "provider": "duckduckgo"
+      }
+    },
+    {
+      "prefix": "191.235.99.160/28",
+      "tags": {
+        "list": "chatgpt-user",
+        "provider": "openai"
       }
     },
     {
