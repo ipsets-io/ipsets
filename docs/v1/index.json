@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-06T08:33:11Z",
+  "generated_at": "2026-09-07T09:11:13Z",
   "providers": [
     {
       "id": "anthropic",
@@ -640,8 +640,8 @@
           "category": "cdn",
           "ipv4": {
             "path": "/v1/bunny/cdn/ipv4.json",
-            "count": 585,
-            "sha256": "2025c706817315d193baa3aefa7f4ae193ab8ceb453992c9298ec2109d6d2f81"
+            "count": 586,
+            "sha256": "2260331a5192a00f198612c06ee4cc5f76e07235010cc41cb045a16fa6e2d281"
           },
           "ipv6": {
             "path": "/v1/bunny/cdn/ipv6.json",
@@ -1073,8 +1073,8 @@
           "name": "Google Cloud",
           "ipv4": {
             "path": "/v1/google/cloud/ipv4.json",
-            "count": 1003,
-            "sha256": "56ea092d0a3a359c7033cedf728c9b0d9419dd33c2b09f0512d24aa96cd46e1c"
+            "count": 1007,
+            "sha256": "0b2f74833be03ea2b3e337d10de7b6de69d092825efc6303a893b0b3e8b906a5"
           },
           "ipv6": {
             "path": "/v1/google/cloud/ipv6.json",
@@ -1434,8 +1434,8 @@
           "category": "anonymizer",
           "ipv4": {
             "path": "/v1/tor/exits/ipv4.json",
-            "count": 1339,
-            "sha256": "032f07d686d220e24efb5e4ecc52b12c77dcf0a828194a126014f831b9b3d930"
+            "count": 1341,
+            "sha256": "b7cb81671336f2e1dba2bc96dae06d0e3ad6fb5b4d31d2432943b998f0277092"
           },
           "ipv6": {
             "path": "/v1/tor/exits/ipv6.json",
@@ -1456,8 +1456,8 @@
           "category": "anonymizer",
           "ipv4": {
             "path": "/v1/categories/anonymizer/ipv4.json",
-            "count": 1339,
-            "sha256": "01383bed4d422c138918e5601e23968982552291544f66a0742334d1925ea4e6"
+            "count": 1341,
+            "sha256": "c1276905415c1f822dd7b5b14970a05ac0fa26e7d66f6b72f6e4f5fb5c4417bc"
           },
           "ipv6": {
             "path": "/v1/categories/anonymizer/ipv6.json",
@@ -1476,8 +1476,8 @@
           "category": "cdn",
           "ipv4": {
             "path": "/v1/categories/cdn/ipv4.json",
-            "count": 1239,
-            "sha256": "fff533d888a7895a066603afbdc25de2c9f34c4d1c4af3039e963d3b47aa83ae"
+            "count": 1240,
+            "sha256": "4b8578d4b2ae61983c737a9ea1a04d5dfcce039a866d2a329845b6e887d24f06"
           },
           "ipv6": {
             "path": "/v1/categories/cdn/ipv6.json",
