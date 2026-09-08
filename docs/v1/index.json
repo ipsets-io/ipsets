@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-07T09:11:13Z",
+  "generated_at": "2026-09-08T08:46:05Z",
   "providers": [
     {
       "id": "anthropic",
@@ -645,8 +645,8 @@
           },
           "ipv6": {
             "path": "/v1/bunny/cdn/ipv6.json",
-            "count": 321,
-            "sha256": "9541c13b66f6f935051b3af6d637bdf1aeb0514c351498e834c97c49be0f8527"
+            "count": 322,
+            "sha256": "c5138d6d6bf684cc9c7b9d1e5ae320571de41365f04d6a0c156b4fb5bac0a347"
           }
         }
       ]
@@ -1434,8 +1434,8 @@
           "category": "anonymizer",
           "ipv4": {
             "path": "/v1/tor/exits/ipv4.json",
-            "count": 1341,
-            "sha256": "b7cb81671336f2e1dba2bc96dae06d0e3ad6fb5b4d31d2432943b998f0277092"
+            "count": 1343,
+            "sha256": "18a836a6fe049f3250acc7228e6fd742ad03b6a31148ded382bcc84de2aa93d4"
           },
           "ipv6": {
             "path": "/v1/tor/exits/ipv6.json",
@@ -1456,8 +1456,8 @@
           "category": "anonymizer",
           "ipv4": {
             "path": "/v1/categories/anonymizer/ipv4.json",
-            "count": 1341,
-            "sha256": "c1276905415c1f822dd7b5b14970a05ac0fa26e7d66f6b72f6e4f5fb5c4417bc"
+            "count": 1343,
+            "sha256": "209c879e8422b46cc39ceba13df37b943ed1ea2245ad93f7df1180500d42c9e9"
           },
           "ipv6": {
             "path": "/v1/categories/anonymizer/ipv6.json",
@@ -1481,8 +1481,8 @@
           },
           "ipv6": {
             "path": "/v1/categories/cdn/ipv6.json",
-            "count": 602,
-            "sha256": "70c8a7c2423f484a976212f4eb8d4b56125f6944c72da6fba0f4ccffb5a3cb81"
+            "count": 603,
+            "sha256": "46713ba0f7ddb2a9f9fa7d514203cf56d015a1c92029a269996a92f713ea4cd4"
           }
         }
       ]
