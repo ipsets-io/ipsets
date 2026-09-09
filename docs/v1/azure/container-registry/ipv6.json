@@ -9,7 +9,7 @@
     "url": "https://www.microsoft.com/en-us/download/details.aspx?id=56519",
     "homepage": "https://learn.microsoft.com/en-us/azure/virtual-network/service-tags-overview"
   },
-  "count": 608,
+  "count": 609,
   "prefixes": [
     {
       "prefix": "2603:1000:4:5::740/122",
@@ -2531,6 +2531,13 @@
     },
     {
       "prefix": "2603:1030:1005:6::40/122",
+      "tags": {
+        "region": "canadaeast",
+        "service": "AzureContainerRegistry"
+      }
+    },
+    {
+      "prefix": "2603:1030:1005:12::580/121",
       "tags": {
         "region": "canadaeast",
         "service": "AzureContainerRegistry"

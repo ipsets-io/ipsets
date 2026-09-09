@@ -9,7 +9,7 @@
   "source": {
     "url": ""
   },
-  "count": 1921,
+  "count": 1922,
   "prefixes": [
     {
       "prefix": "3.211.124.183/32",
@@ -1529,6 +1529,13 @@
       "prefix": "20.93.49.96/32",
       "tags": {
         "provider": "duckduckgo"
+      }
+    },
+    {
+      "prefix": "20.98.18.80/28",
+      "tags": {
+        "list": "chatgpt-user",
+        "provider": "openai"
       }
     },
     {
