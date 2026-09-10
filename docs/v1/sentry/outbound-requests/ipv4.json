@@ -9,8 +9,22 @@
     "url": "https://docs.sentry.io/api/ip-ranges/",
     "homepage": "https://docs.sentry.io/security-legal-pii/security/ip-ranges/"
   },
-  "count": 7,
+  "count": 10,
   "prefixes": [
+    {
+      "prefix": "34.61.215.243/32",
+      "tags": {
+        "scope": "control",
+        "service": "outbound_requests"
+      }
+    },
+    {
+      "prefix": "34.71.103.17/32",
+      "tags": {
+        "scope": "control",
+        "service": "outbound_requests"
+      }
+    },
     {
       "prefix": "34.141.4.162/32",
       "tags": {
@@ -29,6 +43,13 @@
       "prefix": "35.184.238.160/32",
       "tags": {
         "scope": "us",
+        "service": "outbound_requests"
+      }
+    },
+    {
+      "prefix": "35.222.255.47/32",
+      "tags": {
+        "scope": "control",
         "service": "outbound_requests"
       }
     },

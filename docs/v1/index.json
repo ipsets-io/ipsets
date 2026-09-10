@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-09T08:52:06Z",
+  "generated_at": "2026-09-10T08:51:00Z",
   "providers": [
     {
       "id": "anthropic",
@@ -152,8 +152,8 @@
           },
           "ipv6": {
             "path": "/v1/aws/ec2/ipv6.json",
-            "count": 2304,
-            "sha256": "6b23dd64765ef8a6428d8e6e3359a6572acc05107ac6e0a1a87555f47981db0c"
+            "count": 2522,
+            "sha256": "2f14efc936eff321d3514cbe7cf4a37137ae2b2fc4fde098afc07cad072fa15a"
           }
         },
         {
@@ -166,8 +166,8 @@
           },
           "ipv6": {
             "path": "/v1/aws/s3/ipv6.json",
-            "count": 538,
-            "sha256": "b97b201840235c19ea29e280a29a9b120ac05070c4c0ba9648ccb3ef58e05024"
+            "count": 660,
+            "sha256": "540e03ab1fe5a02b829f9fcdf71555612f868fe29c62503a119eb9462342291c"
           }
         },
         {
@@ -278,8 +278,8 @@
           },
           "ipv6": {
             "path": "/v1/aws/iot-core/ipv6.json",
-            "count": 41,
-            "sha256": "f303fec05059aa7b12996f3d54a9e317c38a74d7d9ed893683235114d7d3b902"
+            "count": 45,
+            "sha256": "7a8309c165dc7b7b2a361ca40d9a0ea390d3c2b20617890363b5da9cf29d464d"
           }
         },
         {
@@ -895,13 +895,13 @@
           "category": "ci",
           "ipv4": {
             "path": "/v1/github/actions/ipv4.json",
-            "count": 5625,
-            "sha256": "751fdb13331ade387aafe4716f3752b0a08e7a18ef8a81fc31a0b7927697ef15"
+            "count": 5436,
+            "sha256": "b7b95cc2463e9347712267f41626caa21933012714dc0b6330b94d0a3637d5c1"
           },
           "ipv6": {
             "path": "/v1/github/actions/ipv6.json",
-            "count": 1626,
-            "sha256": "410e75b479a3f8db32fb0a010df9c57b3ddd7d81e9c7469774126235e0ff7f56"
+            "count": 1544,
+            "sha256": "9ccbc05ea935ccf16114303d51c71a9dfaf32352e5305421bf053a3805e60a23"
           }
         },
         {
@@ -1319,8 +1319,8 @@
           "name": "Outbound requests (webhooks, integrations)",
           "ipv4": {
             "path": "/v1/sentry/outbound-requests/ipv4.json",
-            "count": 7,
-            "sha256": "cc622171f13545cda06805ceaf72bf60b4c2f79d8d47f955188391a4f8f10bf9"
+            "count": 10,
+            "sha256": "58c4eb4c6d8b60796abc252352a79facf5cec0bbbfaa456d54d43229aa969ffe"
           },
           "ipv6": {
             "path": "/v1/sentry/outbound-requests/ipv6.json",
@@ -1434,8 +1434,8 @@
           "category": "anonymizer",
           "ipv4": {
             "path": "/v1/tor/exits/ipv4.json",
-            "count": 1341,
-            "sha256": "b51c8e0dd46a5e46f4022facd091278ad95a5a4532b95538bf0f91a650b7375d"
+            "count": 1339,
+            "sha256": "50b683cb2b5c45c917c491503fc2866d321b7df701a57e129a51bd8b0db834bc"
           },
           "ipv6": {
             "path": "/v1/tor/exits/ipv6.json",
@@ -1456,8 +1456,8 @@
           "category": "anonymizer",
           "ipv4": {
             "path": "/v1/categories/anonymizer/ipv4.json",
-            "count": 1341,
-            "sha256": "d1a72e2530b20355e71a5b965e43799bf8bd957f33fd453c554c3a63f9cd9736"
+            "count": 1339,
+            "sha256": "51092521c9af35269a68d73bff7381d8b844974bd7ebc0e9dd3af55186c2003a"
           },
           "ipv6": {
             "path": "/v1/categories/anonymizer/ipv6.json",
@@ -1496,13 +1496,13 @@
           "category": "ci",
           "ipv4": {
             "path": "/v1/categories/ci/ipv4.json",
-            "count": 5819,
-            "sha256": "697d4cb0676ee5f25c48993ed0f5ed9561fd945042932585d71c41c7f83bbfba"
+            "count": 5625,
+            "sha256": "52fa68bf385dfcfd04feca53727294b6bd0e75e14cd67895ec2e06eb89f5270c"
           },
           "ipv6": {
             "path": "/v1/categories/ci/ipv6.json",
-            "count": 1656,
-            "sha256": "9e622b0d6ace44372ccb4b376b2242b1b3ce99bfa2549e496cd49cc45a79ae88"
+            "count": 1574,
+            "sha256": "c3f756a309f822222acb4e908f3e711ede3746ad0047fc3677274a640c188b3a"
           }
         }
       ]
