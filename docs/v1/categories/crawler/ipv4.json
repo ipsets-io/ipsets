@@ -9,7 +9,7 @@
   "source": {
     "url": ""
   },
-  "count": 1931,
+  "count": 1922,
   "prefixes": [
     {
       "prefix": "3.211.124.183/32",
@@ -630,24 +630,6 @@
       }
     },
     {
-      "prefix": "17.22.237.0/24",
-      "tags": {
-        "provider": "apple"
-      }
-    },
-    {
-      "prefix": "17.22.245.0/24",
-      "tags": {
-        "provider": "apple"
-      }
-    },
-    {
-      "prefix": "17.22.253.0/24",
-      "tags": {
-        "provider": "apple"
-      }
-    },
-    {
       "prefix": "17.166.20.0/24",
       "tags": {
         "provider": "apple"
@@ -774,12 +756,6 @@
       }
     },
     {
-      "prefix": "17.241.75.0/24",
-      "tags": {
-        "provider": "apple"
-      }
-    },
-    {
       "prefix": "17.241.193.160/27",
       "tags": {
         "provider": "apple"
@@ -793,36 +769,6 @@
     },
     {
       "prefix": "17.241.208.160/27",
-      "tags": {
-        "provider": "apple"
-      }
-    },
-    {
-      "prefix": "17.241.219.0/24",
-      "tags": {
-        "provider": "apple"
-      }
-    },
-    {
-      "prefix": "17.241.227.0/24",
-      "tags": {
-        "provider": "apple"
-      }
-    },
-    {
-      "prefix": "17.246.15.0/24",
-      "tags": {
-        "provider": "apple"
-      }
-    },
-    {
-      "prefix": "17.246.19.0/24",
-      "tags": {
-        "provider": "apple"
-      }
-    },
-    {
-      "prefix": "17.246.23.0/24",
       "tags": {
         "provider": "apple"
       }

@@ -9,7 +9,7 @@
   "source": {
     "url": ""
   },
-  "count": 603,
+  "count": 604,
   "prefixes": [
     {
       "prefix": "2001:550:2:38::28:2/128",
@@ -1842,6 +1842,15 @@
         "provider": "aws",
         "region": "eu-central-1",
         "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
+      "prefix": "2600:1f17:4356:f100::/56",
+      "tags": {
+        "network_border_group": "mx-central-1",
+        "provider": "aws",
+        "region": "mx-central-1",
+        "service": "CLOUDFRONT_ORIGIN_FACING"
       }
     },
     {

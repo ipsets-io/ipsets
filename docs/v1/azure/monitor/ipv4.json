@@ -9,7 +9,7 @@
     "url": "https://www.microsoft.com/en-us/download/details.aspx?id=56519",
     "homepage": "https://learn.microsoft.com/en-us/azure/virtual-network/service-tags-overview"
   },
-  "count": 1883,
+  "count": 1888,
   "prefixes": [
     {
       "prefix": "4.144.10.32/27",
@@ -7358,6 +7358,12 @@
       }
     },
     {
+      "prefix": "48.196.159.128/27",
+      "tags": {
+        "service": "AzureMonitor"
+      }
+    },
+    {
       "prefix": "48.197.90.208/28",
       "tags": {
         "service": "AzureMonitor"
@@ -7435,6 +7441,13 @@
       "prefix": "48.200.60.192/26",
       "tags": {
         "region": "westus2",
+        "service": "AzureMonitor"
+      }
+    },
+    {
+      "prefix": "48.200.141.64/27",
+      "tags": {
+        "region": "southeastus5",
         "service": "AzureMonitor"
       }
     },
@@ -7547,6 +7560,13 @@
       "prefix": "48.219.9.64/27",
       "tags": {
         "region": "southcentralus2",
+        "service": "AzureMonitor"
+      }
+    },
+    {
+      "prefix": "48.219.91.224/27",
+      "tags": {
+        "region": "southwestus",
         "service": "AzureMonitor"
       }
     },
@@ -8135,6 +8155,13 @@
       "prefix": "51.57.106.64/26",
       "tags": {
         "region": "westus3",
+        "service": "AzureMonitor"
+      }
+    },
+    {
+      "prefix": "51.57.210.224/27",
+      "tags": {
+        "region": "eastus3",
         "service": "AzureMonitor"
       }
     },
@@ -10849,6 +10876,13 @@
     },
     {
       "prefix": "74.7.83.48/28",
+      "tags": {
+        "region": "southeastus3",
+        "service": "AzureMonitor"
+      }
+    },
+    {
+      "prefix": "74.7.120.0/27",
       "tags": {
         "region": "southeastus3",
         "service": "AzureMonitor"
