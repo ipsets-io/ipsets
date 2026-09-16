@@ -9,7 +9,7 @@
   "source": {
     "url": ""
   },
-  "count": 604,
+  "count": 628,
   "prefixes": [
     {
       "prefix": "2001:550:2:38::28:2/128",
@@ -1557,6 +1557,105 @@
       }
     },
     {
+      "prefix": "2406:da10:847f:a100::/56",
+      "tags": {
+        "network_border_group": "ap-southeast-5",
+        "provider": "aws",
+        "region": "ap-southeast-5",
+        "service": "CLOUDFRONT_ORIGIN_FACING"
+      }
+    },
+    {
+      "prefix": "2406:da11:438:2300::/56",
+      "tags": {
+        "network_border_group": "af-south-1",
+        "provider": "aws",
+        "region": "af-south-1",
+        "service": "CLOUDFRONT_ORIGIN_FACING"
+      }
+    },
+    {
+      "prefix": "2406:da12:4b:c200::/56",
+      "tags": {
+        "network_border_group": "ap-northeast-2",
+        "provider": "aws",
+        "region": "ap-northeast-2",
+        "service": "CLOUDFRONT_ORIGIN_FACING"
+      }
+    },
+    {
+      "prefix": "2406:da12:8b2e:9c00::/56",
+      "tags": {
+        "network_border_group": "ap-southeast-6",
+        "provider": "aws",
+        "region": "ap-southeast-6",
+        "service": "CLOUDFRONT_ORIGIN_FACING"
+      }
+    },
+    {
+      "prefix": "2406:da14:17bd:2f00::/56",
+      "tags": {
+        "network_border_group": "ap-northeast-1",
+        "provider": "aws",
+        "region": "ap-northeast-1",
+        "service": "CLOUDFRONT_ORIGIN_FACING"
+      }
+    },
+    {
+      "prefix": "2406:da14:80bb:ea00::/56",
+      "tags": {
+        "network_border_group": "ap-southeast-7",
+        "provider": "aws",
+        "region": "ap-southeast-7",
+        "service": "CLOUDFRONT_ORIGIN_FACING"
+      }
+    },
+    {
+      "prefix": "2406:da19:e19:4a00::/56",
+      "tags": {
+        "network_border_group": "ap-southeast-3",
+        "provider": "aws",
+        "region": "ap-southeast-3",
+        "service": "CLOUDFRONT_ORIGIN_FACING"
+      }
+    },
+    {
+      "prefix": "2406:da1b:e7c:ad00::/56",
+      "tags": {
+        "network_border_group": "ap-south-2",
+        "provider": "aws",
+        "region": "ap-south-2",
+        "service": "CLOUDFRONT_ORIGIN_FACING"
+      }
+    },
+    {
+      "prefix": "2406:da1c:8d8c:4600::/56",
+      "tags": {
+        "network_border_group": "ap-east-2",
+        "provider": "aws",
+        "region": "ap-east-2",
+        "service": "CLOUDFRONT_ORIGIN_FACING"
+      }
+    },
+    {
+      "prefix": "2406:da1e:705:1600::/56",
+      "tags": {
+        "network_border_group": "ap-east-1",
+        "provider": "aws",
+        "region": "ap-east-1",
+        "service": "CLOUDFRONT_ORIGIN_FACING"
+      }
+    },
+    {
+      "prefix": "2406:da1f:396:9100::/56",
+      "tags": {
+        "network_border_group": "ap-southeast-4",
+        "provider": "aws",
+        "region": "ap-southeast-4",
+        "service": "CLOUDFRONT_ORIGIN_FACING"
+      }
+    },
+    {
       "prefix": "2409:8c00:2421:300::/56",
       "tags": {
         "network_border_group": "GLOBAL",
@@ -1845,11 +1944,56 @@
       }
     },
     {
+      "prefix": "2600:1f13:417:4d00::/56",
+      "tags": {
+        "network_border_group": "us-west-2",
+        "provider": "aws",
+        "region": "us-west-2",
+        "service": "CLOUDFRONT_ORIGIN_FACING"
+      }
+    },
+    {
+      "prefix": "2600:1f16:1923:3000::/56",
+      "tags": {
+        "network_border_group": "us-east-2",
+        "provider": "aws",
+        "region": "us-east-2",
+        "service": "CLOUDFRONT_ORIGIN_FACING"
+      }
+    },
+    {
       "prefix": "2600:1f17:4356:f100::/56",
       "tags": {
         "network_border_group": "mx-central-1",
         "provider": "aws",
         "region": "mx-central-1",
+        "service": "CLOUDFRONT_ORIGIN_FACING"
+      }
+    },
+    {
+      "prefix": "2600:1f18:7530:7200::/56",
+      "tags": {
+        "network_border_group": "us-east-1",
+        "provider": "aws",
+        "region": "us-east-1",
+        "service": "CLOUDFRONT_ORIGIN_FACING"
+      }
+    },
+    {
+      "prefix": "2600:1f1a:4568:b500::/56",
+      "tags": {
+        "network_border_group": "ca-west-1",
+        "provider": "aws",
+        "region": "ca-west-1",
+        "service": "CLOUDFRONT_ORIGIN_FACING"
+      }
+    },
+    {
+      "prefix": "2600:1f1e:a7:2300::/56",
+      "tags": {
+        "network_border_group": "sa-east-1",
+        "provider": "aws",
+        "region": "sa-east-1",
         "service": "CLOUDFRONT_ORIGIN_FACING"
       }
     },
@@ -3921,6 +4065,78 @@
       "prefix": "2a04:ff07:d9:3b::1/128",
       "tags": {
         "provider": "bunny"
+      }
+    },
+    {
+      "prefix": "2a05:d011:531:1800::/56",
+      "tags": {
+        "network_border_group": "eu-south-2",
+        "provider": "aws",
+        "region": "eu-south-2",
+        "service": "CLOUDFRONT_ORIGIN_FACING"
+      }
+    },
+    {
+      "prefix": "2a05:d014:1362:b000::/56",
+      "tags": {
+        "network_border_group": "eu-central-1",
+        "provider": "aws",
+        "region": "eu-central-1",
+        "service": "CLOUDFRONT_ORIGIN_FACING"
+      }
+    },
+    {
+      "prefix": "2a05:d016:9ed:de00::/56",
+      "tags": {
+        "network_border_group": "eu-north-1",
+        "provider": "aws",
+        "region": "eu-north-1",
+        "service": "CLOUDFRONT_ORIGIN_FACING"
+      }
+    },
+    {
+      "prefix": "2a05:d018:1a3a:2d00::/56",
+      "tags": {
+        "network_border_group": "eu-west-1",
+        "provider": "aws",
+        "region": "eu-west-1",
+        "service": "CLOUDFRONT_ORIGIN_FACING"
+      }
+    },
+    {
+      "prefix": "2a05:d019:80b:e300::/56",
+      "tags": {
+        "network_border_group": "eu-central-2",
+        "provider": "aws",
+        "region": "eu-central-2",
+        "service": "CLOUDFRONT_ORIGIN_FACING"
+      }
+    },
+    {
+      "prefix": "2a05:d01a:8a9:be00::/56",
+      "tags": {
+        "network_border_group": "eu-south-1",
+        "provider": "aws",
+        "region": "eu-south-1",
+        "service": "CLOUDFRONT_ORIGIN_FACING"
+      }
+    },
+    {
+      "prefix": "2a05:d01c:343:c300::/56",
+      "tags": {
+        "network_border_group": "eu-west-2",
+        "provider": "aws",
+        "region": "eu-west-2",
+        "service": "CLOUDFRONT_ORIGIN_FACING"
+      }
+    },
+    {
+      "prefix": "2a05:d025:e59:fb00::/56",
+      "tags": {
+        "network_border_group": "il-central-1",
+        "provider": "aws",
+        "region": "il-central-1",
+        "service": "CLOUDFRONT_ORIGIN_FACING"
       }
     },
     {

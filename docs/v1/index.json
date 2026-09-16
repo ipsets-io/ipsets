@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-15T09:19:05Z",
+  "generated_at": "2026-09-16T09:12:03Z",
   "providers": [
     {
       "id": "anthropic",
@@ -79,8 +79,8 @@
           },
           "ipv6": {
             "path": "/v1/aws/cloudfront-origin-facing/ipv6.json",
-            "count": 4,
-            "sha256": "f46f329407e80852ff7193fad3f23f49979e9e99a328da5cf3fb5768e8d99e21"
+            "count": 28,
+            "sha256": "5509a8c4a2b57b57f4baf65fa56f2fd0c35b9d0c358274c10494972c9e2f0f18"
           }
         },
         {
@@ -152,8 +152,8 @@
           },
           "ipv6": {
             "path": "/v1/aws/ec2/ipv6.json",
-            "count": 2528,
-            "sha256": "b38ff3a41b2460d70588586b5ec6cee6b5bb4444951fb6b5390fc94ed1a4fa41"
+            "count": 2530,
+            "sha256": "49be529805510bc5cc7ff1f2d9e07e42600f89dd9f785831e38ce146c85a1972"
           }
         },
         {
@@ -1435,7 +1435,7 @@
           "ipv4": {
             "path": "/v1/tor/exits/ipv4.json",
             "count": 1345,
-            "sha256": "f28b4ef9c3c7db7a8e0aaff02e639c007bafae55f0acc1fb5f203c96afbb5cd9"
+            "sha256": "9cf564c600a2c9b10241cb77aa24b9d45c81bae564ab64c2d4ee5658a07405ee"
           },
           "ipv6": {
             "path": "/v1/tor/exits/ipv6.json",
@@ -1457,7 +1457,7 @@
           "ipv4": {
             "path": "/v1/categories/anonymizer/ipv4.json",
             "count": 1345,
-            "sha256": "af3bde058d54afdcd6354f825cd21873da25eec421d086684543c3ccdf159b02"
+            "sha256": "68805a3c517a6910bfdde652aea44bb591105aa0d3056797ad8b39998141e982"
           },
           "ipv6": {
             "path": "/v1/categories/anonymizer/ipv6.json",
@@ -1481,8 +1481,8 @@
           },
           "ipv6": {
             "path": "/v1/categories/cdn/ipv6.json",
-            "count": 604,
-            "sha256": "85a40e26d0209ed0417e958358e2d816725d8c7d5d779cb766047f8aa30e7f89"
+            "count": 628,
+            "sha256": "5c6ae18eb105b5cdbf355cff769d65e7a9dd625ea292661af2a6ee709f565d17"
           }
         }
       ]
