@@ -9,7 +9,7 @@
   "source": {
     "url": ""
   },
-  "count": 1243,
+  "count": 1241,
   "prefixes": [
     {
       "prefix": "1.178.172.0/23",
@@ -3511,12 +3511,6 @@
       }
     },
     {
-      "prefix": "51.83.172.163/32",
-      "tags": {
-        "provider": "bunny"
-      }
-    },
-    {
       "prefix": "51.104.24.88/29",
       "tags": {
         "provider": "azure",
@@ -6743,12 +6737,6 @@
       "tags": {
         "provider": "azure",
         "service": "AzureFrontDoor.Backend"
-      }
-    },
-    {
-      "prefix": "146.59.69.202/32",
-      "tags": {
-        "provider": "bunny"
       }
     },
     {

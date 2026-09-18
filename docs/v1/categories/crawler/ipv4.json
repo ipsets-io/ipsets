@@ -9,7 +9,7 @@
   "source": {
     "url": ""
   },
-  "count": 1924,
+  "count": 1928,
   "prefixes": [
     {
       "prefix": "3.211.124.183/32",
@@ -11303,6 +11303,20 @@
       }
     },
     {
+      "prefix": "134.138.52.64/28",
+      "tags": {
+        "list": "chatgpt-user",
+        "provider": "openai"
+      }
+    },
+    {
+      "prefix": "134.138.52.96/28",
+      "tags": {
+        "list": "chatgpt-user",
+        "provider": "openai"
+      }
+    },
+    {
       "prefix": "134.149.233.80/28",
       "tags": {
         "list": "chatgpt-user",
@@ -11915,6 +11929,20 @@
     },
     {
       "prefix": "172.198.58.176/28",
+      "tags": {
+        "list": "chatgpt-user",
+        "provider": "openai"
+      }
+    },
+    {
+      "prefix": "172.198.78.192/28",
+      "tags": {
+        "list": "chatgpt-user",
+        "provider": "openai"
+      }
+    },
+    {
+      "prefix": "172.198.79.112/28",
       "tags": {
         "list": "chatgpt-user",
         "provider": "openai"

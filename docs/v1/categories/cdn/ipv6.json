@@ -9,7 +9,7 @@
   "source": {
     "url": ""
   },
-  "count": 635,
+  "count": 634,
   "prefixes": [
     {
       "prefix": "2001:550:2:38::28:2/128",
@@ -48,12 +48,6 @@
         "provider": "aws",
         "region": "GLOBAL",
         "service": "CLOUDFRONT"
-      }
-    },
-    {
-      "prefix": "2001:41d0:605:ca00::1175:1/128",
-      "tags": {
-        "provider": "bunny"
       }
     },
     {
