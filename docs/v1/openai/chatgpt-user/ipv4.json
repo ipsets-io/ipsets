@@ -10,7 +10,7 @@
     "url": "https://openai.com/chatgpt-user.json",
     "homepage": "https://platform.openai.com/docs/bots"
   },
-  "count": 219,
+  "count": 225,
   "prefixes": [
     {
       "prefix": "4.151.71.176/28",
@@ -1063,6 +1063,12 @@
       }
     },
     {
+      "prefix": "134.138.52.16/28",
+      "tags": {
+        "list": "chatgpt-user"
+      }
+    },
+    {
       "prefix": "134.138.52.64/28",
       "tags": {
         "list": "chatgpt-user"
@@ -1070,6 +1076,36 @@
     },
     {
       "prefix": "134.138.52.96/28",
+      "tags": {
+        "list": "chatgpt-user"
+      }
+    },
+    {
+      "prefix": "134.138.52.128/28",
+      "tags": {
+        "list": "chatgpt-user"
+      }
+    },
+    {
+      "prefix": "134.138.57.64/28",
+      "tags": {
+        "list": "chatgpt-user"
+      }
+    },
+    {
+      "prefix": "134.138.57.80/28",
+      "tags": {
+        "list": "chatgpt-user"
+      }
+    },
+    {
+      "prefix": "134.138.57.176/28",
+      "tags": {
+        "list": "chatgpt-user"
+      }
+    },
+    {
+      "prefix": "134.138.58.32/28",
       "tags": {
         "list": "chatgpt-user"
       }

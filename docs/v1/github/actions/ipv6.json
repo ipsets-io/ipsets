@@ -10,7 +10,7 @@
     "url": "https://api.github.com/meta",
     "homepage": "https://docs.github.com/en/rest/meta/meta"
   },
-  "count": 1510,
+  "count": 1509,
   "prefixes": [
     {
       "prefix": "2602:fd5e:1::/63",
@@ -350,6 +350,12 @@
     },
     {
       "prefix": "2603:1030:9:c0::/60",
+      "tags": {
+        "usage": "actions"
+      }
+    },
+    {
+      "prefix": "2603:1030:9:d2::/64",
       "tags": {
         "usage": "actions"
       }
@@ -1723,25 +1729,7 @@
       }
     },
     {
-      "prefix": "2603:1030:401:60::/62",
-      "tags": {
-        "usage": "actions"
-      }
-    },
-    {
-      "prefix": "2603:1030:401:64::/64",
-      "tags": {
-        "usage": "actions"
-      }
-    },
-    {
-      "prefix": "2603:1030:401:6b::/64",
-      "tags": {
-        "usage": "actions"
-      }
-    },
-    {
-      "prefix": "2603:1030:401:6c::/62",
+      "prefix": "2603:1030:401:60::/60",
       "tags": {
         "usage": "actions"
       }
@@ -2750,6 +2738,12 @@
     },
     {
       "prefix": "2603:1030:401:43e::/64",
+      "tags": {
+        "usage": "actions"
+      }
+    },
+    {
+      "prefix": "2603:1030:401:440::/62",
       "tags": {
         "usage": "actions"
       }
