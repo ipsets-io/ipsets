@@ -9,7 +9,7 @@
     "url": "https://ip-ranges.amazonaws.com/ip-ranges.json",
     "homepage": "https://docs.aws.amazon.com/vpc/latest/userguide/aws-ip-ranges.html"
   },
-  "count": 2551,
+  "count": 2538,
   "prefixes": [
     {
       "prefix": "2001:3fc0:800::/40",
@@ -1324,26 +1324,10 @@
       }
     },
     {
-      "prefix": "2406:da33:1000::/40",
-      "tags": {
-        "network_border_group": "af-south-1",
-        "region": "af-south-1",
-        "service": "EC2"
-      }
-    },
-    {
       "prefix": "2406:da33:2000::/40",
       "tags": {
         "network_border_group": "ap-northeast-2",
         "region": "ap-northeast-2",
-        "service": "EC2"
-      }
-    },
-    {
-      "prefix": "2406:da33:2800::/40",
-      "tags": {
-        "network_border_group": "ap-southeast-6",
-        "region": "ap-southeast-6",
         "service": "EC2"
       }
     },
@@ -1356,50 +1340,10 @@
       }
     },
     {
-      "prefix": "2406:da33:4800::/40",
-      "tags": {
-        "network_border_group": "ap-southeast-7",
-        "region": "ap-southeast-7",
-        "service": "EC2"
-      }
-    },
-    {
-      "prefix": "2406:da33:6000::/40",
-      "tags": {
-        "network_border_group": "ap-northeast-3",
-        "region": "ap-northeast-3",
-        "service": "EC2"
-      }
-    },
-    {
-      "prefix": "2406:da33:7000::/40",
-      "tags": {
-        "network_border_group": "me-central-1",
-        "region": "me-central-1",
-        "service": "EC2"
-      }
-    },
-    {
       "prefix": "2406:da33:8000::/40",
       "tags": {
         "network_border_group": "ap-southeast-1",
         "region": "ap-southeast-1",
-        "service": "EC2"
-      }
-    },
-    {
-      "prefix": "2406:da33:8800::/40",
-      "tags": {
-        "network_border_group": "ap-southeast-1",
-        "region": "ap-southeast-1",
-        "service": "EC2"
-      }
-    },
-    {
-      "prefix": "2406:da33:9000::/40",
-      "tags": {
-        "network_border_group": "ap-southeast-3",
-        "region": "ap-southeast-3",
         "service": "EC2"
       }
     },
@@ -1412,14 +1356,6 @@
       }
     },
     {
-      "prefix": "2406:da33:b000::/40",
-      "tags": {
-        "network_border_group": "ap-south-2",
-        "region": "ap-south-2",
-        "service": "EC2"
-      }
-    },
-    {
       "prefix": "2406:da33:c000::/40",
       "tags": {
         "network_border_group": "ap-southeast-2",
@@ -1428,26 +1364,10 @@
       }
     },
     {
-      "prefix": "2406:da33:c800::/40",
-      "tags": {
-        "network_border_group": "ap-east-2",
-        "region": "ap-east-2",
-        "service": "EC2"
-      }
-    },
-    {
       "prefix": "2406:da33:e000::/40",
       "tags": {
         "network_border_group": "ap-east-1",
         "region": "ap-east-1",
-        "service": "EC2"
-      }
-    },
-    {
-      "prefix": "2406:da33:f000::/40",
-      "tags": {
-        "network_border_group": "ap-southeast-4",
-        "region": "ap-southeast-4",
         "service": "EC2"
       }
     },
@@ -5660,14 +5580,6 @@
       }
     },
     {
-      "prefix": "2600:1f33:800::/40",
-      "tags": {
-        "network_border_group": "us-south-1",
-        "region": "us-south-1",
-        "service": "EC2"
-      }
-    },
-    {
       "prefix": "2600:1f33:1000::/40",
       "tags": {
         "network_border_group": "ca-central-1",
@@ -5708,26 +5620,10 @@
       }
     },
     {
-      "prefix": "2600:1f33:7400::/40",
-      "tags": {
-        "network_border_group": "mx-central-1",
-        "region": "mx-central-1",
-        "service": "EC2"
-      }
-    },
-    {
       "prefix": "2600:1f33:8000::/39",
       "tags": {
         "network_border_group": "us-east-1",
         "region": "us-east-1",
-        "service": "EC2"
-      }
-    },
-    {
-      "prefix": "2600:1f33:a400::/40",
-      "tags": {
-        "network_border_group": "ca-west-1",
-        "region": "ca-west-1",
         "service": "EC2"
       }
     },
@@ -5740,34 +5636,10 @@
       }
     },
     {
-      "prefix": "2600:1f33:c200::/40",
-      "tags": {
-        "network_border_group": "us-west-2",
-        "region": "us-west-2",
-        "service": "EC2"
-      }
-    },
-    {
       "prefix": "2600:1f33:e000::/40",
       "tags": {
         "network_border_group": "sa-east-1",
         "region": "sa-east-1",
-        "service": "EC2"
-      }
-    },
-    {
-      "prefix": "2600:1f33:e200::/40",
-      "tags": {
-        "network_border_group": "ca-central-1",
-        "region": "ca-central-1",
-        "service": "EC2"
-      }
-    },
-    {
-      "prefix": "2600:1f33:ec00::/40",
-      "tags": {
-        "network_border_group": "sa-west-1",
-        "region": "sa-west-1",
         "service": "EC2"
       }
     },
@@ -13796,6 +13668,22 @@
       }
     },
     {
+      "prefix": "2600:f0f3:f010:900::/56",
+      "tags": {
+        "network_border_group": "me-south-1",
+        "region": "me-south-1",
+        "service": "EC2"
+      }
+    },
+    {
+      "prefix": "2600:f0f3:f010:a00::/56",
+      "tags": {
+        "network_border_group": "cn-north-1",
+        "region": "cn-north-1",
+        "service": "EC2"
+      }
+    },
+    {
       "prefix": "2600:f0f3:f010:c00::/56",
       "tags": {
         "network_border_group": "ap-south-1",
@@ -13820,10 +13708,26 @@
       }
     },
     {
+      "prefix": "2600:f0f3:f010:f00::/56",
+      "tags": {
+        "network_border_group": "us-east-2",
+        "region": "us-east-2",
+        "service": "EC2"
+      }
+    },
+    {
       "prefix": "2600:f0f3:f010:1300::/56",
       "tags": {
         "network_border_group": "eu-west-1",
         "region": "eu-west-1",
+        "service": "EC2"
+      }
+    },
+    {
+      "prefix": "2600:f0f3:f010:1400::/56",
+      "tags": {
+        "network_border_group": "me-central-1",
+        "region": "me-central-1",
         "service": "EC2"
       }
     },
@@ -13916,6 +13820,14 @@
       }
     },
     {
+      "prefix": "2600:f0f3:f010:2800::/56",
+      "tags": {
+        "network_border_group": "me-west-1",
+        "region": "me-west-1",
+        "service": "EC2"
+      }
+    },
+    {
       "prefix": "2600:f0f3:f010:2a00::/56",
       "tags": {
         "network_border_group": "ap-southeast-1",
@@ -13972,6 +13884,14 @@
       }
     },
     {
+      "prefix": "2600:f0f3:f010:3200::/56",
+      "tags": {
+        "network_border_group": "cn-northwest-1",
+        "region": "cn-northwest-1",
+        "service": "EC2"
+      }
+    },
+    {
       "prefix": "2600:f0f3:f010:3300::/56",
       "tags": {
         "network_border_group": "eu-central-2",
@@ -13988,10 +13908,34 @@
       }
     },
     {
+      "prefix": "2600:f0f3:f010:3600::/56",
+      "tags": {
+        "network_border_group": "us-east-2",
+        "region": "us-east-2",
+        "service": "EC2"
+      }
+    },
+    {
+      "prefix": "2600:f0f3:f010:3700::/56",
+      "tags": {
+        "network_border_group": "us-west-2",
+        "region": "us-west-2",
+        "service": "EC2"
+      }
+    },
+    {
       "prefix": "2600:f0f3:f010:3800::/56",
       "tags": {
         "network_border_group": "us-east-1",
         "region": "us-east-1",
+        "service": "EC2"
+      }
+    },
+    {
+      "prefix": "2600:f0f3:f010:3900::/56",
+      "tags": {
+        "network_border_group": "us-west-2",
+        "region": "us-west-2",
         "service": "EC2"
       }
     },
@@ -18060,14 +18004,6 @@
       }
     },
     {
-      "prefix": "2a05:d033:800::/40",
-      "tags": {
-        "network_border_group": "me-west-1",
-        "region": "me-west-1",
-        "service": "EC2"
-      }
-    },
-    {
       "prefix": "2a05:d033:1000::/40",
       "tags": {
         "network_border_group": "eu-south-2",
@@ -18085,14 +18021,6 @@
     },
     {
       "prefix": "2a05:d033:4000::/40",
-      "tags": {
-        "network_border_group": "eu-central-1",
-        "region": "eu-central-1",
-        "service": "EC2"
-      }
-    },
-    {
-      "prefix": "2a05:d033:4800::/40",
       "tags": {
         "network_border_group": "eu-central-1",
         "region": "eu-central-1",
@@ -18124,22 +18052,6 @@
       }
     },
     {
-      "prefix": "2a05:d033:8800::/40",
-      "tags": {
-        "network_border_group": "eu-north-1",
-        "region": "eu-north-1",
-        "service": "EC2"
-      }
-    },
-    {
-      "prefix": "2a05:d033:9000::/40",
-      "tags": {
-        "network_border_group": "eu-central-2",
-        "region": "eu-central-2",
-        "service": "EC2"
-      }
-    },
-    {
       "prefix": "2a05:d033:a000::/40",
       "tags": {
         "network_border_group": "eu-south-1",
@@ -18148,26 +18060,10 @@
       }
     },
     {
-      "prefix": "2a05:d033:b000::/40",
-      "tags": {
-        "network_border_group": "eu-central-1",
-        "region": "eu-central-1",
-        "service": "EC2"
-      }
-    },
-    {
       "prefix": "2a05:d033:c000::/40",
       "tags": {
         "network_border_group": "eu-west-2",
         "region": "eu-west-2",
-        "service": "EC2"
-      }
-    },
-    {
-      "prefix": "2a05:d033:e000::/40",
-      "tags": {
-        "network_border_group": "me-south-1",
-        "region": "me-south-1",
         "service": "EC2"
       }
     },

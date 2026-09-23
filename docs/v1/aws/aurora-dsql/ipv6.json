@@ -9,7 +9,7 @@
     "url": "https://ip-ranges.amazonaws.com/ip-ranges.json",
     "homepage": "https://docs.aws.amazon.com/vpc/latest/userguide/aws-ip-ranges.html"
   },
-  "count": 20,
+  "count": 21,
   "prefixes": [
     {
       "prefix": "2406:da12:8f1:3d00::/56",
@@ -72,6 +72,14 @@
       "tags": {
         "network_border_group": "ap-southeast-4",
         "region": "ap-southeast-4",
+        "service": "AURORA_DSQL"
+      }
+    },
+    {
+      "prefix": "2600:1f10:4040:3800::/56",
+      "tags": {
+        "network_border_group": "us-east-1",
+        "region": "us-east-1",
         "service": "AURORA_DSQL"
       }
     },

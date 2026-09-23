@@ -9,7 +9,7 @@
   "source": {
     "url": ""
   },
-  "count": 1934,
+  "count": 1935,
   "prefixes": [
     {
       "prefix": "3.211.124.183/32",
@@ -6109,6 +6109,13 @@
       }
     },
     {
+      "prefix": "40.124.161.0/28",
+      "tags": {
+        "list": "chatgpt-user",
+        "provider": "openai"
+      }
+    },
+    {
       "prefix": "40.127.154.196/32",
       "tags": {
         "provider": "duckduckgo"
@@ -11297,6 +11304,13 @@
       }
     },
     {
+      "prefix": "134.33.102.192/28",
+      "tags": {
+        "list": "chatgpt-user",
+        "provider": "openai"
+      }
+    },
+    {
       "prefix": "134.33.207.189/32",
       "tags": {
         "provider": "duckduckgo"
@@ -11761,6 +11775,13 @@
       }
     },
     {
+      "prefix": "172.172.206.48/28",
+      "tags": {
+        "list": "chatgpt-user",
+        "provider": "openai"
+      }
+    },
+    {
       "prefix": "172.175.152.224/28",
       "tags": {
         "list": "chatgpt-user",
@@ -11843,13 +11864,6 @@
       }
     },
     {
-      "prefix": "172.182.204.0/24",
-      "tags": {
-        "list": "gptbot",
-        "provider": "openai"
-      }
-    },
-    {
       "prefix": "172.182.207.0/25",
       "tags": {
         "list": "gptbot",
@@ -11874,20 +11888,6 @@
       "prefix": "172.182.213.192/28",
       "tags": {
         "list": "searchbot",
-        "provider": "openai"
-      }
-    },
-    {
-      "prefix": "172.182.214.0/24",
-      "tags": {
-        "list": "gptbot",
-        "provider": "openai"
-      }
-    },
-    {
-      "prefix": "172.182.215.0/24",
-      "tags": {
-        "list": "gptbot",
         "provider": "openai"
       }
     },
@@ -12047,6 +12047,13 @@
     },
     {
       "prefix": "172.205.189.192/28",
+      "tags": {
+        "list": "chatgpt-user",
+        "provider": "openai"
+      }
+    },
+    {
+      "prefix": "172.206.38.240/28",
       "tags": {
         "list": "chatgpt-user",
         "provider": "openai"

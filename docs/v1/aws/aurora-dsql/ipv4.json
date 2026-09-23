@@ -9,8 +9,16 @@
     "url": "https://ip-ranges.amazonaws.com/ip-ranges.json",
     "homepage": "https://docs.aws.amazon.com/vpc/latest/userguide/aws-ip-ranges.html"
   },
-  "count": 20,
+  "count": 21,
   "prefixes": [
+    {
+      "prefix": "3.41.208.0/25",
+      "tags": {
+        "network_border_group": "us-east-1",
+        "region": "us-east-1",
+        "service": "AURORA_DSQL"
+      }
+    },
     {
       "prefix": "3.44.5.128/25",
       "tags": {

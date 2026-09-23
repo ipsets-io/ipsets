@@ -10,7 +10,7 @@
     "url": "https://openai.com/gptbot.json",
     "homepage": "https://platform.openai.com/docs/bots"
   },
-  "count": 21,
+  "count": 18,
   "prefixes": [
     {
       "prefix": "4.227.36.0/25",
@@ -115,25 +115,7 @@
       }
     },
     {
-      "prefix": "172.182.204.0/24",
-      "tags": {
-        "list": "gptbot"
-      }
-    },
-    {
       "prefix": "172.182.207.0/25",
-      "tags": {
-        "list": "gptbot"
-      }
-    },
-    {
-      "prefix": "172.182.214.0/24",
-      "tags": {
-        "list": "gptbot"
-      }
-    },
-    {
-      "prefix": "172.182.215.0/24",
       "tags": {
         "list": "gptbot"
       }

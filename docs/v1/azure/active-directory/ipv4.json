@@ -9,7 +9,7 @@
     "url": "https://www.microsoft.com/en-us/download/details.aspx?id=56519",
     "homepage": "https://learn.microsoft.com/en-us/azure/virtual-network/service-tags-overview"
   },
-  "count": 312,
+  "count": 311,
   "prefixes": [
     {
       "prefix": "4.146.0.16/28",
@@ -613,12 +613,6 @@
     },
     {
       "prefix": "20.89.1.112/30",
-      "tags": {
-        "service": "AzureActiveDirectory"
-      }
-    },
-    {
-      "prefix": "20.111.78.128/28",
       "tags": {
         "service": "AzureActiveDirectory"
       }
