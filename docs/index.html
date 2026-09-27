@@ -68,8 +68,8 @@
         as JSON or bare CIDRs.
       </p>
       <p class="uk-text-meta mt-4">
-        <span class="font-semibold">19</span> providers ·
-        <span class="font-semibold">89</span> sets
+        <span class="font-semibold">20</span> providers ·
+        <span class="font-semibold">90</span> sets
         · built 27 September 2026
       </p>
     </div>
@@ -131,6 +131,8 @@
   <div class="flex flex-wrap gap-2 mb-3">
     <button class="uk-btn uk-btn-primary uk-btn-sm pill" data-cat="" aria-pressed="true">All</button>
     
+    <button class="uk-btn uk-btn-default uk-btn-sm pill" data-cat="abuse" aria-pressed="false">abuse</button>
+    
     <button class="uk-btn uk-btn-default uk-btn-sm pill" data-cat="anonymizer" aria-pressed="false">anonymizer</button>
     
     <button class="uk-btn uk-btn-default uk-btn-sm pill" data-cat="cdn" aria-pressed="false">cdn</button>
@@ -150,6 +152,16 @@
 
   <h2 class="uk-h4 mb-4">Categories</h2>
   <div class="uk-card group" data-name="categories cross-provider unions">
+    
+    <div class="row flex items-center gap-2 px-4 py-2 border-b border-border"
+         data-name="categories abuse" data-cat="abuse" data-path="/v1/categories/abuse">
+      <span class="mono text-sm">abuse</span>
+      <span class="uk-text-meta mono ml-auto nowrap">20 v4</span>
+      <span class="flex gap-1 shrink-0">
+        <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv4">v4</button>
+        
+      </span>
+    </div>
     
     <div class="row flex items-center gap-2 px-4 py-2 border-b border-border"
          data-name="categories anonymizer" data-cat="anonymizer" data-path="/v1/categories/anonymizer">
@@ -324,7 +336,7 @@
            data-name="ec2 EC2" data-cat="" data-path="/v1/aws/ec2">
         <span class="mono text-sm">ec2</span>
         
-        <span class="uk-text-meta mono ml-auto nowrap">1,859 v4 · 2,520 v6</span>
+        <span class="uk-text-meta mono ml-auto nowrap">1,860 v4 · 2,520 v6</span>
         <span class="flex gap-1 shrink-0">
           <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv4">v4</button>
           <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv6">v6</button>
@@ -1239,6 +1251,27 @@
         <span class="flex gap-1 shrink-0">
           <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv4">v4</button>
           <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv6">v6</button>
+        </span>
+      </div>
+      
+    </div>
+    
+    <div class="uk-card group" data-name="sans SANS Internet Storm Center">
+      <div class="uk-card-header flex items-baseline justify-between gap-2">
+        <h3 class="uk-card-title">SANS Internet Storm Center</h3>
+        
+        <a class="uk-text-meta plain nowrap" href="https://isc.sans.edu/" rel="noopener">docs ↗</a>
+        
+      </div>
+      
+      <div class="row flex items-center gap-2 px-4 py-2 border-b border-border"
+           data-name="top-attackers Top attacking /24 subnets (DShield)" data-cat="abuse" data-path="/v1/sans/top-attackers">
+        <span class="mono text-sm">top-attackers</span>
+        <span class="uk-badge uk-badge-secondary">abuse</span>
+        <span class="uk-text-meta mono ml-auto nowrap">20 v4</span>
+        <span class="flex gap-1 shrink-0">
+          <button class="uk-btn uk-btn-default uk-btn-sm copy" data-fam="ipv4">v4</button>
+          
         </span>
       </div>
       

@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "provider": "sans",
+  "provider_name": "SANS Internet Storm Center",
+  "set": "top-attackers",
+  "set_name": "Top attacking /24 subnets (DShield)",
+  "category": "abuse",
+  "family": "ipv6",
+  "source": {
+    "url": "https://isc.sans.edu/block.txt",
+    "homepage": "https://isc.sans.edu/"
+  },
+  "count": 0,
+  "prefixes": []
+}

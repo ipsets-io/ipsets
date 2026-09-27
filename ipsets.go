@@ -18,6 +18,7 @@ import (
 	"github.com/ipsets-io/ipsets/provider/oracle"
 	"github.com/ipsets-io/ipsets/provider/perplexity"
 	"github.com/ipsets-io/ipsets/provider/pingdom"
+	"github.com/ipsets-io/ipsets/provider/sans"
 	"github.com/ipsets-io/ipsets/provider/sentry"
 	"github.com/ipsets-io/ipsets/provider/stripe"
 	"github.com/ipsets-io/ipsets/provider/tor"
@@ -41,6 +42,7 @@ func Providers() []provider.Provider {
 		oracle.New(),
 		perplexity.New(),
 		pingdom.New(),
+		sans.New(),
 		sentry.New(),
 		stripe.New(),
 		tor.New(),

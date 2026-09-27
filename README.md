@@ -47,13 +47,13 @@ the provider publishes:
 
 `anthropic` `apple` `aws` `azure` `bing` `bunny` `cloudflare` `datadog`
 `duckduckgo` `fastly` `github` `google` `openai` `oracle` `perplexity` `pingdom`
-`sentry` `tor`
+`sans` `sentry` `tor`
 
 Every set is a list the provider publishes: `aws/cloudfront`, `github/actions`,
 `google/googlebot`, `openai/gptbot`. Providers publishing a single list name it
 for what it is, like `cloudflare/cdn`, `bing/bingbot` and `anthropic/bots`.
 
-`/v1/categories/{anonymizer,cdn,ci,crawler,monitoring}/` are cross-provider
+`/v1/categories/{abuse,anonymizer,cdn,ci,crawler,monitoring}/` are cross-provider
 unions. `categories/crawler` is every verified bot range in one file.
 
 ## Go

@@ -1,0 +1,190 @@
+{
+  "schema_version": 1,
+  "provider": "categories",
+  "provider_name": "Categories",
+  "set": "abuse",
+  "set_name": "abuse",
+  "category": "abuse",
+  "family": "ipv4",
+  "source": {
+    "url": ""
+  },
+  "count": 20,
+  "prefixes": [
+    {
+      "prefix": "16.5.0.0/24",
+      "tags": {
+        "attacks": "339",
+        "provider": "sans"
+      }
+    },
+    {
+      "prefix": "64.62.156.0/24",
+      "tags": {
+        "attacks": "327",
+        "contact": "abuse@he.net",
+        "country": "US",
+        "network": "HURRICANE",
+        "provider": "sans"
+      }
+    },
+    {
+      "prefix": "64.62.197.0/24",
+      "tags": {
+        "attacks": "323",
+        "contact": "abuse@he.net",
+        "country": "US",
+        "network": "HURRICANE",
+        "provider": "sans"
+      }
+    },
+    {
+      "prefix": "65.49.1.0/24",
+      "tags": {
+        "attacks": "345",
+        "contact": "abuse@he.net",
+        "country": "US",
+        "network": "HURRICANE",
+        "provider": "sans"
+      }
+    },
+    {
+      "prefix": "66.132.172.0/24",
+      "tags": {
+        "attacks": "325",
+        "provider": "sans"
+      }
+    },
+    {
+      "prefix": "66.132.186.0/24",
+      "tags": {
+        "attacks": "337",
+        "provider": "sans"
+      }
+    },
+    {
+      "prefix": "66.132.195.0/24",
+      "tags": {
+        "attacks": "346",
+        "provider": "sans"
+      }
+    },
+    {
+      "prefix": "69.5.169.0/24",
+      "tags": {
+        "attacks": "323",
+        "contact": "abuse@omnis.com",
+        "country": "US",
+        "network": "OMNIS",
+        "provider": "sans"
+      }
+    },
+    {
+      "prefix": "77.239.124.0/24",
+      "tags": {
+        "attacks": "320",
+        "provider": "sans"
+      }
+    },
+    {
+      "prefix": "85.217.149.0/24",
+      "tags": {
+        "attacks": "324",
+        "contact": "ripe@mayak.bg",
+        "country": "BG",
+        "network": "MAYAK",
+        "provider": "sans"
+      }
+    },
+    {
+      "prefix": "89.21.67.0/24",
+      "tags": {
+        "attacks": "320",
+        "contact": "abuse@zare.com",
+        "country": "GB",
+        "network": "BANDWIDTH-AS",
+        "provider": "sans"
+      }
+    },
+    {
+      "prefix": "94.154.43.0/24",
+      "tags": {
+        "attacks": "324",
+        "contact": "abuse@ruyaserver.com",
+        "country": "TR",
+        "network": "EKSENBILISIM",
+        "provider": "sans"
+      }
+    },
+    {
+      "prefix": "100.29.192.0/24",
+      "tags": {
+        "attacks": "321",
+        "contact": "abuse@amazonaws.com",
+        "country": "US",
+        "network": "AMAZON-AES",
+        "provider": "sans"
+      }
+    },
+    {
+      "prefix": "138.226.239.0/24",
+      "tags": {
+        "attacks": "334",
+        "provider": "sans"
+      }
+    },
+    {
+      "prefix": "148.59.129.0/24",
+      "tags": {
+        "attacks": "322",
+        "contact": "support@servermania.com",
+        "country": "CA",
+        "network": "SERVER-MANIA",
+        "provider": "sans"
+      }
+    },
+    {
+      "prefix": "167.94.145.0/24",
+      "tags": {
+        "attacks": "321",
+        "country": "US",
+        "network": "CENSYS-ARIN-02",
+        "provider": "sans"
+      }
+    },
+    {
+      "prefix": "172.110.223.0/24",
+      "tags": {
+        "attacks": "338",
+        "provider": "sans"
+      }
+    },
+    {
+      "prefix": "193.163.125.0/24",
+      "tags": {
+        "attacks": "329",
+        "country": "GB",
+        "network": "INTERNET-MEASUREMENT",
+        "provider": "sans"
+      }
+    },
+    {
+      "prefix": "199.45.154.0/24",
+      "tags": {
+        "attacks": "331",
+        "country": "US",
+        "network": "CENSYS-ARIN-03",
+        "provider": "sans"
+      }
+    },
+    {
+      "prefix": "205.210.31.0/24",
+      "tags": {
+        "attacks": "322",
+        "country": "US",
+        "network": "GOOGLE-CLOUD-PLATFORM",
+        "provider": "sans"
+      }
+    }
+  ]
+}

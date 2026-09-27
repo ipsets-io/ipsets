@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "provider": "categories",
+  "provider_name": "Categories",
+  "set": "abuse",
+  "set_name": "abuse",
+  "category": "abuse",
+  "family": "ipv6",
+  "source": {
+    "url": ""
+  },
+  "count": 0,
+  "prefixes": []
+}
