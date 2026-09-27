@@ -9,8 +9,16 @@
     "url": "https://ip-ranges.amazonaws.com/ip-ranges.json",
     "homepage": "https://docs.aws.amazon.com/vpc/latest/userguide/aws-ip-ranges.html"
   },
-  "count": 662,
+  "count": 663,
   "prefixes": [
+    {
+      "prefix": "2001:3fc4:1000::/40",
+      "tags": {
+        "network_border_group": "eusc-de-east-1",
+        "region": "eusc-de-east-1",
+        "service": "S3"
+      }
+    },
     {
       "prefix": "2001:3fc5:800::/40",
       "tags": {

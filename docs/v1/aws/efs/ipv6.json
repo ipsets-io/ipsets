@@ -9,7 +9,7 @@
     "url": "https://ip-ranges.amazonaws.com/ip-ranges.json",
     "homepage": "https://docs.aws.amazon.com/vpc/latest/userguide/aws-ip-ranges.html"
   },
-  "count": 89,
+  "count": 90,
   "prefixes": [
     {
       "prefix": "2400:7fc0:833b:f400::/56",
@@ -405,6 +405,14 @@
     },
     {
       "prefix": "2600:1f16:1119:8600::/56",
+      "tags": {
+        "network_border_group": "us-east-2",
+        "region": "us-east-2",
+        "service": "EFS"
+      }
+    },
+    {
+      "prefix": "2600:1f16:1760:6e00::/56",
       "tags": {
         "network_border_group": "us-east-2",
         "region": "us-east-2",

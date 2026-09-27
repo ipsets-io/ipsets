@@ -44,7 +44,6 @@ func (p *Provider) Meta() provider.Meta {
 			service("api-gateway", "API Gateway", "", "API_GATEWAY"),
 			service("route53", "Route 53", "", "ROUTE53"),
 			service("route53-resolver", "Route 53 Resolver", "", "ROUTE53_RESOLVER"),
-			service("iot-core", "IoT Core", "", "IOT_CORE"),
 			service("appflow", "AppFlow", "", "AMAZON_APPFLOW"),
 			service("cloud9", "Cloud9", "", "CLOUD9"),
 			service("ec2-instance-connect", "EC2 Instance Connect", "", "EC2_INSTANCE_CONNECT"),

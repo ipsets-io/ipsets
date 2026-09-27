@@ -9,7 +9,7 @@
     "url": "https://ip-ranges.amazonaws.com/ip-ranges.json",
     "homepage": "https://docs.aws.amazon.com/vpc/latest/userguide/aws-ip-ranges.html"
   },
-  "count": 149,
+  "count": 150,
   "prefixes": [
     {
       "prefix": "2600:f0f0:e00::/48",
@@ -813,6 +813,14 @@
     },
     {
       "prefix": "2600:f0f0:5409::/48",
+      "tags": {
+        "network_border_group": "us-west-2",
+        "region": "us-west-2",
+        "service": "IVS_REALTIME"
+      }
+    },
+    {
+      "prefix": "2600:f0f0:540a::/48",
       "tags": {
         "network_border_group": "us-west-2",
         "region": "us-west-2",
