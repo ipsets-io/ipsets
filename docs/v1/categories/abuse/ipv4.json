@@ -14,14 +14,31 @@
     {
       "prefix": "16.5.0.0/24",
       "tags": {
-        "attacks": "339",
+        "attacks": "337",
+        "provider": "sans"
+      }
+    },
+    {
+      "prefix": "45.74.28.0/24",
+      "tags": {
+        "attacks": "349",
+        "contact": "abuse@m247.com",
+        "country": "RO",
+        "network": "M247",
+        "provider": "sans"
+      }
+    },
+    {
+      "prefix": "45.135.193.0/24",
+      "tags": {
+        "attacks": "321",
         "provider": "sans"
       }
     },
     {
       "prefix": "64.62.156.0/24",
       "tags": {
-        "attacks": "327",
+        "attacks": "336",
         "contact": "abuse@he.net",
         "country": "US",
         "network": "HURRICANE",
@@ -31,17 +48,7 @@
     {
       "prefix": "64.62.197.0/24",
       "tags": {
-        "attacks": "323",
-        "contact": "abuse@he.net",
-        "country": "US",
-        "network": "HURRICANE",
-        "provider": "sans"
-      }
-    },
-    {
-      "prefix": "65.49.1.0/24",
-      "tags": {
-        "attacks": "345",
+        "attacks": "327",
         "contact": "abuse@he.net",
         "country": "US",
         "network": "HURRICANE",
@@ -51,65 +58,42 @@
     {
       "prefix": "66.132.172.0/24",
       "tags": {
-        "attacks": "325",
+        "attacks": "329",
         "provider": "sans"
       }
     },
     {
       "prefix": "66.132.186.0/24",
       "tags": {
-        "attacks": "337",
+        "attacks": "349",
         "provider": "sans"
       }
     },
     {
       "prefix": "66.132.195.0/24",
       "tags": {
-        "attacks": "346",
+        "attacks": "318",
         "provider": "sans"
       }
     },
     {
-      "prefix": "69.5.169.0/24",
+      "prefix": "66.132.224.0/24",
       "tags": {
-        "attacks": "323",
-        "contact": "abuse@omnis.com",
-        "country": "US",
-        "network": "OMNIS",
+        "attacks": "321",
         "provider": "sans"
       }
     },
     {
       "prefix": "77.239.124.0/24",
       "tags": {
-        "attacks": "320",
-        "provider": "sans"
-      }
-    },
-    {
-      "prefix": "85.217.149.0/24",
-      "tags": {
-        "attacks": "324",
-        "contact": "ripe@mayak.bg",
-        "country": "BG",
-        "network": "MAYAK",
-        "provider": "sans"
-      }
-    },
-    {
-      "prefix": "89.21.67.0/24",
-      "tags": {
-        "attacks": "320",
-        "contact": "abuse@zare.com",
-        "country": "GB",
-        "network": "BANDWIDTH-AS",
+        "attacks": "327",
         "provider": "sans"
       }
     },
     {
       "prefix": "94.154.43.0/24",
       "tags": {
-        "attacks": "324",
+        "attacks": "321",
         "contact": "abuse@ruyaserver.com",
         "country": "TR",
         "network": "EKSENBILISIM",
@@ -119,7 +103,7 @@
     {
       "prefix": "100.29.192.0/24",
       "tags": {
-        "attacks": "321",
+        "attacks": "318",
         "contact": "abuse@amazonaws.com",
         "country": "US",
         "network": "AMAZON-AES",
@@ -129,14 +113,23 @@
     {
       "prefix": "138.226.239.0/24",
       "tags": {
-        "attacks": "334",
+        "attacks": "333",
+        "provider": "sans"
+      }
+    },
+    {
+      "prefix": "147.185.132.0/24",
+      "tags": {
+        "attacks": "330",
+        "country": "US",
+        "network": "GOOGLE-CLOUD-PLATFORM",
         "provider": "sans"
       }
     },
     {
       "prefix": "148.59.129.0/24",
       "tags": {
-        "attacks": "322",
+        "attacks": "326",
         "contact": "support@servermania.com",
         "country": "CA",
         "network": "SERVER-MANIA",
@@ -144,45 +137,44 @@
       }
     },
     {
-      "prefix": "167.94.145.0/24",
+      "prefix": "156.225.1.0/24",
       "tags": {
-        "attacks": "321",
-        "country": "US",
-        "network": "CENSYS-ARIN-02",
+        "attacks": "348",
+        "contact": "sam.yang@oceanbluecloud.com",
+        "country": "HK",
+        "network": "OCTL-AS-AP OceanBlue Cloud Technology Limited",
         "provider": "sans"
       }
     },
     {
       "prefix": "172.110.223.0/24",
       "tags": {
-        "attacks": "338",
+        "attacks": "340",
         "provider": "sans"
       }
     },
     {
       "prefix": "193.163.125.0/24",
       "tags": {
-        "attacks": "329",
+        "attacks": "332",
         "country": "GB",
         "network": "INTERNET-MEASUREMENT",
         "provider": "sans"
       }
     },
     {
-      "prefix": "199.45.154.0/24",
+      "prefix": "198.235.24.0/24",
       "tags": {
-        "attacks": "331",
+        "attacks": "335",
         "country": "US",
-        "network": "CENSYS-ARIN-03",
+        "network": "GOOGLE-CLOUD-PLATFORM",
         "provider": "sans"
       }
     },
     {
-      "prefix": "205.210.31.0/24",
+      "prefix": "216.25.89.0/24",
       "tags": {
-        "attacks": "322",
-        "country": "US",
-        "network": "GOOGLE-CLOUD-PLATFORM",
+        "attacks": "323",
         "provider": "sans"
       }
     }
