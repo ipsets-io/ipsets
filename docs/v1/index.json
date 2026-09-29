@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-28T10:44:30Z",
+  "generated_at": "2026-09-29T10:32:13Z",
   "providers": [
     {
       "id": "anthropic",
@@ -1119,13 +1119,13 @@
           "category": "crawler",
           "ipv4": {
             "path": "/v1/google/user-triggered-fetchers-google/ipv4.json",
-            "count": 248,
-            "sha256": "945a7fc38be298cf5a0c7e24396ed541cd7cf5afcdc95459fd632a67fe2ed2da"
+            "count": 250,
+            "sha256": "2bcd2c3ae3c8076dcf07020055e3939f4b710c3d47b80d7d3af714f4d6595d61"
           },
           "ipv6": {
             "path": "/v1/google/user-triggered-fetchers-google/ipv6.json",
-            "count": 248,
-            "sha256": "3841a4e5bf3fcfcb7368efe56ae4e198a62ce88e7fd6750e731749b35632d26c"
+            "count": 250,
+            "sha256": "e9bbbecd737da708cab216b5b492310d5af875a416f78380d1ff387068c7fa68"
           }
         }
       ]
@@ -1292,7 +1292,7 @@
           "ipv4": {
             "path": "/v1/sans/top-attackers/ipv4.json",
             "count": 20,
-            "sha256": "34cd12cc7833d76f710c9e793f68118811f18d4f8df611dfd6a198ccd13b4a93"
+            "sha256": "a8eb439f667a1dc1e1ee923f5673b4e659c5067dbbeb5ab71ab4758383df07e6"
           },
           "ipv6": {
             "path": "/v1/sans/top-attackers/ipv6.json",
@@ -1443,8 +1443,8 @@
           "category": "anonymizer",
           "ipv4": {
             "path": "/v1/tor/exits/ipv4.json",
-            "count": 1355,
-            "sha256": "6c9bf7fbb7d4600858286dd073d6c01b27c9b6d8181d762b548968f8f461590b"
+            "count": 1393,
+            "sha256": "a5c2a17def28d170c04562760e13447234f6e2e6d50b001386baa12c1257194c"
           },
           "ipv6": {
             "path": "/v1/tor/exits/ipv6.json",
@@ -1466,7 +1466,7 @@
           "ipv4": {
             "path": "/v1/categories/abuse/ipv4.json",
             "count": 20,
-            "sha256": "61e390e929f57a83770e0721deb9a97971e1592a9746c4519b59e5e589ada388"
+            "sha256": "7b08d19a29929d6b0985b262bfb47d2885b77e8d12812bd047f66f361ab634a7"
           },
           "ipv6": {
             "path": "/v1/categories/abuse/ipv6.json",
@@ -1485,8 +1485,8 @@
           "category": "anonymizer",
           "ipv4": {
             "path": "/v1/categories/anonymizer/ipv4.json",
-            "count": 1355,
-            "sha256": "418c85a3b5985d8b13e071b999ef3192e7ee9bf5a33157dea646e70627fc0e5e"
+            "count": 1393,
+            "sha256": "93d21abab9e5aa54de9d4972a371c54b424e779069f57c1d80633caf3b6bc0cb"
           },
           "ipv6": {
             "path": "/v1/categories/anonymizer/ipv6.json",
@@ -1545,13 +1545,13 @@
           "category": "crawler",
           "ipv4": {
             "path": "/v1/categories/crawler/ipv4.json",
-            "count": 1936,
-            "sha256": "bcc774931228d590981024f6852c3ceb54195ddfd21028427a689e430a2fa76d"
+            "count": 1938,
+            "sha256": "7c5323f2b382eeda5cbaa2f964fe9ee0952c103a8dd09dfc02a027d9209c4d07"
           },
           "ipv6": {
             "path": "/v1/categories/crawler/ipv6.json",
-            "count": 1060,
-            "sha256": "628554103398334508c913ba01394bb670f116f7139fefa4b9f713d1ad1a8715"
+            "count": 1062,
+            "sha256": "97834365118860b58f755540600b45d57cd0a83a9942d41c3fdc7e9f6c63bb97"
           }
         }
       ]

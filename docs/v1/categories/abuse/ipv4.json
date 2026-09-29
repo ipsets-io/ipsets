@@ -12,16 +12,9 @@
   "count": 20,
   "prefixes": [
     {
-      "prefix": "16.5.0.0/24",
-      "tags": {
-        "attacks": "337",
-        "provider": "sans"
-      }
-    },
-    {
       "prefix": "45.74.28.0/24",
       "tags": {
-        "attacks": "349",
+        "attacks": "341",
         "contact": "abuse@m247.com",
         "country": "RO",
         "network": "M247",
@@ -29,16 +22,28 @@
       }
     },
     {
-      "prefix": "45.135.193.0/24",
+      "prefix": "45.115.26.0/24",
       "tags": {
-        "attacks": "321",
+        "attacks": "330",
+        "country": "US",
+        "network": "LATITUDE-SH",
+        "provider": "sans"
+      }
+    },
+    {
+      "prefix": "45.198.224.0/24",
+      "tags": {
+        "attacks": "343",
+        "contact": "CSOC@ontario.ca",
+        "country": "US",
+        "network": "OWS",
         "provider": "sans"
       }
     },
     {
       "prefix": "64.62.156.0/24",
       "tags": {
-        "attacks": "336",
+        "attacks": "326",
         "contact": "abuse@he.net",
         "country": "US",
         "network": "HURRICANE",
@@ -56,71 +61,60 @@
       }
     },
     {
+      "prefix": "65.49.1.0/24",
+      "tags": {
+        "attacks": "343",
+        "contact": "abuse@he.net",
+        "country": "US",
+        "network": "HURRICANE",
+        "provider": "sans"
+      }
+    },
+    {
       "prefix": "66.132.172.0/24",
       "tags": {
-        "attacks": "329",
+        "attacks": "332",
         "provider": "sans"
       }
     },
     {
       "prefix": "66.132.186.0/24",
       "tags": {
-        "attacks": "349",
+        "attacks": "329",
         "provider": "sans"
       }
     },
     {
-      "prefix": "66.132.195.0/24",
+      "prefix": "66.240.223.0/24",
       "tags": {
-        "attacks": "318",
+        "attacks": "329",
+        "contact": "complaints@cari.net",
+        "country": "US",
+        "network": "CARINET",
         "provider": "sans"
       }
     },
     {
-      "prefix": "66.132.224.0/24",
+      "prefix": "69.5.169.0/24",
       "tags": {
-        "attacks": "321",
+        "attacks": "336",
+        "contact": "abuse@omnis.com",
+        "country": "US",
+        "network": "OMNIS",
         "provider": "sans"
       }
     },
     {
       "prefix": "77.239.124.0/24",
       "tags": {
-        "attacks": "327",
-        "provider": "sans"
-      }
-    },
-    {
-      "prefix": "94.154.43.0/24",
-      "tags": {
-        "attacks": "321",
-        "contact": "abuse@ruyaserver.com",
-        "country": "TR",
-        "network": "EKSENBILISIM",
-        "provider": "sans"
-      }
-    },
-    {
-      "prefix": "100.29.192.0/24",
-      "tags": {
-        "attacks": "318",
-        "contact": "abuse@amazonaws.com",
-        "country": "US",
-        "network": "AMAZON-AES",
-        "provider": "sans"
-      }
-    },
-    {
-      "prefix": "138.226.239.0/24",
-      "tags": {
-        "attacks": "333",
+        "attacks": "336",
         "provider": "sans"
       }
     },
     {
       "prefix": "147.185.132.0/24",
       "tags": {
-        "attacks": "330",
+        "attacks": "337",
         "country": "US",
         "network": "GOOGLE-CLOUD-PLATFORM",
         "provider": "sans"
@@ -129,7 +123,7 @@
     {
       "prefix": "148.59.129.0/24",
       "tags": {
-        "attacks": "326",
+        "attacks": "328",
         "contact": "support@servermania.com",
         "country": "CA",
         "network": "SERVER-MANIA",
@@ -139,7 +133,7 @@
     {
       "prefix": "156.225.1.0/24",
       "tags": {
-        "attacks": "348",
+        "attacks": "333",
         "contact": "sam.yang@oceanbluecloud.com",
         "country": "HK",
         "network": "OCTL-AS-AP OceanBlue Cloud Technology Limited",
@@ -147,16 +141,29 @@
       }
     },
     {
-      "prefix": "172.110.223.0/24",
+      "prefix": "185.136.15.0/24",
       "tags": {
-        "attacks": "340",
+        "attacks": "338",
+        "contact": "info@datixgroup.net",
+        "country": "KZ",
+        "network": "SOLUTIONS-FACTORY-AS",
+        "provider": "sans"
+      }
+    },
+    {
+      "prefix": "185.242.226.0/24",
+      "tags": {
+        "attacks": "337",
+        "contact": "abuse@westcall.ru",
+        "country": "NL",
+        "network": "AS49870-BV",
         "provider": "sans"
       }
     },
     {
       "prefix": "193.163.125.0/24",
       "tags": {
-        "attacks": "332",
+        "attacks": "341",
         "country": "GB",
         "network": "INTERNET-MEASUREMENT",
         "provider": "sans"
@@ -165,16 +172,28 @@
     {
       "prefix": "198.235.24.0/24",
       "tags": {
-        "attacks": "335",
+        "attacks": "336",
         "country": "US",
         "network": "GOOGLE-CLOUD-PLATFORM",
         "provider": "sans"
       }
     },
     {
-      "prefix": "216.25.89.0/24",
+      "prefix": "205.210.31.0/24",
       "tags": {
-        "attacks": "323",
+        "attacks": "332",
+        "country": "US",
+        "network": "GOOGLE-CLOUD-PLATFORM",
+        "provider": "sans"
+      }
+    },
+    {
+      "prefix": "216.180.246.0/24",
+      "tags": {
+        "attacks": "345",
+        "contact": "abuse@networktransit.net",
+        "country": "US",
+        "network": "NTHL",
         "provider": "sans"
       }
     }

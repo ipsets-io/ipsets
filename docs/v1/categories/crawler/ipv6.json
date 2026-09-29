@@ -9,7 +9,7 @@
   "source": {
     "url": ""
   },
-  "count": 1060,
+  "count": 1062,
   "prefixes": [
     {
       "prefix": "2001:4860:4801:2::/64",
@@ -2246,6 +2246,20 @@
     },
     {
       "prefix": "2001:4860:4801:403c::/64",
+      "tags": {
+        "list": "user-triggered-fetchers-google",
+        "provider": "google"
+      }
+    },
+    {
+      "prefix": "2001:4860:4801:403d::/64",
+      "tags": {
+        "list": "user-triggered-fetchers-google",
+        "provider": "google"
+      }
+    },
+    {
+      "prefix": "2001:4860:4801:403e::/64",
       "tags": {
         "list": "user-triggered-fetchers-google",
         "provider": "google"

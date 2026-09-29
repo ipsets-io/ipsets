@@ -9,7 +9,7 @@
   "source": {
     "url": ""
   },
-  "count": 1936,
+  "count": 1938,
   "prefixes": [
     {
       "prefix": "3.211.124.183/32",
@@ -12091,6 +12091,20 @@
       "tags": {
         "list": "chatgpt-user",
         "provider": "openai"
+      }
+    },
+    {
+      "prefix": "172.253.180.0/27",
+      "tags": {
+        "list": "user-triggered-fetchers-google",
+        "provider": "google"
+      }
+    },
+    {
+      "prefix": "172.253.180.32/27",
+      "tags": {
+        "list": "user-triggered-fetchers-google",
+        "provider": "google"
       }
     },
     {
