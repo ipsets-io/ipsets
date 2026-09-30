@@ -9,7 +9,7 @@
     "url": "https://www.microsoft.com/en-us/download/details.aspx?id=56519",
     "homepage": "https://learn.microsoft.com/en-us/azure/virtual-network/service-tags-overview"
   },
-  "count": 207,
+  "count": 208,
   "prefixes": [
     {
       "prefix": "2603:1000:4:2::400/120",
@@ -988,6 +988,13 @@
     },
     {
       "prefix": "2603:1030:1005:2::400/118",
+      "tags": {
+        "region": "canadaeast",
+        "service": "AppService"
+      }
+    },
+    {
+      "prefix": "2603:1030:1005:13::400/120",
       "tags": {
         "region": "canadaeast",
         "service": "AppService"

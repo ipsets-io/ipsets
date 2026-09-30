@@ -9,7 +9,7 @@
   "source": {
     "url": ""
   },
-  "count": 1241,
+  "count": 1244,
   "prefixes": [
     {
       "prefix": "1.178.172.0/23",
@@ -4246,6 +4246,13 @@
       }
     },
     {
+      "prefix": "74.152.14.8/29",
+      "tags": {
+        "provider": "azure",
+        "service": "AzureFrontDoor.Frontend"
+      }
+    },
+    {
       "prefix": "74.161.246.242/31",
       "tags": {
         "provider": "azure",
@@ -7654,6 +7661,20 @@
       "tags": {
         "provider": "azure",
         "service": "AzureFrontDoor.Backend"
+      }
+    },
+    {
+      "prefix": "172.192.196.120/29",
+      "tags": {
+        "provider": "azure",
+        "service": "AzureFrontDoor.Backend"
+      }
+    },
+    {
+      "prefix": "172.192.197.0/30",
+      "tags": {
+        "provider": "azure",
+        "service": "AzureFrontDoor.Frontend"
       }
     },
     {
