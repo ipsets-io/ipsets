@@ -14,24 +14,24 @@
     {
       "prefix": "16.5.0.0/24",
       "tags": {
-        "attacks": "353",
+        "attacks": "345",
         "provider": "sans"
       }
     },
     {
-      "prefix": "45.148.10.0/24",
+      "prefix": "45.198.224.0/24",
       "tags": {
-        "attacks": "322",
-        "contact": "abuse@vegatele.com",
-        "country": "GB",
-        "network": "PPTECHNOLOGY",
+        "attacks": "337",
+        "contact": "CSOC@ontario.ca",
+        "country": "US",
+        "network": "OWS",
         "provider": "sans"
       }
     },
     {
       "prefix": "64.62.156.0/24",
       "tags": {
-        "attacks": "342",
+        "attacks": "329",
         "contact": "abuse@he.net",
         "country": "US",
         "network": "HURRICANE",
@@ -41,17 +41,7 @@
     {
       "prefix": "64.62.197.0/24",
       "tags": {
-        "attacks": "325",
-        "contact": "abuse@he.net",
-        "country": "US",
-        "network": "HURRICANE",
-        "provider": "sans"
-      }
-    },
-    {
-      "prefix": "65.49.1.0/24",
-      "tags": {
-        "attacks": "333",
+        "attacks": "324",
         "contact": "abuse@he.net",
         "country": "US",
         "network": "HURRICANE",
@@ -61,48 +51,42 @@
     {
       "prefix": "66.132.172.0/24",
       "tags": {
-        "attacks": "328",
+        "attacks": "338",
         "provider": "sans"
       }
     },
     {
       "prefix": "66.132.186.0/24",
       "tags": {
-        "attacks": "326",
+        "attacks": "336",
         "provider": "sans"
       }
     },
     {
       "prefix": "66.132.195.0/24",
       "tags": {
-        "attacks": "340",
+        "attacks": "325",
         "provider": "sans"
       }
     },
     {
-      "prefix": "69.5.169.0/24",
+      "prefix": "66.132.224.0/24",
       "tags": {
-        "attacks": "328",
-        "contact": "abuse@omnis.com",
-        "country": "US",
-        "network": "OMNIS",
+        "attacks": "332",
         "provider": "sans"
       }
     },
     {
-      "prefix": "77.90.185.0/24",
+      "prefix": "77.239.124.0/24",
       "tags": {
-        "attacks": "322",
-        "contact": "abuse@inetia.pl",
-        "country": "GB",
-        "network": "BTHOSTER",
+        "attacks": "342",
         "provider": "sans"
       }
     },
     {
       "prefix": "79.124.56.0/24",
       "tags": {
-        "attacks": "324",
+        "attacks": "331",
         "contact": "noc@4vendeta.com",
         "country": "BG",
         "network": "TAMATIYA-AS",
@@ -110,9 +94,19 @@
       }
     },
     {
+      "prefix": "85.217.140.0/24",
+      "tags": {
+        "attacks": "327",
+        "contact": "abuse@neterra.net",
+        "country": "BG",
+        "network": "NETERRA-AS",
+        "provider": "sans"
+      }
+    },
+    {
       "prefix": "85.217.149.0/24",
       "tags": {
-        "attacks": "325",
+        "attacks": "327",
         "contact": "ripe@mayak.bg",
         "country": "BG",
         "network": "MAYAK",
@@ -120,57 +114,62 @@
       }
     },
     {
-      "prefix": "160.119.76.0/24",
+      "prefix": "91.196.152.0/24",
       "tags": {
-        "attacks": "323",
+        "attacks": "326",
+        "contact": "abuse@att.net",
+        "country": "US",
+        "network": "ATT-INTERNET4",
         "provider": "sans"
       }
     },
     {
-      "prefix": "167.94.145.0/24",
+      "prefix": "147.185.132.0/24",
       "tags": {
-        "attacks": "337",
+        "attacks": "333",
         "country": "US",
-        "network": "CENSYS-ARIN-02",
+        "network": "GOOGLE-CLOUD-PLATFORM",
+        "provider": "sans"
+      }
+    },
+    {
+      "prefix": "148.59.129.0/24",
+      "tags": {
+        "attacks": "345",
+        "contact": "support@servermania.com",
+        "country": "CA",
+        "network": "SERVER-MANIA",
         "provider": "sans"
       }
     },
     {
       "prefix": "172.110.223.0/24",
       "tags": {
-        "attacks": "331",
+        "attacks": "324",
+        "provider": "sans"
+      }
+    },
+    {
+      "prefix": "185.12.59.0/24",
+      "tags": {
+        "attacks": "323",
+        "contact": "abuse@blixsolutions.no",
+        "country": "NO",
+        "network": "BLIX",
         "provider": "sans"
       }
     },
     {
       "prefix": "193.163.125.0/24",
       "tags": {
-        "attacks": "332",
+        "attacks": "327",
         "country": "GB",
         "network": "INTERNET-MEASUREMENT",
         "provider": "sans"
       }
     },
     {
-      "prefix": "195.184.76.0/24",
-      "tags": {
-        "attacks": "331",
-        "country": "GB",
-        "network": "EAJ-GLOBAL",
-        "provider": "sans"
-      }
-    },
-    {
-      "prefix": "199.45.154.0/24",
-      "tags": {
-        "attacks": "333",
-        "country": "US",
-        "network": "CENSYS-ARIN-03",
-        "provider": "sans"
-      }
-    },
-    {
-      "prefix": "205.210.31.0/24",
+      "prefix": "198.235.24.0/24",
       "tags": {
         "attacks": "344",
         "country": "US",
@@ -179,9 +178,9 @@
       }
     },
     {
-      "prefix": "205.237.104.0/24",
+      "prefix": "205.237.106.0/24",
       "tags": {
-        "attacks": "329",
+        "attacks": "332",
         "contact": "service@synoptek.com",
         "country": "US",
         "network": "SYNOPTEK",

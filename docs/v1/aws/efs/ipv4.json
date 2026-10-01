@@ -9,7 +9,7 @@
     "url": "https://ip-ranges.amazonaws.com/ip-ranges.json",
     "homepage": "https://docs.aws.amazon.com/vpc/latest/userguide/aws-ip-ranges.html"
   },
-  "count": 95,
+  "count": 96,
   "prefixes": [
     {
       "prefix": "3.103.180.128/25",
@@ -541,6 +541,14 @@
     },
     {
       "prefix": "63.187.20.0/22",
+      "tags": {
+        "network_border_group": "eu-central-1",
+        "region": "eu-central-1",
+        "service": "EFS"
+      }
+    },
+    {
+      "prefix": "63.189.140.0/22",
       "tags": {
         "network_border_group": "eu-central-1",
         "region": "eu-central-1",
