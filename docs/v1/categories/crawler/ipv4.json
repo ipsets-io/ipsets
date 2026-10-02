@@ -9,7 +9,7 @@
   "source": {
     "url": ""
   },
-  "count": 1938,
+  "count": 1940,
   "prefixes": [
     {
       "prefix": "3.211.124.183/32",
@@ -3352,6 +3352,13 @@
     },
     {
       "prefix": "34.116.22.96/27",
+      "tags": {
+        "list": "user-triggered-fetchers",
+        "provider": "google"
+      }
+    },
+    {
+      "prefix": "34.116.22.128/27",
       "tags": {
         "list": "user-triggered-fetchers",
         "provider": "google"
@@ -12633,6 +12640,13 @@
     },
     {
       "prefix": "192.178.10.96/27",
+      "tags": {
+        "list": "user-triggered-fetchers-google",
+        "provider": "google"
+      }
+    },
+    {
+      "prefix": "192.178.10.128/27",
       "tags": {
         "list": "user-triggered-fetchers-google",
         "provider": "google"
