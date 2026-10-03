@@ -10,7 +10,7 @@
     "url": "https://developers.google.com/static/search/apis/ipranges/user-triggered-fetchers.json",
     "homepage": "https://developers.google.com/search/docs/crawling-indexing/verifying-googlebot"
   },
-  "count": 530,
+  "count": 531,
   "prefixes": [
     {
       "prefix": "2404:f340:10:4000::/64",
@@ -2432,6 +2432,12 @@
     },
     {
       "prefix": "2600:1900:0:282::/64",
+      "tags": {
+        "list": "user-triggered-fetchers"
+      }
+    },
+    {
+      "prefix": "2600:1900:0:283::/64",
       "tags": {
         "list": "user-triggered-fetchers"
       }

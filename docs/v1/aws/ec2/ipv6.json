@@ -9,7 +9,7 @@
     "url": "https://ip-ranges.amazonaws.com/ip-ranges.json",
     "homepage": "https://docs.aws.amazon.com/vpc/latest/userguide/aws-ip-ranges.html"
   },
-  "count": 2527,
+  "count": 2531,
   "prefixes": [
     {
       "prefix": "2001:3fc0:800::/40",
@@ -13988,6 +13988,22 @@
       }
     },
     {
+      "prefix": "2600:f0fb:c900:5000::/52",
+      "tags": {
+        "network_border_group": "eu-west-1",
+        "region": "eu-west-1",
+        "service": "EC2"
+      }
+    },
+    {
+      "prefix": "2600:f0fb:c900:6000::/52",
+      "tags": {
+        "network_border_group": "us-west-1",
+        "region": "us-west-1",
+        "service": "EC2"
+      }
+    },
+    {
       "prefix": "2600:f0fb:ca00::/52",
       "tags": {
         "network_border_group": "us-east-1",
@@ -14024,6 +14040,22 @@
       "tags": {
         "network_border_group": "eu-central-1",
         "region": "eu-central-1",
+        "service": "EC2"
+      }
+    },
+    {
+      "prefix": "2600:f0fb:ca03::/52",
+      "tags": {
+        "network_border_group": "eu-west-1",
+        "region": "eu-west-1",
+        "service": "EC2"
+      }
+    },
+    {
+      "prefix": "2600:f0fb:ca04::/52",
+      "tags": {
+        "network_border_group": "us-west-1",
+        "region": "us-west-1",
         "service": "EC2"
       }
     },

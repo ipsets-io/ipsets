@@ -9,7 +9,7 @@
   "source": {
     "url": ""
   },
-  "count": 1064,
+  "count": 1065,
   "prefixes": [
     {
       "prefix": "2001:4860:4801:2::/64",
@@ -6572,6 +6572,13 @@
     },
     {
       "prefix": "2600:1900:0:282::/64",
+      "tags": {
+        "list": "user-triggered-fetchers",
+        "provider": "google"
+      }
+    },
+    {
+      "prefix": "2600:1900:0:283::/64",
       "tags": {
         "list": "user-triggered-fetchers",
         "provider": "google"

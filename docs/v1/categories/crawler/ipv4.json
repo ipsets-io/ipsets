@@ -9,7 +9,7 @@
   "source": {
     "url": ""
   },
-  "count": 1940,
+  "count": 1943,
   "prefixes": [
     {
       "prefix": "3.211.124.183/32",
@@ -3268,6 +3268,13 @@
     },
     {
       "prefix": "34.116.20.64/27",
+      "tags": {
+        "list": "user-triggered-fetchers",
+        "provider": "google"
+      }
+    },
+    {
+      "prefix": "34.116.20.96/27",
       "tags": {
         "list": "user-triggered-fetchers",
         "provider": "google"
@@ -11594,6 +11601,18 @@
       "tags": {
         "list": "chatgpt-user",
         "provider": "openai"
+      }
+    },
+    {
+      "prefix": "160.79.106.16/28",
+      "tags": {
+        "provider": "anthropic"
+      }
+    },
+    {
+      "prefix": "160.79.106.128/28",
+      "tags": {
+        "provider": "anthropic"
       }
     },
     {

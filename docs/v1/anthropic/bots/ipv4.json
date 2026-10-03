@@ -9,7 +9,7 @@
   "source": {
     "url": "https://claude.com/crawling/bots.json"
   },
-  "count": 26,
+  "count": 28,
   "prefixes": [
     {
       "prefix": "16.58.26.69/32"
@@ -85,6 +85,12 @@
     },
     {
       "prefix": "136.107.176.208/32"
+    },
+    {
+      "prefix": "160.79.106.16/28"
+    },
+    {
+      "prefix": "160.79.106.128/28"
     },
     {
       "prefix": "216.73.216.0/22"
