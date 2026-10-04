@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-03T09:45:45Z",
+  "generated_at": "2026-10-04T10:29:20Z",
   "providers": [
     {
       "id": "anthropic",
@@ -153,7 +153,7 @@
           "ipv6": {
             "path": "/v1/aws/ec2/ipv6.json",
             "count": 2531,
-            "sha256": "a086012e52fa0c811cab9f52c8e136ecb9ab2e79ba09220064e69c6fb4071ee6"
+            "sha256": "a6b63a9fdd6a993cdbfb7b551af92d9e0e8c0490a8af5df7f1ad92dfcf0d10b5"
           }
         },
         {
@@ -1292,7 +1292,7 @@
           "ipv4": {
             "path": "/v1/sans/top-attackers/ipv4.json",
             "count": 20,
-            "sha256": "c727397684f9b0522872485852b06e8c2d7e265e83ee9ba1e6b70f73732d6d65"
+            "sha256": "6ba1764213b5698b9e977d3d8dece5e0715de50197e8eaf07bcd31e1058b75cc"
           },
           "ipv6": {
             "path": "/v1/sans/top-attackers/ipv6.json",
@@ -1443,8 +1443,8 @@
           "category": "anonymizer",
           "ipv4": {
             "path": "/v1/tor/exits/ipv4.json",
-            "count": 1379,
-            "sha256": "ccbe6ca9b10c29a536820a8fffbcf57d0cbc11a3228b00b66e8c0f8369740c79"
+            "count": 1398,
+            "sha256": "ca1c81d70691bd3efe0fdc71a3e03d7ba05335c25f55c127a99d214320d41955"
           },
           "ipv6": {
             "path": "/v1/tor/exits/ipv6.json",
@@ -1466,7 +1466,7 @@
           "ipv4": {
             "path": "/v1/categories/abuse/ipv4.json",
             "count": 20,
-            "sha256": "494581aa7a2c118927e2200f928aa4bf672407ef43f0014d995b757dafcef094"
+            "sha256": "b0a4b0141449ae83d17b7a5285ae762ad4110dd6a9f3a5b3a00498befde8869a"
           },
           "ipv6": {
             "path": "/v1/categories/abuse/ipv6.json",
@@ -1485,8 +1485,8 @@
           "category": "anonymizer",
           "ipv4": {
             "path": "/v1/categories/anonymizer/ipv4.json",
-            "count": 1379,
-            "sha256": "76fab86104f5a8c8563e5267daabd415a334165b0d0f4cfcd4d69eee8c5ea8a0"
+            "count": 1398,
+            "sha256": "2fa8c2aa17ec1c3a6fd750e38814c46255d18e0f427dcae8938dd5d8952e6e8c"
           },
           "ipv6": {
             "path": "/v1/categories/anonymizer/ipv6.json",
