@@ -9,7 +9,7 @@
   "source": {
     "url": ""
   },
-  "count": 1553,
+  "count": 1558,
   "prefixes": [
     {
       "prefix": "2602:fd5e:1::/63",
@@ -521,7 +521,7 @@
       }
     },
     {
-      "prefix": "2603:1030:9:d6::/63",
+      "prefix": "2603:1030:9:d4::/62",
       "tags": {
         "provider": "github",
         "usage": "actions"
@@ -879,6 +879,13 @@
     },
     {
       "prefix": "2603:1030:9:2e0::/63",
+      "tags": {
+        "provider": "github",
+        "usage": "actions"
+      }
+    },
+    {
+      "prefix": "2603:1030:9:2e4::/62",
       "tags": {
         "provider": "github",
         "usage": "actions"
@@ -4925,6 +4932,27 @@
       }
     },
     {
+      "prefix": "2603:1030:401:b1f::/64",
+      "tags": {
+        "provider": "github",
+        "usage": "actions"
+      }
+    },
+    {
+      "prefix": "2603:1030:401:b20::/62",
+      "tags": {
+        "provider": "github",
+        "usage": "actions"
+      }
+    },
+    {
+      "prefix": "2603:1030:401:b24::/64",
+      "tags": {
+        "provider": "github",
+        "usage": "actions"
+      }
+    },
+    {
       "prefix": "2603:1030:402::/47",
       "tags": {
         "provider": "github",
@@ -7788,7 +7816,14 @@
       }
     },
     {
-      "prefix": "2603:1061:101a:e0::/64",
+      "prefix": "2603:1061:101a:e0::/63",
+      "tags": {
+        "provider": "github",
+        "usage": "actions"
+      }
+    },
+    {
+      "prefix": "2603:1061:101a:e2::/64",
       "tags": {
         "provider": "github",
         "usage": "actions"

@@ -10,7 +10,7 @@
     "url": "https://www.microsoft.com/en-us/download/details.aspx?id=56519",
     "homepage": "https://learn.microsoft.com/en-us/azure/virtual-network/service-tags-overview"
   },
-  "count": 125,
+  "count": 126,
   "prefixes": [
     {
       "prefix": "4.145.22.160/29",
@@ -740,6 +740,12 @@
     },
     {
       "prefix": "172.192.208.96/29",
+      "tags": {
+        "service": "AzureFrontDoor.Frontend"
+      }
+    },
+    {
+      "prefix": "172.192.235.160/30",
       "tags": {
         "service": "AzureFrontDoor.Frontend"
       }

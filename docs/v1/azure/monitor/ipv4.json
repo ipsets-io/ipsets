@@ -9,7 +9,7 @@
     "url": "https://www.microsoft.com/en-us/download/details.aspx?id=56519",
     "homepage": "https://learn.microsoft.com/en-us/azure/virtual-network/service-tags-overview"
   },
-  "count": 1916,
+  "count": 1920,
   "prefixes": [
     {
       "prefix": "4.144.10.32/27",
@@ -7539,6 +7539,13 @@
       }
     },
     {
+      "prefix": "48.206.201.0/25",
+      "tags": {
+        "region": "eastus",
+        "service": "AzureMonitor"
+      }
+    },
+    {
       "prefix": "48.215.146.8/29",
       "tags": {
         "region": "australiasoutheast",
@@ -11137,6 +11144,13 @@
       }
     },
     {
+      "prefix": "74.146.240.128/25",
+      "tags": {
+        "region": "westus2",
+        "service": "AzureMonitor"
+      }
+    },
+    {
       "prefix": "74.148.7.0/24",
       "tags": {
         "region": "austriaeast",
@@ -11210,6 +11224,13 @@
       "prefix": "74.159.69.192/26",
       "tags": {
         "region": "westcentralus",
+        "service": "AzureMonitor"
+      }
+    },
+    {
+      "prefix": "74.159.238.0/25",
+      "tags": {
+        "region": "eastus2",
         "service": "AzureMonitor"
       }
     },
@@ -12464,6 +12485,13 @@
     },
     {
       "prefix": "172.131.106.64/26",
+      "tags": {
+        "region": "centralus",
+        "service": "AzureMonitor"
+      }
+    },
+    {
+      "prefix": "172.134.20.128/25",
       "tags": {
         "region": "centralus",
         "service": "AzureMonitor"
