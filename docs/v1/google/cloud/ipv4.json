@@ -9,7 +9,7 @@
     "url": "https://www.gstatic.com/ipranges/cloud.json",
     "homepage": "https://developers.google.com/search/docs/crawling-indexing/verifying-googlebot"
   },
-  "count": 1032,
+  "count": 1012,
   "prefixes": [
     {
       "prefix": "8.34.208.0/23",
@@ -344,14 +344,6 @@
       "tags": {
         "list": "cloud",
         "scope": "us-south1",
-        "service": "Google Cloud"
-      }
-    },
-    {
-      "prefix": "8.237.160.0/19",
-      "tags": {
-        "list": "cloud",
-        "scope": "us-east5",
         "service": "Google Cloud"
       }
     },
@@ -896,14 +888,6 @@
       "tags": {
         "list": "cloud",
         "scope": "asia-south1",
-        "service": "Google Cloud"
-      }
-    },
-    {
-      "prefix": "34.14.224.0/19",
-      "tags": {
-        "list": "cloud",
-        "scope": "asia-southeast2",
         "service": "Google Cloud"
       }
     },
@@ -4764,54 +4748,6 @@
       }
     },
     {
-      "prefix": "34.183.130.0/24",
-      "tags": {
-        "list": "cloud",
-        "scope": "us-east4",
-        "service": "Google Cloud"
-      }
-    },
-    {
-      "prefix": "34.183.131.0/24",
-      "tags": {
-        "list": "cloud",
-        "scope": "northamerica-northeast2",
-        "service": "Google Cloud"
-      }
-    },
-    {
-      "prefix": "34.183.132.0/24",
-      "tags": {
-        "list": "cloud",
-        "scope": "europe-west8",
-        "service": "Google Cloud"
-      }
-    },
-    {
-      "prefix": "34.183.133.0/24",
-      "tags": {
-        "list": "cloud",
-        "scope": "asia-south2",
-        "service": "Google Cloud"
-      }
-    },
-    {
-      "prefix": "34.183.136.0/22",
-      "tags": {
-        "list": "cloud",
-        "scope": "asia-south1",
-        "service": "Google Cloud"
-      }
-    },
-    {
-      "prefix": "34.183.144.0/20",
-      "tags": {
-        "list": "cloud",
-        "scope": "us-central1",
-        "service": "Google Cloud"
-      }
-    },
-    {
       "prefix": "34.184.0.0/24",
       "tags": {
         "list": "cloud",
@@ -5336,62 +5272,6 @@
       "tags": {
         "list": "cloud",
         "scope": "asia-northeast2",
-        "service": "Google Cloud"
-      }
-    },
-    {
-      "prefix": "34.184.129.0/24",
-      "tags": {
-        "list": "cloud",
-        "scope": "northamerica-northeast2",
-        "service": "Google Cloud"
-      }
-    },
-    {
-      "prefix": "34.184.130.0/24",
-      "tags": {
-        "list": "cloud",
-        "scope": "us-east4",
-        "service": "Google Cloud"
-      }
-    },
-    {
-      "prefix": "34.184.131.0/24",
-      "tags": {
-        "list": "cloud",
-        "scope": "asia-southeast1",
-        "service": "Google Cloud"
-      }
-    },
-    {
-      "prefix": "34.184.132.0/24",
-      "tags": {
-        "list": "cloud",
-        "scope": "europe-west8",
-        "service": "Google Cloud"
-      }
-    },
-    {
-      "prefix": "34.184.133.0/24",
-      "tags": {
-        "list": "cloud",
-        "scope": "asia-south2",
-        "service": "Google Cloud"
-      }
-    },
-    {
-      "prefix": "34.184.136.0/22",
-      "tags": {
-        "list": "cloud",
-        "scope": "asia-south1",
-        "service": "Google Cloud"
-      }
-    },
-    {
-      "prefix": "34.184.144.0/20",
-      "tags": {
-        "list": "cloud",
-        "scope": "us-central1",
         "service": "Google Cloud"
       }
     },
@@ -8184,46 +8064,6 @@
       "tags": {
         "list": "cloud",
         "scope": "asia-southeast1",
-        "service": "Google Cloud"
-      }
-    },
-    {
-      "prefix": "179.67.64.0/18",
-      "tags": {
-        "list": "cloud",
-        "scope": "us-west1",
-        "service": "Google Cloud"
-      }
-    },
-    {
-      "prefix": "179.69.128.0/18",
-      "tags": {
-        "list": "cloud",
-        "scope": "us-west1",
-        "service": "Google Cloud"
-      }
-    },
-    {
-      "prefix": "179.69.192.0/19",
-      "tags": {
-        "list": "cloud",
-        "scope": "europe-central2",
-        "service": "Google Cloud"
-      }
-    },
-    {
-      "prefix": "179.69.224.0/19",
-      "tags": {
-        "list": "cloud",
-        "scope": "europe-west6",
-        "service": "Google Cloud"
-      }
-    },
-    {
-      "prefix": "179.193.128.0/19",
-      "tags": {
-        "list": "cloud",
-        "scope": "europe-north1",
         "service": "Google Cloud"
       }
     },

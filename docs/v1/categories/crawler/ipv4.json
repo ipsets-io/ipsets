@@ -9,7 +9,7 @@
   "source": {
     "url": ""
   },
-  "count": 1948,
+  "count": 1957,
   "prefixes": [
     {
       "prefix": "3.211.124.183/32",
@@ -4582,6 +4582,18 @@
       }
     },
     {
+      "prefix": "34.152.124.140/32",
+      "tags": {
+        "provider": "anthropic"
+      }
+    },
+    {
+      "prefix": "34.153.21.190/32",
+      "tags": {
+        "provider": "anthropic"
+      }
+    },
+    {
       "prefix": "34.154.114.144/28",
       "tags": {
         "list": "googlebot",
@@ -4593,6 +4605,36 @@
       "tags": {
         "list": "googlebot",
         "provider": "google"
+      }
+    },
+    {
+      "prefix": "34.162.27.34/32",
+      "tags": {
+        "provider": "anthropic"
+      }
+    },
+    {
+      "prefix": "34.162.86.102/32",
+      "tags": {
+        "provider": "anthropic"
+      }
+    },
+    {
+      "prefix": "34.162.90.102/32",
+      "tags": {
+        "provider": "anthropic"
+      }
+    },
+    {
+      "prefix": "34.162.111.78/32",
+      "tags": {
+        "provider": "anthropic"
+      }
+    },
+    {
+      "prefix": "34.162.153.71/32",
+      "tags": {
+        "provider": "anthropic"
       }
     },
     {
@@ -4684,6 +4726,12 @@
     },
     {
       "prefix": "34.186.108.163/32",
+      "tags": {
+        "provider": "anthropic"
+      }
+    },
+    {
+      "prefix": "34.186.252.4/32",
       "tags": {
         "provider": "anthropic"
       }
@@ -11502,6 +11550,18 @@
       }
     },
     {
+      "prefix": "136.79.143.251/32",
+      "tags": {
+        "provider": "anthropic"
+      }
+    },
+    {
+      "prefix": "136.83.20.215/32",
+      "tags": {
+        "provider": "anthropic"
+      }
+    },
+    {
       "prefix": "136.107.176.208/32",
       "tags": {
         "provider": "anthropic"
@@ -11968,13 +12028,6 @@
     },
     {
       "prefix": "172.183.222.128/28",
-      "tags": {
-        "list": "chatgpt-user",
-        "provider": "openai"
-      }
-    },
-    {
-      "prefix": "172.185.193.176/28",
       "tags": {
         "list": "chatgpt-user",
         "provider": "openai"

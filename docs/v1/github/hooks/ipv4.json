@@ -9,8 +9,26 @@
     "url": "https://api.github.com/meta",
     "homepage": "https://docs.github.com/en/rest/meta/meta"
   },
-  "count": 4,
+  "count": 7,
   "prefixes": [
+    {
+      "prefix": "9.234.98.160/28",
+      "tags": {
+        "usage": "hooks"
+      }
+    },
+    {
+      "prefix": "9.234.98.176/28",
+      "tags": {
+        "usage": "hooks"
+      }
+    },
+    {
+      "prefix": "9.234.106.48/28",
+      "tags": {
+        "usage": "hooks"
+      }
+    },
     {
       "prefix": "140.82.112.0/20",
       "tags": {
