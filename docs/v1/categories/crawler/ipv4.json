@@ -9,7 +9,7 @@
   "source": {
     "url": ""
   },
-  "count": 1957,
+  "count": 1960,
   "prefixes": [
     {
       "prefix": "3.211.124.183/32",
@@ -11565,6 +11565,27 @@
       "prefix": "136.107.176.208/32",
       "tags": {
         "provider": "anthropic"
+      }
+    },
+    {
+      "prefix": "136.124.136.0/27",
+      "tags": {
+        "list": "user-triggered-fetchers",
+        "provider": "google"
+      }
+    },
+    {
+      "prefix": "136.124.136.32/27",
+      "tags": {
+        "list": "user-triggered-fetchers",
+        "provider": "google"
+      }
+    },
+    {
+      "prefix": "136.124.136.64/27",
+      "tags": {
+        "list": "user-triggered-fetchers",
+        "provider": "google"
       }
     },
     {
