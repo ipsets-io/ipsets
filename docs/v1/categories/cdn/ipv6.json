@@ -9,7 +9,7 @@
   "source": {
     "url": ""
   },
-  "count": 634,
+  "count": 635,
   "prefixes": [
     {
       "prefix": "2001:550:2:38::28:2/128",
@@ -4062,7 +4062,13 @@
       }
     },
     {
-      "prefix": "2a04:4e42::/32",
+      "prefix": "2a04:4e42::/31",
+      "tags": {
+        "provider": "fastly"
+      }
+    },
+    {
+      "prefix": "2a04:4e44::/32",
       "tags": {
         "provider": "fastly"
       }

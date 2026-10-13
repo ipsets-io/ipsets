@@ -10,13 +10,16 @@
     "url": "https://api.fastly.com/public-ip-list",
     "homepage": "https://developer.fastly.com/reference/api/utils/public-ip-list/"
   },
-  "count": 2,
+  "count": 3,
   "prefixes": [
     {
       "prefix": "2a04:4e40::/32"
     },
     {
-      "prefix": "2a04:4e42::/32"
+      "prefix": "2a04:4e42::/31"
+    },
+    {
+      "prefix": "2a04:4e44::/32"
     }
   ]
 }

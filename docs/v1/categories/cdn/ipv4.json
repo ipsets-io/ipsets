@@ -9,7 +9,7 @@
   "source": {
     "url": ""
   },
-  "count": 1245,
+  "count": 1247,
   "prefixes": [
     {
       "prefix": "1.178.172.0/23",
@@ -4942,6 +4942,18 @@
       "prefix": "89.222.114.184/32",
       "tags": {
         "provider": "bunny"
+      }
+    },
+    {
+      "prefix": "90.98.0.0/17",
+      "tags": {
+        "provider": "fastly"
+      }
+    },
+    {
+      "prefix": "90.98.128.0/18",
+      "tags": {
+        "provider": "fastly"
       }
     },
     {
