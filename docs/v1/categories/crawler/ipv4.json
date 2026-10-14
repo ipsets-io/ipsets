@@ -9,7 +9,7 @@
   "source": {
     "url": ""
   },
-  "count": 1960,
+  "count": 1961,
   "prefixes": [
     {
       "prefix": "3.211.124.183/32",
@@ -12237,6 +12237,13 @@
     },
     {
       "prefix": "172.253.180.32/27",
+      "tags": {
+        "list": "user-triggered-fetchers-google",
+        "provider": "google"
+      }
+    },
+    {
+      "prefix": "172.253.180.64/27",
       "tags": {
         "list": "user-triggered-fetchers-google",
         "provider": "google"

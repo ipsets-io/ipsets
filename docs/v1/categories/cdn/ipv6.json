@@ -46,8 +46,7 @@
       "tags": {
         "network_border_group": "GLOBAL",
         "provider": "aws",
-        "region": "GLOBAL",
-        "service": "CLOUDFRONT"
+        "region": "GLOBAL"
       }
     },
     {
