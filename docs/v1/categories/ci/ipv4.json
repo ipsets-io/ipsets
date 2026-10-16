@@ -9,7 +9,7 @@
   "source": {
     "url": ""
   },
-  "count": 5694,
+  "count": 5696,
   "prefixes": [
     {
       "prefix": "3.26.127.24/29",
@@ -36,6 +36,20 @@
         "provider": "aws",
         "region": "ap-northeast-2",
         "service": "CODEBUILD"
+      }
+    },
+    {
+      "prefix": "3.41.210.0/24",
+      "tags": {
+        "provider": "github",
+        "usage": "actions"
+      }
+    },
+    {
+      "prefix": "3.42.157.0/24",
+      "tags": {
+        "provider": "github",
+        "usage": "actions"
       }
     },
     {

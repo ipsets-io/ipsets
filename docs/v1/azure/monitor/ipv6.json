@@ -9,7 +9,7 @@
     "url": "https://www.microsoft.com/en-us/download/details.aspx?id=56519",
     "homepage": "https://learn.microsoft.com/en-us/azure/virtual-network/service-tags-overview"
   },
-  "count": 1248,
+  "count": 1249,
   "prefixes": [
     {
       "prefix": "2603:1000:4::780/121",
@@ -5331,6 +5331,12 @@
     },
     {
       "prefix": "2603:1030:1702:5::400/119",
+      "tags": {
+        "service": "AzureMonitor"
+      }
+    },
+    {
+      "prefix": "2603:1030:1702:7::300/121",
       "tags": {
         "service": "AzureMonitor"
       }

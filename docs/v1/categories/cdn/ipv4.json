@@ -9,7 +9,7 @@
   "source": {
     "url": ""
   },
-  "count": 1247,
+  "count": 1250,
   "prefixes": [
     {
       "prefix": "1.178.172.0/23",
@@ -3499,6 +3499,30 @@
       "tags": {
         "provider": "azure",
         "service": "AzureFrontDoor.Backend"
+      }
+    },
+    {
+      "prefix": "51.74.20.0/24",
+      "tags": {
+        "network_border_group": "eusc-de-east-1",
+        "provider": "aws",
+        "region": "eusc-de-east-1"
+      }
+    },
+    {
+      "prefix": "51.74.21.0/24",
+      "tags": {
+        "network_border_group": "eusc-de-east-1",
+        "provider": "aws",
+        "region": "eusc-de-east-1"
+      }
+    },
+    {
+      "prefix": "51.74.22.0/24",
+      "tags": {
+        "network_border_group": "eusc-de-east-1",
+        "provider": "aws",
+        "region": "eusc-de-east-1"
       }
     },
     {

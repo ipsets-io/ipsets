@@ -9,7 +9,7 @@
   "source": {
     "url": ""
   },
-  "count": 635,
+  "count": 637,
   "prefixes": [
     {
       "prefix": "2001:550:2:38::28:2/128",
@@ -39,6 +39,22 @@
       "prefix": "2001:19f0:c000:c8cd:5400:5ff:fe7a:fb7/128",
       "tags": {
         "provider": "bunny"
+      }
+    },
+    {
+      "prefix": "2001:3fc6:4::/48",
+      "tags": {
+        "network_border_group": "eusc-de-east-1",
+        "provider": "aws",
+        "region": "eusc-de-east-1"
+      }
+    },
+    {
+      "prefix": "2001:3fc6:5::/48",
+      "tags": {
+        "network_border_group": "eusc-de-east-1",
+        "provider": "aws",
+        "region": "eusc-de-east-1"
       }
     },
     {
