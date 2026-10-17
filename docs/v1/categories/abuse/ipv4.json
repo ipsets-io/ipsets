@@ -14,7 +14,7 @@
     {
       "prefix": "45.148.10.0/24",
       "tags": {
-        "attacks": "323",
+        "attacks": "326",
         "contact": "abuse@vegatele.com",
         "country": "GB",
         "network": "PPTECHNOLOGY",
@@ -24,7 +24,7 @@
     {
       "prefix": "45.198.224.0/24",
       "tags": {
-        "attacks": "337",
+        "attacks": "324",
         "contact": "CSOC@ontario.ca",
         "country": "US",
         "network": "OWS",
@@ -32,19 +32,9 @@
       }
     },
     {
-      "prefix": "64.62.156.0/24",
-      "tags": {
-        "attacks": "331",
-        "contact": "abuse@he.net",
-        "country": "US",
-        "network": "HURRICANE",
-        "provider": "sans"
-      }
-    },
-    {
       "prefix": "64.62.197.0/24",
       "tags": {
-        "attacks": "326",
+        "attacks": "347",
         "contact": "abuse@he.net",
         "country": "US",
         "network": "HURRICANE",
@@ -54,7 +44,7 @@
     {
       "prefix": "64.205.72.0/24",
       "tags": {
-        "attacks": "326",
+        "attacks": "327",
         "contact": "abuse@gtt.net",
         "country": "US",
         "network": "MEGAPATH2-",
@@ -64,7 +54,7 @@
     {
       "prefix": "65.49.1.0/24",
       "tags": {
-        "attacks": "325",
+        "attacks": "319",
         "contact": "abuse@he.net",
         "country": "US",
         "network": "HURRICANE",
@@ -74,31 +64,24 @@
     {
       "prefix": "66.132.172.0/24",
       "tags": {
-        "attacks": "321",
+        "attacks": "318",
         "provider": "sans"
       }
     },
     {
       "prefix": "66.132.186.0/24",
       "tags": {
-        "attacks": "342",
+        "attacks": "344",
         "provider": "sans"
       }
     },
     {
-      "prefix": "66.132.195.0/24",
+      "prefix": "78.128.114.0/24",
       "tags": {
-        "attacks": "320",
-        "provider": "sans"
-      }
-    },
-    {
-      "prefix": "77.90.185.0/24",
-      "tags": {
-        "attacks": "324",
-        "contact": "abuse@inetia.pl",
-        "country": "GB",
-        "network": "BTHOSTER",
+        "attacks": "323",
+        "contact": "noc@4vendeta.com",
+        "country": "BG",
+        "network": "TAMATIYA-AS",
         "provider": "sans"
       }
     },
@@ -120,9 +103,9 @@
       }
     },
     {
-      "prefix": "91.230.168.0/24",
+      "prefix": "91.231.89.0/24",
       "tags": {
-        "attacks": "319",
+        "attacks": "322",
         "contact": "abuse@bha-conseil.com",
         "country": "FR",
         "network": "BHA",
@@ -130,18 +113,37 @@
       }
     },
     {
+      "prefix": "147.185.133.0/24",
+      "tags": {
+        "attacks": "320",
+        "country": "US",
+        "network": "GOOGLE-CLOUD-PLATFORM",
+        "provider": "sans"
+      }
+    },
+    {
       "prefix": "167.94.145.0/24",
       "tags": {
-        "attacks": "322",
+        "attacks": "319",
         "country": "US",
         "network": "CENSYS-ARIN-02",
         "provider": "sans"
       }
     },
     {
+      "prefix": "185.15.209.0/24",
+      "tags": {
+        "attacks": "329",
+        "contact": "abuse@dnska.com",
+        "country": "NL",
+        "network": "MIRHOSTING",
+        "provider": "sans"
+      }
+    },
+    {
       "prefix": "185.73.23.0/24",
       "tags": {
-        "attacks": "323",
+        "attacks": "326",
         "contact": "abuse@rub.de",
         "country": "DE",
         "network": "RUB-AS",
@@ -151,26 +153,16 @@
     {
       "prefix": "193.163.125.0/24",
       "tags": {
-        "attacks": "324",
+        "attacks": "326",
         "country": "GB",
         "network": "INTERNET-MEASUREMENT",
         "provider": "sans"
       }
     },
     {
-      "prefix": "195.178.110.0/24",
-      "tags": {
-        "attacks": "324",
-        "contact": "abuse@timeweb.ru",
-        "country": "DE",
-        "network": "DATAFOREST",
-        "provider": "sans"
-      }
-    },
-    {
       "prefix": "195.184.76.0/24",
       "tags": {
-        "attacks": "320",
+        "attacks": "326",
         "country": "GB",
         "network": "EAJ-GLOBAL",
         "provider": "sans"
@@ -179,16 +171,26 @@
     {
       "prefix": "198.235.24.0/24",
       "tags": {
-        "attacks": "336",
+        "attacks": "341",
         "country": "US",
         "network": "GOOGLE-CLOUD-PLATFORM",
         "provider": "sans"
       }
     },
     {
+      "prefix": "200.138.46.0/24",
+      "tags": {
+        "attacks": "322",
+        "contact": "ld-numeracaoip@oi.net.br",
+        "country": "BR",
+        "network": "V tal",
+        "provider": "sans"
+      }
+    },
+    {
       "prefix": "216.180.246.0/24",
       "tags": {
-        "attacks": "328",
+        "attacks": "333",
         "contact": "abuse@networktransit.net",
         "country": "US",
         "network": "NTHL",
