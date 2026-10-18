@@ -9,7 +9,7 @@
     "url": "https://www.gstatic.com/ipranges/cloud.json",
     "homepage": "https://developers.google.com/search/docs/crawling-indexing/verifying-googlebot"
   },
-  "count": 1032,
+  "count": 1033,
   "prefixes": [
     {
       "prefix": "8.34.208.0/23",
@@ -736,6 +736,14 @@
       "tags": {
         "list": "cloud",
         "scope": "us-central1",
+        "service": "Google Cloud"
+      }
+    },
+    {
+      "prefix": "34.4.100.0/24",
+      "tags": {
+        "list": "cloud",
+        "scope": "us-east7",
         "service": "Google Cloud"
       }
     },
