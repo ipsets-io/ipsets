@@ -9,7 +9,7 @@
     "url": "https://ip-ranges.amazonaws.com/ip-ranges.json",
     "homepage": "https://docs.aws.amazon.com/vpc/latest/userguide/aws-ip-ranges.html"
   },
-  "count": 52,
+  "count": 60,
   "prefixes": [
     {
       "prefix": "3.27.127.176/29",
@@ -56,6 +56,14 @@
       "tags": {
         "network_border_group": "us-west-1",
         "region": "us-west-1",
+        "service": "MEDIA_PACKAGE_V2"
+      }
+    },
+    {
+      "prefix": "3.107.82.24/29",
+      "tags": {
+        "network_border_group": "ap-southeast-2",
+        "region": "ap-southeast-2",
         "service": "MEDIA_PACKAGE_V2"
       }
     },
@@ -165,6 +173,14 @@
     },
     {
       "prefix": "13.200.7.136/29",
+      "tags": {
+        "network_border_group": "ap-south-1",
+        "region": "ap-south-1",
+        "service": "MEDIA_PACKAGE_V2"
+      }
+    },
+    {
+      "prefix": "13.202.176.240/29",
       "tags": {
         "network_border_group": "ap-south-1",
         "region": "ap-south-1",
@@ -316,6 +332,22 @@
       }
     },
     {
+      "prefix": "32.184.79.16/29",
+      "tags": {
+        "network_border_group": "us-west-2",
+        "region": "us-west-2",
+        "service": "MEDIA_PACKAGE_V2"
+      }
+    },
+    {
+      "prefix": "32.190.211.224/29",
+      "tags": {
+        "network_border_group": "us-west-2",
+        "region": "us-west-2",
+        "service": "MEDIA_PACKAGE_V2"
+      }
+    },
+    {
       "prefix": "32.192.104.24/29",
       "tags": {
         "network_border_group": "us-east-1",
@@ -325,6 +357,14 @@
     },
     {
       "prefix": "32.192.104.128/29",
+      "tags": {
+        "network_border_group": "us-east-1",
+        "region": "us-east-1",
+        "service": "MEDIA_PACKAGE_V2"
+      }
+    },
+    {
+      "prefix": "32.192.104.136/29",
       "tags": {
         "network_border_group": "us-east-1",
         "region": "us-east-1",
@@ -424,6 +464,30 @@
       "tags": {
         "network_border_group": "ap-southeast-5",
         "region": "ap-southeast-5",
+        "service": "MEDIA_PACKAGE_V2"
+      }
+    },
+    {
+      "prefix": "63.185.44.32/29",
+      "tags": {
+        "network_border_group": "eu-central-1",
+        "region": "eu-central-1",
+        "service": "MEDIA_PACKAGE_V2"
+      }
+    },
+    {
+      "prefix": "99.80.88.216/29",
+      "tags": {
+        "network_border_group": "eu-west-1",
+        "region": "eu-west-1",
+        "service": "MEDIA_PACKAGE_V2"
+      }
+    },
+    {
+      "prefix": "100.61.165.88/29",
+      "tags": {
+        "network_border_group": "us-east-1",
+        "region": "us-east-1",
         "service": "MEDIA_PACKAGE_V2"
       }
     }
