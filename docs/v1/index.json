@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-20T09:18:38Z",
+  "generated_at": "2026-10-21T09:15:08Z",
   "providers": [
     {
       "id": "anthropic",
@@ -13,8 +13,8 @@
           "category": "crawler",
           "ipv4": {
             "path": "/v1/anthropic/bots/ipv4.json",
-            "count": 38,
-            "sha256": "5fc549bb0c2e0ce2ab85f7447f558f7c4855ff7061163c2459dd577f84fb04fa"
+            "count": 14,
+            "sha256": "6d13062d8926b0b54a131e6b827ca5910ff4279a5a2c00e8ac1f1510b63cd9a5"
           },
           "ipv6": {
             "path": "/v1/anthropic/bots/ipv6.json",
@@ -152,8 +152,8 @@
           },
           "ipv6": {
             "path": "/v1/aws/ec2/ipv6.json",
-            "count": 2549,
-            "sha256": "35d00a3ba886f268ce24cf6968fd988220ee61892d11debe75734220d86ad561"
+            "count": 2551,
+            "sha256": "3bbf86564278d1c05b873f49495f1c8e21e561cd350ef3797c40c0e1428b9cf4"
           }
         },
         {
@@ -231,8 +231,8 @@
           "name": "API Gateway",
           "ipv4": {
             "path": "/v1/aws/api-gateway/ipv4.json",
-            "count": 215,
-            "sha256": "2a78bce702f9b5907d92cdb509ee2546ab5098d1ef24e9ba02bc66f60efd1cd7"
+            "count": 216,
+            "sha256": "ef1bff204d8c23e4f9633ebb078d2e54e7a364c9bd40cfe2fee06e7328c49bef"
           },
           "ipv6": {
             "path": "/v1/aws/api-gateway/ipv6.json",
@@ -497,7 +497,7 @@
           "ipv4": {
             "path": "/v1/azure/traffic-manager/ipv4.json",
             "count": 210,
-            "sha256": "3f7ab68297a5835381235c91c28704ee2de1d5c1e7429230f0d50d6d10908abf"
+            "sha256": "183844c68df336b63552ac0d5ba5cdb096b8fb9e05504e8bdb1aa52bf0505b25"
           },
           "ipv6": {
             "path": "/v1/azure/traffic-manager/ipv6.json",
@@ -544,7 +544,7 @@
           "ipv6": {
             "path": "/v1/azure/storage/ipv6.json",
             "count": 80,
-            "sha256": "79ef00f7e2adc0376d403fe9d87ccae2951da4b545e583f200f20ed77f7fb174"
+            "sha256": "6e5f2f1ed850105d7c4554b8d3d57807870575cb9307fdbefa46b66a96f906e5"
           }
         },
         {
@@ -626,8 +626,8 @@
           "category": "cdn",
           "ipv4": {
             "path": "/v1/bunny/cdn/ipv4.json",
-            "count": 586,
-            "sha256": "d116cb87c85a9705a39ba0edd4bfd87ac3a9f5edd513285c4b6e06b868431d1f"
+            "count": 584,
+            "sha256": "ce8694ff906f9ad91a67d6824c9f286658bd13fc9ae2b90557b4eaaee6815d02"
           },
           "ipv6": {
             "path": "/v1/bunny/cdn/ipv6.json",
@@ -939,8 +939,8 @@
           "name": "Web",
           "ipv4": {
             "path": "/v1/github/web/ipv4.json",
-            "count": 38,
-            "sha256": "2e8b71abe16a7afcd548025546aaf468305db768f22cdb5f15cba9004534a9b4"
+            "count": 39,
+            "sha256": "213252757cecd7ca71ad3958605fd0b668651c992ccf2f3e2345e71e911d1763"
           },
           "ipv6": {
             "path": "/v1/github/web/ipv6.json",
@@ -953,8 +953,8 @@
           "name": "API",
           "ipv4": {
             "path": "/v1/github/api/ipv4.json",
-            "count": 24,
-            "sha256": "2cb019edd23332300a927997696865b45763e2de9841c19583cf38679f720edf"
+            "count": 25,
+            "sha256": "916db94344f541f1d987d6ff9b16d4a35d17f2d0f54e627eaba94f0a98cd3818"
           },
           "ipv6": {
             "path": "/v1/github/api/ipv6.json",
@@ -967,8 +967,8 @@
           "name": "Git",
           "ipv4": {
             "path": "/v1/github/git/ipv4.json",
-            "count": 58,
-            "sha256": "a6b787c1a85bbcf77cc271bc9e40a0e5701781734d927340fac4889bf790f5cd"
+            "count": 60,
+            "sha256": "e318e42c786ba098c74d1bcb8e4515e677e78a189671de4b9f7e7796c0031ab8"
           },
           "ipv6": {
             "path": "/v1/github/git/ipv6.json",
@@ -981,8 +981,8 @@
           "name": "Packages",
           "ipv4": {
             "path": "/v1/github/packages/ipv4.json",
-            "count": 29,
-            "sha256": "9b176aa36e2cad54467548230c232a648833388836e28f6c9b12cb6419f461d9"
+            "count": 30,
+            "sha256": "d8e67c84964e977af52ae382d6e7ecd1a734ac2ffab7dee28f59e52687272992"
           },
           "ipv6": {
             "path": "/v1/github/packages/ipv6.json",
@@ -1059,8 +1059,8 @@
           "name": "Google Cloud",
           "ipv4": {
             "path": "/v1/google/cloud/ipv4.json",
-            "count": 1033,
-            "sha256": "41804cac70390592fa832b1a99a3081ed39058386273322e915b04a169e0ed94"
+            "count": 1040,
+            "sha256": "767acfb00ec8227b993dcdd409af329989fd7a158bcb5b17d4d3bb7e8489e4fa"
           },
           "ipv6": {
             "path": "/v1/google/cloud/ipv6.json",
@@ -1158,7 +1158,7 @@
           "ipv4": {
             "path": "/v1/openai/chatgpt-user/ipv4.json",
             "count": 234,
-            "sha256": "379ce559a379f3586ad56ad98ed485cc365d6fd3a5671fd25330dafa2303adca"
+            "sha256": "a5aed921825e556e8c5e80716f186f42e59dbfe25e57e4e8c48cc1d5b98ae68a"
           },
           "ipv6": {
             "path": "/v1/openai/chatgpt-user/ipv6.json",
@@ -1268,8 +1268,8 @@
           "category": "monitoring",
           "ipv4": {
             "path": "/v1/pingdom/probes/ipv4.json",
-            "count": 149,
-            "sha256": "7f6f500d877b8a46c3fb3eddd97ee809bdef7e3b107e246c4469b72e1519524a"
+            "count": 153,
+            "sha256": "f9cd71740c88cfe969a7fa32c45a5c23b077e83962ff369df2ef01809d08da30"
           },
           "ipv6": {
             "path": "/v1/pingdom/probes/ipv6.json",
@@ -1292,7 +1292,7 @@
           "ipv4": {
             "path": "/v1/sans/top-attackers/ipv4.json",
             "count": 20,
-            "sha256": "013d59c136756de35679492859c77e27cb3c680e69af9d4aab492c294c0faae7"
+            "sha256": "f6e417fcee7de56da6f8afb967afb31d1610394ee7a15f08a03c1adaafb0d9a3"
           },
           "ipv6": {
             "path": "/v1/sans/top-attackers/ipv6.json",
@@ -1443,8 +1443,8 @@
           "category": "anonymizer",
           "ipv4": {
             "path": "/v1/tor/exits/ipv4.json",
-            "count": 1209,
-            "sha256": "c325f298256c09a545099a8699a30bd7e0ddcd21da7a4e9a67641dcbcde53bbf"
+            "count": 1223,
+            "sha256": "a72d7d2b31d5833b7d7ead22156d8923b0c65f0147ff3432c4fdadb7434773bd"
           },
           "ipv6": {
             "path": "/v1/tor/exits/ipv6.json",
@@ -1466,7 +1466,7 @@
           "ipv4": {
             "path": "/v1/categories/abuse/ipv4.json",
             "count": 20,
-            "sha256": "c0a290e475e5fdc2f7b8044dbce45c7507778ba5c5b6e0c9673bc080b3ca33a4"
+            "sha256": "d935e582cb0c07b41260eac4e878ade14b182b817e02760ddd3620e74d900d1e"
           },
           "ipv6": {
             "path": "/v1/categories/abuse/ipv6.json",
@@ -1485,8 +1485,8 @@
           "category": "anonymizer",
           "ipv4": {
             "path": "/v1/categories/anonymizer/ipv4.json",
-            "count": 1209,
-            "sha256": "4032d95863da6c90b1de068dfa42cccb108a21b324936810b44b379c28af56ca"
+            "count": 1223,
+            "sha256": "4323f711154e0a8bfd92837d4b545233752d1cfec4dc0a15cde2d6827c8f1769"
           },
           "ipv6": {
             "path": "/v1/categories/anonymizer/ipv6.json",
@@ -1505,8 +1505,8 @@
           "category": "cdn",
           "ipv4": {
             "path": "/v1/categories/cdn/ipv4.json",
-            "count": 1250,
-            "sha256": "8a495ddc77b10790cb9360cdbcd29895efeb07dd1688770ea53521fa457a4511"
+            "count": 1248,
+            "sha256": "7405fadc658ec963efbe2ecd65b8f0bcc98389cb1e844862604018ed7bd6eebe"
           },
           "ipv6": {
             "path": "/v1/categories/cdn/ipv6.json",
@@ -1545,8 +1545,8 @@
           "category": "crawler",
           "ipv4": {
             "path": "/v1/categories/crawler/ipv4.json",
-            "count": 1961,
-            "sha256": "7d91c57b2a998a7e84e3b6e6d9a8c0548b93085bbf3d0efecd71d3ccdf1f27d9"
+            "count": 1937,
+            "sha256": "963a19c5771deb22244ee52ef1f3bb7e08cc6eed8e7e97afa7b7c832fed579e1"
           },
           "ipv6": {
             "path": "/v1/categories/crawler/ipv6.json",
@@ -1565,8 +1565,8 @@
           "category": "monitoring",
           "ipv4": {
             "path": "/v1/categories/monitoring/ipv4.json",
-            "count": 540,
-            "sha256": "4f573eb12bae642b2259f81d12d2fb46b47dc49f97ee93fcaa9d49cf2c92bdcd"
+            "count": 544,
+            "sha256": "fbd293f6372279810e75b1275eccacc67a81499b0db2345b0d94a0f9ff152252"
           },
           "ipv6": {
             "path": "/v1/categories/monitoring/ipv6.json",

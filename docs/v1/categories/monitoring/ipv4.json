@@ -9,7 +9,7 @@
   "source": {
     "url": ""
   },
-  "count": 540,
+  "count": 544,
   "prefixes": [
     {
       "prefix": "3.1.36.99/32",
@@ -56,6 +56,12 @@
       "tags": {
         "provider": "datadog",
         "service": "synthetics"
+      }
+    },
+    {
+      "prefix": "3.28.176.11/32",
+      "tags": {
+        "provider": "pingdom"
       }
     },
     {
@@ -1941,6 +1947,12 @@
       }
     },
     {
+      "prefix": "40.172.23.87/32",
+      "tags": {
+        "provider": "pingdom"
+      }
+    },
+    {
       "prefix": "43.198.123.228/32",
       "tags": {
         "provider": "datadog",
@@ -2042,6 +2054,18 @@
       "tags": {
         "provider": "azure",
         "service": "ApplicationInsightsAvailability"
+      }
+    },
+    {
+      "prefix": "51.112.113.198/32",
+      "tags": {
+        "provider": "pingdom"
+      }
+    },
+    {
+      "prefix": "51.112.129.195/32",
+      "tags": {
+        "provider": "pingdom"
       }
     },
     {
@@ -3097,6 +3121,7 @@
       "prefix": "132.220.87.0/27",
       "tags": {
         "provider": "azure",
+        "region": "westeurope",
         "service": "AzureTrafficManager"
       }
     },
@@ -3104,6 +3129,7 @@
       "prefix": "132.220.87.32/28",
       "tags": {
         "provider": "azure",
+        "region": "westeurope",
         "service": "AzureTrafficManager"
       }
     },

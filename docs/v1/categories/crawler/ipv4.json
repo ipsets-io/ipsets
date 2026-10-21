@@ -9,7 +9,7 @@
   "source": {
     "url": ""
   },
-  "count": 1961,
+  "count": 1937,
   "prefixes": [
     {
       "prefix": "3.211.124.183/32",
@@ -387,7 +387,7 @@
       }
     },
     {
-      "prefix": "9.129.0.0/17",
+      "prefix": "9.129.0.0/16",
       "tags": {
         "list": "chatgpt-user",
         "provider": "openai"
@@ -624,12 +624,6 @@
       }
     },
     {
-      "prefix": "16.58.26.69/32",
-      "tags": {
-        "provider": "anthropic"
-      }
-    },
-    {
       "prefix": "17.166.20.0/24",
       "tags": {
         "provider": "apple"
@@ -789,18 +783,6 @@
       "prefix": "18.210.92.235/32",
       "tags": {
         "provider": "perplexity"
-      }
-    },
-    {
-      "prefix": "18.225.238.228/32",
-      "tags": {
-        "provider": "anthropic"
-      }
-    },
-    {
-      "prefix": "18.227.226.255/32",
-      "tags": {
-        "provider": "anthropic"
       }
     },
     {
@@ -1196,12 +1178,6 @@
       }
     },
     {
-      "prefix": "20.64.57.208/28",
-      "tags": {
-        "provider": "anthropic"
-      }
-    },
-    {
       "prefix": "20.64.185.45/32",
       "tags": {
         "provider": "duckduckgo"
@@ -1532,12 +1508,6 @@
       "prefix": "20.102.34.205/32",
       "tags": {
         "provider": "duckduckgo"
-      }
-    },
-    {
-      "prefix": "20.102.46.224/28",
-      "tags": {
-        "provider": "anthropic"
       }
     },
     {
@@ -2527,12 +2497,6 @@
       }
     },
     {
-      "prefix": "34.11.34.31/32",
-      "tags": {
-        "provider": "anthropic"
-      }
-    },
-    {
       "prefix": "34.22.85.0/27",
       "tags": {
         "list": "googlebot",
@@ -2614,12 +2578,6 @@
       "tags": {
         "list": "googlebot",
         "provider": "google"
-      }
-    },
-    {
-      "prefix": "34.85.172.162/32",
-      "tags": {
-        "provider": "anthropic"
       }
     },
     {
@@ -4562,12 +4520,6 @@
       }
     },
     {
-      "prefix": "34.150.241.79/32",
-      "tags": {
-        "provider": "anthropic"
-      }
-    },
-    {
       "prefix": "34.151.74.144/28",
       "tags": {
         "list": "googlebot",
@@ -4674,60 +4626,6 @@
       "tags": {
         "list": "googlebot",
         "provider": "google"
-      }
-    },
-    {
-      "prefix": "34.182.140.95/32",
-      "tags": {
-        "provider": "anthropic"
-      }
-    },
-    {
-      "prefix": "34.182.161.143/32",
-      "tags": {
-        "provider": "anthropic"
-      }
-    },
-    {
-      "prefix": "34.182.218.27/32",
-      "tags": {
-        "provider": "anthropic"
-      }
-    },
-    {
-      "prefix": "34.182.220.85/32",
-      "tags": {
-        "provider": "anthropic"
-      }
-    },
-    {
-      "prefix": "34.182.222.37/32",
-      "tags": {
-        "provider": "anthropic"
-      }
-    },
-    {
-      "prefix": "34.182.225.167/32",
-      "tags": {
-        "provider": "anthropic"
-      }
-    },
-    {
-      "prefix": "34.182.226.151/32",
-      "tags": {
-        "provider": "anthropic"
-      }
-    },
-    {
-      "prefix": "34.182.226.221/32",
-      "tags": {
-        "provider": "anthropic"
-      }
-    },
-    {
-      "prefix": "34.186.108.163/32",
-      "tags": {
-        "provider": "anthropic"
       }
     },
     {
@@ -5521,12 +5419,6 @@
       }
     },
     {
-      "prefix": "35.221.29.174/32",
-      "tags": {
-        "provider": "anthropic"
-      }
-    },
-    {
       "prefix": "35.243.16.0/27",
       "tags": {
         "list": "user-triggered-fetchers",
@@ -5877,18 +5769,6 @@
       }
     },
     {
-      "prefix": "35.245.89.239/32",
-      "tags": {
-        "provider": "anthropic"
-      }
-    },
-    {
-      "prefix": "35.245.175.129/32",
-      "tags": {
-        "provider": "anthropic"
-      }
-    },
-    {
       "prefix": "35.247.243.240/28",
       "tags": {
         "list": "googlebot",
@@ -6190,12 +6070,6 @@
       "prefix": "40.121.121.54/32",
       "tags": {
         "provider": "duckduckgo"
-      }
-    },
-    {
-      "prefix": "40.124.101.48/28",
-      "tags": {
-        "provider": "anthropic"
       }
     },
     {
@@ -11562,12 +11436,6 @@
       }
     },
     {
-      "prefix": "136.107.176.208/32",
-      "tags": {
-        "provider": "anthropic"
-      }
-    },
-    {
       "prefix": "136.124.136.0/27",
       "tags": {
         "list": "user-triggered-fetchers",
@@ -11717,18 +11585,6 @@
       "tags": {
         "list": "chatgpt-user",
         "provider": "openai"
-      }
-    },
-    {
-      "prefix": "160.79.106.16/28",
-      "tags": {
-        "provider": "anthropic"
-      }
-    },
-    {
-      "prefix": "160.79.106.128/28",
-      "tags": {
-        "provider": "anthropic"
       }
     },
     {

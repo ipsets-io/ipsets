@@ -10,7 +10,7 @@
     "url": "https://bunnycdn.com/api/system/edgeserverlist",
     "homepage": "https://bunny.net/"
   },
-  "count": 586,
+  "count": 584,
   "prefixes": [
     {
       "prefix": "5.9.71.119/32"
@@ -23,9 +23,6 @@
     },
     {
       "prefix": "5.9.144.178/32"
-    },
-    {
-      "prefix": "5.189.202.62/32"
     },
     {
       "prefix": "23.251.127.2/32"
@@ -1058,9 +1055,6 @@
     },
     {
       "prefix": "144.76.236.44/32"
-    },
-    {
-      "prefix": "146.185.248.15/32"
     },
     {
       "prefix": "148.113.190.161/32"

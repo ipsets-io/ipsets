@@ -103,7 +103,7 @@
       }
     },
     {
-      "prefix": "9.129.0.0/17",
+      "prefix": "9.129.0.0/16",
       "tags": {
         "list": "chatgpt-user"
       }

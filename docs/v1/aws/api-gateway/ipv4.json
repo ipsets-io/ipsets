@@ -9,7 +9,7 @@
     "url": "https://ip-ranges.amazonaws.com/ip-ranges.json",
     "homepage": "https://docs.aws.amazon.com/vpc/latest/userguide/aws-ip-ranges.html"
   },
-  "count": 215,
+  "count": 216,
   "prefixes": [
     {
       "prefix": "3.7.10.0/23",
@@ -1616,6 +1616,14 @@
       "tags": {
         "network_border_group": "mx-central-1",
         "region": "mx-central-1",
+        "service": "API_GATEWAY"
+      }
+    },
+    {
+      "prefix": "83.160.72.0/24",
+      "tags": {
+        "network_border_group": "sa-west-1",
+        "region": "sa-west-1",
         "service": "API_GATEWAY"
       }
     },

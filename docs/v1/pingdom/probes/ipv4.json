@@ -10,13 +10,16 @@
     "url": "https://my.pingdom.com/probes/ipv4",
     "homepage": "https://www.pingdom.com/rss/probe_servers.xml"
   },
-  "count": 149,
+  "count": 153,
   "prefixes": [
     {
       "prefix": "3.10.222.182/32"
     },
     {
       "prefix": "3.11.131.95/32"
+    },
+    {
+      "prefix": "3.28.176.11/32"
     },
     {
       "prefix": "3.66.99.59/32"
@@ -115,6 +118,9 @@
       "prefix": "35.85.117.184/32"
     },
     {
+      "prefix": "40.172.23.87/32"
+    },
+    {
       "prefix": "43.225.198.122/32"
     },
     {
@@ -143,6 +149,12 @@
     },
     {
       "prefix": "51.21.185.148/32"
+    },
+    {
+      "prefix": "51.112.113.198/32"
+    },
+    {
+      "prefix": "51.112.129.195/32"
     },
     {
       "prefix": "52.0.204.16/32"
