@@ -10,7 +10,7 @@
     "url": "https://ip-ranges.amazonaws.com/ip-ranges.json",
     "homepage": "https://docs.aws.amazon.com/vpc/latest/userguide/aws-ip-ranges.html"
   },
-  "count": 45,
+  "count": 47,
   "prefixes": [
     {
       "prefix": "2600:1f01:4800::/47",
@@ -97,6 +97,22 @@
       "tags": {
         "network_border_group": "ap-east-1",
         "region": "ap-east-1",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
+      "prefix": "2600:1f01:4816::/47",
+      "tags": {
+        "network_border_group": "af-south-1",
+        "region": "af-south-1",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
+      "prefix": "2600:1f01:4818::/47",
+      "tags": {
+        "network_border_group": "eu-west-1",
+        "region": "eu-west-1",
         "service": "GLOBALACCELERATOR"
       }
     },

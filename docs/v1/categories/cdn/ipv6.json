@@ -9,7 +9,7 @@
   "source": {
     "url": ""
   },
-  "count": 637,
+  "count": 639,
   "prefixes": [
     {
       "prefix": "2001:550:2:38::28:2/128",
@@ -1814,6 +1814,24 @@
         "network_border_group": "ap-east-1",
         "provider": "aws",
         "region": "ap-east-1",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
+      "prefix": "2600:1f01:4816::/47",
+      "tags": {
+        "network_border_group": "af-south-1",
+        "provider": "aws",
+        "region": "af-south-1",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
+      "prefix": "2600:1f01:4818::/47",
+      "tags": {
+        "network_border_group": "eu-west-1",
+        "provider": "aws",
+        "region": "eu-west-1",
         "service": "GLOBALACCELERATOR"
       }
     },

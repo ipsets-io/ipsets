@@ -9,7 +9,7 @@
     "url": "https://ip-ranges.amazonaws.com/ip-ranges.json",
     "homepage": "https://docs.aws.amazon.com/vpc/latest/userguide/aws-ip-ranges.html"
   },
-  "count": 2552,
+  "count": 2553,
   "prefixes": [
     {
       "prefix": "2001:3fc0:800::/40",
@@ -13808,6 +13808,14 @@
       "tags": {
         "network_border_group": "ap-northeast-1",
         "region": "ap-northeast-1",
+        "service": "EC2"
+      }
+    },
+    {
+      "prefix": "2600:f0f3:f010:2500::/56",
+      "tags": {
+        "network_border_group": "us-gov-west-1",
+        "region": "us-gov-west-1",
         "service": "EC2"
       }
     },
