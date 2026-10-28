@@ -9,7 +9,7 @@
     "url": "https://ip-ranges.amazonaws.com/ip-ranges.json",
     "homepage": "https://docs.aws.amazon.com/vpc/latest/userguide/aws-ip-ranges.html"
   },
-  "count": 93,
+  "count": 94,
   "prefixes": [
     {
       "prefix": "2400:7fc0:833b:f400::/56",
@@ -117,6 +117,14 @@
     },
     {
       "prefix": "2406:da14:1964:d500::/56",
+      "tags": {
+        "network_border_group": "ap-northeast-1",
+        "region": "ap-northeast-1",
+        "service": "EFS"
+      }
+    },
+    {
+      "prefix": "2406:da14:1e82:a000::/56",
       "tags": {
         "network_border_group": "ap-northeast-1",
         "region": "ap-northeast-1",

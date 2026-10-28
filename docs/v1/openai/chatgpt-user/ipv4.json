@@ -10,7 +10,7 @@
     "url": "https://openai.com/chatgpt-user.json",
     "homepage": "https://platform.openai.com/docs/bots"
   },
-  "count": 234,
+  "count": 235,
   "prefixes": [
     {
       "prefix": "4.151.71.176/28",
@@ -1178,6 +1178,12 @@
     },
     {
       "prefix": "135.220.73.240/28",
+      "tags": {
+        "list": "chatgpt-user"
+      }
+    },
+    {
+      "prefix": "135.222.99.32/28",
       "tags": {
         "list": "chatgpt-user"
       }
