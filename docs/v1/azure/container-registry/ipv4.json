@@ -2270,12 +2270,14 @@
     {
       "prefix": "48.198.84.192/26",
       "tags": {
+        "region": "southeastasia3",
         "service": "AzureContainerRegistry"
       }
     },
     {
       "prefix": "48.198.96.128/26",
       "tags": {
+        "region": "southeastasia3",
         "service": "AzureContainerRegistry"
       }
     },

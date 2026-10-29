@@ -9,7 +9,7 @@
     "url": "https://www.microsoft.com/en-us/download/details.aspx?id=56519",
     "homepage": "https://learn.microsoft.com/en-us/azure/virtual-network/service-tags-overview"
   },
-  "count": 1923,
+  "count": 1934,
   "prefixes": [
     {
       "prefix": "4.144.10.32/27",
@@ -804,6 +804,13 @@
     },
     {
       "prefix": "4.216.2.16/28",
+      "tags": {
+        "region": "japaneast",
+        "service": "AzureMonitor"
+      }
+    },
+    {
+      "prefix": "4.216.6.160/29",
       "tags": {
         "region": "japaneast",
         "service": "AzureMonitor"
@@ -7468,36 +7475,42 @@
     {
       "prefix": "48.198.101.192/28",
       "tags": {
+        "region": "southeastasia3",
         "service": "AzureMonitor"
       }
     },
     {
       "prefix": "48.198.101.208/31",
       "tags": {
+        "region": "southeastasia3",
         "service": "AzureMonitor"
       }
     },
     {
       "prefix": "48.198.101.224/27",
       "tags": {
+        "region": "southeastasia3",
         "service": "AzureMonitor"
       }
     },
     {
       "prefix": "48.198.102.0/27",
       "tags": {
+        "region": "southeastasia3",
         "service": "AzureMonitor"
       }
     },
     {
       "prefix": "48.198.154.128/26",
       "tags": {
+        "region": "southeastasia3",
         "service": "AzureMonitor"
       }
     },
     {
       "prefix": "48.198.194.192/26",
       "tags": {
+        "region": "southeastasia3",
         "service": "AzureMonitor"
       }
     },
@@ -11254,6 +11267,34 @@
       }
     },
     {
+      "prefix": "74.159.249.224/27",
+      "tags": {
+        "region": "eastus2",
+        "service": "AzureMonitor"
+      }
+    },
+    {
+      "prefix": "74.159.251.0/26",
+      "tags": {
+        "region": "eastus2",
+        "service": "AzureMonitor"
+      }
+    },
+    {
+      "prefix": "74.159.251.160/27",
+      "tags": {
+        "region": "eastus2",
+        "service": "AzureMonitor"
+      }
+    },
+    {
+      "prefix": "74.159.251.192/26",
+      "tags": {
+        "region": "eastus2",
+        "service": "AzureMonitor"
+      }
+    },
+    {
       "prefix": "74.160.6.64/28",
       "tags": {
         "region": "southafricawest",
@@ -11996,6 +12037,13 @@
       }
     },
     {
+      "prefix": "130.33.125.48/28",
+      "tags": {
+        "region": "japaneast",
+        "service": "AzureMonitor"
+      }
+    },
+    {
       "prefix": "131.163.109.112/28",
       "tags": {
         "region": "norwaye",
@@ -12513,6 +12561,41 @@
       "prefix": "172.134.20.128/25",
       "tags": {
         "region": "centralus",
+        "service": "AzureMonitor"
+      }
+    },
+    {
+      "prefix": "172.143.2.192/26",
+      "tags": {
+        "region": "eastus",
+        "service": "AzureMonitor"
+      }
+    },
+    {
+      "prefix": "172.143.4.144/28",
+      "tags": {
+        "region": "eastus",
+        "service": "AzureMonitor"
+      }
+    },
+    {
+      "prefix": "172.143.6.0/25",
+      "tags": {
+        "region": "eastus",
+        "service": "AzureMonitor"
+      }
+    },
+    {
+      "prefix": "172.143.6.208/28",
+      "tags": {
+        "region": "eastus",
+        "service": "AzureMonitor"
+      }
+    },
+    {
+      "prefix": "172.143.7.0/25",
+      "tags": {
+        "region": "eastus",
         "service": "AzureMonitor"
       }
     },

@@ -10,11 +10,8 @@
     "url": "https://www.perplexity.com/perplexitybot.json",
     "homepage": "https://docs.perplexity.ai/guides/bots"
   },
-  "count": 8,
+  "count": 13,
   "prefixes": [
-    {
-      "prefix": "3.211.124.183/32"
-    },
     {
       "prefix": "3.222.232.239/32"
     },
@@ -22,13 +19,31 @@
       "prefix": "3.224.62.45/32"
     },
     {
-      "prefix": "3.231.139.107/32"
+      "prefix": "18.97.1.228/32"
     },
     {
-      "prefix": "18.97.1.228/30"
+      "prefix": "18.97.9.96/32"
     },
     {
-      "prefix": "18.97.9.96/29"
+      "prefix": "18.97.9.97/32"
+    },
+    {
+      "prefix": "18.97.9.98/32"
+    },
+    {
+      "prefix": "18.97.9.99/32"
+    },
+    {
+      "prefix": "18.97.9.100/32"
+    },
+    {
+      "prefix": "18.97.9.101/32"
+    },
+    {
+      "prefix": "18.97.9.102/32"
+    },
+    {
+      "prefix": "18.97.9.103/32"
     },
     {
       "prefix": "18.210.92.235/32"

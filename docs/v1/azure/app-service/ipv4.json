@@ -4294,6 +4294,7 @@
     {
       "prefix": "48.198.93.0/24",
       "tags": {
+        "region": "southeastasia3",
         "service": "AppService"
       }
     },

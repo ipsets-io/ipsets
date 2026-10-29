@@ -1407,6 +1407,7 @@
     {
       "prefix": "2603:1040:1b02:2::/120",
       "tags": {
+        "region": "southeastasia3",
         "service": "AppService"
       }
     },

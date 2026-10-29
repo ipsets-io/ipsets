@@ -3121,7 +3121,6 @@
       "prefix": "132.220.87.0/27",
       "tags": {
         "provider": "azure",
-        "region": "westeurope",
         "service": "AzureTrafficManager"
       }
     },
@@ -3129,7 +3128,6 @@
       "prefix": "132.220.87.32/28",
       "tags": {
         "provider": "azure",
-        "region": "westeurope",
         "service": "AzureTrafficManager"
       }
     },

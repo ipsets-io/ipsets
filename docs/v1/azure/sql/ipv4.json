@@ -4363,12 +4363,14 @@
     {
       "prefix": "48.198.102.64/26",
       "tags": {
+        "region": "southeastasia3",
         "service": "Sql"
       }
     },
     {
       "prefix": "48.198.102.128/26",
       "tags": {
+        "region": "southeastasia3",
         "service": "Sql"
       }
     },

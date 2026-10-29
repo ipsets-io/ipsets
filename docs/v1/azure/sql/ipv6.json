@@ -2693,12 +2693,14 @@
     {
       "prefix": "2603:1040:1b02:3::3e0/123",
       "tags": {
+        "region": "southeastasia3",
         "service": "Sql"
       }
     },
     {
       "prefix": "2603:1040:1b02:3::500/121",
       "tags": {
+        "region": "southeastasia3",
         "service": "Sql"
       }
     },

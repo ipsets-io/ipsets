@@ -4095,12 +4095,14 @@
     {
       "prefix": "2603:1040:1b02::700/125",
       "tags": {
+        "region": "southeastasia3",
         "service": "AzureContainerRegistry"
       }
     },
     {
       "prefix": "2603:1040:1b02:2::580/121",
       "tags": {
+        "region": "southeastasia3",
         "service": "AzureContainerRegistry"
       }
     },

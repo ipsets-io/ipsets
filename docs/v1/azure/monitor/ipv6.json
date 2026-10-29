@@ -9,7 +9,7 @@
     "url": "https://www.microsoft.com/en-us/download/details.aspx?id=56519",
     "homepage": "https://learn.microsoft.com/en-us/azure/virtual-network/service-tags-overview"
   },
-  "count": 1249,
+  "count": 1251,
   "prefixes": [
     {
       "prefix": "2603:1000:4::780/121",
@@ -3243,6 +3243,20 @@
     },
     {
       "prefix": "2603:1030:210:47::580/121",
+      "tags": {
+        "region": "eastus",
+        "service": "AzureMonitor"
+      }
+    },
+    {
+      "prefix": "2603:1030:210:47::738/125",
+      "tags": {
+        "region": "eastus",
+        "service": "AzureMonitor"
+      }
+    },
+    {
+      "prefix": "2603:1030:210:48::700/122",
       "tags": {
         "region": "eastus",
         "service": "AzureMonitor"
@@ -7325,36 +7339,42 @@
     {
       "prefix": "2603:1040:1b02:3::2c0/122",
       "tags": {
+        "region": "southeastasia3",
         "service": "AzureMonitor"
       }
     },
     {
       "prefix": "2603:1040:1b02:3::380/122",
       "tags": {
+        "region": "southeastasia3",
         "service": "AzureMonitor"
       }
     },
     {
       "prefix": "2603:1040:1b02:3::400/120",
       "tags": {
+        "region": "southeastasia3",
         "service": "AzureMonitor"
       }
     },
     {
       "prefix": "2603:1040:1b02:5::/119",
       "tags": {
+        "region": "southeastasia3",
         "service": "AzureMonitor"
       }
     },
     {
       "prefix": "2603:1040:1b02:5::340/122",
       "tags": {
+        "region": "southeastasia3",
         "service": "AzureMonitor"
       }
     },
     {
       "prefix": "2603:1040:1b02:5::400/119",
       "tags": {
+        "region": "southeastasia3",
         "service": "AzureMonitor"
       }
     },
