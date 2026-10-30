@@ -9,8 +9,20 @@
     "url": "https://api.github.com/meta",
     "homepage": "https://docs.github.com/en/rest/meta/meta"
   },
-  "count": 15,
+  "count": 30,
   "prefixes": [
+    {
+      "prefix": "4.172.7.153/32",
+      "tags": {
+        "usage": "copilot"
+      }
+    },
+    {
+      "prefix": "4.208.26.201/32",
+      "tags": {
+        "usage": "copilot"
+      }
+    },
     {
       "prefix": "4.225.11.192/32",
       "tags": {
@@ -42,7 +54,31 @@
       }
     },
     {
+      "prefix": "20.26.156.217/32",
+      "tags": {
+        "usage": "copilot"
+      }
+    },
+    {
+      "prefix": "20.27.177.121/32",
+      "tags": {
+        "usage": "copilot"
+      }
+    },
+    {
+      "prefix": "20.29.134.26/32",
+      "tags": {
+        "usage": "copilot"
+      }
+    },
+    {
       "prefix": "20.85.130.105/32",
+      "tags": {
+        "usage": "copilot"
+      }
+    },
+    {
+      "prefix": "20.87.245.9/32",
       "tags": {
         "usage": "copilot"
       }
@@ -54,7 +90,55 @@
       }
     },
     {
+      "prefix": "20.200.245.249/32",
+      "tags": {
+        "usage": "copilot"
+      }
+    },
+    {
+      "prefix": "20.201.28.153/32",
+      "tags": {
+        "usage": "copilot"
+      }
+    },
+    {
+      "prefix": "20.205.243.169/32",
+      "tags": {
+        "usage": "copilot"
+      }
+    },
+    {
+      "prefix": "20.207.73.89/32",
+      "tags": {
+        "usage": "copilot"
+      }
+    },
+    {
+      "prefix": "20.217.135.9/32",
+      "tags": {
+        "usage": "copilot"
+      }
+    },
+    {
+      "prefix": "20.233.83.153/32",
+      "tags": {
+        "usage": "copilot"
+      }
+    },
+    {
       "prefix": "20.250.119.64/32",
+      "tags": {
+        "usage": "copilot"
+      }
+    },
+    {
+      "prefix": "48.202.248.32/32",
+      "tags": {
+        "usage": "copilot"
+      }
+    },
+    {
+      "prefix": "48.204.201.0/32",
       "tags": {
         "usage": "copilot"
       }
@@ -85,6 +169,12 @@
     },
     {
       "prefix": "143.55.64.0/20",
+      "tags": {
+        "usage": "copilot"
+      }
+    },
+    {
+      "prefix": "172.182.252.128/32",
       "tags": {
         "usage": "copilot"
       }
