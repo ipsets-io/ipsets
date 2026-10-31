@@ -9,7 +9,7 @@
   "source": {
     "url": ""
   },
-  "count": 1251,
+  "count": 1252,
   "prefixes": [
     {
       "prefix": "1.178.172.0/23",
@@ -3514,6 +3514,24 @@
       "tags": {
         "provider": "azure",
         "service": "AzureFrontDoor.Backend"
+      }
+    },
+    {
+      "prefix": "51.72.40.128/28",
+      "tags": {
+        "network_border_group": "eusc-de-east-1",
+        "provider": "aws",
+        "region": "eusc-de-east-1",
+        "service": "CLOUDFRONT"
+      }
+    },
+    {
+      "prefix": "51.72.40.144/28",
+      "tags": {
+        "network_border_group": "eusc-de-east-1",
+        "provider": "aws",
+        "region": "eusc-de-east-1",
+        "service": "CLOUDFRONT"
       }
     },
     {
@@ -8432,12 +8450,6 @@
     },
     {
       "prefix": "195.201.11.156/32",
-      "tags": {
-        "provider": "bunny"
-      }
-    },
-    {
-      "prefix": "195.201.81.217/32",
       "tags": {
         "provider": "bunny"
       }
