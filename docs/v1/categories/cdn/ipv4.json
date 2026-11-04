@@ -9,7 +9,7 @@
   "source": {
     "url": ""
   },
-  "count": 1252,
+  "count": 1253,
   "prefixes": [
     {
       "prefix": "1.178.172.0/23",
@@ -2730,6 +2730,15 @@
         "network_border_group": "af-south-1",
         "provider": "aws",
         "region": "af-south-1",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
+      "prefix": "35.54.16.0/20",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "provider": "aws",
+        "region": "GLOBAL",
         "service": "GLOBALACCELERATOR"
       }
     },

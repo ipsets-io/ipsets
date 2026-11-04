@@ -10,7 +10,7 @@
     "url": "https://ip-ranges.amazonaws.com/ip-ranges.json",
     "homepage": "https://docs.aws.amazon.com/vpc/latest/userguide/aws-ip-ranges.html"
   },
-  "count": 34,
+  "count": 35,
   "prefixes": [
     {
       "prefix": "2001:3fc6:4::/48",
@@ -254,6 +254,14 @@
     },
     {
       "prefix": "2600:9000:f800::/37",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "region": "GLOBAL",
+        "service": "CLOUDFRONT"
+      }
+    },
+    {
+      "prefix": "2600:f0f0:9::/48",
       "tags": {
         "network_border_group": "GLOBAL",
         "region": "GLOBAL",

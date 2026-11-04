@@ -10,7 +10,7 @@
     "url": "https://ip-ranges.amazonaws.com/ip-ranges.json",
     "homepage": "https://docs.aws.amazon.com/vpc/latest/userguide/aws-ip-ranges.html"
   },
-  "count": 132,
+  "count": 133,
   "prefixes": [
     {
       "prefix": "1.178.172.0/23",
@@ -689,6 +689,14 @@
       "tags": {
         "network_border_group": "af-south-1",
         "region": "af-south-1",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
+      "prefix": "35.54.16.0/20",
+      "tags": {
+        "network_border_group": "GLOBAL",
+        "region": "GLOBAL",
         "service": "GLOBALACCELERATOR"
       }
     },

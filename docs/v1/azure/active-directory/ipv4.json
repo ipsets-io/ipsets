@@ -1718,6 +1718,7 @@
     {
       "prefix": "135.225.177.112/28",
       "tags": {
+        "region": "swedencentral",
         "service": "AzureActiveDirectory"
       }
     },
