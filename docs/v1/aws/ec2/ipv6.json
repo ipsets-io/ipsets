@@ -14046,7 +14046,7 @@
     {
       "prefix": "2600:f0f3:f010:3400::/56",
       "tags": {
-        "network_border_group": "us-east-1",
+        "network_border_group": "us-east-1-atl-2",
         "region": "us-east-1",
         "service": "EC2"
       }
@@ -14070,7 +14070,7 @@
     {
       "prefix": "2600:f0f3:f010:3800::/56",
       "tags": {
-        "network_border_group": "us-east-1",
+        "network_border_group": "us-east-1-chi-2",
         "region": "us-east-1",
         "service": "EC2"
       }
