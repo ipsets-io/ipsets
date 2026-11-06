@@ -9,8 +9,14 @@
   "source": {
     "url": ""
   },
-  "count": 1238,
+  "count": 1241,
   "prefixes": [
+    {
+      "prefix": "2.26.122.108/32",
+      "tags": {
+        "provider": "tor"
+      }
+    },
     {
       "prefix": "2.56.10.36/32",
       "tags": {
@@ -2370,12 +2376,6 @@
       }
     },
     {
-      "prefix": "62.182.84.146/32",
-      "tags": {
-        "provider": "tor"
-      }
-    },
-    {
       "prefix": "64.188.93.178/32",
       "tags": {
         "provider": "tor"
@@ -2460,12 +2460,6 @@
       }
     },
     {
-      "prefix": "69.48.228.178/32",
-      "tags": {
-        "provider": "tor"
-      }
-    },
-    {
       "prefix": "69.163.77.166/32",
       "tags": {
         "provider": "tor"
@@ -2497,12 +2491,6 @@
     },
     {
       "prefix": "77.90.185.93/32",
-      "tags": {
-        "provider": "tor"
-      }
-    },
-    {
-      "prefix": "78.141.219.102/32",
       "tags": {
         "provider": "tor"
       }
@@ -3144,6 +3132,12 @@
       }
     },
     {
+      "prefix": "104.244.72.132/32",
+      "tags": {
+        "provider": "tor"
+      }
+    },
+    {
       "prefix": "104.244.73.43/32",
       "tags": {
         "provider": "tor"
@@ -3163,6 +3157,12 @@
     },
     {
       "prefix": "104.244.74.97/32",
+      "tags": {
+        "provider": "tor"
+      }
+    },
+    {
+      "prefix": "104.244.75.74/32",
       "tags": {
         "provider": "tor"
       }
@@ -4644,6 +4644,18 @@
       }
     },
     {
+      "prefix": "185.217.2.239/32",
+      "tags": {
+        "provider": "tor"
+      }
+    },
+    {
+      "prefix": "185.217.2.241/32",
+      "tags": {
+        "provider": "tor"
+      }
+    },
+    {
       "prefix": "185.220.100.240/32",
       "tags": {
         "provider": "tor"
@@ -5772,6 +5784,12 @@
       }
     },
     {
+      "prefix": "188.137.153.122/32",
+      "tags": {
+        "provider": "tor"
+      }
+    },
+    {
       "prefix": "188.239.191.25/32",
       "tags": {
         "provider": "tor"
@@ -5821,6 +5839,12 @@
     },
     {
       "prefix": "192.3.47.172/32",
+      "tags": {
+        "provider": "tor"
+      }
+    },
+    {
+      "prefix": "192.3.146.243/32",
       "tags": {
         "provider": "tor"
       }
@@ -6258,12 +6282,6 @@
       }
     },
     {
-      "prefix": "193.32.162.86/32",
-      "tags": {
-        "provider": "tor"
-      }
-    },
-    {
       "prefix": "193.36.132.21/32",
       "tags": {
         "provider": "tor"
@@ -6582,7 +6600,7 @@
       }
     },
     {
-      "prefix": "198.167.206.215/32",
+      "prefix": "198.167.206.217/32",
       "tags": {
         "provider": "tor"
       }

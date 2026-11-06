@@ -10,7 +10,7 @@
     "url": "https://www.bing.com/toolbox/bingbot.json",
     "homepage": "https://www.bing.com/webmasters/help/how-to-verify-bingbot-3905dc26"
   },
-  "count": 28,
+  "count": 29,
   "prefixes": [
     {
       "prefix": "13.66.139.0/24"
@@ -71,6 +71,9 @@
     },
     {
       "prefix": "51.105.67.0/28"
+    },
+    {
+      "prefix": "52.130.224.112/28"
     },
     {
       "prefix": "52.167.144.0/24"

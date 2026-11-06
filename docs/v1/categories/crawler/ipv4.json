@@ -9,7 +9,7 @@
   "source": {
     "url": ""
   },
-  "count": 1943,
+  "count": 1954,
   "prefixes": [
     {
       "prefix": "3.222.232.239/32",
@@ -6500,6 +6500,12 @@
       }
     },
     {
+      "prefix": "52.130.224.112/28",
+      "tags": {
+        "provider": "bing"
+      }
+    },
+    {
       "prefix": "52.142.24.149/32",
       "tags": {
         "provider": "duckduckgo"
@@ -11488,6 +11494,76 @@
     },
     {
       "prefix": "136.124.136.64/27",
+      "tags": {
+        "list": "user-triggered-fetchers",
+        "provider": "google"
+      }
+    },
+    {
+      "prefix": "136.124.142.0/27",
+      "tags": {
+        "list": "user-triggered-fetchers",
+        "provider": "google"
+      }
+    },
+    {
+      "prefix": "136.124.142.32/27",
+      "tags": {
+        "list": "user-triggered-fetchers",
+        "provider": "google"
+      }
+    },
+    {
+      "prefix": "136.124.142.64/27",
+      "tags": {
+        "list": "user-triggered-fetchers",
+        "provider": "google"
+      }
+    },
+    {
+      "prefix": "136.124.142.96/27",
+      "tags": {
+        "list": "user-triggered-fetchers",
+        "provider": "google"
+      }
+    },
+    {
+      "prefix": "136.124.142.128/27",
+      "tags": {
+        "list": "user-triggered-fetchers",
+        "provider": "google"
+      }
+    },
+    {
+      "prefix": "136.124.143.0/27",
+      "tags": {
+        "list": "user-triggered-fetchers",
+        "provider": "google"
+      }
+    },
+    {
+      "prefix": "136.124.143.32/27",
+      "tags": {
+        "list": "user-triggered-fetchers",
+        "provider": "google"
+      }
+    },
+    {
+      "prefix": "136.124.144.0/27",
+      "tags": {
+        "list": "user-triggered-fetchers",
+        "provider": "google"
+      }
+    },
+    {
+      "prefix": "136.124.144.32/27",
+      "tags": {
+        "list": "user-triggered-fetchers",
+        "provider": "google"
+      }
+    },
+    {
+      "prefix": "136.124.144.64/27",
       "tags": {
         "list": "user-triggered-fetchers",
         "provider": "google"
