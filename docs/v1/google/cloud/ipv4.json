@@ -9,7 +9,7 @@
     "url": "https://www.gstatic.com/ipranges/cloud.json",
     "homepage": "https://developers.google.com/search/docs/crawling-indexing/verifying-googlebot"
   },
-  "count": 1056,
+  "count": 1058,
   "prefixes": [
     {
       "prefix": "8.34.208.0/23",
@@ -4900,6 +4900,14 @@
       }
     },
     {
+      "prefix": "34.183.174.0/24",
+      "tags": {
+        "list": "cloud",
+        "scope": "northamerica-northeast1",
+        "service": "Google Cloud"
+      }
+    },
+    {
       "prefix": "34.184.0.0/24",
       "tags": {
         "list": "cloud",
@@ -5544,6 +5552,14 @@
       "tags": {
         "list": "cloud",
         "scope": "northamerica-south1",
+        "service": "Google Cloud"
+      }
+    },
+    {
+      "prefix": "34.184.171.0/24",
+      "tags": {
+        "list": "cloud",
+        "scope": "northamerica-northeast1",
         "service": "Google Cloud"
       }
     },
