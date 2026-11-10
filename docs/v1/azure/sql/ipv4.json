@@ -4345,18 +4345,21 @@
     {
       "prefix": "48.197.92.96/27",
       "tags": {
+        "region": "saudiarabiaeast",
         "service": "Sql"
       }
     },
     {
       "prefix": "48.197.92.128/27",
       "tags": {
+        "region": "saudiarabiaeast",
         "service": "Sql"
       }
     },
     {
       "prefix": "48.197.92.192/26",
       "tags": {
+        "region": "saudiarabiaeast",
         "service": "Sql"
       }
     },

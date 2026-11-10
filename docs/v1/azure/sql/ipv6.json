@@ -2681,12 +2681,14 @@
     {
       "prefix": "2603:1040:1a02:3::400/123",
       "tags": {
+        "region": "saudiarabiaeast",
         "service": "Sql"
       }
     },
     {
       "prefix": "2603:1040:1a02:3::480/121",
       "tags": {
+        "region": "saudiarabiaeast",
         "service": "Sql"
       }
     },

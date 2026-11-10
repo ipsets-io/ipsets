@@ -9,7 +9,7 @@
     "url": "https://www.microsoft.com/en-us/download/details.aspx?id=56519",
     "homepage": "https://learn.microsoft.com/en-us/azure/virtual-network/service-tags-overview"
   },
-  "count": 1936,
+  "count": 1949,
   "prefixes": [
     {
       "prefix": "4.144.10.32/27",
@@ -1083,6 +1083,13 @@
       }
     },
     {
+      "prefix": "4.240.138.64/27",
+      "tags": {
+        "region": "jioindiacentral",
+        "service": "AzureMonitor"
+      }
+    },
+    {
       "prefix": "4.240.149.32/27",
       "tags": {
         "region": "jioindiacentral",
@@ -1226,6 +1233,13 @@
       "prefix": "4.253.156.32/28",
       "tags": {
         "region": "southafricanorth",
+        "service": "AzureMonitor"
+      }
+    },
+    {
+      "prefix": "4.254.142.64/27",
+      "tags": {
+        "region": "australiacentral2",
         "service": "AzureMonitor"
       }
     },
@@ -5199,6 +5213,13 @@
       }
     },
     {
+      "prefix": "20.199.234.96/27",
+      "tags": {
+        "region": "switzerlandw",
+        "service": "AzureMonitor"
+      }
+    },
+    {
       "prefix": "20.200.5.48/28",
       "tags": {
         "region": "canadaeast",
@@ -5382,6 +5403,13 @@
     },
     {
       "prefix": "20.207.175.120/29",
+      "tags": {
+        "region": "westindia",
+        "service": "AzureMonitor"
+      }
+    },
+    {
+      "prefix": "20.207.181.160/27",
       "tags": {
         "region": "westindia",
         "service": "AzureMonitor"
@@ -7439,36 +7467,42 @@
     {
       "prefix": "48.197.90.208/28",
       "tags": {
+        "region": "saudiarabiaeast",
         "service": "AzureMonitor"
       }
     },
     {
       "prefix": "48.197.92.0/31",
       "tags": {
+        "region": "saudiarabiaeast",
         "service": "AzureMonitor"
       }
     },
     {
       "prefix": "48.197.92.32/27",
       "tags": {
+        "region": "saudiarabiaeast",
         "service": "AzureMonitor"
       }
     },
     {
       "prefix": "48.197.92.64/27",
       "tags": {
+        "region": "saudiarabiaeast",
         "service": "AzureMonitor"
       }
     },
     {
       "prefix": "48.197.144.0/26",
       "tags": {
+        "region": "saudiarabiaeast",
         "service": "AzureMonitor"
       }
     },
     {
       "prefix": "48.197.151.0/26",
       "tags": {
+        "region": "saudiarabiaeast",
         "service": "AzureMonitor"
       }
     },
@@ -7656,6 +7690,13 @@
     },
     {
       "prefix": "48.219.9.64/27",
+      "tags": {
+        "region": "southcentralus2",
+        "service": "AzureMonitor"
+      }
+    },
+    {
+      "prefix": "48.219.53.96/27",
       "tags": {
         "region": "southcentralus2",
         "service": "AzureMonitor"
@@ -10497,6 +10538,20 @@
       }
     },
     {
+      "prefix": "68.154.178.160/27",
+      "tags": {
+        "region": "southeastus",
+        "service": "AzureMonitor"
+      }
+    },
+    {
+      "prefix": "68.154.178.192/27",
+      "tags": {
+        "region": "southeastus",
+        "service": "AzureMonitor"
+      }
+    },
+    {
       "prefix": "68.210.30.192/28",
       "tags": {
         "region": "austriaeast",
@@ -11211,6 +11266,13 @@
       }
     },
     {
+      "prefix": "74.150.19.192/27",
+      "tags": {
+        "region": "uaecentral",
+        "service": "AzureMonitor"
+      }
+    },
+    {
       "prefix": "74.151.8.0/26",
       "tags": {
         "region": "eastus2euap",
@@ -11393,6 +11455,13 @@
       }
     },
     {
+      "prefix": "74.240.19.128/27",
+      "tags": {
+        "region": "norwayw",
+        "service": "AzureMonitor"
+      }
+    },
+    {
       "prefix": "74.240.192.64/26",
       "tags": {
         "region": "norwaye",
@@ -11415,6 +11484,13 @@
     },
     {
       "prefix": "74.241.63.160/28",
+      "tags": {
+        "region": "swedensouth",
+        "service": "AzureMonitor"
+      }
+    },
+    {
+      "prefix": "74.241.71.224/27",
       "tags": {
         "region": "swedensouth",
         "service": "AzureMonitor"
@@ -11520,6 +11596,13 @@
     },
     {
       "prefix": "98.66.30.160/27",
+      "tags": {
+        "region": "southfrance",
+        "service": "AzureMonitor"
+      }
+    },
+    {
+      "prefix": "98.66.43.128/27",
       "tags": {
         "region": "southfrance",
         "service": "AzureMonitor"
@@ -12527,6 +12610,13 @@
       }
     },
     {
+      "prefix": "172.128.3.192/27",
+      "tags": {
+        "region": "indiasouthcentral",
+        "service": "AzureMonitor"
+      }
+    },
+    {
       "prefix": "172.129.89.110/31",
       "tags": {
         "service": "AzureMonitor"
@@ -13014,6 +13104,13 @@
     },
     {
       "prefix": "172.197.44.160/27",
+      "tags": {
+        "region": "malaysiasouth",
+        "service": "AzureMonitor"
+      }
+    },
+    {
+      "prefix": "172.197.53.32/27",
       "tags": {
         "region": "malaysiasouth",
         "service": "AzureMonitor"

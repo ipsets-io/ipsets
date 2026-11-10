@@ -4288,6 +4288,7 @@
     {
       "prefix": "48.197.85.0/24",
       "tags": {
+        "region": "saudiarabiaeast",
         "service": "AppService"
       }
     },

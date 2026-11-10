@@ -2258,12 +2258,14 @@
     {
       "prefix": "48.197.76.192/26",
       "tags": {
+        "region": "saudiarabiaeast",
         "service": "AzureContainerRegistry"
       }
     },
     {
       "prefix": "48.197.88.128/26",
       "tags": {
+        "region": "saudiarabiaeast",
         "service": "AzureContainerRegistry"
       }
     },

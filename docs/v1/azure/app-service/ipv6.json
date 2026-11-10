@@ -1401,6 +1401,7 @@
     {
       "prefix": "2603:1040:1a02:2::/120",
       "tags": {
+        "region": "saudiarabiaeast",
         "service": "AppService"
       }
     },

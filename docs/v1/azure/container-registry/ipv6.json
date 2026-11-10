@@ -4077,18 +4077,21 @@
     {
       "prefix": "2603:1040:1a02::700/125",
       "tags": {
+        "region": "saudiarabiaeast",
         "service": "AzureContainerRegistry"
       }
     },
     {
       "prefix": "2603:1040:1a02:2::580/121",
       "tags": {
+        "region": "saudiarabiaeast",
         "service": "AzureContainerRegistry"
       }
     },
     {
       "prefix": "2603:1040:1a02:400::8/125",
       "tags": {
+        "region": "saudiarabiaeast",
         "service": "AzureContainerRegistry"
       }
     },
