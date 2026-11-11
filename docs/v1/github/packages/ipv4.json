@@ -9,7 +9,7 @@
     "url": "https://api.github.com/meta",
     "homepage": "https://docs.github.com/en/rest/meta/meta"
   },
-  "count": 31,
+  "count": 30,
   "prefixes": [
     {
       "prefix": "4.207.215.240/28",
@@ -85,12 +85,6 @@
     },
     {
       "prefix": "20.200.245.241/32",
-      "tags": {
-        "usage": "packages"
-      }
-    },
-    {
-      "prefix": "20.201.28.144/32",
       "tags": {
         "usage": "packages"
       }

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-10T12:21:18Z",
+  "generated_at": "2026-11-11T11:45:31Z",
   "providers": [
     {
       "id": "anthropic",
@@ -89,8 +89,8 @@
           "category": "cdn",
           "ipv4": {
             "path": "/v1/aws/global-accelerator/ipv4.json",
-            "count": 133,
-            "sha256": "8c67c09e709ca09b02ea9de63423bfd7f72a3fb5f1bd0c6ff23ee63a76584628"
+            "count": 134,
+            "sha256": "091b09622f7e552023d9759da2fa65c48025abfe30002280174bc0853fcb50a5"
           },
           "ipv6": {
             "path": "/v1/aws/global-accelerator/ipv6.json",
@@ -147,8 +147,8 @@
           "name": "EC2",
           "ipv4": {
             "path": "/v1/aws/ec2/ipv4.json",
-            "count": 1906,
-            "sha256": "48d8d3eebf40c1e7ff5050148cbdfe7c44eabc463f6b99eda48e4ac189db4cc9"
+            "count": 1909,
+            "sha256": "3852f46212c972854df95198fb5ccee90fa1f9fff8515af343f1e24554e52c42"
           },
           "ipv6": {
             "path": "/v1/aws/ec2/ipv6.json",
@@ -626,13 +626,13 @@
           "category": "cdn",
           "ipv4": {
             "path": "/v1/bunny/cdn/ipv4.json",
-            "count": 585,
-            "sha256": "7672ecbc56f0dbc40ef91f6bf8ad25f3ec2e40191d493c957861c02b41d2bb2c"
+            "count": 587,
+            "sha256": "088d2e321706192311450a84896127db103ca12021be5c72b36a2b6e6cd8e9d3"
           },
           "ipv6": {
             "path": "/v1/bunny/cdn/ipv6.json",
-            "count": 321,
-            "sha256": "fffcf9f4d223a8ad719ac128747d9e96e6b4e5c9abda5498ffc5bd4d8651b367"
+            "count": 337,
+            "sha256": "f1e60500588aac2f2d1c4324e7432f81dc41c115d2818b4b52b6b5c8616effcf"
           }
         }
       ]
@@ -939,8 +939,8 @@
           "name": "Web",
           "ipv4": {
             "path": "/v1/github/web/ipv4.json",
-            "count": 68,
-            "sha256": "7198484da1b27403412a48ca7d84e416b9c3a93a53639ffadfbe4f44de8f0900"
+            "count": 67,
+            "sha256": "0e0fbbca89c48cf19e65499d7097f77328181d3c040d8b83341e9bb8be34b6b4"
           },
           "ipv6": {
             "path": "/v1/github/web/ipv6.json",
@@ -953,8 +953,8 @@
           "name": "API",
           "ipv4": {
             "path": "/v1/github/api/ipv4.json",
-            "count": 25,
-            "sha256": "916db94344f541f1d987d6ff9b16d4a35d17f2d0f54e627eaba94f0a98cd3818"
+            "count": 24,
+            "sha256": "37cc08d91644c9f6cfed114e55e6eb91c66f8734f2672983c075061a0b5b43f9"
           },
           "ipv6": {
             "path": "/v1/github/api/ipv6.json",
@@ -967,8 +967,8 @@
           "name": "Git",
           "ipv4": {
             "path": "/v1/github/git/ipv4.json",
-            "count": 89,
-            "sha256": "390d88d20bcf058801eb92cd2d9c3aba21a1b7f8d8cb91e487447eb707a5035c"
+            "count": 87,
+            "sha256": "9483a1b7288af04d72e2cd08e2a6121e2f4a530f7578ec15310a12f7919b0f91"
           },
           "ipv6": {
             "path": "/v1/github/git/ipv6.json",
@@ -981,8 +981,8 @@
           "name": "Packages",
           "ipv4": {
             "path": "/v1/github/packages/ipv4.json",
-            "count": 31,
-            "sha256": "1a714fee0d8a393d9e30c2b597f454e3388059192096da6773a548caef488279"
+            "count": 30,
+            "sha256": "c444dce7996330a68196c9b07557d30e002381910414c8cab22bef8db351de13"
           },
           "ipv6": {
             "path": "/v1/github/packages/ipv6.json",
@@ -1037,8 +1037,8 @@
           "name": "Copilot",
           "ipv4": {
             "path": "/v1/github/copilot/ipv4.json",
-            "count": 60,
-            "sha256": "2f6d05939819b596bd089a89b7422698f8c6c19dce548b808da9eb9b96641e47"
+            "count": 59,
+            "sha256": "d9ef259d3eb5f215b520b46fe37b6807250cbc8648ebd9050fafd2b2a3e5445b"
           },
           "ipv6": {
             "path": "/v1/github/copilot/ipv6.json",
@@ -1292,7 +1292,7 @@
           "ipv4": {
             "path": "/v1/sans/top-attackers/ipv4.json",
             "count": 20,
-            "sha256": "4b8fccba498ed497a17fa320e424eac6b8b5c331ed89c1649cfe9211414376dc"
+            "sha256": "14b4d32734ca91f17ebef5a428f734813f6d0f441003c821e7980b5f97db9340"
           },
           "ipv6": {
             "path": "/v1/sans/top-attackers/ipv6.json",
@@ -1443,8 +1443,8 @@
           "category": "anonymizer",
           "ipv4": {
             "path": "/v1/tor/exits/ipv4.json",
-            "count": 1250,
-            "sha256": "c1cb90fc300f6d567d8c2e3801f4a566336283f99abdca902d9c3cf7543dad55"
+            "count": 1253,
+            "sha256": "c8620951d6a8308dbaa90a72fea4c17ff400a2071bdec412d97574df1ef45860"
           },
           "ipv6": {
             "path": "/v1/tor/exits/ipv6.json",
@@ -1466,7 +1466,7 @@
           "ipv4": {
             "path": "/v1/categories/abuse/ipv4.json",
             "count": 20,
-            "sha256": "a7c3838c315de9b57f57d6cd64533be97725ae6f63af0b066869b4f8d67f876b"
+            "sha256": "248ed2c6d154a924062486bc49049ae04f2d1d09df5b4b9e17cf0e5f0bde9a12"
           },
           "ipv6": {
             "path": "/v1/categories/abuse/ipv6.json",
@@ -1485,8 +1485,8 @@
           "category": "anonymizer",
           "ipv4": {
             "path": "/v1/categories/anonymizer/ipv4.json",
-            "count": 1250,
-            "sha256": "7842aafc10107809ee0e86574fad55a8633b183271926f73c1877618b9d5e0eb"
+            "count": 1253,
+            "sha256": "24652a05bd526300486c3db7198da8774cc8ed2ee7b816820b2d1a8ec8828785"
           },
           "ipv6": {
             "path": "/v1/categories/anonymizer/ipv6.json",
@@ -1505,13 +1505,13 @@
           "category": "cdn",
           "ipv4": {
             "path": "/v1/categories/cdn/ipv4.json",
-            "count": 1253,
-            "sha256": "591381e1a1ce18ca69a0ababddeb9ce3b403fb4dc834e3157bc229e741c39978"
+            "count": 1256,
+            "sha256": "ec6c4769ce70570c51f14121889744272f7d7beef08e7f77c22ccc4f8fac41d5"
           },
           "ipv6": {
             "path": "/v1/categories/cdn/ipv6.json",
-            "count": 640,
-            "sha256": "b7e360bd15f1f7f698cf10849cbddf01f36f11c111f0672355b0d61c9cf2a689"
+            "count": 656,
+            "sha256": "3856e2edff45bdc0aa8ba5b04e289af7b392fd8e8e5135a792a2542c218a2d0f"
           }
         }
       ]

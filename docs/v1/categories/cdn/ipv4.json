@@ -9,7 +9,7 @@
   "source": {
     "url": ""
   },
-  "count": 1253,
+  "count": 1256,
   "prefixes": [
     {
       "prefix": "1.178.172.0/23",
@@ -5377,6 +5377,15 @@
       }
     },
     {
+      "prefix": "99.83.110.0/24",
+      "tags": {
+        "network_border_group": "us-east-1",
+        "provider": "aws",
+        "region": "us-east-1",
+        "service": "GLOBALACCELERATOR"
+      }
+    },
+    {
       "prefix": "99.83.128.0/17",
       "tags": {
         "network_border_group": "GLOBAL",
@@ -6175,6 +6184,18 @@
         "provider": "aws",
         "region": "GLOBAL",
         "service": "CLOUDFRONT"
+      }
+    },
+    {
+      "prefix": "121.127.46.10/32",
+      "tags": {
+        "provider": "bunny"
+      }
+    },
+    {
+      "prefix": "121.127.46.11/32",
+      "tags": {
+        "provider": "bunny"
       }
     },
     {
@@ -7965,6 +7986,12 @@
       }
     },
     {
+      "prefix": "185.24.11.22/32",
+      "tags": {
+        "provider": "bunny"
+      }
+    },
+    {
       "prefix": "185.31.16.0/22",
       "tags": {
         "provider": "fastly"
@@ -8242,12 +8269,6 @@
     },
     {
       "prefix": "185.165.170.74/32",
-      "tags": {
-        "provider": "bunny"
-      }
-    },
-    {
-      "prefix": "185.180.12.68/32",
       "tags": {
         "provider": "bunny"
       }

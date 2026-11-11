@@ -9,7 +9,7 @@
     "url": "https://api.github.com/meta",
     "homepage": "https://docs.github.com/en/rest/meta/meta"
   },
-  "count": 60,
+  "count": 59,
   "prefixes": [
     {
       "prefix": "4.149.173.80/28",
@@ -187,12 +187,6 @@
     },
     {
       "prefix": "20.200.245.249/32",
-      "tags": {
-        "usage": "copilot"
-      }
-    },
-    {
-      "prefix": "20.201.28.153/32",
       "tags": {
         "usage": "copilot"
       }
