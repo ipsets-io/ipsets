@@ -9,7 +9,7 @@
     "url": "https://api.github.com/meta",
     "homepage": "https://docs.github.com/en/rest/meta/meta"
   },
-  "count": 59,
+  "count": 71,
   "prefixes": [
     {
       "prefix": "4.149.173.80/28",
@@ -25,6 +25,12 @@
     },
     {
       "prefix": "4.159.197.192/28",
+      "tags": {
+        "usage": "copilot"
+      }
+    },
+    {
+      "prefix": "4.163.8.144/28",
       "tags": {
         "usage": "copilot"
       }
@@ -72,6 +78,18 @@
       }
     },
     {
+      "prefix": "4.209.111.112/28",
+      "tags": {
+        "usage": "copilot"
+      }
+    },
+    {
+      "prefix": "4.209.112.0/28",
+      "tags": {
+        "usage": "copilot"
+      }
+    },
+    {
       "prefix": "4.225.11.192/32",
       "tags": {
         "usage": "copilot"
@@ -79,6 +97,12 @@
     },
     {
       "prefix": "4.225.187.240/28",
+      "tags": {
+        "usage": "copilot"
+      }
+    },
+    {
+      "prefix": "4.225.189.240/28",
       "tags": {
         "usage": "copilot"
       }
@@ -115,6 +139,12 @@
     },
     {
       "prefix": "13.107.5.93/32",
+      "tags": {
+        "usage": "copilot"
+      }
+    },
+    {
+      "prefix": "20.6.7.16/28",
       "tags": {
         "usage": "copilot"
       }
@@ -204,6 +234,12 @@
       }
     },
     {
+      "prefix": "20.208.89.80/28",
+      "tags": {
+        "usage": "copilot"
+      }
+    },
+    {
       "prefix": "20.217.135.9/32",
       "tags": {
         "usage": "copilot"
@@ -211,6 +247,12 @@
     },
     {
       "prefix": "20.233.83.153/32",
+      "tags": {
+        "usage": "copilot"
+      }
+    },
+    {
+      "prefix": "20.247.166.64/28",
       "tags": {
         "usage": "copilot"
       }
@@ -300,6 +342,18 @@
       }
     },
     {
+      "prefix": "57.155.223.240/28",
+      "tags": {
+        "usage": "copilot"
+      }
+    },
+    {
+      "prefix": "74.161.79.192/28",
+      "tags": {
+        "usage": "copilot"
+      }
+    },
+    {
       "prefix": "135.235.149.144/28",
       "tags": {
         "usage": "copilot"
@@ -324,6 +378,18 @@
       }
     },
     {
+      "prefix": "172.130.18.192/28",
+      "tags": {
+        "usage": "copilot"
+      }
+    },
+    {
+      "prefix": "172.130.45.112/28",
+      "tags": {
+        "usage": "copilot"
+      }
+    },
+    {
       "prefix": "172.130.153.16/28",
       "tags": {
         "usage": "copilot"
@@ -331,6 +397,12 @@
     },
     {
       "prefix": "172.130.201.80/28",
+      "tags": {
+        "usage": "copilot"
+      }
+    },
+    {
+      "prefix": "172.139.64.112/28",
       "tags": {
         "usage": "copilot"
       }

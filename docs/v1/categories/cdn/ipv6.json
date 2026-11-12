@@ -9,7 +9,7 @@
   "source": {
     "url": ""
   },
-  "count": 656,
+  "count": 658,
   "prefixes": [
     {
       "prefix": "2001:550:2:38::28:2/128",
@@ -2493,6 +2493,12 @@
       }
     },
     {
+      "prefix": "2602:fec3:201:8::1209:1/128",
+      "tags": {
+        "provider": "bunny"
+      }
+    },
+    {
       "prefix": "2602:ffe4:c06:40a5::2/128",
       "tags": {
         "provider": "bunny"
@@ -4099,6 +4105,12 @@
     },
     {
       "prefix": "2a02:6ea0:c515::1537:1/128",
+      "tags": {
+        "provider": "bunny"
+      }
+    },
+    {
+      "prefix": "2a02:6ea0:c54c::725:1/128",
       "tags": {
         "provider": "bunny"
       }

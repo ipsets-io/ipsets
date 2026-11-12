@@ -10,7 +10,7 @@
     "url": "https://bunnycdn.com/api/system/edgeserverlist",
     "homepage": "https://bunny.net/"
   },
-  "count": 337,
+  "count": 339,
   "prefixes": [
     {
       "prefix": "2001:550:2:38::28:2/128"
@@ -775,6 +775,9 @@
       "prefix": "2405:5700:1:380::1436:1/128"
     },
     {
+      "prefix": "2602:fec3:201:8::1209:1/128"
+    },
+    {
       "prefix": "2602:ffe4:c06:40a5::2/128"
     },
     {
@@ -890,6 +893,9 @@
     },
     {
       "prefix": "2a02:6ea0:c515::1537:1/128"
+    },
+    {
+      "prefix": "2a02:6ea0:c54c::725:1/128"
     },
     {
       "prefix": "2a02:6ea0:d70d:1::919:1/128"
