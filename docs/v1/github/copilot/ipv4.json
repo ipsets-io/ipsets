@@ -9,10 +9,16 @@
     "url": "https://api.github.com/meta",
     "homepage": "https://docs.github.com/en/rest/meta/meta"
   },
-  "count": 71,
+  "count": 76,
   "prefixes": [
     {
       "prefix": "4.149.173.80/28",
+      "tags": {
+        "usage": "copilot"
+      }
+    },
+    {
+      "prefix": "4.158.254.48/28",
       "tags": {
         "usage": "copilot"
       }
@@ -115,6 +121,18 @@
     },
     {
       "prefix": "4.234.31.32/28",
+      "tags": {
+        "usage": "copilot"
+      }
+    },
+    {
+      "prefix": "4.234.31.128/28",
+      "tags": {
+        "usage": "copilot"
+      }
+    },
+    {
+      "prefix": "4.234.47.112/28",
       "tags": {
         "usage": "copilot"
       }
@@ -318,6 +336,12 @@
       }
     },
     {
+      "prefix": "48.202.91.176/28",
+      "tags": {
+        "usage": "copilot"
+      }
+    },
+    {
       "prefix": "48.202.248.32/32",
       "tags": {
         "usage": "copilot"
@@ -343,6 +367,12 @@
     },
     {
       "prefix": "57.155.223.240/28",
+      "tags": {
+        "usage": "copilot"
+      }
+    },
+    {
+      "prefix": "57.166.80.144/28",
       "tags": {
         "usage": "copilot"
       }
