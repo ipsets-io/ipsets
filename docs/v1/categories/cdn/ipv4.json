@@ -9,7 +9,7 @@
   "source": {
     "url": ""
   },
-  "count": 1263,
+  "count": 1264,
   "prefixes": [
     {
       "prefix": "1.178.172.0/23",
@@ -3530,8 +3530,7 @@
       "tags": {
         "network_border_group": "eusc-de-east-1",
         "provider": "aws",
-        "region": "eusc-de-east-1",
-        "service": "CLOUDFRONT"
+        "region": "eusc-de-east-1"
       }
     },
     {
@@ -3539,8 +3538,15 @@
       "tags": {
         "network_border_group": "eusc-de-east-1",
         "provider": "aws",
-        "region": "eusc-de-east-1",
-        "service": "CLOUDFRONT"
+        "region": "eusc-de-east-1"
+      }
+    },
+    {
+      "prefix": "51.72.96.0/23",
+      "tags": {
+        "network_border_group": "eusc-de-east-1",
+        "provider": "aws",
+        "region": "eusc-de-east-1"
       }
     },
     {

@@ -7484,6 +7484,14 @@
       }
     },
     {
+      "prefix": "40.163.4.0/24",
+      "tags": {
+        "network_border_group": "us-east-1",
+        "region": "us-east-1",
+        "service": "EC2"
+      }
+    },
+    {
       "prefix": "40.164.0.0/16",
       "tags": {
         "network_border_group": "us-west-1",
@@ -11584,14 +11592,6 @@
       "tags": {
         "network_border_group": "us-east-1",
         "region": "us-east-1",
-        "service": "EC2"
-      }
-    },
-    {
-      "prefix": "72.150.21.0/24",
-      "tags": {
-        "network_border_group": "GLOBAL",
-        "region": "GLOBAL",
         "service": "EC2"
       }
     },

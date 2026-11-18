@@ -9,7 +9,7 @@
     "url": "https://www.microsoft.com/en-us/download/details.aspx?id=56519",
     "homepage": "https://learn.microsoft.com/en-us/azure/virtual-network/service-tags-overview"
   },
-  "count": 1949,
+  "count": 1950,
   "prefixes": [
     {
       "prefix": "4.144.10.32/27",
@@ -7697,6 +7697,13 @@
     },
     {
       "prefix": "48.219.53.96/27",
+      "tags": {
+        "region": "southcentralus2",
+        "service": "AzureMonitor"
+      }
+    },
+    {
+      "prefix": "48.219.53.128/27",
       "tags": {
         "region": "southcentralus2",
         "service": "AzureMonitor"
