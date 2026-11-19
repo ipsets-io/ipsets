@@ -1039,8 +1039,8 @@
     {
       "prefix": "51.74.192.0/18",
       "tags": {
-        "network_border_group": "GLOBAL",
-        "region": "GLOBAL",
+        "network_border_group": "eusc-de-east-1",
+        "region": "eusc-de-east-1",
         "service": "CLOUDFRONT"
       }
     },
