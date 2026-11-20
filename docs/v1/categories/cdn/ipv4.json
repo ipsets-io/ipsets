@@ -9,7 +9,7 @@
   "source": {
     "url": ""
   },
-  "count": 1265,
+  "count": 1264,
   "prefixes": [
     {
       "prefix": "1.178.172.0/23",
@@ -7091,12 +7091,6 @@
     },
     {
       "prefix": "152.233.60.225/32",
-      "tags": {
-        "provider": "bunny"
-      }
-    },
-    {
-      "prefix": "156.59.66.182/32",
       "tags": {
         "provider": "bunny"
       }

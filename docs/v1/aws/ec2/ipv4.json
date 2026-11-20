@@ -9,7 +9,7 @@
     "url": "https://ip-ranges.amazonaws.com/ip-ranges.json",
     "homepage": "https://docs.aws.amazon.com/vpc/latest/userguide/aws-ip-ranges.html"
   },
-  "count": 1907,
+  "count": 1908,
   "prefixes": [
     {
       "prefix": "1.178.1.0/24",
@@ -7488,6 +7488,14 @@
       "tags": {
         "network_border_group": "us-east-1",
         "region": "us-east-1",
+        "service": "EC2"
+      }
+    },
+    {
+      "prefix": "40.163.5.0/24",
+      "tags": {
+        "network_border_group": "eu-central-1",
+        "region": "eu-central-1",
         "service": "EC2"
       }
     },
