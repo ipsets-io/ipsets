@@ -9,7 +9,7 @@
     "url": "https://ip-ranges.amazonaws.com/ip-ranges.json",
     "homepage": "https://docs.aws.amazon.com/vpc/latest/userguide/aws-ip-ranges.html"
   },
-  "count": 101,
+  "count": 104,
   "prefixes": [
     {
       "prefix": "3.103.180.128/25",
@@ -324,6 +324,14 @@
       }
     },
     {
+      "prefix": "32.202.228.0/22",
+      "tags": {
+        "network_border_group": "us-east-1",
+        "region": "us-east-1",
+        "service": "EFS"
+      }
+    },
+    {
       "prefix": "32.236.146.128/25",
       "tags": {
         "network_border_group": "ap-southeast-2",
@@ -632,6 +640,22 @@
       "tags": {
         "network_border_group": "mx-central-1",
         "region": "mx-central-1",
+        "service": "EFS"
+      }
+    },
+    {
+      "prefix": "83.160.241.0/25",
+      "tags": {
+        "network_border_group": "sa-west-1",
+        "region": "sa-west-1",
+        "service": "EFS"
+      }
+    },
+    {
+      "prefix": "83.160.244.0/22",
+      "tags": {
+        "network_border_group": "sa-west-1",
+        "region": "sa-west-1",
         "service": "EFS"
       }
     },
