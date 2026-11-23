@@ -12,18 +12,19 @@
   "count": 20,
   "prefixes": [
     {
-      "prefix": "45.156.129.0/24",
+      "prefix": "35.210.204.0/24",
       "tags": {
-        "attacks": "334",
-        "country": "PT",
-        "network": "AS-BITSIGHT",
+        "attacks": "329",
+        "contact": "google-cloud-compliance@google.com",
+        "country": "US",
+        "network": "GOOGLE-2",
         "provider": "sans"
       }
     },
     {
       "prefix": "45.198.224.0/24",
       "tags": {
-        "attacks": "352",
+        "attacks": "365",
         "contact": "CSOC@ontario.ca",
         "country": "US",
         "network": "OWS",
@@ -33,7 +34,7 @@
     {
       "prefix": "64.62.197.0/24",
       "tags": {
-        "attacks": "357",
+        "attacks": "348",
         "contact": "abuse@he.net",
         "country": "US",
         "network": "HURRICANE",
@@ -41,66 +42,64 @@
       }
     },
     {
-      "prefix": "65.49.1.0/24",
+      "prefix": "64.205.72.0/24",
+      "tags": {
+        "attacks": "330",
+        "contact": "abuse@gtt.net",
+        "country": "US",
+        "network": "MEGAPATH2-",
+        "provider": "sans"
+      }
+    },
+    {
+      "prefix": "66.132.172.0/24",
       "tags": {
         "attacks": "352",
-        "contact": "abuse@he.net",
+        "provider": "sans"
+      }
+    },
+    {
+      "prefix": "66.132.186.0/24",
+      "tags": {
+        "attacks": "350",
+        "provider": "sans"
+      }
+    },
+    {
+      "prefix": "66.132.195.0/24",
+      "tags": {
+        "attacks": "345",
+        "provider": "sans"
+      }
+    },
+    {
+      "prefix": "77.67.26.0/24",
+      "tags": {
+        "attacks": "331",
+        "contact": "abuse@gtt.net",
         "country": "US",
-        "network": "HURRICANE",
+        "network": "GTT-BACKBONE GTT",
         "provider": "sans"
       }
     },
     {
-      "prefix": "66.132.159.0/24",
+      "prefix": "77.239.124.0/24",
       "tags": {
-        "attacks": "329",
-        "provider": "sans"
-      }
-    },
-    {
-      "prefix": "66.132.224.0/24",
-      "tags": {
-        "attacks": "324",
-        "provider": "sans"
-      }
-    },
-    {
-      "prefix": "69.5.169.0/24",
-      "tags": {
-        "attacks": "348",
-        "contact": "abuse@omnis.com",
-        "country": "US",
-        "network": "OMNIS",
-        "provider": "sans"
-      }
-    },
-    {
-      "prefix": "109.105.210.0/24",
-      "tags": {
-        "attacks": "324",
+        "attacks": "355",
         "provider": "sans"
       }
     },
     {
       "prefix": "138.226.239.0/24",
       "tags": {
-        "attacks": "335",
-        "provider": "sans"
-      }
-    },
-    {
-      "prefix": "147.185.132.0/24",
-      "tags": {
-        "attacks": "338",
-        "country": "US",
-        "network": "GOOGLE-CLOUD-PLATFORM",
+        "attacks": "330",
         "provider": "sans"
       }
     },
     {
       "prefix": "151.243.11.0/24",
       "tags": {
-        "attacks": "341",
+        "attacks": "340",
         "contact": "abuse@rasana.net",
         "country": "IR",
         "network": "RASANA",
@@ -110,7 +109,7 @@
     {
       "prefix": "156.225.1.0/24",
       "tags": {
-        "attacks": "340",
+        "attacks": "332",
         "contact": "sam.yang@oceanbluecloud.com",
         "country": "HK",
         "network": "OCTL-AS-AP OceanBlue Cloud Technology Limited",
@@ -118,25 +117,19 @@
       }
     },
     {
-      "prefix": "160.119.71.0/24",
+      "prefix": "185.242.226.0/24",
       "tags": {
-        "attacks": "335",
-        "provider": "sans"
-      }
-    },
-    {
-      "prefix": "167.94.145.0/24",
-      "tags": {
-        "attacks": "328",
-        "country": "US",
-        "network": "CENSYS-ARIN-02",
+        "attacks": "325",
+        "contact": "abuse@westcall.ru",
+        "country": "NL",
+        "network": "AS49870-BV",
         "provider": "sans"
       }
     },
     {
       "prefix": "193.47.62.0/24",
       "tags": {
-        "attacks": "339",
+        "attacks": "347",
         "contact": "support@quadranet.com",
         "country": "US",
         "network": "ASN-QUADRANET-GLOBAL",
@@ -146,7 +139,7 @@
     {
       "prefix": "193.163.125.0/24",
       "tags": {
-        "attacks": "355",
+        "attacks": "330",
         "country": "GB",
         "network": "INTERNET-MEASUREMENT",
         "provider": "sans"
@@ -155,7 +148,7 @@
     {
       "prefix": "195.182.16.0/24",
       "tags": {
-        "attacks": "335",
+        "attacks": "349",
         "contact": "abuse@omegatelecom.ua",
         "country": "UA",
         "network": "OT2-AS",
@@ -174,14 +167,24 @@
     {
       "prefix": "199.165.159.0/24",
       "tags": {
-        "attacks": "351",
+        "attacks": "361",
+        "provider": "sans"
+      }
+    },
+    {
+      "prefix": "200.138.46.0/24",
+      "tags": {
+        "attacks": "327",
+        "contact": "ld-numeracaoip@oi.net.br",
+        "country": "BR",
+        "network": "V tal",
         "provider": "sans"
       }
     },
     {
       "prefix": "205.210.31.0/24",
       "tags": {
-        "attacks": "341",
+        "attacks": "349",
         "country": "US",
         "network": "GOOGLE-CLOUD-PLATFORM",
         "provider": "sans"
