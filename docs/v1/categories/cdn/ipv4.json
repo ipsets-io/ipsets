@@ -6304,6 +6304,12 @@
       }
     },
     {
+      "prefix": "134.195.197.135/32",
+      "tags": {
+        "provider": "bunny"
+      }
+    },
+    {
       "prefix": "135.222.195.0/29",
       "tags": {
         "provider": "azure",
@@ -7270,12 +7276,6 @@
       "tags": {
         "provider": "azure",
         "service": "AzureFrontDoor.Backend"
-      }
-    },
-    {
-      "prefix": "158.51.123.205/32",
-      "tags": {
-        "provider": "bunny"
       }
     },
     {

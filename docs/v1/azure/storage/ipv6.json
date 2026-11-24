@@ -215,6 +215,7 @@
     {
       "prefix": "2603:1030:11::/48",
       "tags": {
+        "region": "centralus",
         "service": "Storage"
       }
     },

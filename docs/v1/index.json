@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-23T14:14:40Z",
+  "generated_at": "2026-11-24T14:40:55Z",
   "providers": [
     {
       "id": "anthropic",
@@ -147,13 +147,13 @@
           "name": "EC2",
           "ipv4": {
             "path": "/v1/aws/ec2/ipv4.json",
-            "count": 1909,
-            "sha256": "4fbab8fa7d5b9c345f79ff927c4d2afebf920ebff11aa690743bdf45bf28bf6e"
+            "count": 1910,
+            "sha256": "687aeac2b2abd78a191c041a5545c221f39800b74a0ce8c26b38f1c850bb6294"
           },
           "ipv6": {
             "path": "/v1/aws/ec2/ipv6.json",
             "count": 2588,
-            "sha256": "5f93677bc4d039e5c01b226a9955be2fc4f3f402532287dd3ebbe5d50458de97"
+            "sha256": "e993177f2f7f02b9de675ee70cd7115b65c71c2babb6d5140970364d956d35b0"
           }
         },
         {
@@ -544,7 +544,7 @@
           "ipv6": {
             "path": "/v1/azure/storage/ipv6.json",
             "count": 80,
-            "sha256": "79ef00f7e2adc0376d403fe9d87ccae2951da4b545e583f200f20ed77f7fb174"
+            "sha256": "6e5f2f1ed850105d7c4554b8d3d57807870575cb9307fdbefa46b66a96f906e5"
           }
         },
         {
@@ -581,7 +581,7 @@
           "ipv4": {
             "path": "/v1/azure/container-registry/ipv4.json",
             "count": 601,
-            "sha256": "6bd8ff97892c35bd4e860d7517d9e11c41dc50f3845ea32758195c6372e34a2e"
+            "sha256": "88991b178842f7edf88a312d27c9013af576023e9b5d6fe4f743268daf44224f"
           },
           "ipv6": {
             "path": "/v1/azure/container-registry/ipv6.json",
@@ -627,12 +627,12 @@
           "ipv4": {
             "path": "/v1/bunny/cdn/ipv4.json",
             "count": 594,
-            "sha256": "b61729d9bc1fc6205516a53ee6f97ed4879c53dd970da1304f1926cdf2149953"
+            "sha256": "8d39d61904bed8a74f5a85f02f56b515a374aa7840c70ae814ba6f62ff46b0de"
           },
           "ipv6": {
             "path": "/v1/bunny/cdn/ipv6.json",
-            "count": 340,
-            "sha256": "89a67077c393bdd863c64f1c916344f90e7a71e29e154717a29fd29ba943bd17"
+            "count": 339,
+            "sha256": "070af536afd2301ecb3257f5ea7e93348452ea26eb8799f5e25f74cb7ddd6549"
           }
         }
       ]
@@ -1104,13 +1104,13 @@
           "category": "crawler",
           "ipv4": {
             "path": "/v1/google/user-triggered-fetchers/ipv4.json",
-            "count": 544,
-            "sha256": "d13d7a7bedaeaf53ba6669dfaa412ee77e46fb41ddc40879fa554378de17d56c"
+            "count": 548,
+            "sha256": "049e32c0e2149c371acb161006ed8d0ff1731e5b0d9687a797898c32f44fa689"
           },
           "ipv6": {
             "path": "/v1/google/user-triggered-fetchers/ipv6.json",
-            "count": 544,
-            "sha256": "3642b4a8d5ced75f8ea943f27a015dd8b83fafb608453428b40668c330cf697f"
+            "count": 548,
+            "sha256": "fd237ecf95a2433bc3ea04f904246cdebf0497858653dcea25ae24d3103b535b"
           }
         },
         {
@@ -1292,7 +1292,7 @@
           "ipv4": {
             "path": "/v1/sans/top-attackers/ipv4.json",
             "count": 20,
-            "sha256": "281e62f8aebfdd9ddd1b23b13718aa445f368512a355a84b9edb927605c4e4f1"
+            "sha256": "ece5b3c2520ff433c6b90d17508855c92e491edb9d5b879f79f6e7e1a1eca05b"
           },
           "ipv6": {
             "path": "/v1/sans/top-attackers/ipv6.json",
@@ -1443,8 +1443,8 @@
           "category": "anonymizer",
           "ipv4": {
             "path": "/v1/tor/exits/ipv4.json",
-            "count": 1251,
-            "sha256": "688230bf47434e78210a864b7e67ead59db1d173b1bfb5f127f56c868336aa38"
+            "count": 1252,
+            "sha256": "017a87a39efd40e88a8cb8c2013e112eba267c6a663f2d16fb541f9e2a895e35"
           },
           "ipv6": {
             "path": "/v1/tor/exits/ipv6.json",
@@ -1466,7 +1466,7 @@
           "ipv4": {
             "path": "/v1/categories/abuse/ipv4.json",
             "count": 20,
-            "sha256": "bccae84bfe4f4e8e86cc34a581fb3508f699e0ea95f8f9295e97ec9c20b94964"
+            "sha256": "5c6976cc97cea1b981717c890cf7078aff26f22e215d1d49114b77388baee725"
           },
           "ipv6": {
             "path": "/v1/categories/abuse/ipv6.json",
@@ -1485,8 +1485,8 @@
           "category": "anonymizer",
           "ipv4": {
             "path": "/v1/categories/anonymizer/ipv4.json",
-            "count": 1251,
-            "sha256": "902e613f6d879c30b9d2f5ba205ba05ca81e645f3c39520f802d02143730e36d"
+            "count": 1252,
+            "sha256": "6771401adbf32d3a16399148630910cfedec2477b9673eb066b73c3fdfb51fd2"
           },
           "ipv6": {
             "path": "/v1/categories/anonymizer/ipv6.json",
@@ -1506,12 +1506,12 @@
           "ipv4": {
             "path": "/v1/categories/cdn/ipv4.json",
             "count": 1264,
-            "sha256": "2aa77935e83275edc8ec2d5d1c9748f4ff0094d9a25f22bff7f90ab2b50d45f8"
+            "sha256": "e995628b87ef0ff2b1d23428947163be93ed99c4483d24c8d3c5d576003dce60"
           },
           "ipv6": {
             "path": "/v1/categories/cdn/ipv6.json",
-            "count": 659,
-            "sha256": "a41447c993742aa20222e9175596ae4089bee4cd8ada093655e0971bbb4caff8"
+            "count": 658,
+            "sha256": "b25e5c04cfa5cd7540ba41e08113fcb167af063e7eb508dcbd3f1af280b56368"
           }
         }
       ]
@@ -1545,13 +1545,13 @@
           "category": "crawler",
           "ipv4": {
             "path": "/v1/categories/crawler/ipv4.json",
-            "count": 1964,
-            "sha256": "9e6d16dd50734e877da64af05fe1a0541ad501b23ec723de4b36cc9619672c5c"
+            "count": 1968,
+            "sha256": "f2491c2dc408083ca7c6f860b2ebf961c37d3c89f5a01b1e8e4e7853d65230e0"
           },
           "ipv6": {
             "path": "/v1/categories/crawler/ipv6.json",
-            "count": 1079,
-            "sha256": "d9965ec2b1d309a1a9965470da03c245cb095e62f78b4286fa38b34aeaf9ef65"
+            "count": 1083,
+            "sha256": "d7f71fe2ed0dd0812b8d666cbf71ea7a048c19648b34ce3d80122cad685f240a"
           }
         }
       ]

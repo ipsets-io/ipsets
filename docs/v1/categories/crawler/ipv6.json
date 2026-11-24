@@ -9,7 +9,7 @@
   "source": {
     "url": ""
   },
-  "count": 1079,
+  "count": 1083,
   "prefixes": [
     {
       "prefix": "2001:4860:4801:2::/64",
@@ -7292,6 +7292,13 @@
       }
     },
     {
+      "prefix": "2600:1900:0:38f::/64",
+      "tags": {
+        "list": "user-triggered-fetchers",
+        "provider": "google"
+      }
+    },
+    {
       "prefix": "2600:1900:0:390::/64",
       "tags": {
         "list": "user-triggered-fetchers",
@@ -7559,6 +7566,27 @@
     },
     {
       "prefix": "2600:1900:0:431::/64",
+      "tags": {
+        "list": "user-triggered-fetchers",
+        "provider": "google"
+      }
+    },
+    {
+      "prefix": "2600:1900:0:440::/64",
+      "tags": {
+        "list": "user-triggered-fetchers",
+        "provider": "google"
+      }
+    },
+    {
+      "prefix": "2600:1900:0:441::/64",
+      "tags": {
+        "list": "user-triggered-fetchers",
+        "provider": "google"
+      }
+    },
+    {
+      "prefix": "2600:1900:0:442::/64",
       "tags": {
         "list": "user-triggered-fetchers",
         "provider": "google"
