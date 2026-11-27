@@ -9,7 +9,7 @@
   "source": {
     "url": ""
   },
-  "count": 658,
+  "count": 668,
   "prefixes": [
     {
       "prefix": "2001:550:2:38::28:2/128",
@@ -1148,6 +1148,66 @@
     },
     {
       "prefix": "2400:52e0:1e00::1082:1/128",
+      "tags": {
+        "provider": "bunny"
+      }
+    },
+    {
+      "prefix": "2400:52e0:1e00::1540:1/128",
+      "tags": {
+        "provider": "bunny"
+      }
+    },
+    {
+      "prefix": "2400:52e0:1e00::1541:1/128",
+      "tags": {
+        "provider": "bunny"
+      }
+    },
+    {
+      "prefix": "2400:52e0:1e00::1542:1/128",
+      "tags": {
+        "provider": "bunny"
+      }
+    },
+    {
+      "prefix": "2400:52e0:1e00::1543:1/128",
+      "tags": {
+        "provider": "bunny"
+      }
+    },
+    {
+      "prefix": "2400:52e0:1e00::1544:1/128",
+      "tags": {
+        "provider": "bunny"
+      }
+    },
+    {
+      "prefix": "2400:52e0:1e00::1545:1/128",
+      "tags": {
+        "provider": "bunny"
+      }
+    },
+    {
+      "prefix": "2400:52e0:1e00::1546:1/128",
+      "tags": {
+        "provider": "bunny"
+      }
+    },
+    {
+      "prefix": "2400:52e0:1e00::1547:1/128",
+      "tags": {
+        "provider": "bunny"
+      }
+    },
+    {
+      "prefix": "2400:52e0:1e00::1548:1/128",
+      "tags": {
+        "provider": "bunny"
+      }
+    },
+    {
+      "prefix": "2400:52e0:1e00::1549:1/128",
       "tags": {
         "provider": "bunny"
       }

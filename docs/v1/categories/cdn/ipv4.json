@@ -9,7 +9,7 @@
   "source": {
     "url": ""
   },
-  "count": 1264,
+  "count": 1275,
   "prefixes": [
     {
       "prefix": "1.178.172.0/23",
@@ -4217,6 +4217,12 @@
       }
     },
     {
+      "prefix": "65.20.82.179/32",
+      "tags": {
+        "provider": "bunny"
+      }
+    },
+    {
       "prefix": "65.20.89.175/32",
       "tags": {
         "provider": "bunny"
@@ -7097,6 +7103,66 @@
     },
     {
       "prefix": "152.233.60.225/32",
+      "tags": {
+        "provider": "bunny"
+      }
+    },
+    {
+      "prefix": "152.233.92.148/32",
+      "tags": {
+        "provider": "bunny"
+      }
+    },
+    {
+      "prefix": "152.233.92.149/32",
+      "tags": {
+        "provider": "bunny"
+      }
+    },
+    {
+      "prefix": "152.233.92.150/32",
+      "tags": {
+        "provider": "bunny"
+      }
+    },
+    {
+      "prefix": "152.233.92.151/32",
+      "tags": {
+        "provider": "bunny"
+      }
+    },
+    {
+      "prefix": "152.233.92.152/32",
+      "tags": {
+        "provider": "bunny"
+      }
+    },
+    {
+      "prefix": "152.233.92.153/32",
+      "tags": {
+        "provider": "bunny"
+      }
+    },
+    {
+      "prefix": "152.233.92.154/32",
+      "tags": {
+        "provider": "bunny"
+      }
+    },
+    {
+      "prefix": "152.233.92.155/32",
+      "tags": {
+        "provider": "bunny"
+      }
+    },
+    {
+      "prefix": "152.233.93.49/32",
+      "tags": {
+        "provider": "bunny"
+      }
+    },
+    {
+      "prefix": "152.233.93.50/32",
       "tags": {
         "provider": "bunny"
       }

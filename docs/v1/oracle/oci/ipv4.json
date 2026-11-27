@@ -9,7 +9,7 @@
     "url": "https://docs.oracle.com/en-us/iaas/tools/public_ip_ranges.json",
     "homepage": "https://docs.oracle.com/en-us/iaas/Content/General/Concepts/addressranges.htm"
   },
-  "count": 571,
+  "count": 573,
   "prefixes": [
     {
       "prefix": "40.233.0.0/19",
@@ -456,6 +456,13 @@
       "prefix": "92.5.224.0/20",
       "tags": {
         "region": "eu-amsterdam-1",
+        "tag": "OCI"
+      }
+    },
+    {
+      "prefix": "92.6.0.0/16",
+      "tags": {
+        "region": "eu-frankfurt-1",
         "tag": "OCI"
       }
     },
@@ -911,6 +918,13 @@
       "prefix": "129.191.0.0/17",
       "tags": {
         "region": "us-phoenix-1",
+        "tag": "OCI"
+      }
+    },
+    {
+      "prefix": "129.203.128.0/17",
+      "tags": {
+        "region": "ap-tokyo-1",
         "tag": "OCI"
       }
     },
